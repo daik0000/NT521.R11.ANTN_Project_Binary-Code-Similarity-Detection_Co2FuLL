@@ -1,0 +1,437 @@
+{
+  "samples": {
+    "test_clean": {
+      "status": "bypassed",
+      "signals": [],
+      "entropy": 1.9351,
+      "entropy_after_unpack": null,
+      "unpack_method": null,
+      "static_imports": [
+        "calloc",
+        "free",
+        "memcpy",
+        "printf",
+        "puts",
+        "snprintf",
+        "strlen"
+      ],
+      "recovered_apis": [],
+      "literals_static": 8,
+      "literals_after": 8,
+      "strings_recovered": 0,
+      "flattened": [],
+      "patches": 0,
+      "opaque_globals": 0,
+      "elapsed_s": 0.03,
+      "deobf_error": null
+    },
+    "test_clean_O0": {
+      "status": "normalized",
+      "signals": [],
+      "entropy": 2.0334,
+      "entropy_after_unpack": 2.0334,
+      "unpack_method": "none",
+      "static_imports": [
+        "free",
+        "malloc",
+        "memset",
+        "printf",
+        "puts",
+        "snprintf",
+        "strcpy",
+        "strlen"
+      ],
+      "recovered_apis": [],
+      "literals_static": 8,
+      "literals_after": 8,
+      "strings_recovered": 3,
+      "flattened": [],
+      "patches": 0,
+      "opaque_globals": 0,
+      "elapsed_s": 82.14,
+      "deobf_error": null
+    },
+    "test_ollvm": {
+      "status": "normalized",
+      "signals": [
+        "cff_pattern",
+        "bcf_pattern"
+      ],
+      "entropy": 3.4424,
+      "entropy_after_unpack": 3.4424,
+      "unpack_method": "none",
+      "static_imports": [
+        "free",
+        "malloc",
+        "memset",
+        "printf",
+        "puts",
+        "snprintf",
+        "strcpy",
+        "strlen"
+      ],
+      "recovered_apis": [],
+      "literals_static": 8,
+      "literals_after": 8,
+      "strings_recovered": 4,
+      "flattened": [
+        "greet",
+        "classify",
+        "duplicate_message"
+      ],
+      "patches": 36,
+      "opaque_globals": 6,
+      "elapsed_s": 84.4,
+      "deobf_error": null
+    },
+    "test_ollvm_sobf": {
+      "status": "normalized",
+      "signals": [
+        "cff_pattern",
+        "bcf_pattern"
+      ],
+      "entropy": 3.0237,
+      "entropy_after_unpack": 3.0237,
+      "unpack_method": "none",
+      "static_imports": [
+        "free",
+        "malloc",
+        "memset",
+        "printf",
+        "puts",
+        "snprintf",
+        "strcpy",
+        "strlen"
+      ],
+      "recovered_apis": [],
+      "literals_static": 0,
+      "literals_after": 8,
+      "strings_recovered": 11,
+      "flattened": [
+        "classify"
+      ],
+      "patches": 19,
+      "opaque_globals": 2,
+      "elapsed_s": 81.97,
+      "deobf_error": null
+    },
+    "test_ollvm_upx": {
+      "status": "normalized",
+      "signals": [
+        "high_entropy",
+        "few_imports",
+        "packer_signature"
+      ],
+      "entropy": 7.132,
+      "entropy_after_unpack": 3.4424,
+      "unpack_method": "upx",
+      "static_imports": [],
+      "recovered_apis": [],
+      "literals_static": 2,
+      "literals_after": 2,
+      "strings_recovered": 4,
+      "flattened": [
+        "greet",
+        "classify",
+        "duplicate_message"
+      ],
+      "patches": 36,
+      "opaque_globals": 6,
+      "elapsed_s": 78.62,
+      "deobf_error": null
+    },
+    "test_hidden": {
+      "status": "normalized",
+      "signals": [
+        "few_imports"
+      ],
+      "entropy": 1.9589,
+      "entropy_after_unpack": 1.9589,
+      "unpack_method": "none",
+      "static_imports": [
+        "dlopen",
+        "dlsym"
+      ],
+      "recovered_apis": [
+        "free",
+        "malloc",
+        "memset",
+        "puts",
+        "snprintf",
+        "strcpy",
+        "strlen"
+      ],
+      "literals_static": 0,
+      "literals_after": 0,
+      "strings_recovered": 12,
+      "flattened": [],
+      "patches": 0,
+      "opaque_globals": 0,
+      "elapsed_s": 78.29,
+      "deobf_error": null
+    }
+  },
+  "functions": {
+    "greet": {
+      "clean": {
+        "lines": 9,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "printf",
+          "snprintf"
+        ]
+      },
+      "raw": {
+        "lines": 82,
+        "if": 4,
+        "loops": 4,
+        "while_true": 2,
+        "state_constants": 4,
+        "bcf_var_refs": 7,
+        "calls": [
+          "printf",
+          "snprintf"
+        ]
+      },
+      "deobf": {
+        "lines": 17,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "printf",
+          "snprintf"
+        ]
+      },
+      "deobf_sobf": {
+        "lines": 9,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "printf",
+          "snprintf"
+        ]
+      },
+      "deobf_upx": {
+        "lines": 17,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "printf",
+          "snprintf"
+        ]
+      }
+    },
+    "classify": {
+      "clean": {
+        "lines": 21,
+        "if": 2,
+        "loops": 1,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "puts"
+        ]
+      },
+      "raw": {
+        "lines": 170,
+        "if": 40,
+        "loops": 9,
+        "while_true": 8,
+        "state_constants": 28,
+        "bcf_var_refs": 40,
+        "calls": [
+          "puts"
+        ]
+      },
+      "deobf": {
+        "lines": 21,
+        "if": 2,
+        "loops": 1,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "puts"
+        ]
+      },
+      "deobf_sobf": {
+        "lines": 21,
+        "if": 2,
+        "loops": 1,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "puts"
+        ]
+      },
+      "deobf_upx": {
+        "lines": 21,
+        "if": 2,
+        "loops": 1,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "puts"
+        ]
+      }
+    },
+    "duplicate_message": {
+      "clean": {
+        "lines": 10,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "malloc",
+          "memset",
+          "strcpy",
+          "strlen"
+        ]
+      },
+      "raw": {
+        "lines": 90,
+        "if": 4,
+        "loops": 4,
+        "while_true": 2,
+        "state_constants": 12,
+        "bcf_var_refs": 7,
+        "calls": [
+          "malloc",
+          "memset",
+          "strcpy",
+          "strlen"
+        ]
+      },
+      "deobf": {
+        "lines": 35,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "malloc",
+          "memset",
+          "strcpy",
+          "strlen"
+        ]
+      },
+      "deobf_sobf": {
+        "lines": 10,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "malloc",
+          "memset",
+          "strcpy",
+          "strlen"
+        ]
+      },
+      "deobf_upx": {
+        "lines": 35,
+        "if": 0,
+        "loops": 0,
+        "while_true": 0,
+        "state_constants": 0,
+        "bcf_var_refs": 0,
+        "calls": [
+          "malloc",
+          "memset",
+          "strcpy",
+          "strlen"
+        ]
+      }
+    }
+  },
+  "hidden_ptr_labels": [
+    "free",
+    "malloc",
+    "memset",
+    "puts",
+    "snprintf",
+    "strcpy",
+    "strlen"
+  ],
+  "logs": {
+    "test_clean": [
+      "[CLEAN] preprocessing/tests/bin/test_clean \u2014 bypass preprocessing"
+    ],
+    "test_clean_O0": [
+      "[FORCED] preprocessing/tests/bin/test_clean_O0 \u2014 running normalization (signals: none)",
+      "  [0.2a] unpack method: none",
+      "  [0.2b] recovered 0 APIs, 3 strings",
+      "  [0.2c] unflattened 0 functions (0 patches), opaque globals: 0",
+      "[DONE] Output saved to: output/evaluation/test_clean_O0",
+      "  normalized binary : output/evaluation/test_clean_O0/normalized.bin",
+      "  recovered imports : 0 APIs",
+      "  recovered strings : 3 strings",
+      "  clean pseudocode  : output/evaluation/test_clean_O0/clean_pseudocode"
+    ],
+    "test_ollvm": [
+      "[OBFUSCATED] preprocessing/tests/bin/test_ollvm \u2014 running normalization (signals: cff_pattern, bcf_pattern)",
+      "  [0.2a] unpack method: none",
+      "  [0.2b] recovered 0 APIs, 4 strings",
+      "  [0.2c] unflattened 3 functions (36 patches), opaque globals: 6",
+      "[DONE] Output saved to: output/evaluation/test_ollvm",
+      "  normalized binary : output/evaluation/test_ollvm/normalized.bin",
+      "  recovered imports : 0 APIs",
+      "  recovered strings : 4 strings",
+      "  clean pseudocode  : output/evaluation/test_ollvm/clean_pseudocode"
+    ],
+    "test_ollvm_sobf": [
+      "[OBFUSCATED] preprocessing/tests/bin/test_ollvm_sobf \u2014 running normalization (signals: cff_pattern, bcf_pattern)",
+      "  [0.2a] unpack method: none",
+      "  [0.2b] recovered 0 APIs, 11 strings",
+      "  [0.2c] unflattened 1 functions (19 patches), opaque globals: 2",
+      "[DONE] Output saved to: output/evaluation/test_ollvm_sobf",
+      "  normalized binary : output/evaluation/test_ollvm_sobf/normalized.bin",
+      "  recovered imports : 0 APIs",
+      "  recovered strings : 11 strings",
+      "  clean pseudocode  : output/evaluation/test_ollvm_sobf/clean_pseudocode"
+    ],
+    "test_ollvm_upx": [
+      "[OBFUSCATED] preprocessing/tests/bin/test_ollvm_upx \u2014 running normalization (signals: high_entropy, few_imports, packer_signature)",
+      "  [0.2a] unpack method: upx",
+      "  [0.2b] recovered 0 APIs, 4 strings",
+      "  [0.2c] unflattened 3 functions (36 patches), opaque globals: 6",
+      "[DONE] Output saved to: output/evaluation/test_ollvm_upx",
+      "  normalized binary : output/evaluation/test_ollvm_upx/normalized.bin",
+      "  recovered imports : 0 APIs",
+      "  recovered strings : 4 strings",
+      "  clean pseudocode  : output/evaluation/test_ollvm_upx/clean_pseudocode"
+    ],
+    "test_hidden": [
+      "[OBFUSCATED] preprocessing/tests/bin/test_hidden \u2014 running normalization (signals: few_imports)",
+      "  [0.2a] unpack method: none",
+      "  [0.2b] recovered 7 APIs, 12 strings",
+      "  [0.2c] unflattened 0 functions (0 patches), opaque globals: 0",
+      "[DONE] Output saved to: output/evaluation/test_hidden",
+      "  normalized binary : output/evaluation/test_hidden/normalized.bin",
+      "  recovered imports : 7 APIs",
+      "  recovered strings : 12 strings",
+      "  clean pseudocode  : output/evaluation/test_hidden/clean_pseudocode"
+    ],
+    "test_ollvm_raw": []
+  }
+}

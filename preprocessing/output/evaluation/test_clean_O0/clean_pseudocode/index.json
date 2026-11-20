@@ -1,0 +1,140 @@
+{
+  "functions": [
+    {
+      "address": "0x401000", 
+      "file": "0x00401000.c", 
+      "size": 23, 
+      "calls": [
+        "__gmon_start__"
+      ], 
+      "name": "_init", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x401020", 
+      "file": "0x00401020.c", 
+      "size": 12, 
+      "calls": [], 
+      "name": "FUN_00401020", 
+      "lines": 8
+    }, 
+    {
+      "address": "0x4010b0", 
+      "file": "0x004010b0.c", 
+      "size": 34, 
+      "calls": [
+        "__libc_start_main"
+      ], 
+      "name": "_start", 
+      "lines": 12
+    }, 
+    {
+      "address": "0x4010e0", 
+      "file": "0x004010e0.c", 
+      "size": 1, 
+      "calls": [], 
+      "name": "_dl_relocate_static_pie", 
+      "lines": 7
+    }, 
+    {
+      "address": "0x4010f0", 
+      "file": "0x004010f0.c", 
+      "size": 31, 
+      "calls": [], 
+      "name": "deregister_tm_clones", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x401120", 
+      "file": "0x00401120.c", 
+      "size": 49, 
+      "calls": [], 
+      "name": "register_tm_clones", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x401160", 
+      "file": "0x00401160.c", 
+      "size": 32, 
+      "calls": [
+        "deregister_tm_clones"
+      ], 
+      "name": "__do_global_dtors_aux", 
+      "lines": 12
+    }, 
+    {
+      "address": "0x4011a0", 
+      "file": "0x004011a0.c", 
+      "size": 69, 
+      "calls": [
+        "printf", 
+        "snprintf"
+      ], 
+      "name": "greet", 
+      "lines": 13
+    }, 
+    {
+      "address": "0x4011f0", 
+      "file": "0x004011f0.c", 
+      "size": 111, 
+      "calls": [
+        "free", 
+        "malloc", 
+        "printf"
+      ], 
+      "name": "compute", 
+      "lines": 16
+    }, 
+    {
+      "address": "0x401260", 
+      "file": "0x00401260.c", 
+      "size": 221, 
+      "calls": [
+        "puts"
+      ], 
+      "name": "classify", 
+      "lines": 25
+    }, 
+    {
+      "address": "0x401340", 
+      "file": "0x00401340.c", 
+      "size": 84, 
+      "calls": [
+        "malloc", 
+        "memset", 
+        "strcpy", 
+        "strlen"
+      ], 
+      "name": "duplicate_message", 
+      "lines": 14
+    }, 
+    {
+      "address": "0x4013a0", 
+      "file": "0x004013a0.c", 
+      "size": 132, 
+      "calls": [
+        "classify", 
+        "compute", 
+        "duplicate_message", 
+        "free", 
+        "greet", 
+        "printf"
+      ], 
+      "name": "main", 
+      "lines": 17
+    }, 
+    {
+      "address": "0x401424", 
+      "file": "0x00401424.c", 
+      "size": 9, 
+      "calls": [], 
+      "name": "_fini", 
+      "lines": 7
+    }
+  ], 
+  "program": "deobfuscated.bin", 
+  "image_base": "0x400000", 
+  "opaque_ranges": 0, 
+  "link_base": "0x400000", 
+  "import_labels": 0
+}

@@ -1,0 +1,14 @@
+[
+  "memset",
+  "strlen",
+  "value=%d",
+  "libc.so.6",
+  "Hello, hidden world!",
+  "secret message decoded",
+  "puts",
+  "malloc",
+  "free",
+  "strcpy",
+  "snprintf",
+  "value=42"
+]

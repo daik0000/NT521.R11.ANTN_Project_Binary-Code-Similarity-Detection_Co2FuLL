@@ -107,3 +107,8 @@ cd tests
 pytest -q -m "not ghidra and not slow"   # ~20 s: detect, unpack, recover, CFF (+ Qiling)
 pytest -q -m "ghidra or slow" -s         # ~6–8 min: FLOSS + Ghidra end-to-end, in bảng §8.3
 ```
+
+Kết quả của lần chạy test được công bố trong [`output/evaluation/`](output/evaluation/)
+(bảng tổng hợp: [`evaluation.md`](output/evaluation/evaluation.md); mỗi mẫu có `stage0_report.json`,
+`recovered_*.json`, `clean_pseudocode/`, `deobfuscated.bin`). Các output khác trong `output/`
+bị git-ignore. Tạo lại: `python evaluate.py` (đường dẫn trong JSON được ghi dạng tương đối).

@@ -122,7 +122,23 @@ def run_all(bin_dir, out_dir, jobs: int = 3, skip_run: bool = False) -> dict:
     result["logs"] = logs
     (out_dir / "evaluation.json").write_text(json.dumps(result, indent=2, default=str))
     (out_dir / "evaluation.md").write_text(render_markdown(result))
+    relativize_paths(out_dir)
     return result
+
+
+def relativize_paths(out_dir) -> None:
+    """Strip machine-specific absolute paths from the JSON reports so the
+    evaluation folder can be shared (Ghidra *.log files keep them; they are
+    git-ignored)."""
+    out_dir = Path(out_dir).resolve()
+    repl = [(str(out_dir), "output/evaluation"), (str(PREPROC), "preprocessing")]
+    for p in out_dir.rglob("*.json"):
+        text = p.read_text(encoding="utf-8")
+        new = text
+        for old, rel in repl:
+            new = new.replace(old, rel)
+        if new != text:
+            p.write_text(new, encoding="utf-8")
 
 
 # ============================================================================ collect

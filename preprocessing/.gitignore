@@ -1,6 +1,11 @@
 tools/
 qiling_rootfs/
-output/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# pipeline outputs are not versioned, except the published test evaluation
+output/*
+!output/evaluation/
+# Ghidra logs contain local user paths
+output/evaluation/**/*.log

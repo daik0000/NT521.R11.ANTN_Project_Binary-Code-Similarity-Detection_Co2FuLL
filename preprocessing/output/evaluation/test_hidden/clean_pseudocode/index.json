@@ -1,0 +1,132 @@
+{
+  "functions": [
+    {
+      "address": "0x401000", 
+      "file": "0x00401000.c", 
+      "size": 23, 
+      "calls": [
+        "__gmon_start__"
+      ], 
+      "name": "_init", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x401020", 
+      "file": "0x00401020.c", 
+      "size": 12, 
+      "calls": [], 
+      "name": "FUN_00401020", 
+      "lines": 8
+    }, 
+    {
+      "address": "0x401050", 
+      "file": "0x00401050.c", 
+      "size": 34, 
+      "calls": [
+        "__libc_start_main"
+      ], 
+      "name": "_start", 
+      "lines": 12
+    }, 
+    {
+      "address": "0x401080", 
+      "file": "0x00401080.c", 
+      "size": 1, 
+      "calls": [], 
+      "name": "_dl_relocate_static_pie", 
+      "lines": 7
+    }, 
+    {
+      "address": "0x401090", 
+      "file": "0x00401090.c", 
+      "size": 31, 
+      "calls": [], 
+      "name": "deregister_tm_clones", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x4010c0", 
+      "file": "0x004010c0.c", 
+      "size": 49, 
+      "calls": [], 
+      "name": "register_tm_clones", 
+      "lines": 10
+    }, 
+    {
+      "address": "0x401100", 
+      "file": "0x00401100.c", 
+      "size": 32, 
+      "calls": [
+        "deregister_tm_clones"
+      ], 
+      "name": "__do_global_dtors_aux", 
+      "lines": 12
+    }, 
+    {
+      "address": "0x401140", 
+      "file": "0x00401140.c", 
+      "size": 192, 
+      "calls": [
+        "copy_secret", 
+        "decode", 
+        "resolve_all"
+      ], 
+      "name": "main", 
+      "lines": 24
+    }, 
+    {
+      "address": "0x401200", 
+      "file": "0x00401200.c", 
+      "size": 275, 
+      "calls": [
+        "decode", 
+        "dlopen", 
+        "resolve"
+      ], 
+      "name": "resolve_all", 
+      "lines": 25
+    }, 
+    {
+      "address": "0x401320", 
+      "file": "0x00401320.c", 
+      "size": 62, 
+      "calls": [], 
+      "name": "decode", 
+      "lines": 13
+    }, 
+    {
+      "address": "0x401360", 
+      "file": "0x00401360.c", 
+      "size": 124, 
+      "calls": [
+        "decode"
+      ], 
+      "name": "copy_secret", 
+      "lines": 15
+    }, 
+    {
+      "address": "0x4013e0", 
+      "file": "0x004013e0.c", 
+      "size": 44, 
+      "calls": [
+        "decode", 
+        "dlsym"
+      ], 
+      "name": "resolve", 
+      "lines": 9
+    }, 
+    {
+      "address": "0x40140c", 
+      "file": "0x0040140c.c", 
+      "size": 9, 
+      "calls": [], 
+      "name": "_fini", 
+      "lines": 7
+    }
+  ], 
+  "program": "deobfuscated.bin", 
+  "image_base": "0x400000", 
+  "opaque_ranges": 0, 
+  "link_base": "0x400000", 
+  "import_labels": 7
+}
