@@ -1,0 +1,12 @@
+# Python 3.11 recommended (qiling / flare-floss pin old wheels that do not build on 3.13+)
+qiling>=1.4.6
+flare-floss>=3.0.0
+pefile>=2023.2.7
+pyelftools>=0.29
+capstone>=5.0.0
+unicorn>=2.0.0
+lief>=0.14.0
+z3-solver>=4.12.0
+click>=8.1.0
+tqdm>=4.65.0
+pytest>=7.0
