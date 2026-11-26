@@ -1,0 +1,118 @@
+{
+  "input": "preprocessing/tests/bin/test_ollvm_sobf",
+  "arch": "x86_64",
+  "os_type": "linux",
+  "rootfs": "preprocessing/qiling_rootfs/x8664_linux_glibc236",
+  "forced": false,
+  "detection": {
+    "path": "preprocessing/tests/bin/test_ollvm_sobf",
+    "format": "elf",
+    "arch": "x86_64",
+    "os_type": "linux",
+    "is_obfuscated": true,
+    "signals": {
+      "high_entropy": false,
+      "few_imports": false,
+      "low_strings": false,
+      "cff_pattern": true,
+      "bcf_pattern": true,
+      "packer_signature": false
+    },
+    "metrics": {
+      "entropy": 3.0237,
+      "import_count": 8,
+      "imports": [
+        "free",
+        "malloc",
+        "memset",
+        "printf",
+        "puts",
+        "snprintf",
+        "strcpy",
+        "strlen"
+      ],
+      "string_density": 0.069,
+      "cff_constants_max": 19,
+      "cff_functions": {
+        "classify": 19
+      },
+      "bcf_predicates": 4,
+      "packer_signatures": [],
+      "code_scan_supported": true
+    }
+  },
+  "unpack": {
+    "method": "none",
+    "details": {}
+  },
+  "detection_after_unpack": {
+    "entropy": 3.0237,
+    "import_count": 8,
+    "imports": [
+      "free",
+      "malloc",
+      "memset",
+      "printf",
+      "puts",
+      "snprintf",
+      "strcpy",
+      "strlen"
+    ],
+    "string_density": 0.069,
+    "cff_constants_max": 19,
+    "cff_functions": {
+      "classify": 19
+    },
+    "bcf_predicates": 4,
+    "packer_signatures": [],
+    "code_scan_supported": true
+  },
+  "strings": {
+    "count": 11,
+    "floss": 0,
+    "dynamic": 11,
+    "dynamic_error": null
+  },
+  "imports": {
+    "count": 0,
+    "apis": [],
+    "libraries": [],
+    "error": null
+  },
+  "deobfuscation": {
+    "unflatten": {
+      "input": "output/evaluation/test_ollvm_sobf/normalized.bin",
+      "output": "output/evaluation/test_ollvm_sobf/deobfuscated.bin",
+      "supported": true,
+      "functions": [
+        {
+          "name": "classify",
+          "address": "0x401270",
+          "flattened": true,
+          "state_slot": "rbp-0x14",
+          "dispatcher_blocks": 40,
+          "loop_entry": "0x40128f",
+          "loop_end": "0x401742",
+          "states": 19,
+          "patched_blocks": 19,
+          "unresolved_blocks": []
+        }
+      ],
+      "opaque_globals": [
+        "0x404138",
+        "0x404150"
+      ],
+      "patches": 19
+    },
+    "ghidra": {
+      "program": "deobfuscated.bin",
+      "image_base": "0x400000",
+      "opaque_ranges": 2,
+      "link_base": "0x400000",
+      "import_labels": 0,
+      "functions_exported": 14
+    }
+  },
+  "status": "normalized",
+  "elapsed_s": 81.97
+}

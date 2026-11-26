@@ -1,0 +1,138 @@
+{
+  "input": "preprocessing/tests/bin/test_ollvm_upx",
+  "arch": "x86_64",
+  "os_type": "linux",
+  "rootfs": "preprocessing/qiling_rootfs/x8664_linux_glibc236",
+  "forced": false,
+  "detection": {
+    "path": "preprocessing/tests/bin/test_ollvm_upx",
+    "format": "elf",
+    "arch": "x86_64",
+    "os_type": "linux",
+    "is_obfuscated": true,
+    "signals": {
+      "high_entropy": true,
+      "few_imports": true,
+      "low_strings": false,
+      "cff_pattern": false,
+      "bcf_pattern": false,
+      "packer_signature": true
+    },
+    "metrics": {
+      "entropy": 7.132,
+      "import_count": 0,
+      "imports": [],
+      "string_density": 0.0924,
+      "cff_constants_max": 0,
+      "cff_functions": {},
+      "bcf_predicates": 0,
+      "packer_signatures": [
+        "UPX! magic",
+        "ELF without section headers"
+      ],
+      "code_scan_supported": true
+    }
+  },
+  "unpack": {
+    "method": "upx",
+    "details": {}
+  },
+  "detection_after_unpack": {
+    "entropy": 3.4424,
+    "import_count": 8,
+    "imports": [
+      "free",
+      "malloc",
+      "memset",
+      "printf",
+      "puts",
+      "snprintf",
+      "strcpy",
+      "strlen"
+    ],
+    "string_density": 0.0745,
+    "cff_constants_max": 28,
+    "cff_functions": {
+      "classify": 28
+    },
+    "bcf_predicates": 14,
+    "packer_signatures": [],
+    "code_scan_supported": true
+  },
+  "strings": {
+    "count": 4,
+    "floss": 1,
+    "dynamic": 3,
+    "dynamic_error": null
+  },
+  "imports": {
+    "count": 0,
+    "apis": [],
+    "libraries": [],
+    "error": null
+  },
+  "deobfuscation": {
+    "unflatten": {
+      "input": "output/evaluation/test_ollvm_upx/normalized.bin",
+      "output": "output/evaluation/test_ollvm_upx/deobfuscated.bin",
+      "supported": true,
+      "functions": [
+        {
+          "name": "greet",
+          "address": "0x4011a0",
+          "flattened": true,
+          "state_slot": "rbp-0x8",
+          "dispatcher_blocks": 10,
+          "loop_entry": "0x4011f3",
+          "loop_end": "0x401392",
+          "states": 4,
+          "patched_blocks": 4,
+          "unresolved_blocks": []
+        },
+        {
+          "name": "classify",
+          "address": "0x401420",
+          "flattened": true,
+          "state_slot": "rbp-0x1c",
+          "dispatcher_blocks": 58,
+          "loop_entry": "0x40143f",
+          "loop_end": "0x401c89",
+          "states": 28,
+          "patched_blocks": 28,
+          "unresolved_blocks": []
+        },
+        {
+          "name": "duplicate_message",
+          "address": "0x401c90",
+          "flattened": true,
+          "state_slot": "rbp-0x10",
+          "dispatcher_blocks": 10,
+          "loop_entry": "0x401cdb",
+          "loop_end": "0x401f46",
+          "states": 4,
+          "patched_blocks": 4,
+          "unresolved_blocks": []
+        }
+      ],
+      "opaque_globals": [
+        "0x404058",
+        "0x40405c",
+        "0x404060",
+        "0x40406c",
+        "0x404074",
+        "0x404078"
+      ],
+      "patches": 36
+    },
+    "ghidra": {
+      "program": "deobfuscated.bin",
+      "image_base": "0x400000",
+      "opaque_ranges": 3,
+      "link_base": "0x400000",
+      "import_labels": 0,
+      "functions_exported": 13
+    }
+  },
+  "status": "normalized",
+  "elapsed_s": 78.62
+}

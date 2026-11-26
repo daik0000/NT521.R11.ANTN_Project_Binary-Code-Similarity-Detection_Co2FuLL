@@ -1,0 +1,13 @@
+[
+  "Hello, %s!",
+  "sum=%d, product=%d",
+  "classify: negative value",
+  "classify: even value",
+  "classify: odd value",
+  "BinKit",
+  "binary code similarity detection",
+  "result=%d class=%d msg=%s",
+  "Hello, BinKit!",
+  "sum=13, product=42",
+  "result=13 class=35 msg=binary code similarity detection"
+]

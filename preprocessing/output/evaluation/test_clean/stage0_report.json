@@ -1,0 +1,43 @@
+{
+  "input": "preprocessing/tests/bin/test_clean",
+  "arch": "x86_64",
+  "os_type": "linux",
+  "rootfs": "preprocessing/qiling_rootfs/x8664_linux_glibc236",
+  "forced": false,
+  "detection": {
+    "path": "preprocessing/tests/bin/test_clean",
+    "format": "elf",
+    "arch": "x86_64",
+    "os_type": "linux",
+    "is_obfuscated": false,
+    "signals": {
+      "high_entropy": false,
+      "few_imports": false,
+      "low_strings": false,
+      "cff_pattern": false,
+      "bcf_pattern": false,
+      "packer_signature": false
+    },
+    "metrics": {
+      "entropy": 1.9351,
+      "import_count": 7,
+      "imports": [
+        "calloc",
+        "free",
+        "memcpy",
+        "printf",
+        "puts",
+        "snprintf",
+        "strlen"
+      ],
+      "string_density": 0.0748,
+      "cff_constants_max": 0,
+      "cff_functions": {},
+      "bcf_predicates": 0,
+      "packer_signatures": [],
+      "code_scan_supported": true
+    }
+  },
+  "status": "bypassed",
+  "elapsed_s": 0.03
+}

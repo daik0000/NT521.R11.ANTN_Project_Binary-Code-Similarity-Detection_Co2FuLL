@@ -1,0 +1,16 @@
+{
+  "0x4040a0": "puts",
+  "0x401182": "puts",
+  "0x40119e": "puts",
+  "0x4011e0": "puts",
+  "0x4040b8": "malloc",
+  "0x4040b0": "free",
+  "0x4040c0": "strlen",
+  "0x401381": "strlen",
+  "0x4040c8": "memset",
+  "0x4013b8": "memset",
+  "0x4040d0": "strcpy",
+  "0x4013d0": "strcpy",
+  "0x4040a8": "snprintf",
+  "0x4011d2": "snprintf"
+}
