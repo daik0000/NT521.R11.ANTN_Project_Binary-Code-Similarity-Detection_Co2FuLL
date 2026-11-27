@@ -68,9 +68,9 @@
     "code_scan_supported": true
   },
   "strings": {
-    "count": 11,
+    "count": 12,
     "floss": 0,
-    "dynamic": 11,
+    "dynamic": 12,
     "dynamic_error": null
   },
   "imports": {
@@ -114,5 +114,5 @@
     }
   },
   "status": "normalized",
-  "elapsed_s": 81.97
+  "elapsed_s": 15.16
 }

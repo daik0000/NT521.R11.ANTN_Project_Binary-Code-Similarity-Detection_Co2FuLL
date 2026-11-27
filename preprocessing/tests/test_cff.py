@@ -5,6 +5,7 @@ Strongest check: the patched binary must behave exactly like the original
 longer reachable from any function entry.
 """
 import io
+from pathlib import Path
 
 import pytest
 from capstone.x86 import X86_OP_IMM
@@ -55,6 +56,81 @@ def test_opaque_globals_are_ollvm_bcf_vars(unflattened):
     assert found, "no opaque globals found"
     assert found <= set(syms), {hex(a) for a in found - set(syms)}
     assert len(found) >= 6       # every x/y that is actually referenced
+
+
+# Real BinKit OLLVM binary (not shipped with the tests; skipped when absent). Its
+# real globals used to be reported as opaque: elf_header (filled through
+# fread(&elf_header, ...)), copy-relocated libc data (stdout, stderr, optarg) and
+# _xexit_cleanup. Ghidra then folded them to 0 and deleted live code.
+BINKIT_BCF = (Path(__file__).resolve().parents[2] / "Data_advance/selected_10_O0/bcf"
+              / "binutils-2.30_clang-obfus-bcf_x86_64_O0_elfedit.elf")
+
+
+@pytest.mark.skipif(not BINKIT_BCF.exists(), reason="BinKit sample not present")
+def test_opaque_globals_exclude_real_globals_binkit():
+    from cff_unflatten import find_opaque_globals, list_functions
+    info = load_binary(BINKIT_BCF)
+    md = capstone_for(info)
+    md.detail = True
+    found = set(find_opaque_globals(md, info, list_functions(info, md)))
+    with open(BINKIT_BCF, "rb") as f:
+        syms = [(s["st_value"], s["st_size"] or 1, s.name)
+                for s in ELFFile(f).get_section_by_name(".symtab").iter_symbols() if s["st_value"]]
+    xy = {a for a, _sz, n in syms if n.split(".")[0] in ("x", "y")}
+    wrong = {n for a in found - xy for a0, sz, n in syms if a0 <= a < a0 + sz}
+    assert not (found - xy), f"real globals reported as opaque: {sorted(wrong)}"
+    assert len(found) >= 0.9 * len(xy), (len(found), len(xy))   # recall stays high
+
+
+BINKIT_ALL = BINKIT_BCF.parents[1] / "all" / "binutils-2.30_clang-obfus-all_x86_64_O0_elfedit.elf"
+
+
+@pytest.mark.skipif(not BINKIT_ALL.exists(), reason="BinKit sample not present")
+def test_stripped_binary_still_unflattened(tmp_path):
+    """Co2FuLL works on stripped binaries. A stripped elfedit still exports two
+    dynamic symbols (error, warn); function discovery used to stop there, so
+    detection saw no obfuscation and nothing was unflattened."""
+    import shutil
+    import subprocess
+    from cff_unflatten import list_functions
+    from detect import analyze_signals
+    if shutil.which("strip") is None:
+        pytest.skip("binutils strip not installed")
+    stripped = tmp_path / "elfedit_all.strip"
+    subprocess.run(["strip", "--strip-all", "-o", str(stripped), str(BINKIT_ALL)], check=True)
+    info = load_binary(stripped)
+    assert len(list_functions(info, capstone_for(info))) >= 40
+    sig = analyze_signals(stripped)
+    assert sig["is_obfuscated"] and sig["signals"]["cff_pattern"] and sig["signals"]["bcf_pattern"]
+    rep = unflatten_binary(stripped, tmp_path / "out.bin")
+    assert sum(1 for f in rep["functions"] if f.get("flattened")) >= 35
+    assert len(rep["opaque_globals"]) >= 60
+
+
+@pytest.mark.skipif(not BINKIT_ALL.exists(), reason="BinKit sample not present")
+def test_opaque_loads_patched_binkit(tmp_path):
+    """deobfuscated.bin must be clean for any decompiler (IDA has no read-only trick):
+    every `mov reg, [opaque]` is rewritten, including the copies that the CFF patch
+    relocated (-fla + -bcf), and the program still behaves the same."""
+    import subprocess
+    out = tmp_path / "all.bin"
+    rep = unflatten_binary(BINKIT_ALL, out)
+    assert rep["opaque_loads_patched"] >= 700 and rep["opaque_loads_skipped"] == 0
+    info = load_binary(out)
+    md = capstone_for(info)
+    md.detail = True
+    from cff_unflatten import _patch_opaque_loads, list_functions
+    left, _ = _patch_opaque_loads(md, info, list_functions(info, md),
+                                  {int(a, 16) for a in rep["opaque_globals"]}, bytearray(info.data))
+    assert left == 0, f"{left} opaque loads left in the output"
+    out.chmod(0o755)
+    orig = tmp_path / "orig.bin"
+    orig.write_bytes(BINKIT_ALL.read_bytes())
+    orig.chmod(0o755)
+    for args in (["--version"], ["--help"], []):
+        a = subprocess.run([str(orig), *args], capture_output=True, timeout=10)
+        b = subprocess.run([str(out), *args], capture_output=True, timeout=10)
+        assert (a.returncode, a.stdout) == (b.returncode, b.stdout.replace(b"all.bin", b"orig.bin")), args
 
 
 def test_dispatcher_unreachable(unflattened):

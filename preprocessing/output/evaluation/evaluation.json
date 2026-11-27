@@ -22,7 +22,7 @@
       "flattened": [],
       "patches": 0,
       "opaque_globals": 0,
-      "elapsed_s": 0.03,
+      "elapsed_s": 0.07,
       "deobf_error": null
     },
     "test_clean_O0": {
@@ -48,7 +48,7 @@
       "flattened": [],
       "patches": 0,
       "opaque_globals": 0,
-      "elapsed_s": 82.14,
+      "elapsed_s": 14.38,
       "deobf_error": null
     },
     "test_ollvm": {
@@ -73,7 +73,7 @@
       "recovered_apis": [],
       "literals_static": 8,
       "literals_after": 8,
-      "strings_recovered": 4,
+      "strings_recovered": 5,
       "flattened": [
         "greet",
         "classify",
@@ -81,7 +81,7 @@
       ],
       "patches": 36,
       "opaque_globals": 6,
-      "elapsed_s": 84.4,
+      "elapsed_s": 15.18,
       "deobf_error": null
     },
     "test_ollvm_sobf": {
@@ -106,13 +106,13 @@
       "recovered_apis": [],
       "literals_static": 0,
       "literals_after": 8,
-      "strings_recovered": 11,
+      "strings_recovered": 12,
       "flattened": [
         "classify"
       ],
       "patches": 19,
       "opaque_globals": 2,
-      "elapsed_s": 81.97,
+      "elapsed_s": 15.16,
       "deobf_error": null
     },
     "test_ollvm_upx": {
@@ -129,7 +129,7 @@
       "recovered_apis": [],
       "literals_static": 2,
       "literals_after": 2,
-      "strings_recovered": 4,
+      "strings_recovered": 5,
       "flattened": [
         "greet",
         "classify",
@@ -137,7 +137,7 @@
       ],
       "patches": 36,
       "opaque_globals": 6,
-      "elapsed_s": 78.62,
+      "elapsed_s": 14.86,
       "deobf_error": null
     },
     "test_hidden": {
@@ -167,7 +167,7 @@
       "flattened": [],
       "patches": 0,
       "opaque_globals": 0,
-      "elapsed_s": 78.29,
+      "elapsed_s": 14.19,
       "deobf_error": null
     }
   },
@@ -391,34 +391,34 @@
     "test_ollvm": [
       "[OBFUSCATED] preprocessing/tests/bin/test_ollvm \u2014 running normalization (signals: cff_pattern, bcf_pattern)",
       "  [0.2a] unpack method: none",
-      "  [0.2b] recovered 0 APIs, 4 strings",
+      "  [0.2b] recovered 0 APIs, 5 strings",
       "  [0.2c] unflattened 3 functions (36 patches), opaque globals: 6",
       "[DONE] Output saved to: output/evaluation/test_ollvm",
       "  normalized binary : output/evaluation/test_ollvm/normalized.bin",
       "  recovered imports : 0 APIs",
-      "  recovered strings : 4 strings",
+      "  recovered strings : 5 strings",
       "  clean pseudocode  : output/evaluation/test_ollvm/clean_pseudocode"
     ],
     "test_ollvm_sobf": [
       "[OBFUSCATED] preprocessing/tests/bin/test_ollvm_sobf \u2014 running normalization (signals: cff_pattern, bcf_pattern)",
       "  [0.2a] unpack method: none",
-      "  [0.2b] recovered 0 APIs, 11 strings",
+      "  [0.2b] recovered 0 APIs, 12 strings",
       "  [0.2c] unflattened 1 functions (19 patches), opaque globals: 2",
       "[DONE] Output saved to: output/evaluation/test_ollvm_sobf",
       "  normalized binary : output/evaluation/test_ollvm_sobf/normalized.bin",
       "  recovered imports : 0 APIs",
-      "  recovered strings : 11 strings",
+      "  recovered strings : 12 strings",
       "  clean pseudocode  : output/evaluation/test_ollvm_sobf/clean_pseudocode"
     ],
     "test_ollvm_upx": [
       "[OBFUSCATED] preprocessing/tests/bin/test_ollvm_upx \u2014 running normalization (signals: high_entropy, few_imports, packer_signature)",
       "  [0.2a] unpack method: upx",
-      "  [0.2b] recovered 0 APIs, 4 strings",
+      "  [0.2b] recovered 0 APIs, 5 strings",
       "  [0.2c] unflattened 3 functions (36 patches), opaque globals: 6",
       "[DONE] Output saved to: output/evaluation/test_ollvm_upx",
       "  normalized binary : output/evaluation/test_ollvm_upx/normalized.bin",
       "  recovered imports : 0 APIs",
-      "  recovered strings : 4 strings",
+      "  recovered strings : 5 strings",
       "  clean pseudocode  : output/evaluation/test_ollvm_upx/clean_pseudocode"
     ],
     "test_hidden": [
