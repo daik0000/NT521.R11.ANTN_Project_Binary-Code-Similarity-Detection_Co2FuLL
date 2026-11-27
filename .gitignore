@@ -173,3 +173,5 @@ logs/
 
 Paper-advancing_binary_code_similarity_detection_via_context_content_fusion_and_llm_verification.md
 Data_advance/
+
+*.gz
