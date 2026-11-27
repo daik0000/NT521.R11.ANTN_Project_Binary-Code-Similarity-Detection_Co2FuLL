@@ -1,0 +1,8402 @@
+{
+ "0x402480": {
+  "name": "deregister_tm_clones",
+  "size": 0
+ },
+ "0x4024c0": {
+  "name": "register_tm_clones",
+  "size": 0
+ },
+ "0x402500": {
+  "name": "__do_global_dtors_aux",
+  "size": 0
+ },
+ "0x402520": {
+  "name": "frame_dummy",
+  "size": 0
+ },
+ "0x403490": {
+  "name": "find_address_in_section",
+  "size": 319
+ },
+ "0x403390": {
+  "name": "find_offset_in_section",
+  "size": 247
+ },
+ "0x402920": {
+  "name": "process_file",
+  "size": 524
+ },
+ "0x402b30": {
+  "name": "slurp_symtab",
+  "size": 511
+ },
+ "0x402d30": {
+  "name": "translate_addresses",
+  "size": 1618
+ },
+ "0x402810": {
+  "name": "usage",
+  "size": 271
+ },
+ "0x4041b0": {
+  "name": "display_target_list",
+  "size": 136
+ },
+ "0x404240": {
+  "name": "display_target_tables",
+  "size": 493
+ },
+ "0x404bd0": {
+  "name": "do_display_target",
+  "size": 739
+ },
+ "0x405000": {
+  "name": "do_info_header",
+  "size": 105
+ },
+ "0x405070": {
+  "name": "do_info_row",
+  "size": 283
+ },
+ "0x404f40": {
+  "name": "do_info_size",
+  "size": 178
+ },
+ "0x404ec0": {
+  "name": "endian_string",
+  "size": 127
+ },
+ "0x404640": {
+  "name": "template_in_dir",
+  "size": 261
+ },
+ "0x405470": {
+  "name": "ftypelet",
+  "size": 331
+ },
+ "0x4055c0": {
+  "name": "setst",
+  "size": 301
+ },
+ "0x40a600": {
+  "name": "_bfd_default_assert_handler",
+  "size": 51
+ },
+ "0x409810": {
+  "name": "_bfd_doprnt",
+  "size": 3560
+ },
+ "0x409080": {
+  "name": "_bfd_doprnt_scan",
+  "size": 1929
+ },
+ "0x407a80": {
+  "name": "bfd_elf_set_pagesize",
+  "size": 140
+ },
+ "0x408bb0": {
+  "name": "error_handler_internal",
+  "size": 1225
+ },
+ "0x4077a0": {
+  "name": "is32bit",
+  "size": 117
+ },
+ "0x40b300": {
+  "name": "bfd_preserve_finish",
+  "size": 49
+ },
+ "0x40b480": {
+  "name": "bfd_preserve_restore",
+  "size": 289
+ },
+ "0x40b340": {
+  "name": "bfd_preserve_save",
+  "size": 311
+ },
+ "0x40b1b0": {
+  "name": "bfd_reinit",
+  "size": 322
+ },
+ "0x40be10": {
+  "name": "bfd_hash_hash",
+  "size": 356
+ },
+ "0x40c400": {
+  "name": "higher_prime_number",
+  "size": 205
+ },
+ "0x40cab0": {
+  "name": "strtab_hash_newfunc",
+  "size": 158
+ },
+ "0x4102f0": {
+  "name": "_bfd_delete_bfd",
+  "size": 125
+ },
+ "0x410ac0": {
+  "name": "_maybe_make_executable",
+  "size": 466
+ },
+ "0x4118a0": {
+  "name": "bfd_get_debug_link_info_1",
+  "size": 411
+ },
+ "0x410370": {
+  "name": "bfd_set_cacheable",
+  "size": 143
+ },
+ "0x412770": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x412cb0": {
+  "name": "check_build_id_file",
+  "size": 349
+ },
+ "0x411c50": {
+  "name": "find_separate_debug_file",
+  "size": 1809
+ },
+ "0x4124e0": {
+  "name": "get_alt_debug_link_info_shim",
+  "size": 67
+ },
+ "0x4130e0": {
+  "name": "get_build_id",
+  "size": 1046
+ },
+ "0x412a70": {
+  "name": "get_build_id_name",
+  "size": 570
+ },
+ "0x412fb0": {
+  "name": "opncls_bclose",
+  "size": 91
+ },
+ "0x413010": {
+  "name": "opncls_bflush",
+  "size": 12
+ },
+ "0x4130a0": {
+  "name": "opncls_bmmap",
+  "size": 55
+ },
+ "0x412e10": {
+  "name": "opncls_bread",
+  "size": 161
+ },
+ "0x412f00": {
+  "name": "opncls_bseek",
+  "size": 167
+ },
+ "0x413020": {
+  "name": "opncls_bstat",
+  "size": 115
+ },
+ "0x412ee0": {
+  "name": "opncls_btell",
+  "size": 30
+ },
+ "0x412ec0": {
+  "name": "opncls_bwrite",
+  "size": 25
+ },
+ "0x412530": {
+  "name": "separate_alt_debug_file_exists",
+  "size": 126
+ },
+ "0x412370": {
+  "name": "separate_debug_file_exists",
+  "size": 283
+ },
+ "0x413d30": {
+  "name": "bfd_section_init",
+  "size": 327
+ },
+ "0x414ea0": {
+  "name": "_bfd_find_arch_match",
+  "size": 261
+ },
+ "0x4149b0": {
+  "name": "find_target",
+  "size": 263
+ },
+ "0x415550": {
+  "name": "binary_canonicalize_symtab",
+  "size": 469
+ },
+ "0x4154d0": {
+  "name": "binary_get_section_contents",
+  "size": 109
+ },
+ "0x415730": {
+  "name": "binary_get_symbol_info",
+  "size": 39
+ },
+ "0x415540": {
+  "name": "binary_get_symtab_upper_bound",
+  "size": 15
+ },
+ "0x4154c0": {
+  "name": "binary_mkobject",
+  "size": 15
+ },
+ "0x415390": {
+  "name": "binary_object_p",
+  "size": 303
+ },
+ "0x415760": {
+  "name": "binary_set_section_contents",
+  "size": 723
+ },
+ "0x415a40": {
+  "name": "binary_sizeof_headers",
+  "size": 16
+ },
+ "0x415a50": {
+  "name": "mangle_name",
+  "size": 316
+ },
+ "0x4176b0": {
+  "name": "ihex_bad_byte",
+  "size": 229
+ },
+ "0x417610": {
+  "name": "ihex_get_byte",
+  "size": 145
+ },
+ "0x416470": {
+  "name": "ihex_get_section_contents",
+  "size": 201
+ },
+ "0x4167e0": {
+  "name": "ihex_init",
+  "size": 36
+ },
+ "0x415d80": {
+  "name": "ihex_mkobject",
+  "size": 109
+ },
+ "0x415b90": {
+  "name": "ihex_object_p",
+  "size": 494
+ },
+ "0x417c10": {
+  "name": "ihex_read_section",
+  "size": 907
+ },
+ "0x416810": {
+  "name": "ihex_scan",
+  "size": 3576
+ },
+ "0x416540": {
+  "name": "ihex_set_arch_mach",
+  "size": 87
+ },
+ "0x4165a0": {
+  "name": "ihex_set_section_contents",
+  "size": 560
+ },
+ "0x4167d0": {
+  "name": "ihex_sizeof_headers",
+  "size": 16
+ },
+ "0x415df0": {
+  "name": "ihex_write_object_contents",
+  "size": 1660
+ },
+ "0x4177a0": {
+  "name": "ihex_write_record",
+  "size": 1124
+ },
+ "0x41a430": {
+  "name": "internal_srec_write_object_contents",
+  "size": 206
+ },
+ "0x41a230": {
+  "name": "srec_bad_byte",
+  "size": 266
+ },
+ "0x418420": {
+  "name": "srec_canonicalize_symtab",
+  "size": 405
+ },
+ "0x41a190": {
+  "name": "srec_get_byte",
+  "size": 145
+ },
+ "0x4182a0": {
+  "name": "srec_get_section_contents",
+  "size": 324
+ },
+ "0x418660": {
+  "name": "srec_get_symbol_info",
+  "size": 39
+ },
+ "0x4183f0": {
+  "name": "srec_get_symtab_upper_bound",
+  "size": 44
+ },
+ "0x418cc0": {
+  "name": "srec_init",
+  "size": 36
+ },
+ "0x4181d0": {
+  "name": "srec_mkobject",
+  "size": 161
+ },
+ "0x41a340": {
+  "name": "srec_new_symbol",
+  "size": 227
+ },
+ "0x417fa0": {
+  "name": "srec_object_p",
+  "size": 553
+ },
+ "0x4185c0": {
+  "name": "srec_print_symbol",
+  "size": 153
+ },
+ "0x41b370": {
+  "name": "srec_read_section",
+  "size": 1588
+ },
+ "0x418cf0": {
+  "name": "srec_scan",
+  "size": 5278
+ },
+ "0x418690": {
+  "name": "srec_set_arch_mach",
+  "size": 90
+ },
+ "0x4186f0": {
+  "name": "srec_set_section_contents",
+  "size": 898
+ },
+ "0x418a80": {
+  "name": "srec_sizeof_headers",
+  "size": 16
+ },
+ "0x41a890": {
+  "name": "srec_write_header",
+  "size": 90
+ },
+ "0x418280": {
+  "name": "srec_write_object_contents",
+  "size": 29
+ },
+ "0x41ab00": {
+  "name": "srec_write_record",
+  "size": 2146
+ },
+ "0x41a8f0": {
+  "name": "srec_write_section",
+  "size": 442
+ },
+ "0x41a500": {
+  "name": "srec_write_symbols",
+  "size": 902
+ },
+ "0x41aab0": {
+  "name": "srec_write_terminator",
+  "size": 80
+ },
+ "0x418a90": {
+  "name": "symbolsrec_object_p",
+  "size": 521
+ },
+ "0x418ca0": {
+  "name": "symbolsrec_write_object_contents",
+  "size": 32
+ },
+ "0x41d600": {
+  "name": "find_chunk",
+  "size": 311
+ },
+ "0x41c8a0": {
+  "name": "first_phase",
+  "size": 2557
+ },
+ "0x41d4d0": {
+  "name": "getsym",
+  "size": 302
+ },
+ "0x41d2a0": {
+  "name": "getvalue",
+  "size": 363
+ },
+ "0x41d410": {
+  "name": "insert_byte",
+  "size": 185
+ },
+ "0x41dce0": {
+  "name": "move_section_contents",
+  "size": 483
+ },
+ "0x41d8e0": {
+  "name": "out",
+  "size": 706
+ },
+ "0x41c5f0": {
+  "name": "pass_over",
+  "size": 686
+ },
+ "0x41c150": {
+  "name": "tekhex_canonicalize_symtab",
+  "size": 140
+ },
+ "0x41c0a0": {
+  "name": "tekhex_get_section_contents",
+  "size": 122
+ },
+ "0x41c330": {
+  "name": "tekhex_get_symbol_info",
+  "size": 39
+ },
+ "0x41c120": {
+  "name": "tekhex_get_symtab_upper_bound",
+  "size": 44
+ },
+ "0x41c440": {
+  "name": "tekhex_init",
+  "size": 424
+ },
+ "0x41c1e0": {
+  "name": "tekhex_make_empty_symbol",
+  "size": 102
+ },
+ "0x41bab0": {
+  "name": "tekhex_mkobject",
+  "size": 132
+ },
+ "0x41b9b0": {
+  "name": "tekhex_object_p",
+  "size": 254
+ },
+ "0x41c250": {
+  "name": "tekhex_print_symbol",
+  "size": 209
+ },
+ "0x41c360": {
+  "name": "tekhex_set_arch_mach",
+  "size": 73
+ },
+ "0x41c3b0": {
+  "name": "tekhex_set_section_contents",
+  "size": 119
+ },
+ "0x41c430": {
+  "name": "tekhex_sizeof_headers",
+  "size": 16
+ },
+ "0x41bb40": {
+  "name": "tekhex_write_object_contents",
+  "size": 1374
+ },
+ "0x41dbb0": {
+  "name": "writesym",
+  "size": 290
+ },
+ "0x41d740": {
+  "name": "writevalue",
+  "size": 401
+ },
+ "0x41e250": {
+  "name": "verilog_init",
+  "size": 36
+ },
+ "0x41ded0": {
+  "name": "verilog_mkobject",
+  "size": 114
+ },
+ "0x41dfd0": {
+  "name": "verilog_set_arch_mach",
+  "size": 90
+ },
+ "0x41e030": {
+  "name": "verilog_set_section_contents",
+  "size": 532
+ },
+ "0x41e370": {
+  "name": "verilog_write_address",
+  "size": 616
+ },
+ "0x41df50": {
+  "name": "verilog_write_object_contents",
+  "size": 119
+ },
+ "0x41e5e0": {
+  "name": "verilog_write_record",
+  "size": 323
+ },
+ "0x41e280": {
+  "name": "verilog_write_section",
+  "size": 226
+ },
+ "0x42d850": {
+  "name": "elf32_x86_64_elf_object_p",
+  "size": 49
+ },
+ "0x42d790": {
+  "name": "elf32_x86_64_nacl_elf_object_p",
+  "size": 49
+ },
+ "0x42d810": {
+  "name": "elf64_k1om_elf_object_p",
+  "size": 49
+ },
+ "0x42d7d0": {
+  "name": "elf64_l1om_elf_object_p",
+  "size": 49
+ },
+ "0x42d730": {
+  "name": "elf64_x86_64_copy_solaris_special_section_fields",
+  "size": 24
+ },
+ "0x41f410": {
+  "name": "elf64_x86_64_elf_object_p",
+  "size": 49
+ },
+ "0x42d750": {
+  "name": "elf64_x86_64_nacl_elf_object_p",
+  "size": 49
+ },
+ "0x41f590": {
+  "name": "elf_x86_64_add_symbol_hook",
+  "size": 248
+ },
+ "0x429ae0": {
+  "name": "elf_x86_64_additional_program_headers",
+  "size": 201
+ },
+ "0x41f700": {
+  "name": "elf_x86_64_check_relocs",
+  "size": 9187
+ },
+ "0x42c850": {
+  "name": "elf_x86_64_check_tls_transition",
+  "size": 2867
+ },
+ "0x42aac0": {
+  "name": "elf_x86_64_common_definition",
+  "size": 54
+ },
+ "0x42ab70": {
+  "name": "elf_x86_64_common_section",
+  "size": 94
+ },
+ "0x42ab00": {
+  "name": "elf_x86_64_common_section_index",
+  "size": 104
+ },
+ "0x42af30": {
+  "name": "elf_x86_64_convert_load_reloc",
+  "size": 3904
+ },
+ "0x41f540": {
+  "name": "elf_x86_64_elf_section_from_bfd_section",
+  "size": 70
+ },
+ "0x4294b0": {
+  "name": "elf_x86_64_finish_dynamic_sections",
+  "size": 1572
+ },
+ "0x427ab0": {
+  "name": "elf_x86_64_finish_dynamic_symbol",
+  "size": 6642
+ },
+ "0x42d6e0": {
+  "name": "elf_x86_64_finish_local_dynamic_symbol",
+  "size": 66
+ },
+ "0x41e910": {
+  "name": "elf_x86_64_get_synthetic_symtab",
+  "size": 2313
+ },
+ "0x429c60": {
+  "name": "elf_x86_64_grok_prstatus",
+  "size": 397
+ },
+ "0x429df0": {
+  "name": "elf_x86_64_grok_psinfo",
+  "size": 532
+ },
+ "0x41f350": {
+  "name": "elf_x86_64_info_to_howto",
+  "size": 190
+ },
+ "0x42ad70": {
+  "name": "elf_x86_64_link_setup_gnu_properties",
+  "size": 437
+ },
+ "0x42abd0": {
+  "name": "elf_x86_64_merge_symbol",
+  "size": 408
+ },
+ "0x42c480": {
+  "name": "elf_x86_64_need_pic",
+  "size": 972
+ },
+ "0x429bb0": {
+  "name": "elf_x86_64_output_arch_local_syms",
+  "size": 170
+ },
+ "0x42d640": {
+  "name": "elf_x86_64_pie_finish_undefweak_symbol",
+  "size": 152
+ },
+ "0x41e7c0": {
+  "name": "elf_x86_64_reloc_name_lookup",
+  "size": 327
+ },
+ "0x42a8d0": {
+  "name": "elf_x86_64_reloc_type_class",
+  "size": 494
+ },
+ "0x41e730": {
+  "name": "elf_x86_64_reloc_type_lookup",
+  "size": 130
+ },
+ "0x421af0": {
+  "name": "elf_x86_64_relocate_section",
+  "size": 24500
+ },
+ "0x41f690": {
+  "name": "elf_x86_64_relocs_compatible",
+  "size": 111
+ },
+ "0x41f220": {
+  "name": "elf_x86_64_rtype_to_howto",
+  "size": 296
+ },
+ "0x41f4d0": {
+  "name": "elf_x86_64_section_from_shdr",
+  "size": 109
+ },
+ "0x41f450": {
+  "name": "elf_x86_64_symbol_processing",
+  "size": 125
+ },
+ "0x42be70": {
+  "name": "elf_x86_64_tls_transition",
+  "size": 1543
+ },
+ "0x42d4c0": {
+  "name": "elf_x86_64_tpoff",
+  "size": 379
+ },
+ "0x42a010": {
+  "name": "elf_x86_64_write_core_note",
+  "size": 2235
+ },
+ "0x42d390": {
+  "name": "is_32bit_relative_branch",
+  "size": 289
+ },
+ "0x437340": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x435a80": {
+  "name": "elf_i386_get_plt_got_vma",
+  "size": 44
+ },
+ "0x42e580": {
+  "name": "elf_i386_is_reloc_section",
+  "size": 56
+ },
+ "0x435ab0": {
+  "name": "elf_i386_valid_plt_reloc_p",
+  "size": 57
+ },
+ "0x4359e0": {
+  "name": "elf_x86_64_get_plt_got_vma",
+  "size": 83
+ },
+ "0x42e540": {
+  "name": "elf_x86_64_is_reloc_section",
+  "size": 56
+ },
+ "0x435a40": {
+  "name": "elf_x86_64_valid_plt_reloc_p",
+  "size": 57
+ },
+ "0x430190": {
+  "name": "elf_x86_allocate_dynrelocs",
+  "size": 6490
+ },
+ "0x431af0": {
+  "name": "elf_x86_allocate_local_dynreloc",
+  "size": 348
+ },
+ "0x42e5c0": {
+  "name": "elf_x86_link_hash_table_free",
+  "size": 113
+ },
+ "0x431c50": {
+  "name": "maybe_set_textrel",
+  "size": 617
+ },
+ "0x434d60": {
+  "name": "readonly_dynrelocs",
+  "size": 159
+ },
+ "0x434d10": {
+  "name": "weakdef",
+  "size": 74
+ },
+ "0x437820": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x438b80": {
+  "name": "segment_eligible_for_headers",
+  "size": 188
+ },
+ "0x438a80": {
+  "name": "segment_executable",
+  "size": 246
+ },
+ "0x43ad40": {
+  "name": "elf_file_p",
+  "size": 106
+ },
+ "0x43cf60": {
+  "name": "elf_slurp_reloc_table_from_section",
+  "size": 971
+ },
+ "0x43adb0": {
+  "name": "elf_swap_ehdr_in",
+  "size": 616
+ },
+ "0x43b8b0": {
+  "name": "elf_swap_ehdr_out",
+  "size": 694
+ },
+ "0x43b020": {
+  "name": "elf_swap_shdr_in",
+  "size": 481
+ },
+ "0x43bb70": {
+  "name": "elf_swap_shdr_out",
+  "size": 337
+ },
+ "0x451280": {
+  "name": "_bfd_elf_assign_file_positions_for_non_load",
+  "size": 1096
+ },
+ "0x4577b0": {
+  "name": "_bfd_elf_init_reloc_shdr",
+  "size": 377
+ },
+ "0x457930": {
+  "name": "_bfd_elf_set_reloc_sh_name",
+  "size": 257
+ },
+ "0x45b070": {
+  "name": "align_file_position",
+  "size": 155
+ },
+ "0x44d9b0": {
+  "name": "assign_file_positions_except_relocs",
+  "size": 1489
+ },
+ "0x457b40": {
+  "name": "assign_file_positions_for_load_sections",
+  "size": 8537
+ },
+ "0x459ca0": {
+  "name": "assign_file_positions_for_non_load_sections",
+  "size": 4356
+ },
+ "0x44b4f0": {
+  "name": "assign_section_numbers",
+  "size": 4771
+ },
+ "0x43f6b0": {
+  "name": "bfd_elf_get_str_section",
+  "size": 464
+ },
+ "0x441830": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x4417c0": {
+  "name": "bfd_set_section_vma",
+  "size": 108
+ },
+ "0x457710": {
+  "name": "convert_debug_to_zdebug",
+  "size": 150
+ },
+ "0x442810": {
+  "name": "convert_zdebug_to_debug",
+  "size": 144
+ },
+ "0x45b110": {
+  "name": "copy_elf_program_header",
+  "size": 4546
+ },
+ "0x452140": {
+  "name": "copy_private_bfd_data",
+  "size": 2244
+ },
+ "0x442e60": {
+  "name": "copy_special_section_fields",
+  "size": 700
+ },
+ "0x44a500": {
+  "name": "elf_fake_sections",
+  "size": 4069
+ },
+ "0x457a40": {
+  "name": "elf_get_reloc_section",
+  "size": 252
+ },
+ "0x45ee30": {
+  "name": "elf_map_symbols",
+  "size": 1457
+ },
+ "0x450d30": {
+  "name": "elf_modify_segment_map",
+  "size": 523
+ },
+ "0x442230": {
+  "name": "elf_parse_notes",
+  "size": 1498
+ },
+ "0x448d90": {
+  "name": "elf_read_notes",
+  "size": 298
+ },
+ "0x4502e0": {
+  "name": "elf_sort_sections",
+  "size": 681
+ },
+ "0x461440": {
+  "name": "elfcore_grok_aarch_hw_break",
+  "size": 48
+ },
+ "0x461470": {
+  "name": "elfcore_grok_aarch_hw_watch",
+  "size": 48
+ },
+ "0x461410": {
+  "name": "elfcore_grok_aarch_tls",
+  "size": 48
+ },
+ "0x4613e0": {
+  "name": "elfcore_grok_arm_vfp",
+  "size": 48
+ },
+ "0x460090": {
+  "name": "elfcore_grok_freebsd_note",
+  "size": 874
+ },
+ "0x461770": {
+  "name": "elfcore_grok_freebsd_prstatus",
+  "size": 924
+ },
+ "0x461b10": {
+  "name": "elfcore_grok_freebsd_psinfo",
+  "size": 634
+ },
+ "0x460400": {
+  "name": "elfcore_grok_netbsd_note",
+  "size": 423
+ },
+ "0x461e00": {
+  "name": "elfcore_grok_netbsd_procinfo",
+  "size": 241
+ },
+ "0x45f560": {
+  "name": "elfcore_grok_note",
+  "size": 2857
+ },
+ "0x4607c0": {
+  "name": "elfcore_grok_nto_note",
+  "size": 219
+ },
+ "0x462270": {
+  "name": "elfcore_grok_nto_regs",
+  "size": 402
+ },
+ "0x461fe0": {
+  "name": "elfcore_grok_nto_status",
+  "size": 654
+ },
+ "0x4605b0": {
+  "name": "elfcore_grok_openbsd_note",
+  "size": 525
+ },
+ "0x461f00": {
+  "name": "elfcore_grok_openbsd_procinfo",
+  "size": 219
+ },
+ "0x461110": {
+  "name": "elfcore_grok_ppc_vmx",
+  "size": 48
+ },
+ "0x461140": {
+  "name": "elfcore_grok_ppc_vsx",
+  "size": 48
+ },
+ "0x460c90": {
+  "name": "elfcore_grok_prfpreg",
+  "size": 48
+ },
+ "0x460a80": {
+  "name": "elfcore_grok_prstatus",
+  "size": 513
+ },
+ "0x4610b0": {
+  "name": "elfcore_grok_prxfpreg",
+  "size": 48
+ },
+ "0x4614a0": {
+  "name": "elfcore_grok_psinfo",
+  "size": 652
+ },
+ "0x461230": {
+  "name": "elfcore_grok_s390_ctrs",
+  "size": 48
+ },
+ "0x4613b0": {
+  "name": "elfcore_grok_s390_gs_bc",
+  "size": 48
+ },
+ "0x461380": {
+  "name": "elfcore_grok_s390_gs_cb",
+  "size": 48
+ },
+ "0x461170": {
+  "name": "elfcore_grok_s390_high_gprs",
+  "size": 48
+ },
+ "0x461290": {
+  "name": "elfcore_grok_s390_last_break",
+  "size": 48
+ },
+ "0x461260": {
+  "name": "elfcore_grok_s390_prefix",
+  "size": 48
+ },
+ "0x4612c0": {
+  "name": "elfcore_grok_s390_system_call",
+  "size": 48
+ },
+ "0x4612f0": {
+  "name": "elfcore_grok_s390_tdb",
+  "size": 48
+ },
+ "0x4611a0": {
+  "name": "elfcore_grok_s390_timer",
+  "size": 48
+ },
+ "0x4611d0": {
+  "name": "elfcore_grok_s390_todcmp",
+  "size": 48
+ },
+ "0x461200": {
+  "name": "elfcore_grok_s390_todpreg",
+  "size": 48
+ },
+ "0x461350": {
+  "name": "elfcore_grok_s390_vxrs_high",
+  "size": 48
+ },
+ "0x461320": {
+  "name": "elfcore_grok_s390_vxrs_low",
+  "size": 48
+ },
+ "0x4608a0": {
+  "name": "elfcore_grok_spu_note",
+  "size": 244
+ },
+ "0x460cc0": {
+  "name": "elfcore_grok_win32pstatus",
+  "size": 1005
+ },
+ "0x4610e0": {
+  "name": "elfcore_grok_xstatereg",
+  "size": 48
+ },
+ "0x461730": {
+  "name": "elfcore_make_note_pseudosection",
+  "size": 55
+ },
+ "0x4542a0": {
+  "name": "elfcore_make_pid",
+  "size": 71
+ },
+ "0x4542f0": {
+  "name": "elfcore_maybe_make_sect",
+  "size": 170
+ },
+ "0x461d90": {
+  "name": "elfcore_netbsd_get_lwpid",
+  "size": 101
+ },
+ "0x4564c0": {
+  "name": "elfcore_write_s390_high_gprs",
+  "size": 95
+ },
+ "0x462410": {
+  "name": "elfobj_grok_gnu_build_id",
+  "size": 191
+ },
+ "0x4609a0": {
+  "name": "elfobj_grok_gnu_note",
+  "size": 131
+ },
+ "0x460a30": {
+  "name": "elfobj_grok_stapsdt_note",
+  "size": 80
+ },
+ "0x4624d0": {
+  "name": "elfobj_grok_stapsdt_note_1",
+  "size": 178
+ },
+ "0x4574f0": {
+  "name": "find_link",
+  "size": 306
+ },
+ "0x452c60": {
+  "name": "find_section_in_list",
+  "size": 71
+ },
+ "0x450590": {
+  "name": "get_program_header_size",
+  "size": 1406
+ },
+ "0x4449d0": {
+  "name": "get_segment_type",
+  "size": 455
+ },
+ "0x4573d0": {
+  "name": "group_signature",
+  "size": 284
+ },
+ "0x45f3f0": {
+  "name": "ignore_section_sym",
+  "size": 359
+ },
+ "0x450b10": {
+  "name": "make_mapping",
+  "size": 544
+ },
+ "0x44a100": {
+  "name": "prep_headers",
+  "size": 1011
+ },
+ "0x45aea0": {
+  "name": "print_segment_map",
+  "size": 459
+ },
+ "0x45c2e0": {
+  "name": "rewrite_elf_program_header",
+  "size": 11076
+ },
+ "0x457630": {
+  "name": "section_match",
+  "size": 221
+ },
+ "0x441850": {
+  "name": "setup_group",
+  "size": 2513
+ },
+ "0x454b30": {
+  "name": "swap_linux_prpsinfo32_ugid16_out",
+  "size": 511
+ },
+ "0x454d30": {
+  "name": "swap_linux_prpsinfo32_ugid32_out",
+  "size": 551
+ },
+ "0x4550a0": {
+  "name": "swap_linux_prpsinfo64_ugid16_out",
+  "size": 514
+ },
+ "0x4552b0": {
+  "name": "swap_linux_prpsinfo64_ugid32_out",
+  "size": 531
+ },
+ "0x44c7a0": {
+  "name": "swap_out_syms",
+  "size": 4614
+ },
+ "0x4499f0": {
+  "name": "sym_is_global",
+  "size": 208
+ },
+ "0x45adb0": {
+  "name": "vma_page_aligned_bias",
+  "size": 69
+ },
+ "0x45ae00": {
+  "name": "write_zeros",
+  "size": 155
+ },
+ "0x48d590": {
+  "name": "_bfd_elf_add_default_symbol",
+  "size": 5206
+ },
+ "0x471ef0": {
+  "name": "_bfd_elf_adjust_dynamic_symbol",
+  "size": 1498
+ },
+ "0x471100": {
+  "name": "_bfd_elf_export_symbol",
+  "size": 422
+ },
+ "0x48f0d0": {
+  "name": "_bfd_elf_fix_symbol_flags",
+  "size": 4046
+ },
+ "0x484ae0": {
+  "name": "_bfd_elf_gc_mark_debug_special_section_group",
+  "size": 344
+ },
+ "0x4712b0": {
+  "name": "_bfd_elf_link_assign_sym_version",
+  "size": 1543
+ },
+ "0x463730": {
+  "name": "_bfd_elf_link_create_dynstrtab",
+  "size": 471
+ },
+ "0x471b80": {
+  "name": "_bfd_elf_link_find_version_dependencies",
+  "size": 876
+ },
+ "0x4724d0": {
+  "name": "_bfd_elf_link_renumber_dynsyms",
+  "size": 729
+ },
+ "0x47b160": {
+  "name": "_bfd_elf_link_sec_merge_syms",
+  "size": 259
+ },
+ "0x47b270": {
+  "name": "_bfd_elf_link_size_reloc_section",
+  "size": 228
+ },
+ "0x48a6d0": {
+  "name": "_bfd_elf_merge_symbol",
+  "size": 11959
+ },
+ "0x464de0": {
+  "name": "bfd_elf_link_mark_dynamic_symbol",
+  "size": 631
+ },
+ "0x4887a0": {
+  "name": "bfd_elf_match_symbols_in_sections",
+  "size": 3664
+ },
+ "0x463000": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x481620": {
+  "name": "check_dynsym",
+  "size": 142
+ },
+ "0x490210": {
+  "name": "compare_link_order",
+  "size": 103
+ },
+ "0x4740a0": {
+  "name": "compute_bucket_count",
+  "size": 1249
+ },
+ "0x476bf0": {
+  "name": "decode_complex_addend",
+  "size": 448
+ },
+ "0x48a4c0": {
+  "name": "elf_add_dt_needed_tag",
+  "size": 524
+ },
+ "0x4901c0": {
+  "name": "elf_adjust_dynstr_offsets",
+  "size": 75
+ },
+ "0x474590": {
+  "name": "elf_collect_gnu_hash_codes",
+  "size": 536
+ },
+ "0x473f00": {
+  "name": "elf_collect_hash_codes",
+  "size": 414
+ },
+ "0x4939d0": {
+  "name": "elf_create_symbuf",
+  "size": 980
+ },
+ "0x483830": {
+  "name": "elf_final_link_free",
+  "size": 527
+ },
+ "0x474b30": {
+  "name": "elf_finalize_dynstr",
+  "size": 1303
+ },
+ "0x47b660": {
+  "name": "elf_fixup_link_order",
+  "size": 1123
+ },
+ "0x487390": {
+  "name": "elf_gc_allocate_got_offsets",
+  "size": 204
+ },
+ "0x484c40": {
+  "name": "elf_gc_mark_debug_section",
+  "size": 193
+ },
+ "0x485e70": {
+  "name": "elf_gc_propagate_vtable_entries_used",
+  "size": 632
+ },
+ "0x4860f0": {
+  "name": "elf_gc_smash_unused_vtentry_relocs",
+  "size": 733
+ },
+ "0x4863d0": {
+  "name": "elf_gc_sweep",
+  "size": 752
+ },
+ "0x4718c0": {
+  "name": "elf_gc_sweep_symbol",
+  "size": 691
+ },
+ "0x490280": {
+  "name": "elf_get_linked_section_vma",
+  "size": 300
+ },
+ "0x46d4d0": {
+  "name": "elf_link_add_archive_symbols",
+  "size": 1099
+ },
+ "0x467590": {
+  "name": "elf_link_add_object_symbols",
+  "size": 24376
+ },
+ "0x481e90": {
+  "name": "elf_link_adjust_relocs",
+  "size": 2845
+ },
+ "0x492a90": {
+  "name": "elf_link_check_versioned_symbol",
+  "size": 1773
+ },
+ "0x493180": {
+  "name": "elf_link_convert_common_type",
+  "size": 214
+ },
+ "0x47bad0": {
+  "name": "elf_link_input_bfd",
+  "size": 11646
+ },
+ "0x48ec20": {
+  "name": "elf_link_is_defined_archive_symbol",
+  "size": 911
+ },
+ "0x47f070": {
+  "name": "elf_link_output_extsym",
+  "size": 9638
+ },
+ "0x47b360": {
+  "name": "elf_link_output_symstrtab",
+  "size": 761
+ },
+ "0x465900": {
+  "name": "elf_link_read_relocs_from_section",
+  "size": 755
+ },
+ "0x490130": {
+  "name": "elf_link_renumber_hash_table_dynsyms",
+  "size": 140
+ },
+ "0x4900a0": {
+  "name": "elf_link_renumber_local_hash_table_dynsyms",
+  "size": 140
+ },
+ "0x493740": {
+  "name": "elf_link_sort_cmp1",
+  "size": 404
+ },
+ "0x4938e0": {
+  "name": "elf_link_sort_cmp2",
+  "size": 236
+ },
+ "0x4829b0": {
+  "name": "elf_link_sort_relocs",
+  "size": 3710
+ },
+ "0x4816b0": {
+  "name": "elf_link_swap_symbols_out",
+  "size": 829
+ },
+ "0x489bf0": {
+  "name": "elf_merge_st_other",
+  "size": 653
+ },
+ "0x4819f0": {
+  "name": "elf_output_implib",
+  "size": 1175
+ },
+ "0x47e850": {
+  "name": "elf_reloc_link_order",
+  "size": 2078
+ },
+ "0x4747b0": {
+  "name": "elf_renumber_gnu_hash_syms",
+  "size": 892
+ },
+ "0x4903b0": {
+  "name": "elf_section_ignore_discarded_relocs",
+  "size": 209
+ },
+ "0x493df0": {
+  "name": "elf_sort_elf_symbol",
+  "size": 58
+ },
+ "0x48eb00": {
+  "name": "elf_sort_symbol",
+  "size": 273
+ },
+ "0x493db0": {
+  "name": "elf_sym_name_compare",
+  "size": 59
+ },
+ "0x490490": {
+  "name": "eval_symbol",
+  "size": 8119
+ },
+ "0x493300": {
+  "name": "ext32b_r_offset",
+  "size": 154
+ },
+ "0x493260": {
+  "name": "ext32l_r_offset",
+  "size": 154
+ },
+ "0x493590": {
+  "name": "ext64b_r_offset",
+  "size": 430
+ },
+ "0x4933a0": {
+  "name": "ext64l_r_offset",
+  "size": 495
+ },
+ "0x488020": {
+  "name": "fini_reloc_cookie",
+  "size": 97
+ },
+ "0x484410": {
+  "name": "fini_reloc_cookie_for_section",
+  "size": 55
+ },
+ "0x4857c0": {
+  "name": "fini_reloc_cookie_rels",
+  "size": 82
+ },
+ "0x489740": {
+  "name": "get_dynamic_reloc_section_name",
+  "size": 249
+ },
+ "0x476db0": {
+  "name": "get_value",
+  "size": 758
+ },
+ "0x485480": {
+  "name": "init_reloc_cookie",
+  "size": 577
+ },
+ "0x484370": {
+  "name": "init_reloc_cookie_for_section",
+  "size": 148
+ },
+ "0x4856d0": {
+  "name": "init_reloc_cookie_rels",
+  "size": 239
+ },
+ "0x48efb0": {
+  "name": "is_global_data_symbol_definition",
+  "size": 284
+ },
+ "0x477400": {
+  "name": "match_group_member",
+  "size": 164
+ },
+ "0x4752c0": {
+  "name": "merge_sections_remove_hook",
+  "size": 122
+ },
+ "0x48e9f0": {
+  "name": "on_needed_list",
+  "size": 272
+ },
+ "0x4770b0": {
+  "name": "put_value",
+  "size": 420
+ },
+ "0x492640": {
+  "name": "resolve_section",
+  "size": 387
+ },
+ "0x4927d0": {
+  "name": "resolve_symbol",
+  "size": 619
+ },
+ "0x492450": {
+  "name": "set_symbol_value",
+  "size": 496
+ },
+ "0x492a40": {
+  "name": "undefined_reference",
+  "size": 71
+ },
+ "0x465060": {
+  "name": "weakdef",
+  "size": 74
+ },
+ "0x494480": {
+  "name": "elf_new_obj_attr",
+  "size": 277
+ },
+ "0x4949f0": {
+  "name": "gnu_obj_attrs_arg_type",
+  "size": 70
+ },
+ "0x495900": {
+  "name": "is_default_attr",
+  "size": 240
+ },
+ "0x4957d0": {
+  "name": "obj_attr_size",
+  "size": 297
+ },
+ "0x4959f0": {
+  "name": "uleb128_size",
+  "size": 59
+ },
+ "0x495780": {
+  "name": "vendor_obj_attr_name",
+  "size": 77
+ },
+ "0x493ec0": {
+  "name": "vendor_obj_attr_size",
+  "size": 418
+ },
+ "0x494160": {
+  "name": "vendor_set_obj_attr_contents",
+  "size": 511
+ },
+ "0x495a30": {
+  "name": "write_obj_attribute",
+  "size": 254
+ },
+ "0x495b30": {
+  "name": "write_uleb128",
+  "size": 176
+ },
+ "0x495cf0": {
+  "name": "elf_strtab_hash_newfunc",
+  "size": 165
+ },
+ "0x496ba0": {
+  "name": "is_suffix",
+  "size": 148
+ },
+ "0x496a90": {
+  "name": "strrevcmp",
+  "size": 267
+ },
+ "0x497d50": {
+  "name": "elf_find_and_remove_property",
+  "size": 144
+ },
+ "0x497de0": {
+  "name": "elf_merge_gnu_properties",
+  "size": 358
+ },
+ "0x497b50": {
+  "name": "elf_merge_gnu_property_list",
+  "size": 500
+ },
+ "0x49b710": {
+  "name": "add_eh_frame_hdr_terminator",
+  "size": 280
+ },
+ "0x49d1c0": {
+  "name": "adjust_eh_frame_local_symbols",
+  "size": 231
+ },
+ "0x49b500": {
+  "name": "bfd_elf_discard_eh_frame_entry",
+  "size": 305
+ },
+ "0x498180": {
+  "name": "bfd_elf_record_eh_frame_entry",
+  "size": 262
+ },
+ "0x4a10f0": {
+  "name": "cie_compute_hash",
+  "size": 521
+ },
+ "0x4a1320": {
+  "name": "cie_eq",
+  "size": 544
+ },
+ "0x4a1300": {
+  "name": "cie_hash",
+  "size": 25
+ },
+ "0x49b640": {
+  "name": "cmp_eh_frame_hdr",
+  "size": 206
+ },
+ "0x49e040": {
+  "name": "extra_augmentation_data_bytes",
+  "size": 185
+ },
+ "0x49df80": {
+  "name": "extra_augmentation_string_bytes",
+  "size": 182
+ },
+ "0x49ca60": {
+  "name": "find_merged_cie",
+  "size": 1686
+ },
+ "0x49aea0": {
+  "name": "get_DW_EH_PE_width",
+  "size": 150
+ },
+ "0x4a0310": {
+  "name": "make_pc_relative",
+  "size": 259
+ },
+ "0x49b9b0": {
+  "name": "mark_entry",
+  "size": 242
+ },
+ "0x4a0220": {
+  "name": "next_cie_fde_offset",
+  "size": 125
+ },
+ "0x49bbe0": {
+  "name": "offset_adjust",
+  "size": 1398
+ },
+ "0x49abd0": {
+  "name": "read_byte",
+  "size": 84
+ },
+ "0x49ad60": {
+  "name": "read_sleb128",
+  "size": 305
+ },
+ "0x49ac30": {
+  "name": "read_uleb128",
+  "size": 301
+ },
+ "0x49af40": {
+  "name": "read_value",
+  "size": 335
+ },
+ "0x49d100": {
+  "name": "size_of_output_cie_fde",
+  "size": 179
+ },
+ "0x49ab70": {
+  "name": "skip_bytes",
+  "size": 96
+ },
+ "0x49b150": {
+  "name": "skip_cfa_op",
+  "size": 617
+ },
+ "0x4a02a0": {
+  "name": "skip_leb128",
+  "size": 104
+ },
+ "0x49b090": {
+  "name": "skip_non_nops",
+  "size": 186
+ },
+ "0x4a1540": {
+  "name": "vma_compare",
+  "size": 172
+ },
+ "0x4a07f0": {
+  "name": "write_compact_eh_frame_hdr",
+  "size": 358
+ },
+ "0x4a0960": {
+  "name": "write_dwarf_eh_frame_hdr",
+  "size": 1673
+ },
+ "0x4a0420": {
+  "name": "write_value",
+  "size": 205
+ },
+ "0x4a2490": {
+  "name": "alloc_dwarf1_func",
+  "size": 92
+ },
+ "0x4a2020": {
+  "name": "alloc_dwarf1_unit",
+  "size": 88
+ },
+ "0x4a1a30": {
+  "name": "dwarf1_unit_find_nearest_line",
+  "size": 572
+ },
+ "0x4a1c70": {
+  "name": "parse_die",
+  "size": 938
+ },
+ "0x4a2360": {
+  "name": "parse_functions_in_unit",
+  "size": 301
+ },
+ "0x4a2080": {
+  "name": "parse_line_table",
+  "size": 722
+ },
+ "0x4a8f20": {
+  "name": "add_line_info",
+  "size": 1092
+ },
+ "0x4a9370": {
+  "name": "arange_add",
+  "size": 327
+ },
+ "0x4acd20": {
+  "name": "build_line_info_table",
+  "size": 352
+ },
+ "0x4ac9f0": {
+  "name": "build_lookup_funcinfo_table",
+  "size": 630
+ },
+ "0x4a70a0": {
+  "name": "comp_unit_contains_address",
+  "size": 132
+ },
+ "0x4a7130": {
+  "name": "comp_unit_find_line",
+  "size": 182
+ },
+ "0x4a71f0": {
+  "name": "comp_unit_find_nearest_line",
+  "size": 368
+ },
+ "0x4ab950": {
+  "name": "comp_unit_hash_info",
+  "size": 609
+ },
+ "0x4abbc0": {
+  "name": "comp_unit_maybe_decode_line_info",
+  "size": 237
+ },
+ "0x4acc70": {
+  "name": "compare_lookup_funcinfos",
+  "size": 176
+ },
+ "0x4aab30": {
+  "name": "compare_sequences",
+  "size": 276
+ },
+ "0x4a8b40": {
+  "name": "concat_filename",
+  "size": 992
+ },
+ "0x4ab820": {
+  "name": "create_info_hash_table",
+  "size": 136
+ },
+ "0x4a3da0": {
+  "name": "decode_line_info",
+  "size": 5753
+ },
+ "0x4aad30": {
+  "name": "find_abstract_instance_name",
+  "size": 1525
+ },
+ "0x4a3760": {
+  "name": "find_debug_info",
+  "size": 490
+ },
+ "0x4abe00": {
+  "name": "info_hash_lookup_funcinfo",
+  "size": 424
+ },
+ "0x4abfb0": {
+  "name": "info_hash_lookup_varinfo",
+  "size": 232
+ },
+ "0x4ab8b0": {
+  "name": "info_hash_table_newfunc",
+  "size": 151
+ },
+ "0x4abd00": {
+  "name": "insert_info_hash_table",
+  "size": 169
+ },
+ "0x4ab330": {
+  "name": "is_str_attr",
+  "size": 75
+ },
+ "0x4a8820": {
+  "name": "line_info_add_file_name",
+  "size": 311
+ },
+ "0x4a8a60": {
+  "name": "line_info_add_include_dir",
+  "size": 217
+ },
+ "0x4a87f0": {
+  "name": "line_info_add_include_dir_stub",
+  "size": 45
+ },
+ "0x4aac50": {
+  "name": "lookup_abbrev",
+  "size": 121
+ },
+ "0x4ac410": {
+  "name": "lookup_address_in_function_table",
+  "size": 760
+ },
+ "0x4ac710": {
+  "name": "lookup_address_in_line_info_table",
+  "size": 735
+ },
+ "0x4ac0a0": {
+  "name": "lookup_info_hash_table",
+  "size": 90
+ },
+ "0x4ac100": {
+  "name": "lookup_symbol_in_function_table",
+  "size": 433
+ },
+ "0x4ac2c0": {
+  "name": "lookup_symbol_in_variable_table",
+  "size": 323
+ },
+ "0x4aaac0": {
+  "name": "new_line_sorts_after",
+  "size": 110
+ },
+ "0x4ab380": {
+  "name": "non_mangled",
+  "size": 184
+ },
+ "0x4a7420": {
+  "name": "parse_comp_unit",
+  "size": 2044
+ },
+ "0x4a2bc0": {
+  "name": "place_sections",
+  "size": 1627
+ },
+ "0x4a8220": {
+  "name": "read_1_byte",
+  "size": 77
+ },
+ "0x4a8270": {
+  "name": "read_1_signed_byte",
+  "size": 132
+ },
+ "0x4a81c0": {
+  "name": "read_2_bytes",
+  "size": 82
+ },
+ "0x4a7360": {
+  "name": "read_4_bytes",
+  "size": 82
+ },
+ "0x4a73c0": {
+  "name": "read_8_bytes",
+  "size": 83
+ },
+ "0x4ace80": {
+  "name": "read_abbrevs",
+  "size": 1199
+ },
+ "0x4a94c0": {
+  "name": "read_address",
+  "size": 550
+ },
+ "0x4ab650": {
+  "name": "read_alt_indirect_ref",
+  "size": 350
+ },
+ "0x4aa890": {
+  "name": "read_alt_indirect_string",
+  "size": 548
+ },
+ "0x4aacd0": {
+  "name": "read_attribute",
+  "size": 90
+ },
+ "0x4a9a00": {
+  "name": "read_attribute_value",
+  "size": 2842
+ },
+ "0x4ab7b0": {
+  "name": "read_debug_ranges",
+  "size": 106
+ },
+ "0x4a8300": {
+  "name": "read_formatted_entries",
+  "size": 1262
+ },
+ "0x4aa700": {
+  "name": "read_indirect_line_string",
+  "size": 394
+ },
+ "0x4aa570": {
+  "name": "read_indirect_string",
+  "size": 394
+ },
+ "0x4aa520": {
+  "name": "read_n_bytes",
+  "size": 68
+ },
+ "0x4ab440": {
+  "name": "read_rangelist",
+  "size": 521
+ },
+ "0x4a3950": {
+  "name": "read_section",
+  "size": 577
+ },
+ "0x4a8960": {
+  "name": "read_string",
+  "size": 252
+ },
+ "0x4abcb0": {
+  "name": "reverse_funcinfo_list",
+  "size": 76
+ },
+ "0x4abdb0": {
+  "name": "reverse_varinfo_list",
+  "size": 76
+ },
+ "0x4a3620": {
+  "name": "save_section_vma",
+  "size": 312
+ },
+ "0x4a5420": {
+  "name": "scan_unit_for_symbols",
+  "size": 2989
+ },
+ "0x4a2ae0": {
+  "name": "section_vma_same",
+  "size": 216
+ },
+ "0x4a80b0": {
+  "name": "set_debug_vma",
+  "size": 261
+ },
+ "0x4a96f0": {
+  "name": "sort_line_sequences",
+  "size": 771
+ },
+ "0x4a6fe0": {
+  "name": "stash_find_line_fast",
+  "size": 184
+ },
+ "0x4a6e10": {
+  "name": "stash_maybe_enable_info_hash_tables",
+  "size": 224
+ },
+ "0x4a6ef0": {
+  "name": "stash_maybe_update_info_hash_tables",
+  "size": 239
+ },
+ "0x4a7f80": {
+  "name": "unset_sections",
+  "size": 101
+ },
+ "0x4bafc0": {
+  "name": "elf32_i386_copy_solaris_special_section_fields",
+  "size": 24
+ },
+ "0x4bb020": {
+  "name": "elf32_i386_nacl_elf_object_p",
+  "size": 49
+ },
+ "0x4bafe0": {
+  "name": "elf32_iamcu_elf_object_p",
+  "size": 49
+ },
+ "0x4ae520": {
+  "name": "elf_i386_check_relocs",
+  "size": 9032
+ },
+ "0x4ba3b0": {
+  "name": "elf_i386_check_tls_transition",
+  "size": 2383
+ },
+ "0x4b92c0": {
+  "name": "elf_i386_convert_load_reloc",
+  "size": 2737
+ },
+ "0x4ae4d0": {
+  "name": "elf_i386_fake_sections",
+  "size": 78
+ },
+ "0x4baf90": {
+  "name": "elf_i386_fbsd_post_process_headers",
+  "size": 35
+ },
+ "0x4b83d0": {
+  "name": "elf_i386_finish_dynamic_sections",
+  "size": 1558
+ },
+ "0x4b6900": {
+  "name": "elf_i386_finish_dynamic_symbol",
+  "size": 6852
+ },
+ "0x4baf40": {
+  "name": "elf_i386_finish_local_dynamic_symbol",
+  "size": 66
+ },
+ "0x4adb30": {
+  "name": "elf_i386_get_synthetic_symtab",
+  "size": 2367
+ },
+ "0x4b8aa0": {
+  "name": "elf_i386_grok_prstatus",
+  "size": 486
+ },
+ "0x4b8c90": {
+  "name": "elf_i386_grok_psinfo",
+  "size": 563
+ },
+ "0x4ae470": {
+  "name": "elf_i386_info_to_howto_rel",
+  "size": 81
+ },
+ "0x4ad330": {
+  "name": "elf_i386_is_local_label_name",
+  "size": 86
+ },
+ "0x4b9070": {
+  "name": "elf_i386_link_setup_gnu_properties",
+  "size": 294
+ },
+ "0x4b89f0": {
+  "name": "elf_i386_output_arch_local_syms",
+  "size": 170
+ },
+ "0x4baeb0": {
+  "name": "elf_i386_pie_finish_undefweak_symbol",
+  "size": 135
+ },
+ "0x4ada60": {
+  "name": "elf_i386_reloc_name_lookup",
+  "size": 195
+ },
+ "0x4b8ed0": {
+  "name": "elf_i386_reloc_type_class",
+  "size": 410
+ },
+ "0x4ad390": {
+  "name": "elf_i386_reloc_type_lookup",
+  "size": 1739
+ },
+ "0x4b0870": {
+  "name": "elf_i386_relocate_section",
+  "size": 24716
+ },
+ "0x4b91a0": {
+  "name": "elf_i386_rtype_to_howto",
+  "size": 282
+ },
+ "0x4b9d80": {
+  "name": "elf_i386_tls_transition",
+  "size": 1576
+ },
+ "0x4bad00": {
+  "name": "elf_i386_tpoff",
+  "size": 425
+ },
+ "0x4bb5c0": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x4bb200": {
+  "name": "elf_vxworks_gott_symbol_p",
+  "size": 164
+ },
+ "0x4bd940": {
+  "name": "elf_file_p",
+  "size": 106
+ },
+ "0x4bfc20": {
+  "name": "elf_slurp_reloc_table_from_section",
+  "size": 971
+ },
+ "0x4bd9b0": {
+  "name": "elf_swap_ehdr_in",
+  "size": 643
+ },
+ "0x4be530": {
+  "name": "elf_swap_ehdr_out",
+  "size": 691
+ },
+ "0x4bdc40": {
+  "name": "elf_swap_shdr_in",
+  "size": 517
+ },
+ "0x4be7f0": {
+  "name": "elf_swap_shdr_out",
+  "size": 355
+ },
+ "0x4c2830": {
+  "name": "MY_bfd_copy_private_section_data",
+  "size": 91
+ },
+ "0x4c27f0": {
+  "name": "MY_close_and_cleanup",
+  "size": 63
+ },
+ "0x4c48a0": {
+  "name": "MY_final_link_callback",
+  "size": 1564
+ },
+ "0x4c5b00": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x4c2a30": {
+  "name": "i386_aout_linux_callback",
+  "size": 7637
+ },
+ "0x4c1f20": {
+  "name": "i386_aout_linux_mkobject",
+  "size": 27
+ },
+ "0x4c1cd0": {
+  "name": "i386_aout_linux_object_p",
+  "size": 585
+ },
+ "0x4c4ec0": {
+  "name": "i386_aout_linux_set_sizes",
+  "size": 90
+ },
+ "0x4c2920": {
+  "name": "i386linux_bfd_final_link",
+  "size": 63
+ },
+ "0x4c1f40": {
+  "name": "i386linux_write_object_contents",
+  "size": 2213
+ },
+ "0x4c4f20": {
+  "name": "linux_add_one_symbol",
+  "size": 1008
+ },
+ "0x4c5310": {
+  "name": "linux_finish_dynamic_link",
+  "size": 1872
+ },
+ "0x4c5a60": {
+  "name": "linux_link_create_dynamic_sections",
+  "size": 145
+ },
+ "0x4c4810": {
+  "name": "linux_link_hash_newfunc",
+  "size": 139
+ },
+ "0x4c2890": {
+  "name": "linux_link_hash_table_create",
+  "size": 137
+ },
+ "0x4c17f0": {
+  "name": "linux_tally_symbols",
+  "size": 1248
+ },
+ "0x4c2960": {
+  "name": "new_fixup",
+  "size": 206
+ },
+ "0x4ca300": {
+  "name": "add_to_stringtab",
+  "size": 239
+ },
+ "0x4c8a00": {
+  "name": "adjust_n_magic",
+  "size": 1243
+ },
+ "0x4c77b0": {
+  "name": "adjust_o_magic",
+  "size": 1111
+ },
+ "0x4c7c10": {
+  "name": "adjust_z_magic",
+  "size": 3563
+ },
+ "0x4c9da0": {
+  "name": "aout_get_external_symbols",
+  "size": 724
+ },
+ "0x4cdaa0": {
+  "name": "aout_link_add_object_symbols",
+  "size": 173
+ },
+ "0x4d02f0": {
+  "name": "aout_link_add_symbols",
+  "size": 2754
+ },
+ "0x4d0e60": {
+  "name": "aout_link_check_ar_symbols",
+  "size": 1502
+ },
+ "0x4cdb50": {
+  "name": "aout_link_check_archive_element",
+  "size": 414
+ },
+ "0x4d0dc0": {
+  "name": "aout_link_free_symbols",
+  "size": 157
+ },
+ "0x4ceca0": {
+  "name": "aout_link_includes_newfunc",
+  "size": 146
+ },
+ "0x4cf390": {
+  "name": "aout_link_input_bfd",
+  "size": 729
+ },
+ "0x4d2d20": {
+  "name": "aout_link_input_section",
+  "size": 769
+ },
+ "0x4d41c0": {
+  "name": "aout_link_input_section_ext",
+  "size": 4873
+ },
+ "0x4d3030": {
+  "name": "aout_link_input_section_std",
+  "size": 4496
+ },
+ "0x4cf670": {
+  "name": "aout_link_reloc_link_order",
+  "size": 3191
+ },
+ "0x4ced40": {
+  "name": "aout_link_write_other_symbol",
+  "size": 1605
+ },
+ "0x4d1440": {
+  "name": "aout_link_write_symbols",
+  "size": 6353
+ },
+ "0x4d54d0": {
+  "name": "aout_reloc_index_to_section",
+  "size": 194
+ },
+ "0x4cabb0": {
+  "name": "emit_stringtab",
+  "size": 149
+ },
+ "0x4c9680": {
+  "name": "translate_from_native_sym_flags",
+  "size": 1364
+ },
+ "0x4ca3f0": {
+  "name": "translate_to_native_sym_flags",
+  "size": 1976
+ },
+ "0x4de560": {
+  "name": "bfd_coff_set_long_section_names_allowed",
+  "size": 39
+ },
+ "0x4da400": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x4dc1d0": {
+  "name": "bfd_set_section_vma",
+  "size": 108
+ },
+ "0x4dd340": {
+  "name": "buy_and_read",
+  "size": 143
+ },
+ "0x4dbfd0": {
+  "name": "coff_apply_checksum",
+  "size": 371
+ },
+ "0x4dea10": {
+  "name": "coff_bad_format_hook",
+  "size": 135
+ },
+ "0x4d75d0": {
+  "name": "coff_canonicalize_reloc",
+  "size": 354
+ },
+ "0x4dd470": {
+  "name": "coff_classify_symbol",
+  "size": 403
+ },
+ "0x4dc390": {
+  "name": "coff_compute_checksum",
+  "size": 268
+ },
+ "0x4da470": {
+  "name": "coff_compute_section_file_positions",
+  "size": 4136
+ },
+ "0x4d7580": {
+  "name": "coff_i386_is_local_label_name",
+  "size": 69
+ },
+ "0x4ddf10": {
+  "name": "coff_i386_reloc",
+  "size": 1602
+ },
+ "0x4d7870": {
+  "name": "coff_i386_reloc_name_lookup",
+  "size": 193
+ },
+ "0x4d7740": {
+  "name": "coff_i386_reloc_type_lookup",
+  "size": 296
+ },
+ "0x4dfb40": {
+  "name": "coff_i386_rtype_to_howto",
+  "size": 843
+ },
+ "0x4dfe90": {
+  "name": "coff_link_output_has_begun",
+  "size": 74
+ },
+ "0x4d7320": {
+  "name": "coff_new_section_hook",
+  "size": 209
+ },
+ "0x4dfaa0": {
+  "name": "coff_pe_i386_relocate_section",
+  "size": 158
+ },
+ "0x4df970": {
+  "name": "coff_print_aux",
+  "size": 123
+ },
+ "0x4dc2d0": {
+  "name": "coff_read_word",
+  "size": 190
+ },
+ "0x4df530": {
+  "name": "coff_set_alignment_hook",
+  "size": 1073
+ },
+ "0x4d7940": {
+  "name": "coff_set_arch_mach",
+  "size": 120
+ },
+ "0x4deaa0": {
+  "name": "coff_set_arch_mach_hook",
+  "size": 185
+ },
+ "0x4dc4a0": {
+  "name": "coff_set_custom_section_alignment",
+  "size": 393
+ },
+ "0x4dbb10": {
+  "name": "coff_set_flags",
+  "size": 89
+ },
+ "0x4d79c0": {
+  "name": "coff_set_section_contents",
+  "size": 476
+ },
+ "0x4dd610": {
+  "name": "coff_slurp_line_table",
+  "size": 2108
+ },
+ "0x4dc630": {
+  "name": "coff_slurp_reloc_table",
+  "size": 1401
+ },
+ "0x4dcbb0": {
+  "name": "coff_slurp_symbol_table",
+  "size": 1921
+ },
+ "0x4dde50": {
+  "name": "coff_sort_func_alent",
+  "size": 177
+ },
+ "0x4de590": {
+  "name": "coff_swap_filehdr_in",
+  "size": 409
+ },
+ "0x4dd3d0": {
+  "name": "coff_swap_reloc_in",
+  "size": 145
+ },
+ "0x4dc240": {
+  "name": "coff_swap_reloc_out",
+  "size": 143
+ },
+ "0x4de730": {
+  "name": "coff_swap_scnhdr_in",
+  "size": 725
+ },
+ "0x4d5ac0": {
+  "name": "coff_write_object_contents",
+  "size": 6235
+ },
+ "0x4dbb70": {
+  "name": "coff_write_relocs",
+  "size": 1116
+ },
+ "0x4dfa50": {
+  "name": "dummy_reloc16_estimate",
+  "size": 67
+ },
+ "0x4df9f0": {
+  "name": "dummy_reloc16_extra_cases",
+  "size": 81
+ },
+ "0x4dfee0": {
+  "name": "handle_COMDAT",
+  "size": 1767
+ },
+ "0x4da420": {
+  "name": "in_reloc_p",
+  "size": 76
+ },
+ "0x4d8440": {
+  "name": "pe_ILF_build_a_bfd",
+  "size": 5745
+ },
+ "0x4d9dd0": {
+  "name": "pe_ILF_make_a_reloc",
+  "size": 71
+ },
+ "0x4d9ac0": {
+  "name": "pe_ILF_make_a_section",
+  "size": 772
+ },
+ "0x4d9f90": {
+  "name": "pe_ILF_make_a_symbol",
+  "size": 866
+ },
+ "0x4da300": {
+  "name": "pe_ILF_make_a_symbol_reloc",
+  "size": 253
+ },
+ "0x4d7ba0": {
+  "name": "pe_ILF_object_p",
+  "size": 1327
+ },
+ "0x4d9e20": {
+  "name": "pe_ILF_save_relocs",
+  "size": 368
+ },
+ "0x4d7400": {
+  "name": "pe_bfd_copy_private_bfd_data",
+  "size": 232
+ },
+ "0x4d55a0": {
+  "name": "pe_bfd_object_p",
+  "size": 1133
+ },
+ "0x4d80d0": {
+  "name": "pe_bfd_read_buildid",
+  "size": 865
+ },
+ "0x4d5a10": {
+  "name": "pe_mkobject",
+  "size": 168
+ },
+ "0x4deb60": {
+  "name": "pe_mkobject_hook",
+  "size": 638
+ },
+ "0x4d74f0": {
+  "name": "pe_print_private_bfd_data",
+  "size": 143
+ },
+ "0x4db4a0": {
+  "name": "sec_to_styp_flags",
+  "size": 1636
+ },
+ "0x4dc150": {
+  "name": "sort_by_secaddr",
+  "size": 119
+ },
+ "0x4dede0": {
+  "name": "styp_to_sec_flags",
+  "size": 1871
+ },
+ "0x4e0be0": {
+  "name": "abs_finder",
+  "size": 114
+ },
+ "0x4e29d0": {
+  "name": "add_data_entry",
+  "size": 384
+ },
+ "0x4e4930": {
+  "name": "cleanup_syms",
+  "size": 53
+ },
+ "0x4e8cc0": {
+  "name": "find_section_by_vma",
+  "size": 51
+ },
+ "0x4eaf00": {
+  "name": "is_vma_in_section",
+  "size": 103
+ },
+ "0x4e4840": {
+  "name": "my_symbol_for_address",
+  "size": 229
+ },
+ "0x4e7d80": {
+  "name": "pe_print_debugdata",
+  "size": 1597
+ },
+ "0x4e6290": {
+  "name": "pe_print_edata",
+  "size": 4341
+ },
+ "0x4e5630": {
+  "name": "pe_print_idata",
+  "size": 3159
+ },
+ "0x4e7390": {
+  "name": "pe_print_pdata",
+  "size": 1559
+ },
+ "0x4e79b0": {
+  "name": "pe_print_reloc",
+  "size": 974
+ },
+ "0x4eb310": {
+  "name": "rsrc_attach_chain",
+  "size": 182
+ },
+ "0x4ec6e0": {
+  "name": "rsrc_cmp",
+  "size": 390
+ },
+ "0x4eb990": {
+  "name": "rsrc_compute_region_sizes",
+  "size": 364
+ },
+ "0x4edd60": {
+  "name": "rsrc_compute_rva",
+  "size": 77
+ },
+ "0x4eaf70": {
+  "name": "rsrc_count_directory",
+  "size": 379
+ },
+ "0x4ebe80": {
+  "name": "rsrc_count_entries",
+  "size": 729
+ },
+ "0x4ec870": {
+  "name": "rsrc_merge",
+  "size": 388
+ },
+ "0x4eca00": {
+  "name": "rsrc_merge_string_entries",
+  "size": 1280
+ },
+ "0x4eb0f0": {
+  "name": "rsrc_parse_directory",
+  "size": 529
+ },
+ "0x4ec160": {
+  "name": "rsrc_parse_entries",
+  "size": 453
+ },
+ "0x4ec330": {
+  "name": "rsrc_parse_entry",
+  "size": 941
+ },
+ "0x4ed900": {
+  "name": "rsrc_print_name",
+  "size": 139
+ },
+ "0x4ea390": {
+  "name": "rsrc_print_resource_directory",
+  "size": 1152
+ },
+ "0x4ea810": {
+  "name": "rsrc_print_resource_entries",
+  "size": 1771
+ },
+ "0x4e83c0": {
+  "name": "rsrc_print_section",
+  "size": 1133
+ },
+ "0x4e9890": {
+  "name": "rsrc_process_section",
+  "size": 2499
+ },
+ "0x4ecf00": {
+  "name": "rsrc_resource_name",
+  "size": 2244
+ },
+ "0x4eb3d0": {
+  "name": "rsrc_sort_entries",
+  "size": 1457
+ },
+ "0x4ebb00": {
+  "name": "rsrc_write_directory",
+  "size": 881
+ },
+ "0x4ed990": {
+  "name": "rsrc_write_entry",
+  "size": 500
+ },
+ "0x4edc30": {
+  "name": "rsrc_write_leaf",
+  "size": 297
+ },
+ "0x4edb90": {
+  "name": "rsrc_write_string",
+  "size": 149
+ },
+ "0x4ea260": {
+  "name": "slurp_symtab",
+  "size": 290
+ },
+ "0x4ed7d0": {
+  "name": "u16_mbtouc",
+  "size": 290
+ },
+ "0x4ee0b0": {
+  "name": "coff_link_add_object_symbols",
+  "size": 192
+ },
+ "0x4f6070": {
+  "name": "coff_link_add_symbols",
+  "size": 3992
+ },
+ "0x4ee170": {
+  "name": "coff_link_check_archive_element",
+  "size": 246
+ },
+ "0x4f70b0": {
+  "name": "dores_com",
+  "size": 244
+ },
+ "0x4f7010": {
+  "name": "get_name",
+  "size": 145
+ },
+ "0x4f52e0": {
+  "name": "mark_relocs",
+  "size": 663
+ },
+ "0x4f4f60": {
+  "name": "process_embedded_commands",
+  "size": 884
+ },
+ "0x4fe7c0": {
+  "name": "_bfd_coff_gc_keep",
+  "size": 278
+ },
+ "0x4fe8e0": {
+  "name": "_bfd_coff_gc_mark",
+  "size": 342
+ },
+ "0x4feba0": {
+  "name": "_bfd_coff_gc_mark_extra_sections",
+  "size": 474
+ },
+ "0x4fea40": {
+  "name": "_bfd_coff_gc_mark_hook",
+  "size": 346
+ },
+ "0x4ff6f0": {
+  "name": "_bfd_coff_gc_mark_reloc",
+  "size": 319
+ },
+ "0x4ff9e0": {
+  "name": "_bfd_coff_gc_mark_rsec",
+  "size": 373
+ },
+ "0x4fc6b0": {
+  "name": "build_debug_section",
+  "size": 266
+ },
+ "0x4ff0d0": {
+  "name": "coff_fix_symbol_name",
+  "size": 1403
+ },
+ "0x4fed80": {
+  "name": "coff_gc_sweep",
+  "size": 843
+ },
+ "0x4ffbd0": {
+  "name": "coff_gc_sweep_symbol",
+  "size": 365
+ },
+ "0x4fc370": {
+  "name": "coff_pointerize_aux",
+  "size": 607
+ },
+ "0x4fb240": {
+  "name": "coff_write_native_symbol",
+  "size": 812
+ },
+ "0x4fa350": {
+  "name": "coff_write_symbol",
+  "size": 1119
+ },
+ "0x4fc5d0": {
+  "name": "copy_name",
+  "size": 214
+ },
+ "0x4ff9d0": {
+  "name": "fini_reloc_cookie",
+  "size": 14
+ },
+ "0x4ff830": {
+  "name": "fini_reloc_cookie_for_section",
+  "size": 55
+ },
+ "0x4ffb60": {
+  "name": "fini_reloc_cookie_rels",
+  "size": 99
+ },
+ "0x4f97a0": {
+  "name": "fixup_symbol_value",
+  "size": 564
+ },
+ "0x4ff870": {
+  "name": "init_reloc_cookie",
+  "size": 124
+ },
+ "0x4ff650": {
+  "name": "init_reloc_cookie_for_section",
+  "size": 150
+ },
+ "0x4ff8f0": {
+  "name": "init_reloc_cookie_rels",
+  "size": 222
+ },
+ "0x4f7a90": {
+  "name": "make_a_section_from_file",
+  "size": 2172
+ },
+ "0x4fb230": {
+  "name": "null_error_handler",
+  "size": 14
+ },
+ "0x50b590": {
+  "name": "bfd_coff_set_long_section_names_allowed",
+  "size": 39
+ },
+ "0x507280": {
+  "name": "bfd_set_section_alignment",
+  "size": 32
+ },
+ "0x509080": {
+  "name": "bfd_set_section_vma",
+  "size": 87
+ },
+ "0x50a1e0": {
+  "name": "buy_and_read",
+  "size": 143
+ },
+ "0x502c40": {
+  "name": "coff_amd64_is_local_label_name",
+  "size": 69
+ },
+ "0x50ada0": {
+  "name": "coff_amd64_reloc",
+  "size": 2027
+ },
+ "0x503040": {
+  "name": "coff_amd64_reloc_name_lookup",
+  "size": 195
+ },
+ "0x502e10": {
+  "name": "coff_amd64_reloc_type_lookup",
+  "size": 558
+ },
+ "0x50cbe0": {
+  "name": "coff_amd64_rtype_to_howto",
+  "size": 885
+ },
+ "0x508e80": {
+  "name": "coff_apply_checksum",
+  "size": 371
+ },
+ "0x50ba60": {
+  "name": "coff_bad_format_hook",
+  "size": 66
+ },
+ "0x502c90": {
+  "name": "coff_canonicalize_reloc",
+  "size": 372
+ },
+ "0x50a310": {
+  "name": "coff_classify_symbol",
+  "size": 403
+ },
+ "0x509230": {
+  "name": "coff_compute_checksum",
+  "size": 245
+ },
+ "0x5072f0": {
+  "name": "coff_compute_section_file_positions",
+  "size": 4193
+ },
+ "0x50cf60": {
+  "name": "coff_link_output_has_begun",
+  "size": 50
+ },
+ "0x5029b0": {
+  "name": "coff_new_section_hook",
+  "size": 209
+ },
+ "0x50cb20": {
+  "name": "coff_pe_amd64_relocate_section",
+  "size": 188
+ },
+ "0x50c9f0": {
+  "name": "coff_print_aux",
+  "size": 123
+ },
+ "0x509170": {
+  "name": "coff_read_word",
+  "size": 192
+ },
+ "0x50c5c0": {
+  "name": "coff_set_alignment_hook",
+  "size": 1059
+ },
+ "0x503110": {
+  "name": "coff_set_arch_mach",
+  "size": 120
+ },
+ "0x50bab0": {
+  "name": "coff_set_arch_mach_hook",
+  "size": 121
+ },
+ "0x509330": {
+  "name": "coff_set_custom_section_alignment",
+  "size": 391
+ },
+ "0x508980": {
+  "name": "coff_set_flags",
+  "size": 89
+ },
+ "0x503190": {
+  "name": "coff_set_section_contents",
+  "size": 452
+ },
+ "0x50a4b0": {
+  "name": "coff_slurp_line_table",
+  "size": 2095
+ },
+ "0x5094c0": {
+  "name": "coff_slurp_reloc_table",
+  "size": 1398
+ },
+ "0x509a40": {
+  "name": "coff_slurp_symbol_table",
+  "size": 1945
+ },
+ "0x50ace0": {
+  "name": "coff_sort_func_alent",
+  "size": 177
+ },
+ "0x50b5c0": {
+  "name": "coff_swap_filehdr_in",
+  "size": 474
+ },
+ "0x50a270": {
+  "name": "coff_swap_reloc_in",
+  "size": 145
+ },
+ "0x5090e0": {
+  "name": "coff_swap_reloc_out",
+  "size": 143
+ },
+ "0x50b7a0": {
+  "name": "coff_swap_scnhdr_in",
+  "size": 696
+ },
+ "0x501320": {
+  "name": "coff_write_object_contents",
+  "size": 5766
+ },
+ "0x5089e0": {
+  "name": "coff_write_relocs",
+  "size": 1180
+ },
+ "0x50cad0": {
+  "name": "dummy_reloc16_estimate",
+  "size": 67
+ },
+ "0x50ca70": {
+  "name": "dummy_reloc16_extra_cases",
+  "size": 81
+ },
+ "0x50cfa0": {
+  "name": "handle_COMDAT",
+  "size": 1725
+ },
+ "0x5072a0": {
+  "name": "in_reloc_p",
+  "size": 76
+ },
+ "0x505300": {
+  "name": "pe_ILF_build_a_bfd",
+  "size": 5650
+ },
+ "0x506c40": {
+  "name": "pe_ILF_make_a_reloc",
+  "size": 71
+ },
+ "0x506920": {
+  "name": "pe_ILF_make_a_section",
+  "size": 793
+ },
+ "0x506e00": {
+  "name": "pe_ILF_make_a_symbol",
+  "size": 879
+ },
+ "0x507170": {
+  "name": "pe_ILF_make_a_symbol_reloc",
+  "size": 261
+ },
+ "0x504a80": {
+  "name": "pe_ILF_object_p",
+  "size": 1308
+ },
+ "0x506c90": {
+  "name": "pe_ILF_save_relocs",
+  "size": 368
+ },
+ "0x502a90": {
+  "name": "pe_bfd_copy_private_bfd_data",
+  "size": 280
+ },
+ "0x500e00": {
+  "name": "pe_bfd_object_p",
+  "size": 1133
+ },
+ "0x504fa0": {
+  "name": "pe_bfd_read_buildid",
+  "size": 857
+ },
+ "0x501270": {
+  "name": "pe_mkobject",
+  "size": 168
+ },
+ "0x50bb30": {
+  "name": "pe_mkobject_hook",
+  "size": 620
+ },
+ "0x502bb0": {
+  "name": "pe_print_private_bfd_data",
+  "size": 143
+ },
+ "0x4ffdd0": {
+  "name": "pex64_bfd_print_pdata_section",
+  "size": 3998
+ },
+ "0x503550": {
+  "name": "pex64_dump_xdata",
+  "size": 2326
+ },
+ "0x503360": {
+  "name": "pex64_get_runtime_function",
+  "size": 125
+ },
+ "0x503440": {
+  "name": "pex64_get_section_by_rva",
+  "size": 269
+ },
+ "0x503e70": {
+  "name": "pex64_get_unwind_info",
+  "size": 581
+ },
+ "0x500d70": {
+  "name": "pex64_print_all_pdata_sections",
+  "size": 129
+ },
+ "0x5040c0": {
+  "name": "pex64_xdata_print_uwd_codes",
+  "size": 2491
+ },
+ "0x508360": {
+  "name": "sec_to_styp_flags",
+  "size": 1562
+ },
+ "0x509000": {
+  "name": "sort_by_secaddr",
+  "size": 119
+ },
+ "0x5033e0": {
+  "name": "sort_xdata_arr",
+  "size": 95
+ },
+ "0x50bda0": {
+  "name": "styp_to_sec_flags",
+  "size": 2067
+ },
+ "0x50dc80": {
+  "name": "abs_finder",
+  "size": 102
+ },
+ "0x50f830": {
+  "name": "add_data_entry",
+  "size": 304
+ },
+ "0x511710": {
+  "name": "cleanup_syms",
+  "size": 53
+ },
+ "0x515ad0": {
+  "name": "find_section_by_vma",
+  "size": 51
+ },
+ "0x517e80": {
+  "name": "is_vma_in_section",
+  "size": 112
+ },
+ "0x511620": {
+  "name": "my_symbol_for_address",
+  "size": 227
+ },
+ "0x514b60": {
+  "name": "pe_print_debugdata",
+  "size": 1638
+ },
+ "0x513100": {
+  "name": "pe_print_edata",
+  "size": 4387
+ },
+ "0x512430": {
+  "name": "pe_print_idata",
+  "size": 3273
+ },
+ "0x514230": {
+  "name": "pe_print_pdata",
+  "size": 1356
+ },
+ "0x514780": {
+  "name": "pe_print_reloc",
+  "size": 985
+ },
+ "0x518290": {
+  "name": "rsrc_attach_chain",
+  "size": 174
+ },
+ "0x519650": {
+  "name": "rsrc_cmp",
+  "size": 398
+ },
+ "0x518900": {
+  "name": "rsrc_compute_region_sizes",
+  "size": 376
+ },
+ "0x51ac60": {
+  "name": "rsrc_compute_rva",
+  "size": 65
+ },
+ "0x517ef0": {
+  "name": "rsrc_count_directory",
+  "size": 374
+ },
+ "0x518df0": {
+  "name": "rsrc_count_entries",
+  "size": 718
+ },
+ "0x5197e0": {
+  "name": "rsrc_merge",
+  "size": 388
+ },
+ "0x519970": {
+  "name": "rsrc_merge_string_entries",
+  "size": 1272
+ },
+ "0x518070": {
+  "name": "rsrc_parse_directory",
+  "size": 529
+ },
+ "0x5190c0": {
+  "name": "rsrc_parse_entries",
+  "size": 453
+ },
+ "0x519290": {
+  "name": "rsrc_parse_entry",
+  "size": 948
+ },
+ "0x51a860": {
+  "name": "rsrc_print_name",
+  "size": 139
+ },
+ "0x5172d0": {
+  "name": "rsrc_print_resource_directory",
+  "size": 1150
+ },
+ "0x517750": {
+  "name": "rsrc_print_resource_entries",
+  "size": 1837
+ },
+ "0x5151d0": {
+  "name": "rsrc_print_section",
+  "size": 1090
+ },
+ "0x516830": {
+  "name": "rsrc_process_section",
+  "size": 2385
+ },
+ "0x519e70": {
+  "name": "rsrc_resource_name",
+  "size": 2244
+ },
+ "0x518340": {
+  "name": "rsrc_sort_entries",
+  "size": 1457
+ },
+ "0x518a80": {
+  "name": "rsrc_write_directory",
+  "size": 873
+ },
+ "0x51a8f0": {
+  "name": "rsrc_write_entry",
+  "size": 395
+ },
+ "0x51ab20": {
+  "name": "rsrc_write_leaf",
+  "size": 317
+ },
+ "0x51aa80": {
+  "name": "rsrc_write_string",
+  "size": 148
+ },
+ "0x517190": {
+  "name": "slurp_symtab",
+  "size": 305
+ },
+ "0x5167b0": {
+  "name": "sort_x64_pdata",
+  "size": 117
+ },
+ "0x51a740": {
+  "name": "u16_mbtouc",
+  "size": 288
+ },
+ "0x51ad20": {
+  "name": "check_for_relocs",
+  "size": 142
+ },
+ "0x51acb0": {
+  "name": "elf64_generic_link_add_symbols",
+  "size": 99
+ },
+ "0x51adb0": {
+  "name": "elf_generic_info_to_howto",
+  "size": 36
+ },
+ "0x51ade0": {
+  "name": "elf_generic_info_to_howto_rel",
+  "size": 36
+ },
+ "0x51ae80": {
+  "name": "check_for_relocs",
+  "size": 142
+ },
+ "0x51ae10": {
+  "name": "elf32_generic_link_add_symbols",
+  "size": 99
+ },
+ "0x51af10": {
+  "name": "elf_generic_info_to_howto",
+  "size": 36
+ },
+ "0x51af40": {
+  "name": "elf_generic_info_to_howto_rel",
+  "size": 36
+ },
+ "0x51be10": {
+  "name": "add_symbols",
+  "size": 317
+ },
+ "0x51b2c0": {
+  "name": "bfd_plugin_bfd_copy_private_bfd_data",
+  "size": 47
+ },
+ "0x51b2f0": {
+  "name": "bfd_plugin_bfd_copy_private_section_data",
+  "size": 55
+ },
+ "0x51b330": {
+  "name": "bfd_plugin_bfd_copy_private_symbol_data",
+  "size": 55
+ },
+ "0x51b370": {
+  "name": "bfd_plugin_bfd_print_private_bfd_data",
+  "size": 47
+ },
+ "0x51b4a0": {
+  "name": "bfd_plugin_canonicalize_symtab",
+  "size": 508
+ },
+ "0x51b3a0": {
+  "name": "bfd_plugin_core_file_failing_command",
+  "size": 40
+ },
+ "0x51b3d0": {
+  "name": "bfd_plugin_core_file_failing_signal",
+  "size": 40
+ },
+ "0x51b400": {
+  "name": "bfd_plugin_core_file_pid",
+  "size": 40
+ },
+ "0x51b740": {
+  "name": "bfd_plugin_get_symbol_info",
+  "size": 39
+ },
+ "0x51b430": {
+  "name": "bfd_plugin_get_symtab_upper_bound",
+  "size": 111
+ },
+ "0x51b6a0": {
+  "name": "bfd_plugin_make_empty_symbol",
+  "size": 85
+ },
+ "0x51b1d0": {
+  "name": "bfd_plugin_object_p",
+  "size": 239
+ },
+ "0x51b700": {
+  "name": "bfd_plugin_print_symbol",
+  "size": 49
+ },
+ "0x51b770": {
+  "name": "bfd_plugin_sizeof_headers",
+  "size": 44
+ },
+ "0x51bfe0": {
+  "name": "convert_flags",
+  "size": 180
+ },
+ "0x51b7a0": {
+  "name": "load_plugin",
+  "size": 496
+ },
+ "0x51bc50": {
+  "name": "message",
+  "size": 412
+ },
+ "0x51bdf0": {
+  "name": "register_claim_file",
+  "size": 24
+ },
+ "0x51bf50": {
+  "name": "try_claim",
+  "size": 133
+ },
+ "0x51b990": {
+  "name": "try_load_plugin",
+  "size": 704
+ },
+ "0x51c0d0": {
+  "name": "bfd_arch_i386_fill",
+  "size": 291
+ },
+ "0x51c310": {
+  "name": "bfd_arch_i386_long_nop_fill",
+  "size": 43
+ },
+ "0x51c2b0": {
+  "name": "bfd_arch_i386_onebyte_nop_fill",
+  "size": 94
+ },
+ "0x51c200": {
+  "name": "bfd_i386_compatible",
+  "size": 171
+ },
+ "0x51c9c0": {
+  "name": "_bfd_calloc_wrapper",
+  "size": 35
+ },
+ "0x51ff60": {
+  "name": "adjust_relative_path",
+  "size": 1514
+ },
+ "0x523670": {
+  "name": "archive_close_worker",
+  "size": 56
+ },
+ "0x521690": {
+  "name": "bfd_ar_hdr_from_filesystem",
+  "size": 999
+ },
+ "0x51e380": {
+  "name": "do_slurp_bsd_armap",
+  "size": 821
+ },
+ "0x51e6c0": {
+  "name": "do_slurp_coff_armap",
+  "size": 1495
+ },
+ "0x51c980": {
+  "name": "eq_file_ptr",
+  "size": 52
+ },
+ "0x51d7a0": {
+  "name": "find_nested_archive",
+  "size": 236
+ },
+ "0x51cfb0": {
+  "name": "get_extended_arelt_filename",
+  "size": 350
+ },
+ "0x51c960": {
+  "name": "hash_file_ptr",
+  "size": 19
+ },
+ "0x520550": {
+  "name": "normalize",
+  "size": 31
+ },
+ "0x51d890": {
+  "name": "open_nested_file",
+  "size": 489
+ },
+ "0x523730": {
+  "name": "close_on_exec",
+  "size": 113
+ },
+ "0x524570": {
+  "name": "memory_bclose",
+  "size": 84
+ },
+ "0x5245d0": {
+  "name": "memory_bflush",
+  "size": 12
+ },
+ "0x524630": {
+  "name": "memory_bmmap",
+  "size": 55
+ },
+ "0x524050": {
+  "name": "memory_bread",
+  "size": 199
+ },
+ "0x524300": {
+  "name": "memory_bseek",
+  "size": 612
+ },
+ "0x5245e0": {
+  "name": "memory_bstat",
+  "size": 78
+ },
+ "0x5242e0": {
+  "name": "memory_btell",
+  "size": 18
+ },
+ "0x524120": {
+  "name": "memory_bwrite",
+  "size": 440
+ },
+ "0x5249e0": {
+  "name": "bfd_cache_delete",
+  "size": 114
+ },
+ "0x5256c0": {
+  "name": "bfd_cache_lookup_worker",
+  "size": 664
+ },
+ "0x524730": {
+  "name": "bfd_cache_max_open",
+  "size": 153
+ },
+ "0x525080": {
+  "name": "cache_bclose",
+  "size": 40
+ },
+ "0x5250b0": {
+  "name": "cache_bflush",
+  "size": 147
+ },
+ "0x525200": {
+  "name": "cache_bmmap",
+  "size": 960
+ },
+ "0x524db0": {
+  "name": "cache_bread",
+  "size": 218
+ },
+ "0x5255c0": {
+  "name": "cache_bread_1",
+  "size": 255
+ },
+ "0x524fe0": {
+  "name": "cache_bseek",
+  "size": 146
+ },
+ "0x525150": {
+  "name": "cache_bstat",
+  "size": 162
+ },
+ "0x524f60": {
+  "name": "cache_btell",
+  "size": 128
+ },
+ "0x524e90": {
+  "name": "cache_bwrite",
+  "size": 207
+ },
+ "0x5247d0": {
+  "name": "close_one",
+  "size": 281
+ },
+ "0x5248f0": {
+  "name": "insert",
+  "size": 134
+ },
+ "0x525960": {
+  "name": "snip",
+  "size": 119
+ },
+ "0x526750": {
+  "name": "bfd_compress_section_contents",
+  "size": 1052
+ },
+ "0x525e60": {
+  "name": "decompress_contents",
+  "size": 384
+ },
+ "0x52c620": {
+  "name": "already_linked_newfunc",
+  "size": 94
+ },
+ "0x52c200": {
+  "name": "default_data_link_order",
+  "size": 647
+ },
+ "0x52b790": {
+  "name": "default_indirect_link_order",
+  "size": 1594
+ },
+ "0x52d1a0": {
+  "name": "fix_syms",
+  "size": 444
+ },
+ "0x52b210": {
+  "name": "generic_add_output_symbol",
+  "size": 266
+ },
+ "0x527e30": {
+  "name": "generic_link_add_object_symbols",
+  "size": 110
+ },
+ "0x52dc70": {
+  "name": "generic_link_add_symbol_list",
+  "size": 1054
+ },
+ "0x528300": {
+  "name": "generic_link_check_archive_element",
+  "size": 1168
+ },
+ "0x529da0": {
+  "name": "hash_entry_bfd",
+  "size": 230
+ },
+ "0x52be80": {
+  "name": "set_symbol_from_hash",
+  "size": 710
+ },
+ "0x5308d0": {
+  "name": "is_suffix",
+  "size": 141
+ },
+ "0x52ef10": {
+  "name": "merge_strings",
+  "size": 1641
+ },
+ "0x52ea50": {
+  "name": "record_section",
+  "size": 1216
+ },
+ "0x530540": {
+  "name": "sec_merge_add",
+  "size": 211
+ },
+ "0x52f700": {
+  "name": "sec_merge_emit",
+  "size": 902
+ },
+ "0x52ff30": {
+  "name": "sec_merge_hash_lookup",
+  "size": 1260
+ },
+ "0x530480": {
+  "name": "sec_merge_hash_newfunc",
+  "size": 178
+ },
+ "0x52e620": {
+  "name": "sec_merge_init",
+  "size": 194
+ },
+ "0x5307b0": {
+  "name": "strrevcmp",
+  "size": 275
+ },
+ "0x530620": {
+  "name": "strrevcmp_align",
+  "size": 386
+ },
+ "0x534310": {
+  "name": "simple_dummy_einfo",
+  "size": 10
+ },
+ "0x5342f0": {
+  "name": "simple_dummy_multiple_definition",
+  "size": 26
+ },
+ "0x5342b0": {
+  "name": "simple_dummy_reloc_dangerous",
+  "size": 26
+ },
+ "0x534280": {
+  "name": "simple_dummy_reloc_overflow",
+  "size": 46
+ },
+ "0x5342d0": {
+  "name": "simple_dummy_unattached_reloc",
+  "size": 26
+ },
+ "0x534260": {
+  "name": "simple_dummy_undefined_symbol",
+  "size": 30
+ },
+ "0x534240": {
+  "name": "simple_dummy_warning",
+  "size": 30
+ },
+ "0x5343c0": {
+  "name": "simple_restore_output_info",
+  "size": 109
+ },
+ "0x534320": {
+  "name": "simple_save_output_info",
+  "size": 160
+ },
+ "0x535780": {
+  "name": "stab_link_includes_newfunc",
+  "size": 146
+ },
+ "0x538920": {
+  "name": "cmpindexentry",
+  "size": 104
+ },
+ "0x536ba0": {
+  "name": "coff_section_type",
+  "size": 150
+ },
+ "0x536c40": {
+  "name": "decode_section_type",
+  "size": 452
+ },
+ "0x53a370": {
+  "name": "deflateStateCheck",
+  "size": 240
+ },
+ "0x53f200": {
+  "name": "deflate_fast",
+  "size": 2787
+ },
+ "0x53e160": {
+  "name": "deflate_huff",
+  "size": 1104
+ },
+ "0x53e5b0": {
+  "name": "deflate_rle",
+  "size": 2281
+ },
+ "0x53fcf0": {
+  "name": "deflate_slow",
+  "size": 3436
+ },
+ "0x53d5a0": {
+  "name": "deflate_stored",
+  "size": 2993
+ },
+ "0x53a460": {
+  "name": "fill_window",
+  "size": 1603
+ },
+ "0x53d3d0": {
+  "name": "flush_pending",
+  "size": 302
+ },
+ "0x53ad20": {
+  "name": "lm_init",
+  "size": 408
+ },
+ "0x540a60": {
+  "name": "longest_match",
+  "size": 1281
+ },
+ "0x53d500": {
+  "name": "putShortMSB",
+  "size": 146
+ },
+ "0x540f70": {
+  "name": "read_buf",
+  "size": 273
+ },
+ "0x53ce90": {
+  "name": "slide_hash",
+  "size": 297
+ },
+ "0x545470": {
+  "name": "fixedtables",
+  "size": 68
+ },
+ "0x5411e0": {
+  "name": "inflateStateCheck",
+  "size": 159
+ },
+ "0x545d40": {
+  "name": "syncsearch",
+  "size": 226
+ },
+ "0x5454c0": {
+  "name": "updatewindow",
+  "size": 657
+ },
+ "0x547470": {
+  "name": "bi_flush",
+  "size": 335
+ },
+ "0x54ab00": {
+  "name": "bi_reverse",
+  "size": 118
+ },
+ "0x547330": {
+  "name": "bi_windup",
+  "size": 279
+ },
+ "0x5486b0": {
+  "name": "build_bl_tree",
+  "size": 315
+ },
+ "0x548220": {
+  "name": "build_tree",
+  "size": 1164
+ },
+ "0x5487f0": {
+  "name": "compress_block",
+  "size": 3996
+ },
+ "0x5480e0": {
+  "name": "detect_data_type",
+  "size": 306
+ },
+ "0x54a520": {
+  "name": "gen_bitlen",
+  "size": 1232
+ },
+ "0x54a9f0": {
+  "name": "gen_codes",
+  "size": 263
+ },
+ "0x546de0": {
+  "name": "init_block",
+  "size": 265
+ },
+ "0x54a300": {
+  "name": "pqdownheap",
+  "size": 535
+ },
+ "0x54ab80": {
+  "name": "scan_tree",
+  "size": 616
+ },
+ "0x549790": {
+  "name": "send_all_trees",
+  "size": 2406
+ },
+ "0x54adf0": {
+  "name": "send_tree",
+  "size": 5171
+ },
+ "0x546dd0": {
+  "name": "tr_static_init",
+  "size": 6
+ },
+ "0x54d200": {
+  "name": "adler32_combine_",
+  "size": 691
+ },
+ "0x54e3f0": {
+  "name": "crc32_big",
+  "size": 4135
+ },
+ "0x54f480": {
+  "name": "crc32_combine_",
+  "size": 453
+ },
+ "0x54d580": {
+  "name": "crc32_little",
+  "size": 3691
+ },
+ "0x54f680": {
+  "name": "gf2_matrix_square",
+  "size": 96
+ },
+ "0x54f6e0": {
+  "name": "gf2_matrix_times",
+  "size": 170
+ },
+ "0x558e30": {
+  "name": "arm_pt",
+  "size": 769
+ },
+ "0x5585c0": {
+  "name": "arm_special",
+  "size": 457
+ },
+ "0x55a250": {
+  "name": "code_for_qualifier",
+  "size": 131
+ },
+ "0x5563f0": {
+  "name": "consume_count",
+  "size": 430
+ },
+ "0x556770": {
+  "name": "consume_count_with_underscores",
+  "size": 306
+ },
+ "0x557cf0": {
+  "name": "delete_non_B_K_work_stuff",
+  "size": 302
+ },
+ "0x553c10": {
+  "name": "delete_work_stuff",
+  "size": 36
+ },
+ "0x55a570": {
+  "name": "demangle_args",
+  "size": 1466
+ },
+ "0x557ea0": {
+  "name": "demangle_arm_hp_template",
+  "size": 1811
+ },
+ "0x55a2e0": {
+  "name": "demangle_class",
+  "size": 642
+ },
+ "0x55ac10": {
+  "name": "demangle_class_name",
+  "size": 126
+ },
+ "0x557aa0": {
+  "name": "demangle_expression",
+  "size": 578
+ },
+ "0x5592b0": {
+  "name": "demangle_function_name",
+  "size": 2565
+ },
+ "0x55b1b0": {
+  "name": "demangle_fund_type",
+  "size": 2500
+ },
+ "0x557630": {
+  "name": "demangle_integral_value",
+  "size": 511
+ },
+ "0x55b0b0": {
+  "name": "demangle_nested_args",
+  "size": 214
+ },
+ "0x553c40": {
+  "name": "demangle_prefix",
+  "size": 2754
+ },
+ "0x555510": {
+  "name": "demangle_qualified",
+  "size": 1704
+ },
+ "0x55b190": {
+  "name": "demangle_qualifier",
+  "size": 32
+ },
+ "0x557830": {
+  "name": "demangle_real_value",
+  "size": 619
+ },
+ "0x554710": {
+  "name": "demangle_signature",
+  "size": 3364
+ },
+ "0x555bc0": {
+  "name": "demangle_template",
+  "size": 2091
+ },
+ "0x557070": {
+  "name": "demangle_template_template_parm",
+  "size": 437
+ },
+ "0x557230": {
+  "name": "demangle_template_value_parm",
+  "size": 1015
+ },
+ "0x55adb0": {
+  "name": "do_arg",
+  "size": 476
+ },
+ "0x558ab0": {
+  "name": "do_hpacc_template_const_value",
+  "size": 543
+ },
+ "0x558cd0": {
+  "name": "do_hpacc_template_literal",
+  "size": 339
+ },
+ "0x551040": {
+  "name": "do_type",
+  "size": 2942
+ },
+ "0x55afc0": {
+  "name": "forget_B_and_K_types",
+  "size": 237
+ },
+ "0x557e20": {
+  "name": "forget_types",
+  "size": 121
+ },
+ "0x556ec0": {
+  "name": "get_count",
+  "size": 424
+ },
+ "0x553220": {
+  "name": "gnu_special",
+  "size": 2540
+ },
+ "0x552f40": {
+  "name": "internal_cplus_demangle",
+  "size": 564
+ },
+ "0x558790": {
+  "name": "iterate_demangle_function",
+  "size": 790
+ },
+ "0x5554a0": {
+  "name": "mop_up",
+  "size": 105
+ },
+ "0x55af90": {
+  "name": "pop_processed_type",
+  "size": 33
+ },
+ "0x55ac90": {
+  "name": "push_processed_type",
+  "size": 279
+ },
+ "0x55ab30": {
+  "name": "qualifier_string",
+  "size": 223
+ },
+ "0x5568d0": {
+  "name": "recursively_demangle",
+  "size": 222
+ },
+ "0x556680": {
+  "name": "register_Btype",
+  "size": 233
+ },
+ "0x556b80": {
+  "name": "remember_Btype",
+  "size": 114
+ },
+ "0x556a40": {
+  "name": "remember_Ktype",
+  "size": 306
+ },
+ "0x55a100": {
+  "name": "remember_type",
+  "size": 324
+ },
+ "0x559140": {
+  "name": "snarf_numeric_literal",
+  "size": 356
+ },
+ "0x551c10": {
+  "name": "squangle_mop_up",
+  "size": 135
+ },
+ "0x556600": {
+  "name": "string_append",
+  "size": 122
+ },
+ "0x556e70": {
+  "name": "string_append_template_idx",
+  "size": 67
+ },
+ "0x5565a0": {
+  "name": "string_appendn",
+  "size": 89
+ },
+ "0x5569b0": {
+  "name": "string_appends",
+  "size": 140
+ },
+ "0x5568b0": {
+  "name": "string_clear",
+  "size": 25
+ },
+ "0x551bc0": {
+  "name": "string_delete",
+  "size": 79
+ },
+ "0x5531f0": {
+  "name": "string_init",
+  "size": 45
+ },
+ "0x556c70": {
+  "name": "string_need",
+  "size": 345
+ },
+ "0x555440": {
+  "name": "string_prepend",
+  "size": 94
+ },
+ "0x556dd0": {
+  "name": "string_prependn",
+  "size": 155
+ },
+ "0x556c00": {
+  "name": "string_prepends",
+  "size": 99
+ },
+ "0x559cc0": {
+  "name": "work_stuff_copy_to_from",
+  "size": 1081
+ },
+ "0x5616d0": {
+  "name": "d_abi_tags",
+  "size": 136
+ },
+ "0x55d540": {
+  "name": "d_add_substitution",
+  "size": 128
+ },
+ "0x565b70": {
+  "name": "d_append_buffer",
+  "size": 102
+ },
+ "0x565e70": {
+  "name": "d_append_char",
+  "size": 118
+ },
+ "0x565ef0": {
+  "name": "d_append_num",
+  "size": 67
+ },
+ "0x565e20": {
+  "name": "d_append_string",
+  "size": 66
+ },
+ "0x566d50": {
+  "name": "d_args_length",
+  "size": 216
+ },
+ "0x55d7b0": {
+  "name": "d_array_type",
+  "size": 519
+ },
+ "0x55dbf0": {
+  "name": "d_backtrack",
+  "size": 71
+ },
+ "0x55fb50": {
+  "name": "d_bare_function_type",
+  "size": 197
+ },
+ "0x55fd00": {
+  "name": "d_call_offset",
+  "size": 347
+ },
+ "0x55dba0": {
+  "name": "d_checkpoint",
+  "size": 71
+ },
+ "0x55d790": {
+  "name": "d_class_enum_type",
+  "size": 27
+ },
+ "0x55c130": {
+  "name": "d_clone_suffix",
+  "size": 492
+ },
+ "0x560d30": {
+  "name": "d_compact_number",
+  "size": 206
+ },
+ "0x563020": {
+  "name": "d_count_templates_scopes",
+  "size": 350
+ },
+ "0x561160": {
+  "name": "d_ctor_dtor_name",
+  "size": 621
+ },
+ "0x55cfb0": {
+  "name": "d_cv_qualifiers",
+  "size": 1147
+ },
+ "0x55ea80": {
+  "name": "d_demangle",
+  "size": 177
+ },
+ "0x55eb80": {
+  "name": "d_demangle_callback",
+  "size": 845
+ },
+ "0x560c30": {
+  "name": "d_discriminator",
+  "size": 250
+ },
+ "0x55bf60": {
+  "name": "d_encoding",
+  "size": 462
+ },
+ "0x561f50": {
+  "name": "d_expr_primary",
+  "size": 584
+ },
+ "0x55e060": {
+  "name": "d_expression",
+  "size": 66
+ },
+ "0x5621a0": {
+  "name": "d_expression_1",
+  "size": 3104
+ },
+ "0x562e10": {
+  "name": "d_exprlist",
+  "size": 287
+ },
+ "0x566b80": {
+  "name": "d_find_pack",
+  "size": 330
+ },
+ "0x55d430": {
+  "name": "d_function_type",
+  "size": 265
+ },
+ "0x566360": {
+  "name": "d_get_saved_scope",
+  "size": 147
+ },
+ "0x563280": {
+  "name": "d_growable_string_append_buffer",
+  "size": 266
+ },
+ "0x55e960": {
+  "name": "d_growable_string_callback_adapter",
+  "size": 51
+ },
+ "0x55e900": {
+  "name": "d_growable_string_init",
+  "size": 92
+ },
+ "0x563180": {
+  "name": "d_growable_string_resize",
+  "size": 245
+ },
+ "0x561b10": {
+  "name": "d_identifier",
+  "size": 418
+ },
+ "0x5662a0": {
+  "name": "d_index_template_argument",
+  "size": 182
+ },
+ "0x55feb0": {
+  "name": "d_java_resource",
+  "size": 835
+ },
+ "0x5613d0": {
+  "name": "d_lambda",
+  "size": 439
+ },
+ "0x566210": {
+  "name": "d_last_char",
+  "size": 21
+ },
+ "0x5603a0": {
+  "name": "d_local_name",
+  "size": 601
+ },
+ "0x566230": {
+  "name": "d_lookup_template_argument",
+  "size": 106
+ },
+ "0x55d5c0": {
+  "name": "d_make_builtin_type",
+  "size": 104
+ },
+ "0x560200": {
+  "name": "d_make_character",
+  "size": 69
+ },
+ "0x55d630": {
+  "name": "d_make_comp",
+  "size": 251
+ },
+ "0x561810": {
+  "name": "d_make_ctor",
+  "size": 88
+ },
+ "0x560e00": {
+  "name": "d_make_default_arg",
+  "size": 85
+ },
+ "0x567340": {
+  "name": "d_make_demangle_mangled_name",
+  "size": 152
+ },
+ "0x561870": {
+  "name": "d_make_dtor",
+  "size": 88
+ },
+ "0x55e110": {
+  "name": "d_make_empty",
+  "size": 118
+ },
+ "0x561760": {
+  "name": "d_make_extended_operator",
+  "size": 88
+ },
+ "0x562dc0": {
+  "name": "d_make_function_param",
+  "size": 71
+ },
+ "0x55e0b0": {
+  "name": "d_make_name",
+  "size": 88
+ },
+ "0x5617c0": {
+  "name": "d_make_operator",
+  "size": 72
+ },
+ "0x562fc0": {
+  "name": "d_make_sub",
+  "size": 85
+ },
+ "0x561cc0": {
+  "name": "d_make_template_param",
+  "size": 71
+ },
+ "0x566e60": {
+  "name": "d_maybe_print_fold_expression",
+  "size": 497
+ },
+ "0x55f8a0": {
+  "name": "d_name",
+  "size": 572
+ },
+ "0x560250": {
+  "name": "d_nested_name",
+  "size": 331
+ },
+ "0x55e190": {
+  "name": "d_number",
+  "size": 307
+ },
+ "0x55fe60": {
+  "name": "d_number_component",
+  "size": 76
+ },
+ "0x560e60": {
+  "name": "d_operator_name",
+  "size": 759
+ },
+ "0x566cd0": {
+  "name": "d_pack_length",
+  "size": 127
+ },
+ "0x5618d0": {
+  "name": "d_parmlist",
+  "size": 401
+ },
+ "0x55d9c0": {
+  "name": "d_pointer_to_member_type",
+  "size": 204
+ },
+ "0x5609a0": {
+  "name": "d_prefix",
+  "size": 646
+ },
+ "0x5667e0": {
+  "name": "d_print_array_type",
+  "size": 319
+ },
+ "0x566e30": {
+  "name": "d_print_cast",
+  "size": 45
+ },
+ "0x55e6a0": {
+  "name": "d_print_comp",
+  "size": 272
+ },
+ "0x5633b0": {
+  "name": "d_print_comp_inner",
+  "size": 10166
+ },
+ "0x566920": {
+  "name": "d_print_conversion",
+  "size": 342
+ },
+ "0x563390": {
+  "name": "d_print_error",
+  "size": 24
+ },
+ "0x566a80": {
+  "name": "d_print_expr_op",
+  "size": 92
+ },
+ "0x55e7b0": {
+  "name": "d_print_flush",
+  "size": 122
+ },
+ "0x566550": {
+  "name": "d_print_function_type",
+  "size": 649
+ },
+ "0x55e520": {
+  "name": "d_print_init",
+  "size": 375
+ },
+ "0x565be0": {
+  "name": "d_print_java_identifier",
+  "size": 563
+ },
+ "0x565f40": {
+  "name": "d_print_mod",
+  "size": 717
+ },
+ "0x567060": {
+  "name": "d_print_mod_list",
+  "size": 736
+ },
+ "0x55e830": {
+  "name": "d_print_saw_error",
+  "size": 29
+ },
+ "0x566ae0": {
+  "name": "d_print_subexpr",
+  "size": 155
+ },
+ "0x5608d0": {
+  "name": "d_ref_qualifier",
+  "size": 202
+ },
+ "0x566400": {
+  "name": "d_save_scope",
+  "size": 333
+ },
+ "0x55d730": {
+  "name": "d_source_name",
+  "size": 93
+ },
+ "0x55f190": {
+  "name": "d_special_name",
+  "size": 1807
+ },
+ "0x55dc40": {
+  "name": "d_substitution",
+  "size": 1054
+ },
+ "0x561e40": {
+  "name": "d_template_arg",
+  "size": 271
+ },
+ "0x55db30": {
+  "name": "d_template_args",
+  "size": 104
+ },
+ "0x561d10": {
+  "name": "d_template_args_1",
+  "size": 294
+ },
+ "0x55da90": {
+  "name": "d_template_param",
+  "size": 155
+ },
+ "0x561590": {
+  "name": "d_unnamed_type",
+  "size": 310
+ },
+ "0x560600": {
+  "name": "d_unqualified_name",
+  "size": 719
+ },
+ "0x55e2d0": {
+  "name": "d_vector_type",
+  "size": 254
+ },
+ "0x55fc20": {
+  "name": "has_return_type",
+  "size": 211
+ },
+ "0x561a70": {
+  "name": "is_ctor_dtor_or_conversion",
+  "size": 157
+ },
+ "0x55ef90": {
+  "name": "is_ctor_or_dtor",
+  "size": 425
+ },
+ "0x55fae0": {
+  "name": "is_fnqual_component_type",
+  "size": 107
+ },
+ "0x55cef0": {
+  "name": "next_is_type_qual",
+  "size": 180
+ },
+ "0x562f30": {
+  "name": "op_is_new_cast",
+  "size": 142
+ },
+ "0x567870": {
+  "name": "consume_whitespace",
+  "size": 105
+ },
+ "0x567f00": {
+  "name": "only_whitespace",
+  "size": 142
+ },
+ "0x5683b0": {
+  "name": "vconcat_copy",
+  "size": 210
+ },
+ "0x568170": {
+  "name": "vconcat_length",
+  "size": 187
+ },
+ "0x569520": {
+  "name": "dlang_attributes",
+  "size": 507
+ },
+ "0x5693d0": {
+  "name": "dlang_call_convention",
+  "size": 326
+ },
+ "0x569350": {
+  "name": "dlang_call_convention_p",
+  "size": 124
+ },
+ "0x569780": {
+  "name": "dlang_function_args",
+  "size": 660
+ },
+ "0x56c310": {
+  "name": "dlang_function_type",
+  "size": 351
+ },
+ "0x56bf40": {
+  "name": "dlang_hexdigit",
+  "size": 806
+ },
+ "0x56a460": {
+  "name": "dlang_identifier",
+  "size": 1665
+ },
+ "0x56aaf0": {
+  "name": "dlang_number",
+  "size": 366
+ },
+ "0x56bd60": {
+  "name": "dlang_parse_arrayliteral",
+  "size": 215
+ },
+ "0x56bc50": {
+  "name": "dlang_parse_assocarray",
+  "size": 257
+ },
+ "0x56b230": {
+  "name": "dlang_parse_integer",
+  "size": 1159
+ },
+ "0x568b80": {
+  "name": "dlang_parse_mangle",
+  "size": 460
+ },
+ "0x568f40": {
+  "name": "dlang_parse_qualified",
+  "size": 628
+ },
+ "0x56b6c0": {
+  "name": "dlang_parse_real",
+  "size": 798
+ },
+ "0x56b9e0": {
+  "name": "dlang_parse_string",
+  "size": 609
+ },
+ "0x56be40": {
+  "name": "dlang_parse_structlit",
+  "size": 243
+ },
+ "0x56ac60": {
+  "name": "dlang_parse_template",
+  "size": 306
+ },
+ "0x56c470": {
+  "name": "dlang_parse_tuple",
+  "size": 200
+ },
+ "0x56ae00": {
+  "name": "dlang_template_args",
+  "size": 486
+ },
+ "0x569a80": {
+  "name": "dlang_type",
+  "size": 2524
+ },
+ "0x5691c0": {
+  "name": "dlang_type_modifiers",
+  "size": 398
+ },
+ "0x56aff0": {
+  "name": "dlang_value",
+  "size": 573
+ },
+ "0x568b20": {
+  "name": "string_append",
+  "size": 90
+ },
+ "0x569a20": {
+  "name": "string_appendn",
+  "size": 89
+ },
+ "0x568d50": {
+  "name": "string_delete",
+  "size": 79
+ },
+ "0x568af0": {
+  "name": "string_init",
+  "size": 45
+ },
+ "0x568da0": {
+  "name": "string_length",
+  "size": 85
+ },
+ "0x568e00": {
+  "name": "string_need",
+  "size": 306
+ },
+ "0x56ada0": {
+  "name": "string_prepend",
+  "size": 94
+ },
+ "0x56c270": {
+  "name": "string_prependn",
+  "size": 155
+ },
+ "0x569720": {
+  "name": "string_setlength",
+  "size": 84
+ },
+ "0x56cd00": {
+  "name": "eq_pointer",
+  "size": 30
+ },
+ "0x56eef0": {
+  "name": "find_empty_slot_for_expand",
+  "size": 305
+ },
+ "0x56c890": {
+  "name": "hash_pointer",
+  "size": 1134
+ },
+ "0x56d050": {
+  "name": "higher_prime_index",
+  "size": 230
+ },
+ "0x56dad0": {
+  "name": "htab_expand",
+  "size": 617
+ },
+ "0x56d6f0": {
+  "name": "htab_mod",
+  "size": 79
+ },
+ "0x56ee60": {
+  "name": "htab_mod_1",
+  "size": 132
+ },
+ "0x56d740": {
+  "name": "htab_mod_m2",
+  "size": 111
+ },
+ "0x56fd60": {
+  "name": "free_split_directories",
+  "size": 116
+ },
+ "0x56f250": {
+  "name": "make_relative_prefix_1",
+  "size": 2121
+ },
+ "0x56fde0": {
+  "name": "save_string",
+  "size": 84
+ },
+ "0x56fad0": {
+  "name": "split_directories",
+  "size": 645
+ },
+ "0x56ffc0": {
+  "name": "try_dir",
+  "size": 105
+ },
+ "0x570960": {
+  "name": "is_prefixed_hash",
+  "size": 424
+ },
+ "0x570b10": {
+  "name": "looks_like_rust",
+  "size": 894
+ },
+ "0x5712e0": {
+  "name": "unescape",
+  "size": 135
+ },
+ "0x4c0d20": {
+  "name": "bfd_elf32_core_file_failing_command",
+  "size": 32
+ },
+ "0x54d4f0": {
+  "name": "get_crc_table",
+  "size": 16
+ },
+ "0x495520": {
+  "name": "_bfd_elf_merge_unknown_attribute_list",
+  "size": 599
+ },
+ "0x4516d0": {
+  "name": "_bfd_elf_write_corefile_contents",
+  "size": 27
+ },
+ "0x56d200": {
+  "name": "htab_try_create",
+  "size": 71
+ },
+ "0x571860": {
+  "name": "__libc_csu_fini",
+  "size": 2
+ },
+ "0x520dc0": {
+  "name": "bfd_gnu_truncate_arname",
+  "size": 300
+ },
+ "0x54d500": {
+  "name": "crc32_z",
+  "size": 118
+ },
+ "0x533640": {
+  "name": "bfd_generic_get_relocated_section_contents",
+  "size": 1676
+ },
+ "0x52cd20": {
+  "name": "_bfd_nearby_section",
+  "size": 1081
+ },
+ "0x4ede80": {
+  "name": "_bfd_coff_link_hash_table_init",
+  "size": 81
+ },
+ "0x5334b0": {
+  "name": "bfd_get_reloc_code_name",
+  "size": 56
+ },
+ "0x407b10": {
+  "name": "bfd_emul_get_commonpagesize",
+  "size": 96
+ },
+ "0x537040": {
+  "name": "_bfd_generic_minisymbol_to_symbol",
+  "size": 28
+ },
+ "0x55e850": {
+  "name": "cplus_demangle_print",
+  "size": 172
+ },
+ "0x40f200": {
+  "name": "_bfd_generic_get_section_contents_in_window",
+  "size": 68
+ },
+ "0x510290": {
+  "name": "_bfd_pex64i_swap_scnhdr_out",
+  "size": 1718
+ },
+ "0x413900": {
+  "name": "bfd_get_section_by_name_if",
+  "size": 235
+ },
+ "0x438430": {
+  "name": "nacl_modify_segment_map",
+  "size": 1614
+ },
+ "0x571870": {
+  "name": "stat",
+  "size": 16
+ },
+ "0x407f80": {
+  "name": "bfd_update_compression_header",
+  "size": 758
+ },
+ "0x4fe050": {
+  "name": "bfd_coff_set_symbol_class",
+  "size": 646
+ },
+ "0x550830": {
+  "name": "set_cplus_marker_for_demangling",
+  "size": 22
+ },
+ "0x551e40": {
+  "name": "cplus_demangle_name_to_style",
+  "size": 118
+ },
+ "0x4fdeb0": {
+  "name": "coff_find_nearest_line",
+  "size": 127
+ },
+ "0x4e0a00": {
+  "name": "_bfd_pei_swap_sym_out",
+  "size": 467
+ },
+ "0x49b830": {
+  "name": "_bfd_elf_gc_mark_fdes",
+  "size": 371
+ },
+ "0x55bd00": {
+  "name": "cplus_demangle_fill_dtor",
+  "size": 124
+ },
+ "0x453610": {
+  "name": "_bfd_elf_get_lineno",
+  "size": 51
+ },
+ "0x404060": {
+  "name": "list_supported_architectures",
+  "size": 233
+ },
+ "0x496170": {
+  "name": "_bfd_elf_strtab_refcount",
+  "size": 33
+ },
+ "0x454470": {
+  "name": "elfcore_write_note",
+  "size": 728
+ },
+ "0x5333a0": {
+  "name": "bfd_default_reloc_type_lookup",
+  "size": 271
+ },
+ "0x40f560": {
+  "name": "_bfd_read_unsigned_leb128",
+  "size": 357
+ },
+ "0x43f4b0": {
+  "name": "bfd_elf_string_from_elf_section",
+  "size": 510
+ },
+ "0x403ad0": {
+  "name": "bfd_fatal",
+  "size": 31
+ },
+ "0x40d0f0": {
+  "name": "_bfd_dummy_target",
+  "size": 32
+ },
+ "0x56e0b0": {
+  "name": "htab_hash_string",
+  "size": 97
+ },
+ "0x495de0": {
+  "name": "_bfd_elf_strtab_add",
+  "size": 474
+ },
+ "0x455820": {
+  "name": "elfcore_write_xstatereg",
+  "size": 129
+ },
+ "0x452cb0": {
+  "name": "_bfd_elf_get_symtab_upper_bound",
+  "size": 152
+ },
+ "0x4072e0": {
+  "name": "bfd_scan_vma",
+  "size": 41
+ },
+ "0x51b1b0": {
+  "name": "register_ld_plugin_object_p",
+  "size": 22
+ },
+ "0x4035d0": {
+  "name": "bfd_nonfatal",
+  "size": 150
+ },
+ "0x4cd970": {
+  "name": "aout_32_link_hash_table_create",
+  "size": 137
+ },
+ "0x455d90": {
+  "name": "elfcore_write_s390_gs_bc",
+  "size": 95
+ },
+ "0x455760": {
+  "name": "elfcore_write_prfpreg",
+  "size": 95
+ },
+ "0x4e1500": {
+  "name": "_bfd_pei_swap_lineno_in",
+  "size": 109
+ },
+ "0x4a1020": {
+  "name": "_bfd_elf_can_make_relative",
+  "size": 23
+ },
+ "0x56d250": {
+  "name": "htab_delete",
+  "size": 305
+ },
+ "0x5687e0": {
+  "name": "reconcat",
+  "size": 484
+ },
+ "0x524980": {
+  "name": "bfd_cache_close",
+  "size": 96
+ },
+ "0x567540": {
+  "name": "buildargv",
+  "size": 814
+ },
+ "0x5689d0": {
+  "name": "dlang_demangle",
+  "size": 273
+ },
+ "0x51f520": {
+  "name": "_bfd_construct_extended_name_table",
+  "size": 2531
+ },
+ "0x539760": {
+  "name": "compress",
+  "size": 57
+ },
+ "0x568490": {
+  "name": "concat_copy2",
+  "size": 371
+ },
+ "0x494070": {
+  "name": "bfd_elf_set_obj_attr_contents",
+  "size": 238
+ },
+ "0x570e90": {
+  "name": "rust_demangle_sym",
+  "size": 1102
+ },
+ "0x49d870": {
+  "name": "_bfd_elf_eh_frame_section_offset",
+  "size": 1799
+ },
+ "0x438fa0": {
+  "name": "nacl_final_write_processing",
+  "size": 520
+ },
+ "0x414900": {
+  "name": "bfd_generic_discard_group",
+  "size": 19
+ },
+ "0x410d60": {
+  "name": "bfd_make_writable",
+  "size": 469
+ },
+ "0x5461b0": {
+  "name": "inflateValidate",
+  "size": 151
+ },
+ "0x56faa0": {
+  "name": "make_relative_prefix_ignore_links",
+  "size": 45
+ },
+ "0x536430": {
+  "name": "bfd_print_symbol_vandf",
+  "size": 1027
+ },
+ "0x4a5fd0": {
+  "name": "_bfd_dwarf2_find_nearest_line",
+  "size": 3639
+ },
+ "0x433c10": {
+  "name": "_bfd_x86_elf_link_symbol_references_local",
+  "size": 1039
+ },
+ "0x4f9dd0": {
+  "name": "coff_write_alien_symbol",
+  "size": 1401
+ },
+ "0x464250": {
+  "name": "bfd_elf_record_link_assignment",
+  "size": 2949
+ },
+ "0x431ec0": {
+  "name": "_bfd_x86_elf_finish_dynamic_sections",
+  "size": 3266
+ },
+ "0x537060": {
+  "name": "_bfd_stab_section_find_nearest_line",
+  "size": 6326
+ },
+ "0x526b70": {
+  "name": "bfd_compress_section",
+  "size": 277
+ },
+ "0x46da80": {
+  "name": "_bfd_elf_size_group_sections",
+  "size": 217
+ },
+ "0x4428a0": {
+  "name": "bfd_elf_generic_reloc",
+  "size": 192
+ },
+ "0x526c90": {
+  "name": "bfd_core_file_failing_command",
+  "size": 133
+ },
+ "0x4533c0": {
+  "name": "_bfd_elf_get_symbol_info",
+  "size": 39
+ },
+ "0x40ce10": {
+  "name": "_bfd_stringtab_emit",
+  "size": 258
+ },
+ "0x4c0d40": {
+  "name": "bfd_elf32_core_file_failing_signal",
+  "size": 30
+ },
+ "0x454020": {
+  "name": "_bfd_elf_close_and_cleanup",
+  "size": 195
+ },
+ "0x413b30": {
+  "name": "bfd_make_section_old_way",
+  "size": 507
+ },
+ "0x455af0": {
+  "name": "elfcore_write_s390_prefix",
+  "size": 95
+ },
+ "0x411700": {
+  "name": "bfd_calc_gnu_debuglink_crc32",
+  "size": 365
+ },
+ "0x40efa0": {
+  "name": "_bfd_generic_get_section_contents",
+  "size": 608
+ },
+ "0x475480": {
+  "name": "_bfd_elf_link_hash_copy_indirect",
+  "size": 2577
+ },
+ "0x51b0e0": {
+  "name": "bfd_plugin_set_plugin",
+  "size": 42
+ },
+ "0x534430": {
+  "name": "bfd_get_stab_name",
+  "size": 1126
+ },
+ "0x463fd0": {
+  "name": "bfd_elf_link_record_dynamic_symbol",
+  "size": 638
+ },
+ "0x523ec0": {
+  "name": "bfd_get_size",
+  "size": 111
+ },
+ "0x450f40": {
+  "name": "_bfd_elf_write_object_contents",
+  "size": 830
+ },
+ "0x40cfe0": {
+  "name": "bfd_void",
+  "size": 10
+ },
+ "0x414010": {
+  "name": "bfd_make_section_with_flags",
+  "size": 386
+ },
+ "0x541720": {
+  "name": "inflate",
+  "size": 15681
+ },
+ "0x453190": {
+  "name": "_bfd_elf_canonicalize_dynamic_reloc",
+  "size": 460
+ },
+ "0x5673e0": {
+  "name": "dupargv",
+  "size": 241
+ },
+ "0x43fdf0": {
+  "name": "bfd_elf_sym_name",
+  "size": 270
+ },
+ "0x467500": {
+  "name": "bfd_elf_link_add_symbols",
+  "size": 140
+ },
+ "0x438c40": {
+  "name": "nacl_modify_program_headers",
+  "size": 855
+ },
+ "0x4950e0": {
+  "name": "_bfd_elf_merge_object_attributes",
+  "size": 552
+ },
+ "0x40cf90": {
+  "name": "bfd_0u",
+  "size": 12
+ },
+ "0x4a7c20": {
+  "name": "_bfd_elf_find_function",
+  "size": 853
+ },
+ "0x56cd20": {
+  "name": "htab_size",
+  "size": 18
+ },
+ "0x545800": {
+  "name": "inflateGetDictionary",
+  "size": 283
+ },
+ "0x410f40": {
+  "name": "bfd_make_readable",
+  "size": 1073
+ },
+ "0x413500": {
+  "name": "bfd_section_hash_newfunc",
+  "size": 153
+ },
+ "0x527380": {
+  "name": "bfd_wrapped_link_hash_lookup",
+  "size": 710
+ },
+ "0x52f580": {
+  "name": "_bfd_write_merged_section",
+  "size": 384
+ },
+ "0x527c00": {
+  "name": "bfd_generic_link_read_symbols",
+  "size": 234
+ },
+ "0x510be0": {
+  "name": "_bfd_pex64i_slurp_codeview_record",
+  "size": 561
+ },
+ "0x515b10": {
+  "name": "_bfd_pex64_bfd_copy_private_section_data",
+  "size": 396
+ },
+ "0x406530": {
+  "name": "bfd_arch_mach_octets_per_byte",
+  "size": 89
+ },
+ "0x4057c0": {
+  "name": "bfd_arch_list",
+  "size": 349
+ },
+ "0x476410": {
+  "name": "bfd_elf_get_runpath_list",
+  "size": 68
+ },
+ "0x51eca0": {
+  "name": "bfd_slurp_bsd_armap_f2",
+  "size": 1141
+ },
+ "0x40c860": {
+  "name": "bfd_hash_traverse",
+  "size": 287
+ },
+ "0x465f60": {
+  "name": "_bfd_elf_adjust_dynamic_copy",
+  "size": 815
+ },
+ "0x40cf60": {
+  "name": "bfd_nullvoidptr",
+  "size": 32
+ },
+ "0x515ca0": {
+  "name": "_bfd_pex64_get_symbol_info",
+  "size": 43
+ },
+ "0x49bab0": {
+  "name": "_bfd_elf_adjust_eh_frame_global_symbol",
+  "size": 291
+ },
+ "0x414920": {
+  "name": "bfd_set_default_target",
+  "size": 132
+ },
+ "0x4079d0": {
+  "name": "bfd_emul_get_maxpagesize",
+  "size": 96
+ },
+ "0x444ba0": {
+  "name": "_bfd_elf_section_from_bfd_section",
+  "size": 371
+ },
+ "0x4895f0": {
+  "name": "_bfd_elf_common_definition",
+  "size": 26
+ },
+ "0x455b50": {
+  "name": "elfcore_write_s390_last_break",
+  "size": 95
+ },
+ "0x536e10": {
+  "name": "bfd_is_undefined_symclass",
+  "size": 57
+ },
+ "0x452fe0": {
+  "name": "_bfd_elf_canonicalize_dynamic_symtab",
+  "size": 117
+ },
+ "0x51f4d0": {
+  "name": "_bfd_archive_bsd_construct_extended_name_table",
+  "size": 68
+ },
+ "0x449810": {
+  "name": "_bfd_elf_filter_global_symbols",
+  "size": 479
+ },
+ "0x51dca0": {
+  "name": "bfd_generic_archive_p",
+  "size": 1073
+ },
+ "0x439880": {
+  "name": "bfd_elf64_swap_reloc_in",
+  "size": 104
+ },
+ "0x4bbc50": {
+  "name": "elf_vxworks_finish_dynamic_entry",
+  "size": 317
+ },
+ "0x440360": {
+  "name": "_bfd_elf_make_section_from_shdr",
+  "size": 5203
+ },
+ "0x51b130": {
+  "name": "bfd_link_plugin_object_p",
+  "size": 78
+ },
+ "0x51c6c0": {
+  "name": "bfd_set_archive_head",
+  "size": 34
+ },
+ "0x4c6d70": {
+  "name": "aout_32_mkobject",
+  "size": 184
+ },
+ "0x4c61c0": {
+  "name": "aout_32_make_sections",
+  "size": 217
+ },
+ "0x54a100": {
+  "name": "_tr_tally",
+  "size": 497
+ },
+ "0x55bc80": {
+  "name": "cplus_demangle_fill_ctor",
+  "size": 124
+ },
+ "0x49d2b0": {
+  "name": "_bfd_elf_discard_section_eh_frame_hdr",
+  "size": 326
+ },
+ "0x42de40": {
+  "name": "_bfd_x86_elf_link_hash_newfunc",
+  "size": 534
+ },
+ "0x453a50": {
+  "name": "_bfd_elf_sizeof_headers",
+  "size": 346
+ },
+ "0x54f650": {
+  "name": "crc32_combine64",
+  "size": 43
+ },
+ "0x4125b0": {
+  "name": "bfd_create_gnu_debuglink_section",
+  "size": 440
+ },
+ "0x42e640": {
+  "name": "_bfd_x86_elf_compare_relocs",
+  "size": 114
+ },
+ "0x54f420": {
+  "name": "crc32",
+  "size": 41
+ },
+ "0x413e80": {
+  "name": "bfd_make_section_anyway_with_flags",
+  "size": 343
+ },
+ "0x40d4e0": {
+  "name": "bfd_write_bigendian_4byte_int",
+  "size": 74
+ },
+ "0x40d1a0": {
+  "name": "bfd_malloc2",
+  "size": 211
+ },
+ "0x50e640": {
+  "name": "_bfd_pex64i_swap_lineno_out",
+  "size": 108
+ },
+ "0x56c540": {
+  "name": "filename_cmp",
+  "size": 35
+ },
+ "0x43ecc0": {
+  "name": "_bfd_elf_swap_verneed_in",
+  "size": 204
+ },
+ "0x453060": {
+  "name": "_bfd_elf_get_dynamic_reloc_upper_bound",
+  "size": 289
+ },
+ "0x523b00": {
+  "name": "bfd_stat",
+  "size": 97
+ },
+ "0x4a3220": {
+  "name": "_bfd_dwarf2_cleanup_debug_info",
+  "size": 1013
+ },
+ "0x4062b0": {
+  "name": "bfd_default_set_arch_mach",
+  "size": 119
+ },
+ "0x404990": {
+  "name": "is_valid_archive_path",
+  "size": 561
+ },
+ "0x551dd0": {
+  "name": "cplus_demangle_set_style",
+  "size": 110
+ },
+ "0x56f0c0": {
+  "name": "dos_lbasename",
+  "size": 222
+ },
+ "0x46db60": {
+  "name": "bfd_elf_stack_segment_size",
+  "size": 1222
+ },
+ "0x4f8f00": {
+  "name": "coff_count_linenumbers",
+  "size": 622
+ },
+ "0x412490": {
+  "name": "bfd_follow_gnu_debugaltlink",
+  "size": 65
+ },
+ "0x455eb0": {
+  "name": "elfcore_write_aarch_hw_break",
+  "size": 95
+ },
+ "0x4065f0": {
+  "name": "_bfd_abort",
+  "size": 188
+ },
+ "0x51f120": {
+  "name": "_bfd_slurp_extended_name_table",
+  "size": 934
+ },
+ "0x496dd0": {
+  "name": "_bfd_elf_parse_gnu_properties",
+  "size": 1261
+ },
+ "0x541090": {
+  "name": "inflateResetKeep",
+  "size": 324
+ },
+ "0x51c0a0": {
+  "name": "bfd_arch_i386_short_nop_fill",
+  "size": 40
+ },
+ "0x52c490": {
+  "name": "_bfd_count_link_order_relocs",
+  "size": 109
+ },
+ "0x40ddd0": {
+  "name": "bfd_getl_signed_32",
+  "size": 319
+ },
+ "0x50e140": {
+  "name": "_bfd_pex64i_swap_aux_out",
+  "size": 1168
+ },
+ "0x4148b0": {
+  "name": "bfd_malloc_and_get_section",
+  "size": 54
+ },
+ "0x546d10": {
+  "name": "_tr_init",
+  "size": 187
+ },
+ "0x466c90": {
+  "name": "_bfd_elf_tls_setup",
+  "size": 291
+ },
+ "0x495fc0": {
+  "name": "_bfd_elf_strtab_addref",
+  "size": 179
+ },
+ "0x532700": {
+  "name": "_bfd_final_link_relocate",
+  "size": 364
+ },
+ "0x410400": {
+  "name": "bfd_openr",
+  "size": 50
+ },
+ "0x4557c0": {
+  "name": "elfcore_write_prxfpreg",
+  "size": 95
+ },
+ "0x4c7410": {
+  "name": "aout_32_set_arch_mach",
+  "size": 235
+ },
+ "0x520a10": {
+  "name": "bfd_generic_stat_arch_elt",
+  "size": 403
+ },
+ "0x494710": {
+  "name": "bfd_elf_add_obj_attr_int_string",
+  "size": 102
+ },
+ "0x56f1c0": {
+  "name": "lrealpath",
+  "size": 84
+ },
+ "0x4554d0": {
+  "name": "elfcore_write_prstatus",
+  "size": 642
+ },
+ "0x40ed20": {
+  "name": "bfd_put_bits",
+  "size": 292
+ },
+ "0x405190": {
+  "name": "print_version",
+  "size": 112
+ },
+ "0x488090": {
+  "name": "_bfd_elf_section_already_linked",
+  "size": 1802
+ },
+ "0x40c820": {
+  "name": "bfd_hash_newfunc",
+  "size": 59
+ },
+ "0x520570": {
+  "name": "_bfd_archive_bsd44_construct_extended_name_table",
+  "size": 399
+ },
+ "0x5236d0": {
+  "name": "_bfd_real_fseek",
+  "size": 41
+ },
+ "0x4fb810": {
+  "name": "_bfd_coff_get_external_symbols",
+  "size": 480
+ },
+ "0x4483d0": {
+  "name": "_bfd_elf_make_section_from_phdr",
+  "size": 1732
+ },
+ "0x448ec0": {
+  "name": "_bfd_elf_single_rel_hdr",
+  "size": 139
+ },
+ "0x4cc880": {
+  "name": "aout_32_get_symtab_upper_bound",
+  "size": 82
+ },
+ "0x466f10": {
+  "name": "_bfd_elf_default_relocs_compatible",
+  "size": 30
+ },
+ "0x4135a0": {
+  "name": "_bfd_generic_new_section_hook",
+  "size": 193
+ },
+ "0x414200": {
+  "name": "bfd_rename_section",
+  "size": 82
+ },
+ "0x4cca20": {
+  "name": "aout_32_print_symbol",
+  "size": 510
+ },
+ "0x50edf0": {
+  "name": "_bfd_pex64i_swap_aouthdr_out",
+  "size": 2620
+ },
+ "0x529e90": {
+  "name": "_bfd_generic_final_link",
+  "size": 1537
+ },
+ "0x4f9170": {
+  "name": "coff_renumber_symbols",
+  "size": 1575
+ },
+ "0x4c93e0": {
+  "name": "aout_32_make_empty_symbol",
+  "size": 90
+ },
+ "0x4945a0": {
+  "name": "_bfd_elf_obj_attrs_arg_type",
+  "size": 147
+ },
+ "0x40dc20": {
+  "name": "bfd_getb_signed_32",
+  "size": 421
+ },
+ "0x526d90": {
+  "name": "bfd_core_file_pid",
+  "size": 130
+ },
+ "0x42e200": {
+  "name": "_bfd_x86_elf_link_hash_table_create",
+  "size": 818
+ },
+ "0x56f040": {
+  "name": "unix_lbasename",
+  "size": 119
+ },
+ "0x546150": {
+  "name": "inflateUndermine",
+  "size": 87
+ },
+ "0x411380": {
+  "name": "bfd_alloc",
+  "size": 400
+ },
+ "0x5718a0": {
+  "name": "_fini",
+  "size": 0
+ },
+ "0x40d040": {
+  "name": "_bfd_norelocs_set_reloc",
+  "size": 21
+ },
+ "0x414650": {
+  "name": "bfd_get_section_contents",
+  "size": 593
+ },
+ "0x520d10": {
+  "name": "bfd_bsd_truncate_arname",
+  "size": 175
+ },
+ "0x462d40": {
+  "name": "_bfd_elf_create_got_section",
+  "size": 696
+ },
+ "0x4be2a0": {
+  "name": "bfd_elf32_write_out_phdrs",
+  "size": 154
+ },
+ "0x40d110": {
+  "name": "bfd_malloc",
+  "size": 131
+ },
+ "0x523e00": {
+  "name": "bfd_get_mtime",
+  "size": 183
+ },
+ "0x550850": {
+  "name": "cplus_demangle_opname",
+  "size": 2028
+ },
+ "0x538ed0": {
+  "name": "_bfd_archive_64_bit_write_armap",
+  "size": 1631
+ },
+ "0x4e8d00": {
+  "name": "_bfd_pe_bfd_copy_private_section_data",
+  "size": 396
+ },
+ "0x4bc300": {
+  "name": "bfd_elf32_swap_phdr_out",
+  "size": 394
+ },
+ "0x4be340": {
+  "name": "bfd_elf32_write_shdrs_and_ehdr",
+  "size": 486
+ },
+ "0x51db90": {
+  "name": "bfd_generic_openr_next_archived_file",
+  "size": 268
+ },
+ "0x456820": {
+  "name": "_bfd_elf_rel_local_sym",
+  "size": 191
+ },
+ "0x535820": {
+  "name": "_bfd_discard_section_stabs",
+  "size": 1324
+ },
+ "0x4141a0": {
+  "name": "bfd_make_section",
+  "size": 37
+ },
+ "0x40e650": {
+  "name": "bfd_getl_signed_64",
+  "size": 579
+ },
+ "0x536050": {
+  "name": "_bfd_write_stab_strings",
+  "size": 334
+ },
+ "0x40d330": {
+  "name": "bfd_realloc2",
+  "size": 154
+ },
+ "0x53afa0": {
+  "name": "deflatePrime",
+  "size": 414
+ },
+ "0x456580": {
+  "name": "bfd_get_elf_phdrs",
+  "size": 123
+ },
+ "0x530960": {
+  "name": "bfd_get_reloc_size",
+  "size": 189
+ },
+ "0x44e0f0": {
+  "name": "_bfd_elf_map_sections_to_segments",
+  "size": 8678
+ },
+ "0x477260": {
+  "name": "_bfd_elf_default_action_discarded",
+  "size": 152
+ },
+ "0x55ea50": {
+  "name": "cplus_demangle_v3",
+  "size": 37
+ },
+ "0x447cb0": {
+  "name": "bfd_section_from_elf_index",
+  "size": 88
+ },
+ "0x455910": {
+  "name": "elfcore_write_ppc_vsx",
+  "size": 95
+ },
+ "0x406330": {
+  "name": "bfd_lookup_arch",
+  "size": 191
+ },
+ "0x546330": {
+  "name": "inflateCodesUsed",
+  "size": 114
+ },
+ "0x4bc140": {
+  "name": "bfd_elf32_swap_phdr_in",
+  "size": 438
+ },
+ "0x533320": {
+  "name": "bfd_reloc_type_lookup",
+  "size": 56
+ },
+ "0x4ffd40": {
+  "name": "pex64_bfd_print_pdata",
+  "size": 140
+ },
+ "0x4899e0": {
+  "name": "_bfd_elf_copy_link_hash_symbol_type",
+  "size": 515
+ },
+ "0x43ec00": {
+  "name": "_bfd_elf_swap_verdaux_in",
+  "size": 90
+ },
+ "0x56dde0": {
+  "name": "htab_remove_elt_with_hash",
+  "size": 144
+ },
+ "0x412a30": {
+  "name": "bfd_follow_build_id_debuglink",
+  "size": 64
+ },
+ "0x521a80": {
+  "name": "_bfd_compute_and_write_armap",
+  "size": 1883
+ },
+ "0x40f300": {
+  "name": "bfd_log2",
+  "size": 111
+ },
+ "0x40df10": {
+  "name": "bfd_getb64",
+  "size": 542
+ },
+ "0x4fc840": {
+  "name": "coff_make_empty_symbol",
+  "size": 137
+ },
+ "0x4e3490": {
+  "name": "_bfd_pei_swap_scnhdr_out",
+  "size": 1706
+ },
+ "0x4398f0": {
+  "name": "bfd_elf64_swap_reloca_in",
+  "size": 125
+ },
+ "0x4c0d00": {
+  "name": "elf32_r_sym",
+  "size": 21
+ },
+ "0x56c6e0": {
+  "name": "getpwd",
+  "size": 425
+ },
+ "0x476460": {
+  "name": "bfd_elf_get_dt_soname",
+  "size": 106
+ },
+ "0x457220": {
+  "name": "_bfd_elf_post_process_headers",
+  "size": 148
+ },
+ "0x4141d0": {
+  "name": "bfd_get_next_section_id",
+  "size": 13
+ },
+ "0x4946b0": {
+  "name": "bfd_elf_add_obj_attr_string",
+  "size": 89
+ },
+ "0x466dc0": {
+  "name": "_bfd_elf_add_dynamic_entry",
+  "size": 333
+ },
+ "0x4540f0": {
+  "name": "_bfd_elf_rel_vtable_reloc_fn",
+  "size": 47
+ },
+ "0x568000": {
+  "name": "concat_length",
+  "size": 358
+ },
+ "0x476250": {
+  "name": "bfd_elf_get_dyn_lib_class",
+  "size": 167
+ },
+ "0x54c2d0": {
+  "name": "zError",
+  "size": 38
+ },
+ "0x511750": {
+  "name": "_bfd_pex64_print_private_bfd_data_common",
+  "size": 3284
+ },
+ "0x5335a0": {
+  "name": "bfd_generic_gc_sections",
+  "size": 19
+ },
+ "0x495be0": {
+  "name": "_bfd_elf_strtab_init",
+  "size": 257
+ },
+ "0x43ec60": {
+  "name": "_bfd_elf_swap_verdaux_out",
+  "size": 87
+ },
+ "0x403920": {
+  "name": "bfd_get_archive_filename",
+  "size": 432
+ },
+ "0x547a20": {
+  "name": "_tr_flush_block",
+  "size": 1715
+ },
+ "0x476170": {
+  "name": "_bfd_elf_link_hash_table_free",
+  "size": 92
+ },
+ "0x510950": {
+  "name": "_bfd_pex64i_swap_debugdir_in",
+  "size": 328
+ },
+ "0x410800": {
+  "name": "bfd_zalloc",
+  "size": 69
+ },
+ "0x539ee0": {
+  "name": "deflateReset",
+  "size": 56
+ },
+ "0x40f6d0": {
+  "name": "_bfd_safe_read_leb128",
+  "size": 475
+ },
+ "0x43f3e0": {
+  "name": "bfd_elf_make_object",
+  "size": 60
+ },
+ "0x571630": {
+  "name": "xrealloc",
+  "size": 111
+ },
+ "0x442960": {
+  "name": "_bfd_elf_copy_private_bfd_data",
+  "size": 1274
+ },
+ "0x4edee0": {
+  "name": "_bfd_coff_link_hash_table_create",
+  "size": 137
+ },
+ "0x4bba70": {
+  "name": "elf_vxworks_final_write_processing",
+  "size": 194
+ },
+ "0x40bb40": {
+  "name": "bfd_hash_table_free",
+  "size": 43
+ },
+ "0x568230": {
+  "name": "concat_copy",
+  "size": 373
+ },
+ "0x465480": {
+  "name": "_bfd_elf_link_omit_section_dynsym",
+  "size": 317
+ },
+ "0x403f60": {
+  "name": "list_supported_targets",
+  "size": 255
+ },
+ "0x408730": {
+  "name": "bfd_convert_section_contents",
+  "size": 1137
+ },
+ "0x4340d0": {
+  "name": "_bfd_x86_elf_adjust_dynamic_symbol",
+  "size": 3129
+ },
+ "0x4fa7b0": {
+  "name": "coff_write_symbols",
+  "size": 2687
+ },
+ "0x43ed90": {
+  "name": "_bfd_elf_swap_verneed_out",
+  "size": 190
+ },
+ "0x523ab0": {
+  "name": "bfd_flush",
+  "size": 69
+ },
+ "0x4cc270": {
+  "name": "aout_32_squirt_out_relocs",
+  "size": 627
+ },
+ "0x52c6a0": {
+  "name": "_bfd_handle_already_linked",
+  "size": 1345
+ },
+ "0x54d1d0": {
+  "name": "adler32_combine",
+  "size": 43
+ },
+ "0x53b3e0": {
+  "name": "deflate",
+  "size": 6823
+ },
+ "0x568610": {
+  "name": "concat",
+  "size": 459
+ },
+ "0x4e4180": {
+  "name": "_bfd_pe_print_ce_compressed_pdata",
+  "size": 1726
+ },
+ "0x56d580": {
+  "name": "htab_find_with_hash",
+  "size": 367
+ },
+ "0x527ad0": {
+  "name": "_bfd_generic_link_hash_newfunc",
+  "size": 159
+ },
+ "0x5397a0": {
+  "name": "compressBound",
+  "size": 89
+ },
+ "0x449ac0": {
+  "name": "_bfd_elf_assign_file_position_for_section",
+  "size": 357
+ },
+ "0x56c570": {
+  "name": "filename_ncmp",
+  "size": 43
+ },
+ "0x52e6f0": {
+  "name": "_bfd_merge_sections",
+  "size": 856
+ },
+ "0x414410": {
+  "name": "bfd_set_section_contents",
+  "size": 572
+ },
+ "0x411c00": {
+  "name": "bfd_follow_gnu_debuglink",
+  "size": 67
+ },
+ "0x455c70": {
+  "name": "elfcore_write_s390_vxrs_low",
+  "size": 95
+ },
+ "0x4bbd90": {
+  "name": "bfd_elf32_swap_symbol_in",
+  "size": 518
+ },
+ "0x546ef0": {
+  "name": "_tr_stored_block",
+  "size": 1075
+ },
+ "0x49d400": {
+  "name": "_bfd_elf_eh_frame_present",
+  "size": 156
+ },
+ "0x571890": {
+  "name": "__lstat",
+  "size": 16
+ },
+ "0x4f71b0": {
+  "name": "coff_real_object_p",
+  "size": 2265
+ },
+ "0x414fb0": {
+  "name": "bfd_target_list",
+  "size": 289
+ },
+ "0x4fc9c0": {
+  "name": "coff_get_symbol_info",
+  "size": 162
+ },
+ "0x51b110": {
+  "name": "bfd_plugin_specified_p",
+  "size": 22
+ },
+ "0x497f50": {
+  "name": "_bfd_elf_parse_eh_frame_entry",
+  "size": 557
+ },
+ "0x4f8730": {
+  "name": "coff_canonicalize_symtab",
+  "size": 210
+ },
+ "0x406590": {
+  "name": "bfd_get_error",
+  "size": 13
+ },
+ "0x571880": {
+  "name": "__fstat",
+  "size": 15
+ },
+ "0x405920": {
+  "name": "bfd_arch_get_compatible",
+  "size": 236
+ },
+ "0x538990": {
+  "name": "_bfd_archive_64_bit_slurp_armap",
+  "size": 1329
+ },
+ "0x533cd0": {
+  "name": "_bfd_generic_set_reloc",
+  "size": 49
+ },
+ "0x4543a0": {
+  "name": "_bfd_elfcore_strndup",
+  "size": 208
+ },
+ "0x546250": {
+  "name": "inflateMark",
+  "size": 213
+ },
+ "0x56f030": {
+  "name": "hex_init",
+  "size": 6
+ },
+ "0x42ead0": {
+  "name": "_bfd_x86_elf_size_dynamic_sections",
+  "size": 5812
+ },
+ "0x54d4c0": {
+  "name": "adler32_combine64",
+  "size": 43
+ },
+ "0x4cd890": {
+  "name": "aout_32_link_hash_newfunc",
+  "size": 156
+ },
+ "0x489e80": {
+  "name": "elf_append_rela",
+  "size": 225
+ },
+ "0x40e3d0": {
+  "name": "bfd_getb_signed_64",
+  "size": 631
+ },
+ "0x50f960": {
+  "name": "_bfd_pex64i_only_swap_filehdr_out",
+  "size": 2042
+ },
+ "0x52c570": {
+  "name": "bfd_section_already_linked_table_insert",
+  "size": 123
+ },
+ "0x571570": {
+  "name": "xmalloc",
+  "size": 74
+ },
+ "0x4cdcf0": {
+  "name": "aout_32_final_link",
+  "size": 4004
+ },
+ "0x43f020": {
+  "name": "_bfd_elf_swap_versym_out",
+  "size": 56
+ },
+ "0x527ea0": {
+  "name": "_bfd_generic_link_add_archive_symbols",
+  "size": 1105
+ },
+ "0x404150": {
+  "name": "display_info",
+  "size": 83
+ },
+ "0x453360": {
+  "name": "_bfd_elf_make_empty_symbol",
+  "size": 85
+ },
+ "0x4065a0": {
+  "name": "bfd_set_error",
+  "size": 71
+ },
+ "0x40e9a0": {
+  "name": "bfd_putb64",
+  "size": 479
+ },
+ "0x51e0e0": {
+  "name": "bfd_slurp_armap",
+  "size": 666
+ },
+ "0x571460": {
+  "name": "xmalloc_set_program_name",
+  "size": 62
+ },
+ "0x451890": {
+  "name": "_bfd_elf_init_private_section_data",
+  "size": 1285
+ },
+ "0x571720": {
+  "name": "xstrdup",
+  "size": 98
+ },
+ "0x462590": {
+  "name": "_bfd_elf_section_for_symbol",
+  "size": 799
+ },
+ "0x406fe0": {
+  "name": "bfd_get_gp_size",
+  "size": 152
+ },
+ "0x4cb190": {
+  "name": "aout_32_swap_ext_reloc_out",
+  "size": 712
+ },
+ "0x522ca0": {
+  "name": "_bfd_coff_write_armap",
+  "size": 1936
+ },
+ "0x40d7f0": {
+  "name": "bfd_getl_signed_16",
+  "size": 222
+ },
+ "0x4e05d0": {
+  "name": "_bfd_pei_swap_sym_in",
+  "size": 1060
+ },
+ "0x4066b0": {
+  "name": "bfd_set_input_error",
+  "size": 98
+ },
+ "0x40cf30": {
+  "name": "bfd_false",
+  "size": 32
+ },
+ "0x44e070": {
+  "name": "_bfd_elf_make_dynamic_segment",
+  "size": 127
+ },
+ "0x437360": {
+  "name": "_bfd_elf_create_ifunc_sections",
+  "size": 1211
+ },
+ "0x455f70": {
+  "name": "elfcore_write_register_note",
+  "size": 1350
+ },
+ "0x439550": {
+  "name": "bfd_elf64_swap_phdr_in",
+  "size": 414
+ },
+ "0x405ab0": {
+  "name": "bfd_default_scan",
+  "size": 1925
+ },
+ "0x494430": {
+  "name": "bfd_elf_add_obj_attr_int",
+  "size": 77
+ },
+ "0x539860": {
+  "name": "deflateInit2_",
+  "size": 1322
+ },
+ "0x4136e0": {
+  "name": "bfd_get_section_by_name",
+  "size": 100
+ },
+ "0x4763c0": {
+  "name": "bfd_elf_get_needed_list",
+  "size": 68
+ },
+ "0x404780": {
+  "name": "parse_vma",
+  "size": 97
+ },
+ "0x55bb80": {
+  "name": "cplus_demangle_fill_name",
+  "size": 114
+ },
+ "0x53aab0": {
+  "name": "deflateGetDictionary",
+  "size": 259
+ },
+ "0x4e2b50": {
+  "name": "_bfd_pei_only_swap_filehdr_out",
+  "size": 2049
+ },
+ "0x55ef40": {
+  "name": "is_gnu_v3_mangled_ctor",
+  "size": 65
+ },
+ "0x40ee50": {
+  "name": "bfd_get_bits",
+  "size": 332
+ },
+ "0x496080": {
+  "name": "_bfd_elf_strtab_delref",
+  "size": 235
+ },
+ "0x51ca10": {
+  "name": "_bfd_generic_read_ar_hdr_mag",
+  "size": 1425
+ },
+ "0x43cbd0": {
+  "name": "bfd_elf64_slurp_reloc_table",
+  "size": 898
+ },
+ "0x4c5b20": {
+  "name": "aout_32_reloc_type_lookup",
+  "size": 830
+ },
+ "0x567a80": {
+  "name": "expandargv",
+  "size": 1141
+ },
+ "0x4878d0": {
+  "name": "bfd_elf_discard_info",
+  "size": 1857
+ },
+ "0x4cb460": {
+  "name": "aout_32_swap_ext_reloc_in",
+  "size": 1198
+ },
+ "0x4bb6d0": {
+  "name": "elf_vxworks_emit_relocs",
+  "size": 919
+ },
+ "0x5263c0": {
+  "name": "bfd_init_section_decompress_status",
+  "size": 546
+ },
+ "0x410ca0": {
+  "name": "bfd_create",
+  "size": 183
+ },
+ "0x453a00": {
+  "name": "_bfd_elf_find_inliner_info",
+  "size": 77
+ },
+ "0x527d90": {
+  "name": "_bfd_generic_link_add_symbols",
+  "size": 146
+ },
+ "0x4655c0": {
+  "name": "_bfd_elf_link_read_relocs",
+  "size": 821
+ },
+ "0x527900": {
+  "name": "bfd_link_add_undef",
+  "size": 132
+ },
+ "0x406d90": {
+  "name": "bfd_get_arch_size",
+  "size": 101
+ },
+ "0x4bb2b0": {
+  "name": "elf_vxworks_create_dynamic_sections",
+  "size": 769
+ },
+ "0x53b140": {
+  "name": "deflateParams",
+  "size": 661
+ },
+ "0x5272b0": {
+  "name": "bfd_link_hash_lookup",
+  "size": 207
+ },
+ "0x452f60": {
+  "name": "_bfd_elf_canonicalize_symtab",
+  "size": 114
+ },
+ "0x4874b0": {
+  "name": "bfd_elf_reloc_symbol_deleted_p",
+  "size": 1052
+ },
+ "0x4ca080": {
+  "name": "aout_32_write_syms",
+  "size": 632
+ },
+ "0x4568e0": {
+  "name": "_bfd_elf_section_offset",
+  "size": 360
+ },
+ "0x433af0": {
+  "name": "_bfd_x86_elf_fixup_symbol",
+  "size": 276
+ },
+ "0x486ca0": {
+  "name": "bfd_elf_lookup_section_flags",
+  "size": 1099
+ },
+ "0x40cf20": {
+  "name": "bfd_init",
+  "size": 6
+ },
+ "0x4f99e0": {
+  "name": "coff_mangle_symbols",
+  "size": 999
+ },
+ "0x5259e0": {
+  "name": "bfd_get_full_section_contents",
+  "size": 1142
+ },
+ "0x40b8f0": {
+  "name": "bfd_hash_table_init_n",
+  "size": 585
+ },
+ "0x56f1a0": {
+  "name": "lbasename",
+  "size": 27
+ },
+ "0x4056f0": {
+  "name": "bfd_printable_name",
+  "size": 25
+ },
+ "0x494640": {
+  "name": "_bfd_elf_attr_strdup",
+  "size": 100
+ },
+ "0x406470": {
+  "name": "bfd_get_arch_info",
+  "size": 21
+ },
+ "0x406a30": {
+  "name": "bfd_set_error_handler",
+  "size": 38
+ },
+ "0x4f4090": {
+  "name": "_bfd_coff_reloc_link_order",
+  "size": 1104
+ },
+ "0x453dc0": {
+  "name": "_bfd_elf_validate_reloc",
+  "size": 604
+ },
+ "0x55eb40": {
+  "name": "cplus_demangle_v3_callback",
+  "size": 49
+ },
+ "0x407b70": {
+  "name": "bfd_emul_set_commonpagesize",
+  "size": 75
+ },
+ "0x4572f0": {
+  "name": "_bfd_elf_maybe_function_sym",
+  "size": 216
+ },
+ "0x523fb0": {
+  "name": "bfd_mmap",
+  "size": 154
+ },
+ "0x52e090": {
+  "name": "_bfd_add_merge_section",
+  "size": 1418
+ },
+ "0x40c6d0": {
+  "name": "bfd_hash_allocate",
+  "size": 332
+ },
+ "0x4fdf30": {
+  "name": "coff_find_inliner_info",
+  "size": 77
+ },
+ "0x536320": {
+  "name": "bfd_set_symtab",
+  "size": 258
+ },
+ "0x42da40": {
+  "name": "_bfd_elf_x86_get_local_sym_hash",
+  "size": 1011
+ },
+ "0x43bcd0": {
+  "name": "bfd_elf64_checksum_contents",
+  "size": 915
+ },
+ "0x53aec0": {
+  "name": "deflateSetHeader",
+  "size": 96
+ },
+ "0x536890": {
+  "name": "bfd_decode_symclass",
+  "size": 771
+ },
+ "0x539800": {
+  "name": "deflateInit_",
+  "size": 91
+ },
+ "0x553180": {
+  "name": "rust_demangle",
+  "size": 106
+ },
+ "0x4148f0": {
+  "name": "bfd_generic_is_group_section",
+  "size": 16
+ },
+ "0x54c330": {
+  "name": "zcfree",
+  "size": 31
+ },
+ "0x496470": {
+  "name": "_bfd_elf_strtab_offset",
+  "size": 251
+ },
+ "0x455df0": {
+  "name": "elfcore_write_arm_vfp",
+  "size": 95
+ },
+ "0x467320": {
+  "name": "_bfd_elf_archive_symbol_lookup",
+  "size": 473
+ },
+ "0x456600": {
+  "name": "_bfd_elf_reloc_type_class",
+  "size": 20
+ },
+ "0x475340": {
+  "name": "_bfd_elf_link_hash_newfunc",
+  "size": 316
+ },
+ "0x410440": {
+  "name": "bfd_fdopenr",
+  "size": 311
+ },
+ "0x552270": {
+  "name": "ada_demangle",
+  "size": 3280
+ },
+ "0x487460": {
+  "name": "bfd_elf_gc_common_final_link",
+  "size": 75
+ },
+ "0x56dd40": {
+  "name": "htab_find_slot",
+  "size": 75
+ },
+ "0x403670": {
+  "name": "bfd_nonfatal_message",
+  "size": 675
+ },
+ "0x448f50": {
+  "name": "bfd_elf_get_default_section_type",
+  "size": 102
+ },
+ "0x494360": {
+  "name": "bfd_elf_get_obj_attr_int",
+  "size": 201
+ },
+ "0x484090": {
+  "name": "_bfd_elf_gc_mark",
+  "size": 724
+ },
+ "0x4628b0": {
+  "name": "_bfd_elf_define_linkage_sym",
+  "size": 1159
+ },
+ "0x443120": {
+  "name": "_bfd_elf_print_private_bfd_data",
+  "size": 6311
+ },
+ "0x5674e0": {
+  "name": "freeargv",
+  "size": 92
+ },
+ "0x40ca00": {
+  "name": "_bfd_stringtab_init",
+  "size": 176
+ },
+ "0x448fc0": {
+  "name": "bfd_elf_set_group_contents",
+  "size": 1911
+ },
+ "0x4a1040": {
+  "name": "_bfd_elf_encode_eh_address",
+  "size": 171
+ },
+ "0x40d710": {
+  "name": "bfd_getb_signed_16",
+  "size": 211
+ },
+ "0x56cd40": {
+  "name": "htab_elements",
+  "size": 48
+ },
+ "0x4f0740": {
+  "name": "_bfd_coff_link_input_bfd",
+  "size": 14664
+ },
+ "0x4393e0": {
+  "name": "bfd_elf64_swap_symbol_out",
+  "size": 353
+ },
+ "0x40b5b0": {
+  "name": "bfd_set_format",
+  "size": 633
+ },
+ "0x5330a0": {
+  "name": "_bfd_clear_contents",
+  "size": 627
+ },
+ "0x4f85e0": {
+  "name": "coff_section_from_bfd_index",
+  "size": 222
+ },
+ "0x55ef00": {
+  "name": "java_demangle_v3_callback",
+  "size": 50
+ },
+ "0x40d8d0": {
+  "name": "bfd_putb16",
+  "size": 145
+ },
+ "0x4ee270": {
+  "name": "_bfd_coff_final_link",
+  "size": 9414
+ },
+ "0x4ccd10": {
+  "name": "aout_32_minisymbol_to_symbol",
+  "size": 223
+ },
+ "0x5335c0": {
+  "name": "bfd_generic_lookup_section_flags",
+  "size": 94
+ },
+ "0x455970": {
+  "name": "elfcore_write_s390_timer",
+  "size": 95
+ },
+ "0x5260b0": {
+  "name": "bfd_is_section_compressed_with_header",
+  "size": 661
+ },
+ "0x4064f0": {
+  "name": "bfd_octets_per_byte",
+  "size": 50
+ },
+ "0x5238d0": {
+  "name": "bfd_bwrite",
+  "size": 172
+ },
+ "0x5334f0": {
+  "name": "bfd_generic_relax_section",
+  "size": 161
+ },
+ "0x527cf0": {
+  "name": "_bfd_generic_link_just_syms",
+  "size": 118
+ },
+ "0x4870f0": {
+  "name": "bfd_elf_gc_common_finalize_got_offsets",
+  "size": 665
+ },
+ "0x4f44e0": {
+  "name": "_bfd_coff_write_task_globals",
+  "size": 196
+ },
+ "0x51d230": {
+  "name": "_bfd_get_elt_at_filepos",
+  "size": 1383
+ },
+ "0x5361a0": {
+  "name": "_bfd_stab_section_offset",
+  "size": 254
+ },
+ "0x40d280": {
+  "name": "bfd_realloc",
+  "size": 168
+ },
+ "0x5221e0": {
+  "name": "_bfd_bsd_write_armap",
+  "size": 2192
+ },
+ "0x440330": {
+  "name": "bfd_elf_is_group_section",
+  "size": 41
+ },
+ "0x55e9a0": {
+  "name": "cplus_demangle_init_info",
+  "size": 167
+ },
+ "0x40db50": {
+  "name": "bfd_getl32",
+  "size": 202
+ },
+ "0x40bbb0": {
+  "name": "bfd_hash_lookup",
+  "size": 597
+ },
+ "0x545e30": {
+  "name": "inflateSyncPoint",
+  "size": 112
+ },
+ "0x43c070": {
+  "name": "bfd_elf64_slurp_symbol_table",
+  "size": 2910
+ },
+ "0x4f5580": {
+  "name": "_bfd_coff_generic_relocate_section",
+  "size": 2793
+ },
+ "0x4073b0": {
+  "name": "bfd_record_phdr",
+  "size": 828
+ },
+ "0x545760": {
+  "name": "inflateEnd",
+  "size": 152
+ },
+ "0x54f790": {
+  "name": "inflate_fast",
+  "size": 4256
+ },
+ "0x489840": {
+  "name": "_bfd_elf_make_dynamic_reloc_section",
+  "size": 405
+ },
+ "0x454750": {
+  "name": "elfcore_write_prpsinfo",
+  "size": 676
+ },
+ "0x4764d0": {
+  "name": "bfd_elf_get_bfd_needed_list",
+  "size": 638
+ },
+ "0x4f8310": {
+  "name": "coff_object_p",
+  "size": 720
+ },
+ "0x52d360": {
+  "name": "bfd_generic_define_common_symbol",
+  "size": 689
+ },
+ "0x437840": {
+  "name": "_bfd_elf_allocate_ifunc_dyn_relocs",
+  "size": 3041
+ },
+ "0x4f8930": {
+  "name": "_bfd_coff_read_string_table",
+  "size": 671
+ },
+ "0x410a30": {
+  "name": "bfd_close_all_done",
+  "size": 141
+ },
+ "0x4fe600": {
+  "name": "bfd_coff_gc_sections",
+  "size": 438
+ },
+ "0x567f90": {
+  "name": "countargv",
+  "size": 97
+ },
+ "0x523f30": {
+  "name": "bfd_get_file_size",
+  "size": 127
+ },
+ "0x410580": {
+  "name": "bfd_openstreamr",
+  "size": 243
+ },
+ "0x51c420": {
+  "name": "_bfd_ar_sizepad",
+  "size": 274
+ },
+ "0x43f060": {
+  "name": "bfd_elf_hash",
+  "size": 271
+ },
+ "0x407310": {
+  "name": "bfd_get_relocated_section_contents",
+  "size": 152
+ },
+ "0x476300": {
+  "name": "bfd_elf_set_dyn_lib_class",
+  "size": 181
+ },
+ "0x466f30": {
+  "name": "_bfd_elf_relocs_compatible",
+  "size": 137
+ },
+ "0x463910": {
+  "name": "_bfd_elf_create_dynamic_sections",
+  "size": 1725
+ },
+ "0x52dae0": {
+  "name": "bfd_hide_sym_by_version",
+  "size": 55
+ },
+ "0x51c6a0": {
+  "name": "_bfd_create_empty_archive_element_shell",
+  "size": 27
+ },
+ "0x52bdd0": {
+  "name": "_bfd_default_link_order",
+  "size": 168
+ },
+ "0x4cad10": {
+  "name": "aout_32_swap_std_reloc_out",
+  "size": 1150
+ },
+ "0x455cd0": {
+  "name": "elfcore_write_s390_vxrs_high",
+  "size": 95
+ },
+ "0x410680": {
+  "name": "bfd_openr_iovec",
+  "size": 375
+ },
+ "0x527b70": {
+  "name": "_bfd_generic_link_hash_table_create",
+  "size": 137
+ },
+ "0x4063f0": {
+  "name": "bfd_get_arch",
+  "size": 24
+ },
+ "0x56dfe0": {
+  "name": "htab_traverse",
+  "size": 118
+ },
+ "0x530d70": {
+  "name": "bfd_perform_relocation",
+  "size": 3469
+ },
+ "0x405200": {
+  "name": "mode_string",
+  "size": 618
+ },
+ "0x520ef0": {
+  "name": "_bfd_write_archive_contents",
+  "size": 1949
+ },
+ "0x51af70": {
+  "name": "bfd_plugin_set_program_name",
+  "size": 22
+ },
+ "0x42d8d0": {
+  "name": "_bfd_x86_elf_set_tls_module_base",
+  "size": 284
+ },
+ "0x4a0720": {
+  "name": "_bfd_elf_write_section_eh_frame_hdr",
+  "size": 207
+ },
+ "0x4fe2e0": {
+  "name": "_bfd_coff_section_already_linked",
+  "size": 790
+ },
+ "0x545920": {
+  "name": "inflateSetDictionary",
+  "size": 287
+ },
+ "0x43ef20": {
+  "name": "_bfd_elf_swap_vernaux_out",
+  "size": 190
+ },
+ "0x40c610": {
+  "name": "bfd_hash_replace",
+  "size": 179
+ },
+ "0x54d1a0": {
+  "name": "adler32",
+  "size": 41
+ },
+ "0x40e8a0": {
+  "name": "bfd_putl32",
+  "size": 245
+ },
+ "0x4fd3b0": {
+  "name": "coff_find_nearest_line_with_names",
+  "size": 2808
+ },
+ "0x53d050": {
+  "name": "deflateBound",
+  "size": 893
+ },
+ "0x42e1a0": {
+  "name": "_bfd_x86_elf_local_htab_eq",
+  "size": 89
+ },
+ "0x5348a0": {
+  "name": "_bfd_link_section_stabs",
+  "size": 3798
+ },
+ "0x52fa90": {
+  "name": "_bfd_merged_section_offset",
+  "size": 1176
+ },
+ "0x40fbf0": {
+  "name": "_bfd_new_bfd_contained_in",
+  "size": 762
+ },
+ "0x4fb9f0": {
+  "name": "_bfd_coff_free_symbols",
+  "size": 259
+ },
+ "0x40f370": {
+  "name": "bfd_generic_is_local_label_name",
+  "size": 74
+ },
+ "0x483a40": {
+  "name": "_bfd_elf_gc_mark_hook",
+  "size": 200
+ },
+ "0x495310": {
+  "name": "_bfd_elf_merge_unknown_attribute_low",
+  "size": 517
+ },
+ "0x4bde50": {
+  "name": "bfd_elf32_write_relocs",
+  "size": 1094
+ },
+ "0x525fe0": {
+  "name": "bfd_cache_section_contents",
+  "size": 204
+ },
+ "0x483b10": {
+  "name": "_bfd_elf_gc_mark_rsec",
+  "size": 1016
+ },
+ "0x4078b0": {
+  "name": "bfd_alt_mach_code",
+  "size": 273
+ },
+ "0x454120": {
+  "name": "_bfd_elfcore_make_pseudosection",
+  "size": 370
+ },
+ "0x4c1600": {
+  "name": "bfd_i386linux_size_dynamic_sections",
+  "size": 484
+ },
+ "0x411870": {
+  "name": "bfd_get_debug_link_info",
+  "size": 35
+ },
+ "0x489f70": {
+  "name": "elf_append_rel",
+  "size": 220
+ },
+ "0x43f210": {
+  "name": "bfd_elf_allocate_object",
+  "size": 450
+ },
+ "0x536e50": {
+  "name": "bfd_symbol_info",
+  "size": 143
+ },
+ "0x406490": {
+  "name": "bfd_printable_arch_mach",
+  "size": 83
+ },
+ "0x56fe40": {
+  "name": "choose_tmpdir",
+  "size": 377
+ },
+ "0x51da80": {
+  "name": "_bfd_generic_get_elt_at_index",
+  "size": 69
+ },
+ "0x4f8810": {
+  "name": "_bfd_coff_internal_syment_name",
+  "size": 286
+ },
+ "0x40d630": {
+  "name": "bfd_getb16",
+  "size": 110
+ },
+ "0x4fd370": {
+  "name": "_bfd_coff_is_local_label_name",
+  "size": 62
+ },
+ "0x4c0c90": {
+  "name": "elf32_r_info",
+  "size": 98
+ },
+ "0x49e100": {
+  "name": "_bfd_elf_write_section_eh_frame_entry",
+  "size": 1381
+ },
+ "0x5717f0": {
+  "name": "__libc_csu_init",
+  "size": 101
+ },
+ "0x4e3c90": {
+  "name": "_bfd_pei_swap_debugdir_out",
+  "size": 310
+ },
+ "0x4774b0": {
+  "name": "bfd_elf_final_link",
+  "size": 15524
+ },
+ "0x551ca0": {
+  "name": "cplus_mangle_opname",
+  "size": 291
+ },
+ "0x407130": {
+  "name": "_bfd_get_gp_value",
+  "size": 214
+ },
+ "0x520770": {
+  "name": "_bfd_bsd44_write_ar_hdr",
+  "size": 658
+ },
+ "0x4115f0": {
+  "name": "bfd_zalloc2",
+  "size": 193
+ },
+ "0x40ffa0": {
+  "name": "bfd_fopen",
+  "size": 837
+ },
+ "0x414380": {
+  "name": "bfd_set_section_size",
+  "size": 139
+ },
+ "0x413750": {
+  "name": "bfd_get_next_section_by_name",
+  "size": 265
+ },
+ "0x485300": {
+  "name": "bfd_elf_parse_eh_frame_entries",
+  "size": 372
+ },
+ "0x452d50": {
+  "name": "_bfd_elf_get_dynamic_symtab_upper_bound",
+  "size": 227
+ },
+ "0x526350": {
+  "name": "bfd_is_section_compressed",
+  "size": 98
+ },
+ "0x412790": {
+  "name": "bfd_fill_in_gnu_debuglink_section",
+  "size": 669
+ },
+ "0x454a00": {
+  "name": "elfcore_write_linux_prpsinfo32",
+  "size": 296
+ },
+ "0x571370": {
+  "name": "unlink_if_ordinary",
+  "size": 178
+ },
+ "0x4cc690": {
+  "name": "aout_32_get_reloc_upper_bound",
+  "size": 484
+ },
+ "0x545a40": {
+  "name": "inflateGetHeader",
+  "size": 155
+ },
+ "0x50e5d0": {
+  "name": "_bfd_pex64i_swap_lineno_in",
+  "size": 109
+ },
+ "0x49d4a0": {
+  "name": "_bfd_elf_eh_frame_entry_present",
+  "size": 202
+ },
+ "0x56d390": {
+  "name": "htab_empty",
+  "size": 494
+ },
+ "0x4bf880": {
+  "name": "bfd_elf32_slurp_reloc_table",
+  "size": 914
+ },
+ "0x465ea0": {
+  "name": "_bfd_elf_link_hash_fixup_symbol",
+  "size": 184
+ },
+ "0x56d800": {
+  "name": "htab_find_slot_with_hash",
+  "size": 717
+ },
+ "0x444d20": {
+  "name": "_bfd_elf_slurp_version_tables",
+  "size": 3610
+ },
+ "0x46e030": {
+  "name": "bfd_elf_size_dynamic_sections",
+  "size": 12484
+ },
+ "0x4572c0": {
+  "name": "_bfd_elf_is_function_type",
+  "size": 42
+ },
+ "0x4c0d80": {
+  "name": "bfd_elf32_core_file_matches_executable_p",
+  "size": 220
+ },
+ "0x485820": {
+  "name": "bfd_elf_gc_sections",
+  "size": 1601
+ },
+ "0x40fef0": {
+  "name": "_bfd_free_cached_info",
+  "size": 166
+ },
+ "0x439970": {
+  "name": "bfd_elf64_swap_reloc_out",
+  "size": 89
+ },
+ "0x4fb7f0": {
+  "name": "coff_get_lineno",
+  "size": 22
+ },
+ "0x55eed0": {
+  "name": "java_demangle_v3",
+  "size": 36
+ },
+ "0x4150e0": {
+  "name": "bfd_iterate_over_targets",
+  "size": 124
+ },
+ "0x533360": {
+  "name": "bfd_reloc_name_lookup",
+  "size": 58
+ },
+ "0x40d0d0": {
+  "name": "_bfd_nocore_core_file_pid",
+  "size": 32
+ },
+ "0x526e20": {
+  "name": "core_file_matches_executable_p",
+  "size": 177
+ },
+ "0x489620": {
+  "name": "_bfd_elf_common_section",
+  "size": 20
+ },
+ "0x4972c0": {
+  "name": "_bfd_elf_link_setup_gnu_properties",
+  "size": 2183
+ },
+ "0x43e110": {
+  "name": "bfd_elf64_core_file_failing_signal",
+  "size": 30
+ },
+ "0x435af0": {
+  "name": "_bfd_x86_elf_parse_gnu_properties",
+  "size": 330
+ },
+ "0x4cd700": {
+  "name": "aout_32_bfd_free_cached_info",
+  "size": 386
+ },
+ "0x50dcf0": {
+  "name": "_bfd_pex64i_swap_aux_in",
+  "size": 1098
+ },
+ "0x408280": {
+  "name": "bfd_check_compression_header",
+  "size": 441
+ },
+ "0x43b6c0": {
+  "name": "bfd_elf64_write_shdrs_and_ehdr",
+  "size": 495
+ },
+ "0x524670": {
+  "name": "bfd_cache_init",
+  "size": 181
+ },
+ "0x4fc7c0": {
+  "name": "coff_get_reloc_upper_bound",
+  "size": 117
+ },
+ "0x4cd6e0": {
+  "name": "aout_32_sizeof_headers",
+  "size": 28
+ },
+ "0x4360e0": {
+  "name": "_bfd_x86_elf_link_setup_gnu_properties",
+  "size": 4694
+ },
+ "0x5415f0": {
+  "name": "inflatePrime",
+  "size": 299
+ },
+ "0x405a10": {
+  "name": "bfd_default_compatible",
+  "size": 160
+ },
+ "0x4e4010": {
+  "name": "_bfd_pei_write_codeview_record",
+  "size": 354
+ },
+ "0x43e130": {
+  "name": "bfd_elf64_core_file_pid",
+  "size": 31
+ },
+ "0x4cc4f0": {
+  "name": "aout_32_canonicalize_reloc",
+  "size": 409
+ },
+ "0x4139f0": {
+  "name": "bfd_get_unique_section_name",
+  "size": 316
+ },
+ "0x48a050": {
+  "name": "bfd_elf_define_start_stop",
+  "size": 1123
+ },
+ "0x402450": {
+  "name": "_start",
+  "size": 42
+ },
+ "0x453d80": {
+  "name": "_bfd_elf_no_info_to_howto",
+  "size": 58
+ },
+ "0x5708b0": {
+  "name": "rust_is_mangled",
+  "size": 161
+ },
+ "0x406be0": {
+  "name": "bfd_set_file_flags",
+  "size": 336
+ },
+ "0x43eaf0": {
+  "name": "_bfd_elf_swap_verdef_out",
+  "size": 260
+ },
+ "0x4eddb0": {
+  "name": "_bfd_coff_link_hash_newfunc",
+  "size": 196
+ },
+ "0x43ee50": {
+  "name": "_bfd_elf_swap_vernaux_in",
+  "size": 204
+ },
+ "0x526ee0": {
+  "name": "generic_core_file_matches_executable_p",
+  "size": 239
+ },
+ "0x453bb0": {
+  "name": "_bfd_elf_set_section_contents",
+  "size": 454
+ },
+ "0x510aa0": {
+  "name": "_bfd_pex64i_swap_debugdir_out",
+  "size": 310
+ },
+ "0x42d890": {
+  "name": "_bfd_x86_elf_mkobject",
+  "size": 52
+ },
+ "0x51c6f0": {
+  "name": "_bfd_look_for_bfd_in_cache",
+  "size": 328
+ },
+ "0x4e3dd0": {
+  "name": "_bfd_pei_slurp_codeview_record",
+  "size": 561
+ },
+ "0x406410": {
+  "name": "bfd_get_mach",
+  "size": 25
+ },
+ "0x515cd0": {
+  "name": "_bfd_pex64i_final_link_postscript",
+  "size": 2776
+ },
+ "0x43e230": {
+  "name": "bfd_elf64_core_file_p",
+  "size": 1943
+ },
+ "0x52b000": {
+  "name": "_bfd_generic_link_write_global_symbol",
+  "size": 522
+ },
+ "0x52b320": {
+  "name": "_bfd_generic_reloc_link_order",
+  "size": 1123
+ },
+ "0x4c8ee0": {
+  "name": "aout_32_new_section_hook",
+  "size": 391
+ },
+ "0x456a50": {
+  "name": "bfd_elf_bfd_from_remote_memory",
+  "size": 92
+ },
+ "0x453950": {
+  "name": "_bfd_elf_find_line",
+  "size": 161
+ },
+ "0x4a24f0": {
+  "name": "_bfd_dwarf2_slurp_debug_info",
+  "size": 1517
+ },
+ "0x447e40": {
+  "name": "_bfd_elf_get_special_section",
+  "size": 498
+ },
+ "0x432f80": {
+  "name": "_bfd_x86_elf_copy_indirect_symbol",
+  "size": 2914
+ },
+ "0x472860": {
+  "name": "_bfd_elf_init_2_index_sections",
+  "size": 351
+ },
+ "0x49c160": {
+  "name": "_bfd_elf_discard_section_eh_frame",
+  "size": 2291
+ },
+ "0x520bb0": {
+  "name": "bfd_dont_truncate_arname",
+  "size": 350
+ },
+ "0x539d90": {
+  "name": "deflateEnd",
+  "size": 327
+ },
+ "0x467020": {
+  "name": "_bfd_elf_link_check_relocs",
+  "size": 764
+ },
+ "0x4ee010": {
+  "name": "_bfd_coff_link_add_symbols",
+  "size": 146
+ },
+ "0x4c60a0": {
+  "name": "aout_32_swap_exec_header_out",
+  "size": 285
+ },
+ "0x493e30": {
+  "name": "bfd_elf_obj_attr_size",
+  "size": 138
+ },
+ "0x4650b0": {
+  "name": "bfd_elf_link_record_local_dynamic_symbol",
+  "size": 828
+ },
+ "0x403e40": {
+  "name": "set_default_bfd_target",
+  "size": 103
+ },
+ "0x411510": {
+  "name": "bfd_alloc2",
+  "size": 219
+ },
+ "0x498290": {
+  "name": "_bfd_elf_parse_eh_frame",
+  "size": 10453
+ },
+ "0x4cc8e0": {
+  "name": "aout_32_get_lineno",
+  "size": 16
+ },
+ "0x406d30": {
+  "name": "bfd_assert",
+  "size": 90
+ },
+ "0x44df90": {
+  "name": "_bfd_elf_find_segment_containing_section",
+  "size": 214
+ },
+ "0x406e00": {
+  "name": "bfd_get_sign_extend_vma",
+  "size": 427
+ },
+ "0x527790": {
+  "name": "bfd_link_hash_traverse",
+  "size": 362
+ },
+ "0x51c340": {
+  "name": "_bfd_ar_spacepad",
+  "size": 224
+ },
+ "0x40d010": {
+  "name": "_bfd_norelocs_canonicalize_reloc",
+  "size": 35
+ },
+ "0x4c5f50": {
+  "name": "aout_32_swap_exec_header_in",
+  "size": 333
+ },
+ "0x570620": {
+  "name": "objalloc_free_block",
+  "size": 653
+ },
+ "0x40cfa0": {
+  "name": "bfd_0l",
+  "size": 12
+ },
+ "0x434fa0": {
+  "name": "_bfd_x86_elf_get_synthetic_symtab",
+  "size": 2619
+ },
+ "0x4e8e90": {
+  "name": "_bfd_pe_get_symbol_info",
+  "size": 43
+ },
+ "0x494a40": {
+  "name": "_bfd_elf_parse_attributes",
+  "size": 1686
+ },
+ "0x434020": {
+  "name": "_bfd_x86_elf_hash_symbol",
+  "size": 170
+ },
+ "0x40cfb0": {
+  "name": "_bfd_n1",
+  "size": 37
+ },
+ "0x439b10": {
+  "name": "bfd_elf64_object_p",
+  "size": 4651
+ },
+ "0x4be960": {
+  "name": "bfd_elf32_checksum_contents",
+  "size": 925
+ },
+ "0x4866c0": {
+  "name": "bfd_elf_gc_record_vtinherit",
+  "size": 669
+ },
+ "0x43ff00": {
+  "name": "_bfd_elf_setup_sections",
+  "size": 1071
+ },
+ "0x4cda00": {
+  "name": "aout_32_link_add_symbols",
+  "size": 146
+ },
+ "0x52c540": {
+  "name": "bfd_section_already_linked_table_lookup",
+  "size": 47
+ },
+ "0x4e15e0": {
+  "name": "_bfd_pei_swap_aouthdr_in",
+  "size": 2135
+ },
+ "0x4bbfa0": {
+  "name": "bfd_elf32_swap_symbol_out",
+  "size": 401
+ },
+ "0x413670": {
+  "name": "bfd_section_list_clear",
+  "size": 110
+ },
+ "0x4045d0": {
+  "name": "make_tempname",
+  "size": 98
+ },
+ "0x545ea0": {
+  "name": "inflateCopy",
+  "size": 679
+ },
+ "0x56d140": {
+  "name": "htab_set_functions_ex",
+  "size": 109
+ },
+ "0x496430": {
+  "name": "_bfd_elf_strtab_size",
+  "size": 58
+ },
+ "0x4536d0": {
+  "name": "_bfd_elf_find_nearest_line",
+  "size": 638
+ },
+ "0x407080": {
+  "name": "bfd_set_gp_size",
+  "size": 164
+ },
+ "0x4e8830": {
+  "name": "_bfd_pe_bfd_copy_private_bfd_data_common",
+  "size": 1168
+ },
+ "0x46d920": {
+  "name": "_bfd_elf_hash_symbol",
+  "size": 337
+ },
+ "0x483f10": {
+  "name": "_bfd_elf_gc_mark_reloc",
+  "size": 374
+ },
+ "0x455f10": {
+  "name": "elfcore_write_aarch_hw_watch",
+  "size": 95
+ },
+ "0x410850": {
+  "name": "bfd_openw",
+  "size": 254
+ },
+ "0x51ff10": {
+  "name": "_bfd_archive_coff_construct_extended_name_table",
+  "size": 71
+ },
+ "0x4ccdf0": {
+  "name": "aout_32_find_nearest_line",
+  "size": 2277
+ },
+ "0x402550": {
+  "name": "main",
+  "size": 703
+ },
+ "0x4bed00": {
+  "name": "bfd_elf32_slurp_symbol_table",
+  "size": 2930
+ },
+ "0x530c90": {
+  "name": "bfd_reloc_offset_in_range",
+  "size": 215
+ },
+ "0x4ccc20": {
+  "name": "aout_32_read_minisymbols",
+  "size": 227
+ },
+ "0x407210": {
+  "name": "_bfd_set_gp_value",
+  "size": 194
+ },
+ "0x56cf00": {
+  "name": "htab_create_alloc_ex",
+  "size": 334
+ },
+ "0x408440": {
+  "name": "bfd_get_compression_header_size",
+  "size": 329
+ },
+ "0x4559d0": {
+  "name": "elfcore_write_s390_todcmp",
+  "size": 95
+ },
+ "0x484450": {
+  "name": "_bfd_elf_gc_mark_extra_sections",
+  "size": 1666
+ },
+ "0x455bb0": {
+  "name": "elfcore_write_s390_system_call",
+  "size": 95
+ },
+ "0x40cf50": {
+  "name": "bfd_true",
+  "size": 15
+ },
+ "0x551ec0": {
+  "name": "cplus_demangle",
+  "size": 938
+ },
+ "0x413fe0": {
+  "name": "bfd_make_section_anyway",
+  "size": 37
+ },
+ "0x40eb80": {
+  "name": "bfd_putl64",
+  "size": 401
+ },
+ "0x43e0d0": {
+  "name": "elf64_r_sym",
+  "size": 21
+ },
+ "0x4fbb00": {
+  "name": "coff_get_normalized_symtab",
+  "size": 2159
+ },
+ "0x56c650": {
+  "name": "filename_eq",
+  "size": 47
+ },
+ "0x4e3360": {
+  "name": "_bfd_pe_only_swap_filehdr_out",
+  "size": 302
+ },
+ "0x466fc0": {
+  "name": "_bfd_elf_notice_as_needed",
+  "size": 95
+ },
+ "0x55c320": {
+  "name": "cplus_demangle_type",
+  "size": 3020
+ },
+ "0x5415c0": {
+  "name": "inflateInit_",
+  "size": 48
+ },
+ "0x528790": {
+  "name": "_bfd_generic_link_add_one_symbol",
+  "size": 5643
+ },
+ "0x496570": {
+  "name": "_bfd_elf_strtab_emit",
+  "size": 405
+ },
+ "0x53af20": {
+  "name": "deflatePending",
+  "size": 128
+ },
+ "0x4bc490": {
+  "name": "bfd_elf32_swap_reloc_in",
+  "size": 110
+ },
+ "0x52db80": {
+  "name": "_bfd_generic_verify_endian_match",
+  "size": 231
+ },
+ "0x406a60": {
+  "name": "bfd_set_error_program_name",
+  "size": 22
+ },
+ "0x49e670": {
+  "name": "_bfd_elf_write_section_eh_frame",
+  "size": 7080
+ },
+ "0x466290": {
+  "name": "_bfd_elf_dynamic_symbol_p",
+  "size": 1217
+ },
+ "0x53eea0": {
+  "name": "deflateCopy",
+  "size": 863
+ },
+ "0x40d530": {
+  "name": "bfd_putb32",
+  "size": 245
+ },
+ "0x4bc500": {
+  "name": "bfd_elf32_swap_reloca_in",
+  "size": 134
+ },
+ "0x4e1570": {
+  "name": "_bfd_pei_swap_lineno_out",
+  "size": 108
+ },
+ "0x5701c0": {
+  "name": "objalloc_create",
+  "size": 187
+ },
+ "0x455e50": {
+  "name": "elfcore_write_aarch_tls",
+  "size": 95
+ },
+ "0x5236b0": {
+  "name": "_bfd_real_ftell",
+  "size": 27
+ },
+ "0x4c62a0": {
+  "name": "aout_32_some_aout_object_p",
+  "size": 2757
+ },
+ "0x4c7500": {
+  "name": "aout_32_adjust_sizes_and_vmas",
+  "size": 673
+ },
+ "0x494780": {
+  "name": "_bfd_elf_copy_obj_attributes",
+  "size": 616
+ },
+ "0x510e20": {
+  "name": "_bfd_pex64i_write_codeview_record",
+  "size": 354
+ },
+ "0x5463b0": {
+  "name": "inflate_table",
+  "size": 2386
+ },
+ "0x4a0ff0": {
+  "name": "_bfd_elf_eh_frame_address_size",
+  "size": 45
+ },
+ "0x56f220": {
+  "name": "make_relative_prefix",
+  "size": 48
+ },
+ "0x4c5e60": {
+  "name": "aout_32_reloc_name_lookup",
+  "size": 240
+ },
+ "0x50d660": {
+  "name": "_bfd_pex64i_swap_sym_in",
+  "size": 1078
+ },
+ "0x530a20": {
+  "name": "bfd_check_overflow",
+  "size": 612
+ },
+ "0x40cbc0": {
+  "name": "_bfd_stringtab_add",
+  "size": 552
+ },
+ "0x52cbf0": {
+  "name": "_bfd_generic_section_already_linked",
+  "size": 291
+ },
+ "0x407bc0": {
+  "name": "bfd_demangle",
+  "size": 953
+ },
+ "0x526d20": {
+  "name": "bfd_core_file_failing_signal",
+  "size": 106
+ },
+ "0x451e90": {
+  "name": "_bfd_elf_fixup_group_sections",
+  "size": 492
+ },
+ "0x52d780": {
+  "name": "bfd_find_version_for_sym",
+  "size": 852
+ },
+ "0x54f450": {
+  "name": "crc32_combine",
+  "size": 43
+ },
+ "0x40fa90": {
+  "name": "_bfd_new_bfd",
+  "size": 342
+ },
+ "0x43e0f0": {
+  "name": "bfd_elf64_core_file_failing_command",
+  "size": 32
+ },
+ "0x404750": {
+  "name": "make_tempdir",
+  "size": 40
+ },
+ "0x55bd80": {
+  "name": "cplus_demangle_mangled_name",
+  "size": 472
+ },
+ "0x56c680": {
+  "name": "canonical_filename_eq",
+  "size": 85
+ },
+ "0x43d330": {
+  "name": "_bfd_elf64_bfd_from_remote_memory",
+  "size": 3415
+ },
+ "0x4116c0": {
+  "name": "bfd_release",
+  "size": 53
+ },
+ "0x405710": {
+  "name": "bfd_scan_arch",
+  "size": 164
+ },
+ "0x4bc740": {
+  "name": "bfd_elf32_object_p",
+  "size": 4601
+ },
+ "0x4c0e60": {
+  "name": "bfd_elf32_core_file_p",
+  "size": 1939
+ },
+ "0x496710": {
+  "name": "_bfd_elf_strtab_finalize",
+  "size": 889
+ },
+ "0x539530": {
+  "name": "compress2",
+  "size": 551
+ },
+ "0x520700": {
+  "name": "_bfd_generic_write_ar_hdr",
+  "size": 98
+ },
+ "0x524a60": {
+  "name": "bfd_cache_close_all",
+  "size": 93
+ },
+ "0x453650": {
+  "name": "_bfd_elf_set_arch_mach",
+  "size": 119
+ },
+ "0x4e1e40": {
+  "name": "_bfd_pei_swap_aouthdr_out",
+  "size": 2952
+ },
+ "0x42e060": {
+  "name": "_bfd_x86_elf_local_htab_hash",
+  "size": 319
+ },
+ "0x56cd70": {
+  "name": "htab_create_alloc",
+  "size": 75
+ },
+ "0x522a70": {
+  "name": "_bfd_archive_bsd_update_armap_timestamp",
+  "size": 555
+ },
+ "0x526fd0": {
+  "name": "_bfd_link_hash_newfunc",
+  "size": 161
+ },
+ "0x4961a0": {
+  "name": "_bfd_elf_strtab_clear_all_refs",
+  "size": 92
+ },
+ "0x515620": {
+  "name": "_bfd_pex64_bfd_copy_private_bfd_data_common",
+  "size": 1196
+ },
+ "0x531b00": {
+  "name": "bfd_install_relocation",
+  "size": 3068
+ },
+ "0x452e40": {
+  "name": "_bfd_elf_get_reloc_upper_bound",
+  "size": 48
+ },
+ "0x43f880": {
+  "name": "bfd_elf_get_elf_syms",
+  "size": 1381
+ },
+ "0x4e4970": {
+  "name": "_bfd_pe_print_private_bfd_data_common",
+  "size": 3259
+ },
+ "0x40cdf0": {
+  "name": "_bfd_stringtab_size",
+  "size": 18
+ },
+ "0x432eb0": {
+  "name": "_bfd_x86_elf_merge_symbol_attribute",
+  "size": 199
+ },
+ "0x4047f0": {
+  "name": "get_file_size",
+  "size": 416
+ },
+ "0x40d6a0": {
+  "name": "bfd_getl16",
+  "size": 110
+ },
+ "0x4481c0": {
+  "name": "_bfd_elf_new_section_hook",
+  "size": 518
+ },
+ "0x42e6c0": {
+  "name": "_bfd_x86_elf_link_check_relocs",
+  "size": 1029
+ },
+ "0x533da0": {
+  "name": "bfd_simple_get_relocated_section_contents",
+  "size": 1181
+ },
+ "0x51d110": {
+  "name": "_bfd_append_relative_path",
+  "size": 280
+ },
+ "0x40cb90": {
+  "name": "_bfd_stringtab_free",
+  "size": 36
+ },
+ "0x527990": {
+  "name": "bfd_link_repair_undef_list",
+  "size": 305
+ },
+ "0x406800": {
+  "name": "bfd_perror",
+  "size": 196
+ },
+ "0x523980": {
+  "name": "bfd_tell",
+  "size": 297
+ },
+ "0x571790": {
+  "name": "xstrerror",
+  "size": 91
+ },
+ "0x541440": {
+  "name": "inflateInit2_",
+  "size": 369
+ },
+ "0x4bc590": {
+  "name": "bfd_elf32_swap_reloc_out",
+  "size": 95
+ },
+ "0x524ac0": {
+  "name": "bfd_open_file",
+  "size": 752
+ },
+ "0x52a4a0": {
+  "name": "_bfd_generic_link_output_symbols",
+  "size": 2904
+ },
+ "0x455a30": {
+  "name": "elfcore_write_s390_todpreg",
+  "size": 95
+ },
+ "0x452e70": {
+  "name": "_bfd_elf_canonicalize_reloc",
+  "size": 239
+ },
+ "0x527650": {
+  "name": "unwrap_hash_lookup",
+  "size": 306
+ },
+ "0x49d570": {
+  "name": "_bfd_elf_maybe_strip_eh_frame_hdr",
+  "size": 753
+ },
+ "0x40d420": {
+  "name": "bfd_zmalloc",
+  "size": 72
+ },
+ "0x571430": {
+  "name": "xexit",
+  "size": 41
+ },
+ "0x54c300": {
+  "name": "zcalloc",
+  "size": 40
+ },
+ "0x404430": {
+  "name": "print_arelt_descr",
+  "size": 414
+ },
+ "0x40f250": {
+  "name": "_bfd_generic_set_section_contents",
+  "size": 163
+ },
+ "0x410950": {
+  "name": "bfd_close",
+  "size": 224
+ },
+ "0x408590": {
+  "name": "bfd_convert_section_size",
+  "size": 403
+ },
+ "0x50daa0": {
+  "name": "_bfd_pex64i_swap_sym_out",
+  "size": 476
+ },
+ "0x475050": {
+  "name": "_bfd_elf_merge_sections",
+  "size": 609
+ },
+ "0x5705c0": {
+  "name": "objalloc_free",
+  "size": 89
+ },
+ "0x56cdc0": {
+  "name": "htab_create_typed_alloc",
+  "size": 307
+ },
+ "0x4bc5f0": {
+  "name": "bfd_elf32_swap_reloca_out",
+  "size": 128
+ },
+ "0x51c9f0": {
+  "name": "_bfd_generic_read_ar_hdr",
+  "size": 31
+ },
+ "0x4760c0": {
+  "name": "_bfd_elf_link_hash_table_create",
+  "size": 161
+ },
+ "0x5475c0": {
+  "name": "_tr_align",
+  "size": 1120
+ },
+ "0x4076f0": {
+  "name": "bfd_sprintf_vma",
+  "size": 161
+ },
+ "0x4767e0": {
+  "name": "bfd_elf_perform_complex_relocation",
+  "size": 1028
+ },
+ "0x43f170": {
+  "name": "bfd_elf_gnu_hash",
+  "size": 147
+ },
+ "0x4fc8d0": {
+  "name": "coff_bfd_make_debug_symbol",
+  "size": 228
+ },
+ "0x51b180": {
+  "name": "bfd_plugin_target_p",
+  "size": 33
+ },
+ "0x477300": {
+  "name": "_bfd_elf_check_kept_section",
+  "size": 252
+ },
+ "0x56df40": {
+  "name": "htab_traverse_noresize",
+  "size": 160
+ },
+ "0x4533f0": {
+  "name": "_bfd_elf_is_local_label_name",
+  "size": 530
+ },
+ "0x447d10": {
+  "name": "bfd_sym_from_r_symndx",
+  "size": 300
+ },
+ "0x40f8b0": {
+  "name": "_bfd_read_signed_leb128",
+  "size": 443
+ },
+ "0x445d40": {
+  "name": "bfd_elf_print_symbol",
+  "size": 998
+ },
+ "0x40d9f0": {
+  "name": "bfd_getb32",
+  "size": 342
+ },
+ "0x56e060": {
+  "name": "htab_collisions",
+  "size": 75
+ },
+ "0x4bb060": {
+  "name": "elf_vxworks_add_symbol_hook",
+  "size": 407
+ },
+ "0x415160": {
+  "name": "bfd_flavour_name",
+  "size": 547
+ },
+ "0x51c540": {
+  "name": "_bfd_generic_mkarchive",
+  "size": 90
+ },
+ "0x4f86c0": {
+  "name": "coff_get_symtab_upper_bound",
+  "size": 112
+ },
+ "0x5714a0": {
+  "name": "xmalloc_failed",
+  "size": 202
+ },
+ "0x40a670": {
+  "name": "bfd_check_format_matches",
+  "size": 2866
+ },
+ "0x527d70": {
+  "name": "_bfd_generic_copy_link_hash_symbol_type",
+  "size": 18
+ },
+ "0x4c6e30": {
+  "name": "aout_32_machine_type",
+  "size": 1502
+ },
+ "0x448040": {
+  "name": "_bfd_elf_get_sec_type_attr",
+  "size": 381
+ },
+ "0x4f8bd0": {
+  "name": "_bfd_coff_read_internal_relocs",
+  "size": 807
+ },
+ "0x533620": {
+  "name": "bfd_generic_merge_sections",
+  "size": 19
+ },
+ "0x56de70": {
+  "name": "htab_clear_slot",
+  "size": 193
+ },
+ "0x40cff0": {
+  "name": "_bfd_norelocs_get_reloc_upper_bound",
+  "size": 19
+ },
+ "0x40d970": {
+  "name": "bfd_putl16",
+  "size": 121
+ },
+ "0x536840": {
+  "name": "_bfd_generic_make_empty_symbol",
+  "size": 69
+ },
+ "0x4729c0": {
+  "name": "bfd_elf_size_dynsym_hash_dynstr",
+  "size": 5439
+ },
+ "0x463020": {
+  "name": "_bfd_elf_link_create_dynamic_sections",
+  "size": 1803
+ },
+ "0x407a30": {
+  "name": "bfd_emul_set_maxpagesize",
+  "size": 75
+ },
+ "0x532870": {
+  "name": "_bfd_relocate_contents",
+  "size": 2083
+ },
+ "0x56dd90": {
+  "name": "htab_remove_elt",
+  "size": 69
+ },
+ "0x4396f0": {
+  "name": "bfd_elf64_swap_phdr_out",
+  "size": 391
+ },
+ "0x570030": {
+  "name": "make_temp_file",
+  "size": 386
+ },
+ "0x40d3d0": {
+  "name": "bfd_realloc_or_free",
+  "size": 74
+ },
+ "0x439ab0": {
+  "name": "bfd_elf64_swap_dyn_out",
+  "size": 89
+ },
+ "0x4761d0": {
+  "name": "bfd_elf_set_dt_needed_name",
+  "size": 117
+ },
+ "0x570280": {
+  "name": "_objalloc_alloc",
+  "size": 823
+ },
+ "0x406720": {
+  "name": "bfd_errmsg",
+  "size": 219
+ },
+ "0x4399d0": {
+  "name": "bfd_elf64_swap_reloca_out",
+  "size": 119
+ },
+ "0x449c30": {
+  "name": "_bfd_elf_compute_section_file_positions",
+  "size": 1231
+ },
+ "0x406b40": {
+  "name": "bfd_canonicalize_reloc",
+  "size": 159
+ },
+ "0x456620": {
+  "name": "_bfd_elf_rela_local_sym",
+  "size": 501
+ },
+ "0x50e6b0": {
+  "name": "_bfd_pex64i_swap_aouthdr_in",
+  "size": 1849
+ },
+ "0x541280": {
+  "name": "inflateReset",
+  "size": 108
+ },
+ "0x4c0d60": {
+  "name": "bfd_elf32_core_file_pid",
+  "size": 31
+ },
+ "0x40d470": {
+  "name": "bfd_zmalloc2",
+  "size": 98
+ },
+ "0x4bc670": {
+  "name": "bfd_elf32_swap_dyn_in",
+  "size": 98
+ },
+ "0x56d7b0": {
+  "name": "htab_find",
+  "size": 69
+ },
+ "0x42d9f0": {
+  "name": "_bfd_x86_elf_dtpoff_base",
+  "size": 72
+ },
+ "0x434f10": {
+  "name": "_bfd_x86_elf_gc_mark_hook",
+  "size": 143
+ },
+ "0x5271b0": {
+  "name": "_bfd_generic_link_hash_table_free",
+  "size": 244
+ },
+ "0x54c230": {
+  "name": "zlibVersion",
+  "size": 16
+ },
+ "0x406a80": {
+  "name": "bfd_set_assert_handler",
+  "size": 38
+ },
+ "0x445b40": {
+  "name": "_bfd_elf_get_symbol_version_string",
+  "size": 502
+ },
+ "0x527080": {
+  "name": "_bfd_link_hash_table_init",
+  "size": 302
+ },
+ "0x486960": {
+  "name": "bfd_elf_gc_record_vtentry",
+  "size": 830
+ },
+ "0x449740": {
+  "name": "_bfd_elf_plt_get_reloc_section",
+  "size": 200
+ },
+ "0x403ce0": {
+  "name": "non_fatal",
+  "size": 347
+ },
+ "0x4cd930": {
+  "name": "aout_32_link_hash_table_init",
+  "size": 49
+ },
+ "0x55e3d0": {
+  "name": "cplus_demangle_print_callback",
+  "size": 329
+ },
+ "0x43b210": {
+  "name": "bfd_elf64_write_relocs",
+  "size": 1028
+ },
+ "0x4bbb40": {
+  "name": "elf_vxworks_add_dynamic_entries",
+  "size": 272
+ },
+ "0x530420": {
+  "name": "_bfd_merge_sections_free",
+  "size": 82
+ },
+ "0x510160": {
+  "name": "_bfd_pex64_only_swap_filehdr_out",
+  "size": 302
+ },
+ "0x451da0": {
+  "name": "_bfd_elf_copy_private_section_data",
+  "size": 232
+ },
+ "0x4a04f0": {
+  "name": "_bfd_elf_fixup_eh_frame_hdr",
+  "size": 558
+ },
+ "0x4a15f0": {
+  "name": "_bfd_dwarf1_find_nearest_line",
+  "size": 1085
+ },
+ "0x4068d0": {
+  "name": "_bfd_error_handler",
+  "size": 352
+ },
+ "0x414ac0": {
+  "name": "bfd_find_target",
+  "size": 444
+ },
+ "0x56d1b0": {
+  "name": "htab_create",
+  "size": 71
+ },
+ "0x489610": {
+  "name": "_bfd_elf_common_section_index",
+  "size": 15
+ },
+ "0x4e3b40": {
+  "name": "_bfd_pei_swap_debugdir_in",
+  "size": 328
+ },
+ "0x455a90": {
+  "name": "elfcore_write_s390_ctrs",
+  "size": 95
+ },
+ "0x455c10": {
+  "name": "elfcore_write_s390_tdb",
+  "size": 95
+ },
+ "0x43e150": {
+  "name": "bfd_elf64_core_file_matches_executable_p",
+  "size": 220
+ },
+ "0x53abc0": {
+  "name": "deflateResetKeep",
+  "size": 342
+ },
+ "0x4f45b0": {
+  "name": "_bfd_coff_write_global_sym",
+  "size": 2469
+ },
+ "0x446130": {
+  "name": "bfd_section_from_shdr",
+  "size": 7037
+ },
+ "0x5412f0": {
+  "name": "inflateReset2",
+  "size": 324
+ },
+ "0x52db60": {
+  "name": "_bfd_generic_link_check_relocs",
+  "size": 19
+ },
+ "0x4bb5e0": {
+  "name": "elf_vxworks_link_output_symbol_hook",
+  "size": 229
+ },
+ "0x40a640": {
+  "name": "bfd_check_format",
+  "size": 37
+ },
+ "0x43e090": {
+  "name": "elf64_r_info",
+  "size": 52
+ },
+ "0x5678e0": {
+  "name": "writeargv",
+  "size": 405
+ },
+ "0x4e8ec0": {
+  "name": "_bfd_pei_final_link_postscript",
+  "size": 2506
+ },
+ "0x489640": {
+  "name": "_bfd_elf_default_got_elt_size",
+  "size": 82
+ },
+ "0x51dad0": {
+  "name": "bfd_openr_next_archived_file",
+  "size": 184
+ },
+ "0x495da0": {
+  "name": "_bfd_elf_strtab_free",
+  "size": 49
+ },
+ "0x4851c0": {
+  "name": "_bfd_elf_gc_keep",
+  "size": 308
+ },
+ "0x496200": {
+  "name": "_bfd_elf_strtab_save",
+  "size": 222
+ },
+ "0x40cb50": {
+  "name": "_bfd_xcoff_stringtab_init",
+  "size": 49
+ },
+ "0x535d50": {
+  "name": "_bfd_write_section_stabs",
+  "size": 765
+ },
+ "0x4e0c60": {
+  "name": "_bfd_pei_swap_aux_in",
+  "size": 1098
+ },
+ "0x40d090": {
+  "name": "_bfd_nocore_core_file_failing_command",
+  "size": 32
+ },
+ "0x403af0": {
+  "name": "report",
+  "size": 119
+ },
+ "0x4c9be0": {
+  "name": "aout_32_slurp_symbol_table",
+  "size": 443
+ },
+ "0x40b830": {
+  "name": "bfd_format_string",
+  "size": 188
+ },
+ "0x40bb70": {
+  "name": "bfd_hash_table_init",
+  "size": 51
+ },
+ "0x411a40": {
+  "name": "bfd_get_alt_debug_link_info",
+  "size": 437
+ },
+ "0x43e9d0": {
+  "name": "_bfd_elf_swap_verdef_in",
+  "size": 282
+ },
+ "0x4cbf00": {
+  "name": "aout_32_slurp_reloc_table",
+  "size": 878
+ },
+ "0x533d10": {
+  "name": "_bfd_unrecognized_reloc",
+  "size": 134
+ },
+ "0x407820": {
+  "name": "bfd_fprintf_vma",
+  "size": 134
+ },
+ "0x413860": {
+  "name": "bfd_get_linker_section",
+  "size": 150
+ },
+ "0x5716a0": {
+  "name": "xmemdup",
+  "size": 125
+ },
+ "0x466760": {
+  "name": "_bfd_elf_symbol_refs_local_p",
+  "size": 1319
+ },
+ "0x406ab0": {
+  "name": "bfd_get_reloc_upper_bound",
+  "size": 141
+ },
+ "0x523700": {
+  "name": "_bfd_real_fopen",
+  "size": 43
+ },
+ "0x4a7ff0": {
+  "name": "_bfd_dwarf2_find_inliner_info",
+  "size": 182
+ },
+ "0x432b90": {
+  "name": "_bfd_x86_elf_always_size_sections",
+  "size": 785
+ },
+ "0x414260": {
+  "name": "bfd_map_over_sections",
+  "size": 162
+ },
+ "0x434e00": {
+  "name": "_bfd_x86_elf_hide_symbol",
+  "size": 261
+ },
+ "0x56e120": {
+  "name": "iterative_hash",
+  "size": 3377
+ },
+ "0x52c150": {
+  "name": "bfd_new_link_order",
+  "size": 165
+ },
+ "0x406fb0": {
+  "name": "bfd_set_start_address",
+  "size": 34
+ },
+ "0x40cf80": {
+  "name": "bfd_0",
+  "size": 12
+ },
+ "0x5237b0": {
+  "name": "bfd_bread",
+  "size": 281
+ },
+ "0x414c80": {
+  "name": "bfd_get_target_info",
+  "size": 540
+ },
+ "0x406430": {
+  "name": "bfd_arch_bits_per_byte",
+  "size": 24
+ },
+ "0x52c5f0": {
+  "name": "bfd_section_already_linked_table_init",
+  "size": 41
+ },
+ "0x4653f0": {
+  "name": "_bfd_elf_link_lookup_local_dynindx",
+  "size": 134
+ },
+ "0x496c40": {
+  "name": "_bfd_elf_get_property",
+  "size": 386
+ },
+ "0x56c5a0": {
+  "name": "filename_hash",
+  "size": 168
+ },
+ "0x4c9440": {
+  "name": "aout_32_translate_symbol_table",
+  "size": 571
+ },
+ "0x52d160": {
+  "name": "_bfd_fix_excluded_sec_syms",
+  "size": 60
+ },
+ "0x4141e0": {
+  "name": "bfd_set_section_flags",
+  "size": 32
+ },
+ "0x536ee0": {
+  "name": "_bfd_generic_read_minisymbols",
+  "size": 339
+ },
+ "0x52db20": {
+  "name": "bfd_link_check_relocs",
+  "size": 58
+ },
+ "0x4edf70": {
+  "name": "_bfd_coff_debug_merge_hash_newfunc",
+  "size": 146
+ },
+ "0x4fca70": {
+  "name": "coff_print_symbol",
+  "size": 2291
+ },
+ "0x455d30": {
+  "name": "elfcore_write_s390_gs_cb",
+  "size": 95
+ },
+ "0x4bfff0": {
+  "name": "_bfd_elf32_bfd_from_remote_memory",
+  "size": 3228
+ },
+ "0x52c680": {
+  "name": "bfd_section_already_linked_table_free",
+  "size": 21
+ },
+ "0x4fb570": {
+  "name": "coff_write_linenumbers",
+  "size": 628
+ },
+ "0x5265f0": {
+  "name": "bfd_init_section_compress_status",
+  "size": 351
+ },
+ "0x40d060": {
+  "name": "_bfd_nocore_core_file_matches_executable_p",
+  "size": 36
+ },
+ "0x539f20": {
+  "name": "deflateSetDictionary",
+  "size": 1090
+ },
+ "0x43efe0": {
+  "name": "_bfd_elf_swap_versym_in",
+  "size": 57
+ },
+ "0x4cb910": {
+  "name": "aout_32_swap_std_reloc_in",
+  "size": 1517
+ },
+ "0x54c240": {
+  "name": "zlibCompileFlags",
+  "size": 138
+ },
+ "0x403b70": {
+  "name": "fatal",
+  "size": 366
+ },
+ "0x54c350": {
+  "name": "adler32_z",
+  "size": 3649
+ },
+ "0x40e130": {
+  "name": "bfd_getl64",
+  "size": 672
+ },
+ "0x4558b0": {
+  "name": "elfcore_write_ppc_vmx",
+  "size": 95
+ },
+ "0x4cc8f0": {
+  "name": "aout_32_get_symbol_info",
+  "size": 294
+ },
+ "0x403eb0": {
+  "name": "list_matching_formats",
+  "size": 172
+ },
+ "0x547450": {
+  "name": "_tr_flush_bits",
+  "size": 27
+ },
+ "0x406240": {
+  "name": "bfd_arch_default_fill",
+  "size": 67
+ },
+ "0x465c00": {
+  "name": "_bfd_elf_link_output_relocs",
+  "size": 670
+ },
+ "0x40f3c0": {
+  "name": "_bfd_warn_deprecated",
+  "size": 413
+ },
+ "0x545ae0": {
+  "name": "inflateSync",
+  "size": 601
+ },
+ "0x4727b0": {
+  "name": "_bfd_elf_init_1_index_section",
+  "size": 169
+ },
+ "0x40c4d0": {
+  "name": "bfd_hash_rename",
+  "size": 316
+ },
+ "0x43b620": {
+  "name": "bfd_elf64_write_out_phdrs",
+  "size": 146
+ },
+ "0x4c9070": {
+  "name": "aout_32_set_section_contents",
+  "size": 871
+ },
+ "0x5362a0": {
+  "name": "bfd_is_local_label",
+  "size": 128
+ },
+ "0x456520": {
+  "name": "bfd_get_elf_phdr_upper_bound",
+  "size": 87
+ },
+ "0x52d620": {
+  "name": "bfd_generic_define_start_stop",
+  "size": 342
+ },
+ "0x52c500": {
+  "name": "_bfd_generic_link_split_section",
+  "size": 16
+ },
+ "0x452a10": {
+  "name": "_bfd_elf_copy_private_symbol_data",
+  "size": 577
+ },
+ "0x452080": {
+  "name": "_bfd_elf_copy_private_header_data",
+  "size": 178
+ },
+ "0x401d78": {
+  "name": "_init",
+  "size": 0
+ },
+ "0x5715c0": {
+  "name": "xcalloc",
+  "size": 109
+ },
+ "0x4e10b0": {
+  "name": "_bfd_pei_swap_aux_out",
+  "size": 1099
+ },
+ "0x4bc6e0": {
+  "name": "bfd_elf32_swap_dyn_out",
+  "size": 95
+ },
+ "0x439a50": {
+  "name": "bfd_elf64_swap_dyn_in",
+  "size": 92
+ },
+ "0x414310": {
+  "name": "bfd_sections_find_if",
+  "size": 110
+ },
+ "0x454f60": {
+  "name": "elfcore_write_linux_prpsinfo64",
+  "size": 315
+ },
+ "0x49b3c0": {
+  "name": "_bfd_elf_end_eh_frame_parsing",
+  "size": 319
+ },
+ "0x476750": {
+  "name": "_bfd_elf_match_sections_by_type",
+  "size": 135
+ },
+ "0x53cfc0": {
+  "name": "deflateTune",
+  "size": 135
+ },
+ "0x406290": {
+  "name": "bfd_set_arch_info",
+  "size": 29
+ },
+ "0x4516f0": {
+  "name": "_bfd_elf_symbol_from_bfd_symbol",
+  "size": 404
+ },
+ "0x4cac50": {
+  "name": "aout_32_canonicalize_symtab",
+  "size": 190
+ },
+ "0x406450": {
+  "name": "bfd_arch_bits_per_address",
+  "size": 24
+ },
+ "0x40bf80": {
+  "name": "bfd_hash_insert",
+  "size": 1146
+ },
+ "0x523430": {
+  "name": "_bfd_archive_close_and_cleanup",
+  "size": 566
+ },
+ "0x456ab0": {
+  "name": "_bfd_elf_get_synthetic_symtab",
+  "size": 1893
+ },
+ "0x510f90": {
+  "name": "_bfd_pex64_print_ce_compressed_pdata",
+  "size": 1665
+ },
+ "0x40fa70": {
+  "name": "_bfd_generic_init_private_section_data",
+  "size": 31
+ },
+ "0x4391b0": {
+  "name": "bfd_elf64_swap_symbol_in",
+  "size": 548
+ },
+ "0x4fdf80": {
+  "name": "coff_sizeof_headers",
+  "size": 200
+ },
+ "0x4962e0": {
+  "name": "_bfd_elf_strtab_restore",
+  "size": 322
+ },
+ "0x40d0b0": {
+  "name": "_bfd_nocore_core_file_failing_signal",
+  "size": 32
+ },
+ "0x51c5a0": {
+  "name": "bfd_get_next_mapent",
+  "size": 253
+ },
+ "0x448aa0": {
+  "name": "bfd_section_from_phdr",
+  "size": 747
+ },
+ "0x435c40": {
+  "name": "_bfd_x86_elf_merge_gnu_properties",
+  "size": 1170
+ },
+ "0x484d10": {
+  "name": "bfd_elf_gc_mark_dynamic_ref_symbol",
+  "size": 1187
+ },
+ "0x52c510": {
+  "name": "bfd_section_already_linked_table_traverse",
+  "size": 48
+ },
+ "0x4a3ba0": {
+  "name": "_bfd_dwarf2_find_symbol_bias",
+  "size": 501
+ },
+ "0x4896a0": {
+  "name": "_bfd_elf_get_dynamic_reloc_section",
+  "size": 153
+ },
+ "0x55f140": {
+  "name": "is_gnu_v3_mangled_dtor",
+  "size": 65
+ },
+ "0x51af90": {
+  "name": "bfd_plugin_open_input",
+  "size": 334
+ },
+ "0x475ea0": {
+  "name": "_bfd_elf_link_hash_hide_symbol",
+  "size": 296
+ },
+ "0x51c840": {
+  "name": "_bfd_add_bfd_to_archive_cache",
+  "size": 282
+ },
+ "0x40c980": {
+  "name": "bfd_hash_set_default_size",
+  "size": 118
+ },
+ "0x475fd0": {
+  "name": "_bfd_elf_link_hash_table_init",
+  "size": 233
+ },
+ "0x523b70": {
+  "name": "bfd_seek",
+  "size": 641
+ },
+ "0x55bc00": {
+  "name": "cplus_demangle_fill_extended_operator",
+  "size": 114
+ },
+ "0x43f420": {
+  "name": "bfd_elf_mkcorefile",
+  "size": 139
+ }
+}

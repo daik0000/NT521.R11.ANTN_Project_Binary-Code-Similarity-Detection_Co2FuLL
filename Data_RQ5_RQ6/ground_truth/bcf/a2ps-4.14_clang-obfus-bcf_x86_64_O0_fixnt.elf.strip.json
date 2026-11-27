@@ -1,0 +1,182 @@
+{
+ "0x400b50": {
+  "name": "deregister_tm_clones",
+  "size": 0
+ },
+ "0x400b90": {
+  "name": "register_tm_clones",
+  "size": 0
+ },
+ "0x400bd0": {
+  "name": "__do_global_dtors_aux",
+  "size": 0
+ },
+ "0x400bf0": {
+  "name": "frame_dummy",
+  "size": 0
+ },
+ "0x404bb0": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x403b60": {
+  "name": "yy_get_next_buffer",
+  "size": 3798
+ },
+ "0x403540": {
+  "name": "yy_get_previous_state",
+  "size": 1006
+ },
+ "0x404bf0": {
+  "name": "yy_init_buffer",
+  "size": 951
+ },
+ "0x406d20": {
+  "name": "yy_init_globals",
+  "size": 102
+ },
+ "0x4034c0": {
+  "name": "yy_load_buffer_state",
+  "size": 126
+ },
+ "0x403930": {
+  "name": "yy_try_NUL_trans",
+  "size": 551
+ },
+ "0x4032a0": {
+  "name": "yyensure_buffer_stack",
+  "size": 383
+ },
+ "0x404fb0": {
+  "name": "yy_switch_to_buffer",
+  "size": 678
+ },
+ "0x4072e0": {
+  "name": "__libc_csu_fini",
+  "size": 2
+ },
+ "0x404a50": {
+  "name": "yyrestart",
+  "size": 337
+ },
+ "0x406840": {
+  "name": "yyget_out",
+  "size": 14
+ },
+ "0x4072e4": {
+  "name": "_fini",
+  "size": 0
+ },
+ "0x406970": {
+  "name": "yyget_debug",
+  "size": 138
+ },
+ "0x406d90": {
+  "name": "yyrealloc",
+  "size": 33
+ },
+ "0x403420": {
+  "name": "yy_create_buffer",
+  "size": 156
+ },
+ "0x406f30": {
+  "name": "reassemble",
+  "size": 819
+ },
+ "0x406860": {
+  "name": "yyget_text",
+  "size": 14
+ },
+ "0x405260": {
+  "name": "yyalloc",
+  "size": 25
+ },
+ "0x405570": {
+  "name": "yyfree",
+  "size": 189
+ },
+ "0x406870": {
+  "name": "yyset_lineno",
+  "size": 183
+ },
+ "0x405fa0": {
+  "name": "yy_scan_buffer",
+  "size": 805
+ },
+ "0x4062d0": {
+  "name": "yy_scan_string",
+  "size": 51
+ },
+ "0x406930": {
+  "name": "yyset_in",
+  "size": 22
+ },
+ "0x406310": {
+  "name": "yy_scan_bytes",
+  "size": 1163
+ },
+ "0x4067a0": {
+  "name": "yyget_lineno",
+  "size": 13
+ },
+ "0x406850": {
+  "name": "yyget_leng",
+  "size": 13
+ },
+ "0x405a80": {
+  "name": "yypush_buffer_state",
+  "size": 727
+ },
+ "0x405280": {
+  "name": "yy_delete_buffer",
+  "size": 751
+ },
+ "0x407270": {
+  "name": "__libc_csu_init",
+  "size": 101
+ },
+ "0x405d60": {
+  "name": "yypop_buffer_state",
+  "size": 568
+ },
+ "0x400b20": {
+  "name": "_start",
+  "size": 42
+ },
+ "0x406dc0": {
+  "name": "main",
+  "size": 360
+ },
+ "0x400c20": {
+  "name": "yylex",
+  "size": 9852
+ },
+ "0x405630": {
+  "name": "yy_flush_buffer",
+  "size": 1095
+ },
+ "0x4067b0": {
+  "name": "yyget_in",
+  "size": 141
+ },
+ "0x404a40": {
+  "name": "yywrap",
+  "size": 11
+ },
+ "0x406a00": {
+  "name": "yyset_debug",
+  "size": 19
+ },
+ "0x406950": {
+  "name": "yyset_out",
+  "size": 22
+ },
+ "0x400958": {
+  "name": "_init",
+  "size": 0
+ },
+ "0x406a20": {
+  "name": "yylex_destroy",
+  "size": 760
+ }
+}

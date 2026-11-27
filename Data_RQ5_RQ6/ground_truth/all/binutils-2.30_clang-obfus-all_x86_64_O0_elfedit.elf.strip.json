@@ -1,0 +1,230 @@
+{
+ "0x4011a0": {
+  "name": "deregister_tm_clones",
+  "size": 0
+ },
+ "0x4011e0": {
+  "name": "register_tm_clones",
+  "size": 0
+ },
+ "0x401220": {
+  "name": "__do_global_dtors_aux",
+  "size": 0
+ },
+ "0x401240": {
+  "name": "frame_dummy",
+  "size": 0
+ },
+ "0x4053f0": {
+  "name": "check_file",
+  "size": 1790
+ },
+ "0x403630": {
+  "name": "elf_class",
+  "size": 965
+ },
+ "0x402c70": {
+  "name": "elf_machine",
+  "size": 2484
+ },
+ "0x403ff0": {
+  "name": "elf_osabi",
+  "size": 1138
+ },
+ "0x403a00": {
+  "name": "elf_type",
+  "size": 1514
+ },
+ "0x4071d0": {
+  "name": "get_file_header",
+  "size": 4418
+ },
+ "0x405af0": {
+  "name": "process_archive",
+  "size": 5114
+ },
+ "0x4048f0": {
+  "name": "process_file",
+  "size": 2812
+ },
+ "0x406ef0": {
+  "name": "process_object",
+  "size": 729
+ },
+ "0x408320": {
+  "name": "update_elf_header",
+  "size": 7484
+ },
+ "0x404470": {
+  "name": "usage",
+  "size": 1141
+ },
+ "0x411060": {
+  "name": "process_archive_index_and_symbols",
+  "size": 7202
+ },
+ "0x419750": {
+  "name": "consume_whitespace",
+  "size": 1200
+ },
+ "0x41cd40": {
+  "name": "only_whitespace",
+  "size": 1014
+ },
+ "0x41f4b0": {
+  "name": "__libc_csu_fini",
+  "size": 2
+ },
+ "0x41f4c0": {
+  "name": "stat",
+  "size": 16
+ },
+ "0x40e370": {
+  "name": "byte_get_64",
+  "size": 871
+ },
+ "0x417d20": {
+  "name": "buildargv",
+  "size": 6689
+ },
+ "0x417090": {
+  "name": "dupargv",
+  "size": 2259
+ },
+ "0x41d830": {
+  "name": "dos_lbasename",
+  "size": 2374
+ },
+ "0x40a060": {
+  "name": "print_version",
+  "size": 157
+ },
+ "0x40a100": {
+  "name": "error",
+  "size": 446
+ },
+ "0x415830": {
+  "name": "get_archive_member_name_at",
+  "size": 1830
+ },
+ "0x41d6a0": {
+  "name": "unix_lbasename",
+  "size": 399
+ },
+ "0x41f4d0": {
+  "name": "_fini",
+  "size": 0
+ },
+ "0x412c90": {
+  "name": "setup_nested_archive",
+  "size": 1556
+ },
+ "0x413730": {
+  "name": "get_archive_member_name",
+  "size": 8444
+ },
+ "0x41efa0": {
+  "name": "xrealloc",
+  "size": 1060
+ },
+ "0x41e980": {
+  "name": "xmalloc",
+  "size": 1229
+ },
+ "0x41e420": {
+  "name": "xmalloc_set_program_name",
+  "size": 560
+ },
+ "0x41f3d0": {
+  "name": "xstrdup",
+  "size": 112
+ },
+ "0x40db50": {
+  "name": "byte_get_signed",
+  "size": 2069
+ },
+ "0x41b040": {
+  "name": "expandargv",
+  "size": 7415
+ },
+ "0x41e180": {
+  "name": "lbasename",
+  "size": 27
+ },
+ "0x417970": {
+  "name": "freeargv",
+  "size": 941
+ },
+ "0x41d140": {
+  "name": "countargv",
+  "size": 1365
+ },
+ "0x41f440": {
+  "name": "__libc_csu_init",
+  "size": 101
+ },
+ "0x4132b0": {
+  "name": "release_archive",
+  "size": 1143
+ },
+ "0x401170": {
+  "name": "_start",
+  "size": 42
+ },
+ "0x40a2c0": {
+  "name": "warn",
+  "size": 446
+ },
+ "0x40e6e0": {
+  "name": "adjust_relative_path",
+  "size": 3396
+ },
+ "0x401270": {
+  "name": "main",
+  "size": 6649
+ },
+ "0x40c8a0": {
+  "name": "byte_get_big_endian",
+  "size": 4776
+ },
+ "0x41e1a0": {
+  "name": "xexit",
+  "size": 640
+ },
+ "0x41e650": {
+  "name": "xmalloc_failed",
+  "size": 810
+ },
+ "0x40ae20": {
+  "name": "byte_put_big_endian",
+  "size": 2117
+ },
+ "0x40f430": {
+  "name": "setup_archive",
+  "size": 7210
+ },
+ "0x419c00": {
+  "name": "writeargv",
+  "size": 5172
+ },
+ "0x40b670": {
+  "name": "byte_get_little_endian",
+  "size": 4645
+ },
+ "0x40a480": {
+  "name": "byte_put_little_endian",
+  "size": 2463
+ },
+ "0x415f60": {
+  "name": "make_qualified_name",
+  "size": 4385
+ },
+ "0x400ea8": {
+  "name": "_init",
+  "size": 0
+ },
+ "0x41ee50": {
+  "name": "xcalloc",
+  "size": 332
+ }
+}

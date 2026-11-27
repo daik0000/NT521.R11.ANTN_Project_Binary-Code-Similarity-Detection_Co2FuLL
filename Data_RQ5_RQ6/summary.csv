@@ -1,0 +1,51 @@
+set,variant,binary,detected_without_force,signals,unpack,recovered_apis,recovered_strings,strings_runtime_only,flattened_funcs,flattened_fully_patched,cff_patches,opaque_globals,opaque_loads_patched,seconds,status
+C,sub,a2ps-4.14_clang-obfus-sub_x86_64_O0_a2ps.elf.strip,False,,none,0,33,3,0,0,0,0,0,553.0,ok
+C,sub,a2ps-4.14_clang-obfus-sub_x86_64_O0_fixnt.elf.strip,False,,none,0,0,0,0,0,0,0,0,8.1,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_addr2line.elf.strip,False,,none,0,0,0,0,0,0,0,0,626.2,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_ar.elf.strip,False,,none,0,0,0,0,0,0,0,0,627.1,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_as.elf.strip,False,,none,0,1,1,0,0,0,0,0,156.1,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_c++filt.elf.strip,False,,none,0,0,0,0,0,0,0,0,626.4,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_elfedit.elf.strip,False,,none,0,0,0,0,0,0,0,0,15.9,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_gprof.elf.strip,False,,none,0,2,2,0,0,0,0,0,628.1,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_nm.elf.strip,False,,none,0,0,0,0,0,0,0,0,626.2,ok
+C,sub,binutils-2.30_clang-obfus-sub_x86_64_O0_objcopy.elf.strip,False,,none,0,1,1,0,0,0,0,0,630.0,ok
+C,bcf,a2ps-4.14_clang-obfus-bcf_x86_64_O0_a2ps.elf.strip,True,low_strings bcf_pattern,none,0,3,3,0,0,0,350,16788,622.5,ok
+C,bcf,a2ps-4.14_clang-obfus-bcf_x86_64_O0_fixnt.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,42,392,9.2,ok
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_addr2line.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,1080,54544,677.3,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_ar.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,1080,55696,680.2,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_as.elf.strip,True,low_strings bcf_pattern,none,0,1,1,0,0,0,1292,72352,703.9,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_c++filt.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,1080,54392,679.0,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_elfedit.elf.strip,True,bcf_pattern,none,0,0,0,0,0,0,66,816,27.9,ok
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_gprof.elf.strip,True,low_strings bcf_pattern,none,0,2,2,0,0,0,1080,57292,681.7,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_nm.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,1080,54992,679.0,skipped (done)
+C,bcf,binutils-2.30_clang-obfus-bcf_x86_64_O0_objcopy.elf.strip,True,low_strings bcf_pattern,none,0,0,0,0,0,0,1092,64864,693.6,skipped (done)
+C,fla,a2ps-4.14_clang-obfus-fla_x86_64_O0_a2ps.elf.strip,True,low_strings cff_pattern,none,0,350,3,576,520,11553,0,0,269.4,ok
+C,fla,a2ps-4.14_clang-obfus-fla_x86_64_O0_fixnt.elf.strip,True,low_strings cff_pattern,none,0,11,0,18,18,385,0,0,12.1,ok
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_addr2line.elf.strip,True,low_strings cff_pattern,none,0,667,0,1620,1377,46129,0,0,492.1,ok
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_ar.elf.strip,True,low_strings cff_pattern,none,0,642,0,1675,1430,47142,0,0,488.9,skipped (done)
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_as.elf.strip,True,low_strings cff_pattern,none,0,895,1,2175,1860,61349,0,0,661.3,skipped (done)
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_c++filt.elf.strip,True,low_strings cff_pattern,none,0,666,0,1617,1375,46062,0,0,488.3,ok
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_elfedit.elf.strip,True,cff_pattern,none,0,17,0,42,41,673,0,0,17.3,ok
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_gprof.elf.strip,True,low_strings cff_pattern,none,0,711,2,1708,1450,48503,0,0,520.4,skipped (done)
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_nm.elf.strip,True,low_strings cff_pattern,none,0,674,0,1649,1403,46576,0,0,501.5,ok
+C,fla,binutils-2.30_clang-obfus-fla_x86_64_O0_objcopy.elf.strip,True,low_strings cff_pattern,none,0,825,1,1905,1613,54974,0,0,587.6,skipped (done)
+C,all,a2ps-4.14_clang-obfus-all_x86_64_O0_a2ps.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,529,3,712,623,19903,350,17436,508.4,ok
+C,all,a2ps-4.14_clang-obfus-all_x86_64_O0_fixnt.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,26,0,26,25,770,50,504,18.5,ok
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_addr2line.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1444,0,1789,1466,84978,1084,55640,1061.8,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_ar.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1474,0,1853,1526,86894,1084,56828,1083.6,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_as.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1,1,2422,2005,113710,1284,74124,1263.8,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_c++filt.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1440,0,1788,1466,84857,1084,55564,1057.3,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_elfedit.elf.strip,True,cff_pattern bcf_pattern,none,0,46,0,42,39,1258,68,780,23.6,ok
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_gprof.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1497,2,1878,1534,89475,1084,58468,1121.5,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_nm.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,1437,0,1818,1491,85826,1084,56176,1069.6,skipped (done)
+C,all,binutils-2.30_clang-obfus-all_x86_64_O0_objcopy.elf.strip,True,low_strings cff_pattern bcf_pattern,none,0,0,0,2097,1707,101291,1100,65580,1193.6,skipped (done)
+D,clean,a2ps-4.14_clang-4.0_x86_64_O0_a2ps.elf.strip,False,,none,0,10,3,0,0,0,0,0,516.4,ok
+D,clean,a2ps-4.14_clang-4.0_x86_64_O0_fixnt.elf.strip,False,,none,0,0,0,0,0,0,0,0,7.9,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_addr2line.elf.strip,False,,none,0,0,0,0,0,0,0,0,621.0,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_ar.elf.strip,False,,none,0,0,0,0,0,0,0,0,621.4,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_as.elf.strip,False,,none,0,1,1,0,0,0,0,0,630.1,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_c++filt.elf.strip,False,,none,0,0,0,0,0,0,0,0,620.9,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_elfedit.elf.strip,False,,none,0,1,0,0,0,0,0,0,18.0,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_gprof.elf.strip,False,,none,0,2,2,0,0,0,0,0,622.1,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_nm.elf.strip,False,,none,0,0,0,0,0,0,0,0,621.8,ok
+D,clean,binutils-2.30_clang-4.0_x86_64_O0_objcopy.elf.strip,False,,none,0,0,0,0,0,0,0,0,624.9,ok

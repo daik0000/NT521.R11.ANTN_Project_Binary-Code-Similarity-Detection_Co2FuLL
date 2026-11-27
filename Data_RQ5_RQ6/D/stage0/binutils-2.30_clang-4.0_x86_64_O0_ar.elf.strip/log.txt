@@ -1,0 +1,9 @@
+[FORCED] /home/rl/NT521.R11.ANTN_Project_Binary-Code-Similarity-Detection_Co2FuLL/Data_RQ5_RQ6/B/binutils-2.30_clang-4.0_x86_64_O0_ar.elf.strip — running normalization (signals: none)
+  [0.2a] unpack method: none
+  [0.2b] recovered 0 APIs, 0 strings
+[DONE] Output saved to: /tmp/rq56_tijshuys/binutils-2.30_clang-4.0_x86_64_O0_ar.elf
+  normalized binary : /tmp/rq56_tijshuys/binutils-2.30_clang-4.0_x86_64_O0_ar.elf/normalized.bin
+  recovered imports : 0 APIs
+  recovered strings : 0 strings
+  clean pseudocode  : (skipped)
+  [0.2c] unflattened 0 functions (0 patches), opaque globals 0, opaque loads patched 0
