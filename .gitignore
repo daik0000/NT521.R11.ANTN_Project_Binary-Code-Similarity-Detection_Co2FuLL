@@ -166,3 +166,7 @@ cython_debug/
 
 DBs
 saved/Binkit-1.0-dataset/pairs/experiments/
+
+# Backup files and run logs
+*.before-rq*
+logs/
