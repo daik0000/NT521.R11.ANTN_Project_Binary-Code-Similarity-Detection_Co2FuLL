@@ -1,0 +1,10 @@
+method,llm,T,P_T,R_T,F2_T,Nv_T,K,P_K,R_K,F2_K,Nv_K,malformed,llm_hours
+GMN,N/A,1.0,100.0,4.0,4.95,1.0,1,6.0,12.0,10.0,50,,
+Trex,N/A,0.95,18.18,8.0,9.01,11.0,1,10.0,20.0,16.67,50,,
+Asteria,N/A,0.95,36.67,44.0,42.31,30.0,1,32.0,64.0,53.33,50,,
+HermesSim,N/A,0.65,75.0,84.0,82.03,28.0,1,46.0,92.0,76.67,50,,
+HermesSim+Context,N/A,0.7,72.73,64.0,65.57,22.0,1,44.0,88.0,73.33,50,,
+Co2FuLL (HermesSim+Context),qwen2.5-7b-8k,,,,,,5,100.0,48.0,53.57,12,2.0,1.79
+Co2FuLL (HermesSim+Context),qwen2.5-coder-14b-8k,,,,,,5,75.86,88.0,85.27,29,2.0,3.32
+Co2FuLL (HermesSim+Context),qwen2.5-14b-8k,,,,,,5,66.67,88.0,82.71,33,2.0,3.46
+Co2FuLL (HermesSim+Context),deepseek-r1-14b-16k,,,,,,5,65.62,84.0,79.55,32,0.0,15.28
