@@ -35,6 +35,8 @@ QILING_TIMEOUT_US = int(os.environ.get("QILING_TIMEOUT_US", str(60_000_000)))  #
 # --- External tools -----------------------------------------------------------
 UPX_BIN = os.environ.get("UPX_BIN", "upx")
 FLOSS_BIN = os.environ.get("FLOSS_BIN", "floss")
+FLOSS_TIMEOUT = int(os.environ.get("FLOSS_TIMEOUT", "600"))                  # seconds per binary
+FLOSS_MAX_MEM_GB = float(os.environ.get("FLOSS_MAX_MEM_GB", "6"))           # address-space cap
 
 # --- Detection thresholds (section 5.1) --------------------------------------
 ENTROPY_THRESHOLD = 7.0

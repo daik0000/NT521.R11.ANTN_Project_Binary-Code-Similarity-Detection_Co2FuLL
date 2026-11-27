@@ -1,0 +1,3858 @@
+{
+ "0x402540": {
+  "name": "deregister_tm_clones",
+  "size": 0
+ },
+ "0x402580": {
+  "name": "register_tm_clones",
+  "size": 0
+ },
+ "0x4025c0": {
+  "name": "__do_global_dtors_aux",
+  "size": 0
+ },
+ "0x4025e0": {
+  "name": "frame_dummy",
+  "size": 0
+ },
+ "0x403410": {
+  "name": "exit_handler",
+  "size": 73
+ },
+ "0x404c60": {
+  "name": "get_highlight_level",
+  "size": 91
+ },
+ "0x4034b0": {
+  "name": "handle_a2ps_option",
+  "size": 785
+ },
+ "0x404cc0": {
+  "name": "highlight_level_to_string",
+  "size": 160
+ },
+ "0x404b40": {
+  "name": "list_features",
+  "size": 275
+ },
+ "0x403ac0": {
+  "name": "list_options",
+  "size": 4214
+ },
+ "0x403460": {
+  "name": "signal_handler",
+  "size": 77
+ },
+ "0x4037d0": {
+  "name": "spy_user",
+  "size": 746
+ },
+ "0x402fa0": {
+  "name": "usage",
+  "size": 1135
+ },
+ "0x404db0": {
+  "name": "plain_getc",
+  "size": 1976
+ },
+ "0x406aa0": {
+  "name": "match_keyword",
+  "size": 771
+ },
+ "0x4064c0": {
+  "name": "match_operator",
+  "size": 701
+ },
+ "0x406780": {
+  "name": "match_sequence",
+  "size": 790
+ },
+ "0x406db0": {
+  "name": "match_word",
+  "size": 282
+ },
+ "0x406110": {
+  "name": "rhs_plain_new",
+  "size": 25
+ },
+ "0x406130": {
+  "name": "ssh_get_token",
+  "size": 900
+ },
+ "0x4060a0": {
+  "name": "token_new",
+  "size": 99
+ },
+ "0x408860": {
+  "name": "alphabet_self_print",
+  "size": 180
+ },
+ "0x408370": {
+  "name": "ancestors_finalize",
+  "size": 564
+ },
+ "0x408080": {
+  "name": "ancestors_new",
+  "size": 51
+ },
+ "0x409fb0": {
+  "name": "check_doubles",
+  "size": 150
+ },
+ "0x40a1c0": {
+  "name": "check_rules_doubles",
+  "size": 211
+ },
+ "0x40a3a0": {
+  "name": "check_rules_lower_case",
+  "size": 172
+ },
+ "0x40a050": {
+  "name": "check_sensitivity",
+  "size": 264
+ },
+ "0x40a450": {
+  "name": "check_sequence_lower_case",
+  "size": 207
+ },
+ "0x40a300": {
+  "name": "check_sequences_lower_case",
+  "size": 150
+ },
+ "0x40a160": {
+  "name": "check_words_doubles",
+  "size": 86
+ },
+ "0x40a2a0": {
+  "name": "check_words_lower_case",
+  "size": 86
+ },
+ "0x409ec0": {
+  "name": "faced_string_free",
+  "size": 61
+ },
+ "0x407070": {
+  "name": "faced_string_self_print",
+  "size": 120
+ },
+ "0x407740": {
+  "name": "free_rule",
+  "size": 131
+ },
+ "0x40a520": {
+  "name": "load_style_sheet",
+  "size": 388
+ },
+ "0x407cd0": {
+  "name": "new_C_exceptions",
+  "size": 378
+ },
+ "0x409e00": {
+  "name": "require_style_sheet",
+  "size": 186
+ },
+ "0x409f00": {
+  "name": "rhs_set_no_face",
+  "size": 166
+ },
+ "0x4076b0": {
+  "name": "rule_cmp",
+  "size": 41
+ },
+ "0x4072d0": {
+  "name": "rule_new_internal_regexp",
+  "size": 297
+ },
+ "0x407400": {
+  "name": "rule_new_internal_word",
+  "size": 80
+ },
+ "0x407630": {
+  "name": "rule_self_print",
+  "size": 121
+ },
+ "0x407a30": {
+  "name": "rule_set_no_face",
+  "size": 39
+ },
+ "0x407870": {
+  "name": "rules_set_no_faces",
+  "size": 100
+ },
+ "0x409a30": {
+  "name": "sheet_hash_1",
+  "size": 175
+ },
+ "0x409ae0": {
+  "name": "sheet_hash_2",
+  "size": 146
+ },
+ "0x409b80": {
+  "name": "sheet_hash_cmp",
+  "size": 168
+ },
+ "0x408a90": {
+  "name": "sheet_name_cmp",
+  "size": 64
+ },
+ "0x408810": {
+  "name": "style_sheet_check",
+  "size": 67
+ },
+ "0x409370": {
+  "name": "style_sheet_html_print_signature",
+  "size": 702
+ },
+ "0x409c30": {
+  "name": "style_sheet_mixed_new",
+  "size": 462
+ },
+ "0x408ba0": {
+  "name": "style_sheet_print_signature",
+  "size": 579
+ },
+ "0x409780": {
+  "name": "style_sheet_texinfo_print_signature",
+  "size": 602
+ },
+ "0x4092a0": {
+  "name": "style_sheets_versions",
+  "size": 202
+ },
+ "0x407950": {
+  "name": "words_erase",
+  "size": 52
+ },
+ "0x407a60": {
+  "name": "words_finalize",
+  "size": 234
+ },
+ "0x407ee0": {
+  "name": "words_self_print",
+  "size": 92
+ },
+ "0x40ad70": {
+  "name": "file_verdict_on",
+  "size": 1052
+ },
+ "0x40a7f0": {
+  "name": "pattern_rule_self_print",
+  "size": 157
+ },
+ "0x40acb0": {
+  "name": "sheets_map_load_main",
+  "size": 179
+ },
+ "0x40c2a0": {
+  "name": "input_end",
+  "size": 102
+ },
+ "0x40bb00": {
+  "name": "input_new",
+  "size": 976
+ },
+ "0x40bf90": {
+  "name": "msg_file_pages_printed",
+  "size": 783
+ },
+ "0x40bed0": {
+  "name": "string_to_style_kind",
+  "size": 191
+ },
+ "0x40c670": {
+  "name": "delegate_free",
+  "size": 65
+ },
+ "0x40c420": {
+  "name": "delegate_hash_1",
+  "size": 161
+ },
+ "0x40c4d0": {
+  "name": "delegate_hash_2",
+  "size": 162
+ },
+ "0x40c580": {
+  "name": "delegate_hash_cmp",
+  "size": 170
+ },
+ "0x40d2c0": {
+  "name": "delegate_hash_qcmp",
+  "size": 174
+ },
+ "0x40d500": {
+  "name": "delegate_name_fputs",
+  "size": 41
+ },
+ "0x40d4e0": {
+  "name": "delegate_name_len",
+  "size": 30
+ },
+ "0x40d370": {
+  "name": "dump_contract",
+  "size": 181
+ },
+ "0x41be40": {
+  "name": "alt_match_null_string_p",
+  "size": 231
+ },
+ "0x41c220": {
+  "name": "at_begline_loc_p",
+  "size": 284
+ },
+ "0x41c340": {
+  "name": "at_endline_loc_p",
+  "size": 391
+ },
+ "0x41bda0": {
+  "name": "bcmp_translate",
+  "size": 159
+ },
+ "0x41bf30": {
+  "name": "common_op_match_null_string_p",
+  "size": 749
+ },
+ "0x41c5a0": {
+  "name": "compile_range",
+  "size": 507
+ },
+ "0x41c8c0": {
+  "name": "group_in_compile_stack",
+  "size": 115
+ },
+ "0x41bad0": {
+  "name": "group_match_null_string_p",
+  "size": 716
+ },
+ "0x41c520": {
+  "name": "insert_op1",
+  "size": 118
+ },
+ "0x41c7a0": {
+  "name": "insert_op2",
+  "size": 124
+ },
+ "0x40e740": {
+  "name": "re_match_2_internal",
+  "size": 23006
+ },
+ "0x4142e0": {
+  "name": "regex_compile",
+  "size": 28005
+ },
+ "0x41c4d0": {
+  "name": "store_op1",
+  "size": 74
+ },
+ "0x41c820": {
+  "name": "store_op2",
+  "size": 146
+ },
+ "0x41ca90": {
+  "name": "buffer_internal_set",
+  "size": 247
+ },
+ "0x41d6f0": {
+  "name": "buffer_stream_get_line",
+  "size": 692
+ },
+ "0x41d1f0": {
+  "name": "buffer_string_get_line",
+  "size": 1278
+ },
+ "0x420ba0": {
+  "name": "yy_reduce_print",
+  "size": 335
+ },
+ "0x420cf0": {
+  "name": "yy_stack_print",
+  "size": 147
+ },
+ "0x420b00": {
+  "name": "yy_symbol_print",
+  "size": 152
+ },
+ "0x421550": {
+  "name": "yy_symbol_value_print",
+  "size": 84
+ },
+ "0x421330": {
+  "name": "yydestruct",
+  "size": 159
+ },
+ "0x4215b0": {
+  "name": "yyprint",
+  "size": 246
+ },
+ "0x421830": {
+  "name": "yystpcpy",
+  "size": 89
+ },
+ "0x420d90": {
+  "name": "yysyntax_error",
+  "size": 1365
+ },
+ "0x4216b0": {
+  "name": "yytnamerr",
+  "size": 377
+ },
+ "0x4256d0": {
+  "name": "ssh_init_buffer",
+  "size": 250
+ },
+ "0x424c30": {
+  "name": "ssh_load_buffer_state",
+  "size": 126
+ },
+ "0x424a50": {
+  "name": "sshensure_buffer_stack",
+  "size": 294
+ },
+ "0x425690": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x424f00": {
+  "name": "yy_get_next_buffer",
+  "size": 1706
+ },
+ "0x424cb0": {
+  "name": "yy_get_previous_state",
+  "size": 315
+ },
+ "0x426190": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x424df0": {
+  "name": "yy_try_NUL_trans",
+  "size": 262
+ },
+ "0x427780": {
+  "name": "ps_init_buffer",
+  "size": 250
+ },
+ "0x426cc0": {
+  "name": "ps_load_buffer_state",
+  "size": 126
+ },
+ "0x426af0": {
+  "name": "psensure_buffer_stack",
+  "size": 287
+ },
+ "0x427740": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x426fb0": {
+  "name": "yy_get_next_buffer",
+  "size": 1701
+ },
+ "0x426d40": {
+  "name": "yy_get_previous_state",
+  "size": 367
+ },
+ "0x428230": {
+  "name": "yy_init_globals",
+  "size": 102
+ },
+ "0x426eb0": {
+  "name": "yy_try_NUL_trans",
+  "size": 256
+ },
+ "0x429fd0": {
+  "name": "obstack_hexa_grow",
+  "size": 377
+ },
+ "0x429f00": {
+  "name": "obstack_octal_grow",
+  "size": 200
+ },
+ "0x42ab80": {
+  "name": "smap_init_buffer",
+  "size": 250
+ },
+ "0x429c20": {
+  "name": "smap_load_buffer_state",
+  "size": 126
+ },
+ "0x429a50": {
+  "name": "smapensure_buffer_stack",
+  "size": 287
+ },
+ "0x42b910": {
+  "name": "yy_close",
+  "size": 43
+ },
+ "0x42ab40": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x42a390": {
+  "name": "yy_get_next_buffer",
+  "size": 1743
+ },
+ "0x42a150": {
+  "name": "yy_get_previous_state",
+  "size": 312
+ },
+ "0x429e00": {
+  "name": "yy_include_pop",
+  "size": 253
+ },
+ "0x429ca0": {
+  "name": "yy_include_push",
+  "size": 350
+ },
+ "0x42b630": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x42b8c0": {
+  "name": "yy_open",
+  "size": 67
+ },
+ "0x42a290": {
+  "name": "yy_try_NUL_trans",
+  "size": 256
+ },
+ "0x42d560": {
+  "name": "da_encoding_name_cmp",
+  "size": 76
+ },
+ "0x42c9d0": {
+  "name": "dump_encoding_setup",
+  "size": 495
+ },
+ "0x42d8d0": {
+  "name": "encoding_add",
+  "size": 169
+ },
+ "0x42ea20": {
+  "name": "encoding_add_font_substitute",
+  "size": 47
+ },
+ "0x42c4d0": {
+  "name": "encoding_free",
+  "size": 375
+ },
+ "0x42c7f0": {
+  "name": "encoding_get",
+  "size": 136
+ },
+ "0x42c280": {
+  "name": "encoding_hash_1",
+  "size": 175
+ },
+ "0x42c330": {
+  "name": "encoding_hash_2",
+  "size": 164
+ },
+ "0x42c3e0": {
+  "name": "encoding_hash_cmp",
+  "size": 168
+ },
+ "0x42c920": {
+  "name": "encoding_hash_qcmp",
+  "size": 166
+ },
+ "0x42d980": {
+  "name": "encoding_new",
+  "size": 316
+ },
+ "0x42e8f0": {
+  "name": "encoding_output_ps_vector",
+  "size": 289
+ },
+ "0x42be50": {
+  "name": "encoding_print_signature",
+  "size": 273
+ },
+ "0x42dac0": {
+  "name": "encoding_setup",
+  "size": 171
+ },
+ "0x42d690": {
+  "name": "encoding_texinfo_print_signature",
+  "size": 113
+ },
+ "0x42c7c0": {
+  "name": "encodings_map_resolve_alias",
+  "size": 35
+ },
+ "0x42d8a0": {
+  "name": "font_entry_free",
+  "size": 39
+ },
+ "0x42dc40": {
+  "name": "font_entry_hash_1",
+  "size": 164
+ },
+ "0x42dcf0": {
+  "name": "font_entry_hash_2",
+  "size": 147
+ },
+ "0x42dd90": {
+  "name": "font_entry_hash_cmp",
+  "size": 168
+ },
+ "0x42d710": {
+  "name": "font_entry_hash_qcmp",
+  "size": 166
+ },
+ "0x42d7c0": {
+  "name": "font_entry_self_print",
+  "size": 158
+ },
+ "0x42d860": {
+  "name": "font_table_free",
+  "size": 52
+ },
+ "0x42db70": {
+  "name": "font_table_new",
+  "size": 102
+ },
+ "0x42bf70": {
+  "name": "font_table_self_print",
+  "size": 152
+ },
+ "0x42de40": {
+  "name": "load_encoding_description_file",
+  "size": 2734
+ },
+ "0x42ba10": {
+  "name": "load_encodings_map",
+  "size": 42
+ },
+ "0x42dbe0": {
+  "name": "wx_new",
+  "size": 93
+ },
+ "0x42c010": {
+  "name": "wx_self_print",
+  "size": 386
+ },
+ "0x42edd0": {
+  "name": "hash_free_medium",
+  "size": 39
+ },
+ "0x42eb50": {
+  "name": "medium_hash_1",
+  "size": 184
+ },
+ "0x42ec10": {
+  "name": "medium_hash_2",
+  "size": 164
+ },
+ "0x42ecc0": {
+  "name": "medium_hash_cmp",
+  "size": 195
+ },
+ "0x42f110": {
+  "name": "medium_hash_qcmp",
+  "size": 209
+ },
+ "0x42f2d0": {
+  "name": "medium_name_fputs",
+  "size": 41
+ },
+ "0x42f2b0": {
+  "name": "medium_name_len",
+  "size": 30
+ },
+ "0x42f940": {
+  "name": "a2ps_job_register_user",
+  "size": 231
+ },
+ "0x42ff20": {
+  "name": "tmpfiles_free",
+  "size": 120
+ },
+ "0x42fa30": {
+  "name": "tmpfiles_reset",
+  "size": 73
+ },
+ "0x430050": {
+  "name": "derivation_self_print",
+  "size": 333
+ },
+ "0x4304e0": {
+  "name": "new_derivation",
+  "size": 49
+ },
+ "0x431680": {
+  "name": "underivation",
+  "size": 203
+ },
+ "0x431e80": {
+  "name": "_streams_copy",
+  "size": 111
+ },
+ "0x431930": {
+  "name": "_strncpylc",
+  "size": 127
+ },
+ "0x431b30": {
+  "name": "_xfopen",
+  "size": 221
+ },
+ "0x431ce0": {
+  "name": "_xpopen",
+  "size": 194
+ },
+ "0x4343c0": {
+  "name": "check_binary_file",
+  "size": 189
+ },
+ "0x433360": {
+  "name": "end_of_line",
+  "size": 240
+ },
+ "0x433760": {
+  "name": "fold_line",
+  "size": 287
+ },
+ "0x4344c0": {
+  "name": "output_marker",
+  "size": 821
+ },
+ "0x434800": {
+  "name": "page_begin",
+  "size": 1125
+ },
+ "0x434250": {
+  "name": "page_empty_output",
+  "size": 141
+ },
+ "0x4322d0": {
+  "name": "page_end",
+  "size": 992
+ },
+ "0x433880": {
+  "name": "ps_escape_char",
+  "size": 1739
+ },
+ "0x432200": {
+  "name": "ps_internal_switch_encoding",
+  "size": 135
+ },
+ "0x434c70": {
+  "name": "ps_pop_encoding",
+  "size": 38
+ },
+ "0x434480": {
+  "name": "ps_push_encoding",
+  "size": 57
+ },
+ "0x4341e0": {
+  "name": "sheet_flush",
+  "size": 102
+ },
+ "0x4330f0": {
+  "name": "virtual_begin",
+  "size": 623
+ },
+ "0x434130": {
+  "name": "virtual_empty_output",
+  "size": 163
+ },
+ "0x433450": {
+  "name": "virtual_end",
+  "size": 771
+ },
+ "0x436cc0": {
+  "name": "dump_encodings",
+  "size": 42
+ },
+ "0x4369b0": {
+  "name": "dump_prolog_comments",
+  "size": 774
+ },
+ "0x436620": {
+  "name": "end_document",
+  "size": 156
+ },
+ "0x4357e0": {
+  "name": "output_document_setup",
+  "size": 3574
+ },
+ "0x4356d0": {
+  "name": "output_prolog",
+  "size": 264
+ },
+ "0x4366c0": {
+  "name": "prologue_print_signature",
+  "size": 744
+ },
+ "0x434d80": {
+  "name": "prologues_list_long_internal",
+  "size": 175
+ },
+ "0x436dc0": {
+  "name": "_face_to_string",
+  "size": 162
+ },
+ "0x437370": {
+  "name": "hash",
+  "size": 50
+ },
+ "0x439710": {
+  "name": "a2ps_printers_command_get",
+  "size": 304
+ },
+ "0x438b70": {
+  "name": "a2ps_printers_ppdkey_get",
+  "size": 130
+ },
+ "0x438980": {
+  "name": "destination_to_string",
+  "size": 282
+ },
+ "0x438740": {
+  "name": "printer_create",
+  "size": 62
+ },
+ "0x4388a0": {
+  "name": "printer_free",
+  "size": 125
+ },
+ "0x439870": {
+  "name": "printer_hash_1",
+  "size": 161
+ },
+ "0x439920": {
+  "name": "printer_hash_2",
+  "size": 164
+ },
+ "0x4399d0": {
+  "name": "printer_hash_cmp",
+  "size": 160
+ },
+ "0x439ae0": {
+  "name": "printer_hash_qcmp",
+  "size": 47
+ },
+ "0x439b30": {
+  "name": "printer_key_fputs",
+  "size": 41
+ },
+ "0x439b10": {
+  "name": "printer_key_len",
+  "size": 30
+ },
+ "0x439aa0": {
+  "name": "printer_new",
+  "size": 54
+ },
+ "0x4393b0": {
+  "name": "printer_self_print",
+  "size": 177
+ },
+ "0x438d90": {
+  "name": "printer_set",
+  "size": 253
+ },
+ "0x438e90": {
+  "name": "printer_table_add",
+  "size": 108
+ },
+ "0x439a70": {
+  "name": "printer_table_find",
+  "size": 46
+ },
+ "0x438860": {
+  "name": "printer_table_free",
+  "size": 52
+ },
+ "0x4386d0": {
+  "name": "printer_table_new",
+  "size": 102
+ },
+ "0x439470": {
+  "name": "printer_table_self_print",
+  "size": 66
+ },
+ "0x439240": {
+  "name": "printer_table_short_self_print",
+  "size": 192
+ },
+ "0x43a180": {
+  "name": "dict_entry_add",
+  "size": 112
+ },
+ "0x43a760": {
+  "name": "dict_entry_get",
+  "size": 46
+ },
+ "0x43a790": {
+  "name": "dict_entry_print",
+  "size": 127
+ },
+ "0x43a220": {
+  "name": "dict_entry_remove",
+  "size": 79
+ },
+ "0x43a2a0": {
+  "name": "dict_entry_table_dump",
+  "size": 148
+ },
+ "0x43a720": {
+  "name": "free_dict_entry",
+  "size": 52
+ },
+ "0x439d00": {
+  "name": "free_dict_entry_table",
+  "size": 52
+ },
+ "0x43a530": {
+  "name": "key_hash_1",
+  "size": 146
+ },
+ "0x43a5d0": {
+  "name": "key_hash_2",
+  "size": 147
+ },
+ "0x43a670": {
+  "name": "key_hash_cmp",
+  "size": 168
+ },
+ "0x439c20": {
+  "name": "new_dict_entry_table",
+  "size": 84
+ },
+ "0x43b2a0": {
+  "name": "grow_user_string_obstack",
+  "size": 66110
+ },
+ "0x44d980": {
+  "name": "multivalued_entry_add",
+  "size": 82
+ },
+ "0x44d2a0": {
+  "name": "multivalued_entry_add_couple",
+  "size": 97
+ },
+ "0x44d3c0": {
+  "name": "multivalued_entry_dump",
+  "size": 215
+ },
+ "0x44d170": {
+  "name": "multivalued_entry_free",
+  "size": 52
+ },
+ "0x44d8e0": {
+  "name": "multivalued_entry_get",
+  "size": 72
+ },
+ "0x44d200": {
+  "name": "multivalued_entry_get_sub_item",
+  "size": 88
+ },
+ "0x44d710": {
+  "name": "multivalued_entry_get_sub_table",
+  "size": 79
+ },
+ "0x44d930": {
+  "name": "multivalued_entry_new",
+  "size": 70
+ },
+ "0x44cf40": {
+  "name": "mv_key_hash_1",
+  "size": 164
+ },
+ "0x44cff0": {
+  "name": "mv_key_hash_2",
+  "size": 147
+ },
+ "0x44d090": {
+  "name": "mv_key_hash_cmp",
+  "size": 160
+ },
+ "0x44d810": {
+  "name": "needed_resource_get",
+  "size": 54
+ },
+ "0x44f070": {
+  "name": "afm_init_buffer",
+  "size": 250
+ },
+ "0x44e530": {
+  "name": "afm_load_buffer_state",
+  "size": 126
+ },
+ "0x44e350": {
+  "name": "afmensure_buffer_stack",
+  "size": 299
+ },
+ "0x450b40": {
+  "name": "binary_font_dump",
+  "size": 138
+ },
+ "0x450bd0": {
+  "name": "binary_font_dump_segment",
+  "size": 985
+ },
+ "0x44ff60": {
+  "name": "font_info_finalize",
+  "size": 240
+ },
+ "0x450220": {
+  "name": "font_info_get",
+  "size": 109
+ },
+ "0x44fc40": {
+  "name": "font_info_hash_1",
+  "size": 160
+ },
+ "0x44fce0": {
+  "name": "font_info_hash_2",
+  "size": 161
+ },
+ "0x44fd90": {
+  "name": "font_info_hash_cmp",
+  "size": 160
+ },
+ "0x44ff10": {
+  "name": "font_info_new",
+  "size": 70
+ },
+ "0x450370": {
+  "name": "fonts_map_resolve_alias",
+  "size": 75
+ },
+ "0x44fe70": {
+  "name": "hash_free_font_info",
+  "size": 52
+ },
+ "0x450880": {
+  "name": "hash_free_wx_entry",
+  "size": 39
+ },
+ "0x4507d0": {
+  "name": "internal_font_file_dump",
+  "size": 106
+ },
+ "0x44da60": {
+  "name": "load_fonts_map",
+  "size": 42
+ },
+ "0x44e5b0": {
+  "name": "wx_entry_add",
+  "size": 144
+ },
+ "0x4502f0": {
+  "name": "wx_entry_get_in_index_order",
+  "size": 44
+ },
+ "0x450290": {
+  "name": "wx_entry_get_wx",
+  "size": 86
+ },
+ "0x450920": {
+  "name": "wx_entry_hash_1",
+  "size": 160
+ },
+ "0x4509c0": {
+  "name": "wx_entry_hash_2",
+  "size": 160
+ },
+ "0x450a60": {
+  "name": "wx_entry_hash_cmp",
+  "size": 168
+ },
+ "0x450b10": {
+  "name": "wx_entry_hash_index_qcmp",
+  "size": 46
+ },
+ "0x450840": {
+  "name": "wx_entry_table_free",
+  "size": 52
+ },
+ "0x4508b0": {
+  "name": "wx_entry_table_new",
+  "size": 102
+ },
+ "0x44f030": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x44e890": {
+  "name": "yy_get_next_buffer",
+  "size": 1727
+ },
+ "0x44e640": {
+  "name": "yy_get_previous_state",
+  "size": 312
+ },
+ "0x44fb20": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x44e780": {
+  "name": "yy_try_NUL_trans",
+  "size": 264
+ },
+ "0x4512f0": {
+  "name": "ppd_self_print",
+  "size": 325
+ },
+ "0x451c60": {
+  "name": "add_pages_interval",
+  "size": 111
+ },
+ "0x451660": {
+  "name": "interval_applies_above",
+  "size": 64
+ },
+ "0x451e70": {
+  "name": "interval_is_in",
+  "size": 158
+ },
+ "0x451f10": {
+  "name": "interval_new",
+  "size": 62
+ },
+ "0x4514a0": {
+  "name": "interval_self_print",
+  "size": 175
+ },
+ "0x4516a0": {
+  "name": "interval_to_buffer",
+  "size": 402
+ },
+ "0x451c30": {
+  "name": "page_range_reset",
+  "size": 48
+ },
+ "0x451d00": {
+  "name": "page_range_self_print",
+  "size": 38
+ },
+ "0x451f80": {
+  "name": "_stream_ropen",
+  "size": 166
+ },
+ "0x452060": {
+  "name": "_stream_wopen",
+  "size": 175
+ },
+ "0x4523d0": {
+  "name": "authors_print",
+  "size": 419
+ },
+ "0x454710": {
+  "name": "yy_reduce_print",
+  "size": 331
+ },
+ "0x454860": {
+  "name": "yy_stack_print",
+  "size": 147
+ },
+ "0x454670": {
+  "name": "yy_symbol_print",
+  "size": 152
+ },
+ "0x455030": {
+  "name": "yy_symbol_value_print",
+  "size": 84
+ },
+ "0x454e80": {
+  "name": "yydestruct",
+  "size": 159
+ },
+ "0x455090": {
+  "name": "yyprint",
+  "size": 190
+ },
+ "0x4552d0": {
+  "name": "yystpcpy",
+  "size": 89
+ },
+ "0x454900": {
+  "name": "yysyntax_error",
+  "size": 1339
+ },
+ "0x455150": {
+  "name": "yytnamerr",
+  "size": 380
+ },
+ "0x455330": {
+  "name": "__argmatch_die",
+  "size": 14
+ },
+ "0x455380": {
+  "name": "__argmatch_internal",
+  "size": 384
+ },
+ "0x456120": {
+  "name": "max_backup_version",
+  "size": 252
+ },
+ "0x456320": {
+  "name": "version_number",
+  "size": 269
+ },
+ "0x456a40": {
+  "name": "hash_rehash",
+  "size": 272
+ },
+ "0x456640": {
+  "name": "round_up_2",
+  "size": 58
+ },
+ "0x4577a0": {
+  "name": "quotearg_buffer_restyled",
+  "size": 3403
+ },
+ "0x458520": {
+  "name": "quotearg_n_options",
+  "size": 437
+ },
+ "0x458c10": {
+  "name": "init_sig",
+  "size": 99
+ },
+ "0x459e40": {
+  "name": "getshstr",
+  "size": 1046
+ },
+ "0x45ac90": {
+  "name": "_pw_find_file",
+  "size": 496
+ },
+ "0x45b840": {
+  "name": "da_str_cut_suffix",
+  "size": 35
+ },
+ "0x45b6b0": {
+  "name": "pw_filter_da_append",
+  "size": 58
+ },
+ "0x45b660": {
+  "name": "pw_filter_fnmatch",
+  "size": 80
+ },
+ "0x45b740": {
+  "name": "pw_filter_print",
+  "size": 66
+ },
+ "0x45b600": {
+  "name": "pw_filterdir",
+  "size": 93
+ },
+ "0x45a940": {
+  "name": "pw_find_file_index",
+  "size": 789
+ },
+ "0x45a430": {
+  "name": "pw_internal_string_to_path",
+  "size": 542
+ },
+ "0x45a700": {
+  "name": "pw_path_concat",
+  "size": 201
+ },
+ "0x45a6a0": {
+  "name": "pw_path_length",
+  "size": 91
+ },
+ "0x45ba30": {
+  "name": "_da_erase",
+  "size": 82
+ },
+ "0x45bac0": {
+  "name": "_da_free_content",
+  "size": 122
+ },
+ "0x45ea10": {
+  "name": "int_printflen",
+  "size": 1118
+ },
+ "0x45f290": {
+  "name": "pair_free",
+  "size": 120
+ },
+ "0x45f050": {
+  "name": "pair_hash_1",
+  "size": 161
+ },
+ "0x45f100": {
+  "name": "pair_hash_2",
+  "size": 161
+ },
+ "0x45f1b0": {
+  "name": "pair_hash_cmp",
+  "size": 160
+ },
+ "0x45f5b0": {
+  "name": "pair_hash_qcmp",
+  "size": 174
+ },
+ "0x45f710": {
+  "name": "pair_key_fputs",
+  "size": 41
+ },
+ "0x45f6f0": {
+  "name": "pair_key_len",
+  "size": 30
+ },
+ "0x45fd00": {
+  "name": "string_hash_1",
+  "size": 143
+ },
+ "0x45fd90": {
+  "name": "string_hash_2",
+  "size": 144
+ },
+ "0x45fe20": {
+  "name": "string_hash_cmp",
+  "size": 154
+ },
+ "0x460040": {
+  "name": "string_hash_qcmp",
+  "size": 168
+ },
+ "0x460da0": {
+  "name": "get_float_in_range",
+  "size": 1187
+ },
+ "0x461860": {
+  "name": "init_worlds",
+  "size": 556
+ },
+ "0x462260": {
+  "name": "lister_horizontal_format",
+  "size": 780
+ },
+ "0x461a90": {
+  "name": "lister_vertical_format",
+  "size": 838
+ },
+ "0x466410": {
+  "name": "ppd_init_buffer",
+  "size": 250
+ },
+ "0x465770": {
+  "name": "ppd_load_buffer_state",
+  "size": 126
+ },
+ "0x4655a0": {
+  "name": "ppdensure_buffer_stack",
+  "size": 285
+ },
+ "0x4663d0": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x465c20": {
+  "name": "yy_get_next_buffer",
+  "size": 1733
+ },
+ "0x4659d0": {
+  "name": "yy_get_previous_state",
+  "size": 312
+ },
+ "0x466ce0": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x465b10": {
+  "name": "yy_try_NUL_trans",
+  "size": 264
+ },
+ "0x4674c0": {
+  "name": "bkm_scale",
+  "size": 105
+ },
+ "0x467530": {
+  "name": "bkm_scale_by_power",
+  "size": 96
+ },
+ "0x4260a0": {
+  "name": "sshlex_destroy",
+  "size": 233
+ },
+ "0x44cd50": {
+  "name": "a2ps_handle_string_options",
+  "size": 359
+ },
+ "0x467600": {
+  "name": "__libc_csu_fini",
+  "size": 2
+ },
+ "0x45bb40": {
+  "name": "da_free",
+  "size": 44
+ },
+ "0x44b4e0": {
+  "name": "a2ps_get_bool",
+  "size": 97
+ },
+ "0x458790": {
+  "name": "quotearg_char",
+  "size": 106
+ },
+ "0x431c60": {
+  "name": "xwfopen",
+  "size": 66
+ },
+ "0x425e80": {
+  "name": "ssh_scan_string",
+  "size": 51
+ },
+ "0x45d4a0": {
+  "name": "da_unique",
+  "size": 177
+ },
+ "0x4511f0": {
+  "name": "_a2ps_ppd_list_long",
+  "size": 244
+ },
+ "0x462570": {
+  "name": "lister_print_horizontal",
+  "size": 114
+ },
+ "0x41b050": {
+  "name": "regcomp",
+  "size": 1096
+ },
+ "0x408ad0": {
+  "name": "get_style_sheet",
+  "size": 208
+ },
+ "0x45bd10": {
+  "name": "da_resize",
+  "size": 111
+ },
+ "0x439520": {
+  "name": "a2ps_open_output_stream",
+  "size": 490
+ },
+ "0x44f370": {
+  "name": "afmfree",
+  "size": 27
+ },
+ "0x41dd60": {
+  "name": "version_length",
+  "size": 168
+ },
+ "0x44ef60": {
+  "name": "afmrestart",
+  "size": 204
+ },
+ "0x4391b0": {
+  "name": "a2ps_printers_font_known_p",
+  "size": 39
+ },
+ "0x467640": {
+  "name": "stat",
+  "size": 16
+ },
+ "0x45d990": {
+  "name": "da_maparg",
+  "size": 102
+ },
+ "0x45fcb0": {
+  "name": "string_htable_new",
+  "size": 80
+ },
+ "0x45c4b0": {
+  "name": "da_concat",
+  "size": 245
+ },
+ "0x45f4a0": {
+  "name": "pair_table_map",
+  "size": 260
+ },
+ "0x466bf0": {
+  "name": "ppdlex_destroy",
+  "size": 233
+ },
+ "0x44d130": {
+  "name": "multivalued_table_free",
+  "size": 52
+ },
+ "0x41e1b0": {
+  "name": "version_etc",
+  "size": 254
+ },
+ "0x42c690": {
+  "name": "encoding_build_faces_wx",
+  "size": 185
+ },
+ "0x41dce0": {
+  "name": "version_self_print",
+  "size": 123
+ },
+ "0x409630": {
+  "name": "list_style_sheets_texinfo",
+  "size": 329
+ },
+ "0x42c880": {
+  "name": "dump_encodings_setup",
+  "size": 146
+ },
+ "0x407450": {
+  "name": "keyword_rule_new",
+  "size": 197
+ },
+ "0x42c750": {
+  "name": "get_encoding_by_alias",
+  "size": 110
+ },
+ "0x434ea0": {
+  "name": "ps_begin",
+  "size": 2085
+ },
+ "0x4076e0": {
+  "name": "words_free",
+  "size": 81
+ },
+ "0x455f20": {
+  "name": "buildargv",
+  "size": 38
+ },
+ "0x466620": {
+  "name": "ppdpush_buffer_state",
+  "size": 324
+ },
+ "0x4572a0": {
+  "name": "hash_maparg",
+  "size": 123
+ },
+ "0x450050": {
+  "name": "font_is_to_reencode",
+  "size": 82
+ },
+ "0x45a380": {
+  "name": "getshdelim",
+  "size": 124
+ },
+ "0x406fb0": {
+  "name": "style_sheet_set_requirement",
+  "size": 106
+ },
+ "0x414120": {
+  "name": "re_match",
+  "size": 102
+ },
+ "0x438560": {
+  "name": "a2ps_close_output_session",
+  "size": 64
+ },
+ "0x4259d0": {
+  "name": "sshfree",
+  "size": 27
+ },
+ "0x45f3e0": {
+  "name": "pair_delete",
+  "size": 90
+ },
+ "0x4656c0": {
+  "name": "ppd_create_buffer",
+  "size": 166
+ },
+ "0x45da00": {
+  "name": "da_str_cmp",
+  "size": 35
+ },
+ "0x44d4a0": {
+  "name": "add_needed_resource",
+  "size": 54
+ },
+ "0x4662f0": {
+  "name": "ppdwrap",
+  "size": 11
+ },
+ "0x432290": {
+  "name": "page_flush",
+  "size": 62
+ },
+ "0x45fb80": {
+  "name": "filterdir",
+  "size": 303
+ },
+ "0x42ae80": {
+  "name": "smapfree",
+  "size": 27
+ },
+ "0x437190": {
+  "name": "face_eo_font_free",
+  "size": 110
+ },
+ "0x438050": {
+  "name": "a2_read_sys_config",
+  "size": 153
+ },
+ "0x40a8f0": {
+  "name": "shell_escape",
+  "size": 387
+ },
+ "0x44d9f0": {
+  "name": "fonts_map_free",
+  "size": 27
+ },
+ "0x466b80": {
+  "name": "ppdset_in",
+  "size": 22
+ },
+ "0x437270": {
+  "name": "in_word_set",
+  "size": 244
+ },
+ "0x450490": {
+  "name": "dump_fonts",
+  "size": 825
+ },
+ "0x425ac0": {
+  "name": "sshpush_buffer_state",
+  "size": 324
+ },
+ "0x407020": {
+  "name": "rhs_new",
+  "size": 75
+ },
+ "0x44fbd0": {
+  "name": "font_info_table_new",
+  "size": 102
+ },
+ "0x458700": {
+  "name": "quotearg_n_style",
+  "size": 85
+ },
+ "0x456560": {
+  "name": "hash_init",
+  "size": 216
+ },
+ "0x42b4b0": {
+  "name": "smapset_lineno",
+  "size": 19
+ },
+ "0x455850": {
+  "name": "dupargv",
+  "size": 379
+ },
+ "0x436e70": {
+  "name": "face_self_print",
+  "size": 44
+ },
+ "0x431e50": {
+  "name": "streams_copy",
+  "size": 35
+ },
+ "0x4570d0": {
+  "name": "hash_dump_select",
+  "size": 453
+ },
+ "0x41e3b0": {
+  "name": "sshparse",
+  "size": 10064
+ },
+ "0x4255b0": {
+  "name": "sshwrap",
+  "size": 11
+ },
+ "0x457720": {
+  "name": "quotearg_buffer",
+  "size": 117
+ },
+ "0x45f660": {
+  "name": "pair_table_list_short",
+  "size": 132
+ },
+ "0x45da30": {
+  "name": "da_str_print",
+  "size": 38
+ },
+ "0x43ae60": {
+  "name": "macro_meta_sequences_list_long",
+  "size": 109
+ },
+ "0x430670": {
+  "name": "output_file",
+  "size": 3742
+ },
+ "0x41cbd0": {
+  "name": "buffer_string_set",
+  "size": 96
+ },
+ "0x45a7d0": {
+  "name": "pw_prepend_string_to_path",
+  "size": 75
+ },
+ "0x40e160": {
+  "name": "re_search_2",
+  "size": 1498
+ },
+ "0x455540": {
+  "name": "argmatch_invalid",
+  "size": 134
+ },
+ "0x438120": {
+  "name": "user_option_add",
+  "size": 47
+ },
+ "0x42c1c0": {
+  "name": "encoding_get_key",
+  "size": 17
+ },
+ "0x432060": {
+  "name": "ps_end_encoding",
+  "size": 134
+ },
+ "0x41cc30": {
+  "name": "buffer_buffer_set",
+  "size": 63
+ },
+ "0x456700": {
+  "name": "hash_insert",
+  "size": 59
+ },
+ "0x455af0": {
+  "name": "buildargv_argc",
+  "size": 1072
+ },
+ "0x425d50": {
+  "name": "ssh_scan_buffer",
+  "size": 298
+ },
+ "0x467610": {
+  "name": "atexit",
+  "size": 41
+ },
+ "0x4669d0": {
+  "name": "ppd_scan_string",
+  "size": 51
+ },
+ "0x45ba10": {
+  "name": "da_erase",
+  "size": 27
+ },
+ "0x43ad90": {
+  "name": "macro_meta_sequence_delete",
+  "size": 42
+ },
+ "0x4604b0": {
+  "name": "xfind_backup_file_name",
+  "size": 84
+ },
+ "0x459410": {
+  "name": "msg_verbosity_argmatch",
+  "size": 366
+ },
+ "0x43a140": {
+  "name": "setpagedevice",
+  "size": 56
+ },
+ "0x45ff90": {
+  "name": "string_htable_self_print",
+  "size": 161
+ },
+ "0x42c210": {
+  "name": "encodings_table_new",
+  "size": 102
+ },
+ "0x45b870": {
+  "name": "pw_lister_on_suffix",
+  "size": 122
+ },
+ "0x45f950": {
+  "name": "pair_table_load",
+  "size": 550
+ },
+ "0x431f70": {
+  "name": "unlink2",
+  "size": 120
+ },
+ "0x44d5e0": {
+  "name": "add_process_color",
+  "size": 59
+ },
+ "0x458760": {
+  "name": "quotearg_style",
+  "size": 37
+ },
+ "0x407b50": {
+  "name": "free_sequence",
+  "size": 65
+ },
+ "0x42b480": {
+  "name": "smapget_out",
+  "size": 14
+ },
+ "0x407830": {
+  "name": "words_set_no_face",
+  "size": 55
+ },
+ "0x41c940": {
+  "name": "eol_to_string",
+  "size": 166
+ },
+ "0x453370": {
+  "name": "a2ps_common_finalize",
+  "size": 121
+ },
+ "0x45a260": {
+  "name": "getshline",
+  "size": 138
+ },
+ "0x40c9b0": {
+  "name": "get_subcontract",
+  "size": 140
+ },
+ "0x430290": {
+  "name": "output",
+  "size": 390
+ },
+ "0x45e860": {
+  "name": "ds_getdelim",
+  "size": 303
+ },
+ "0x431b00": {
+  "name": "xfopen",
+  "size": 43
+ },
+ "0x4613e0": {
+  "name": "lister_fprint_vertical",
+  "size": 1139
+ },
+ "0x426080": {
+  "name": "sshset_debug",
+  "size": 19
+ },
+ "0x4385e0": {
+  "name": "a2ps_printers_new",
+  "size": 230
+ },
+ "0x427e00": {
+  "name": "ps_scan_buffer",
+  "size": 290
+ },
+ "0x41d9b0": {
+  "name": "buffer_sample_get",
+  "size": 211
+ },
+ "0x45bb70": {
+  "name": "da_print_stats",
+  "size": 413
+ },
+ "0x44f970": {
+  "name": "afmget_out",
+  "size": 14
+ },
+ "0x45b8f0": {
+  "name": "da_new",
+  "size": 278
+ },
+ "0x44f2b0": {
+  "name": "afm_delete_buffer",
+  "size": 179
+ },
+ "0x4078e0": {
+  "name": "words_merge_rules_unique",
+  "size": 109
+ },
+ "0x466e50": {
+  "name": "tterm_width",
+  "size": 69
+ },
+ "0x43a3b0": {
+  "name": "output_statusdict",
+  "size": 334
+ },
+ "0x41e0a0": {
+  "name": "fface_self_print",
+  "size": 259
+ },
+ "0x44d260": {
+  "name": "add_supplied_resource",
+  "size": 54
+ },
+ "0x4280d0": {
+  "name": "psset_in",
+  "size": 22
+ },
+ "0x457320": {
+  "name": "path_concat",
+  "size": 414
+ },
+ "0x42fba0": {
+  "name": "a2ps_job_free",
+  "size": 888
+ },
+ "0x452030": {
+  "name": "stream_wopen",
+  "size": 45
+ },
+ "0x430520": {
+  "name": "output_delayed_chunk",
+  "size": 98
+ },
+ "0x41ca50": {
+  "name": "buffer_stream_set",
+  "size": 52
+ },
+ "0x4609d0": {
+  "name": "get_integer_in_range",
+  "size": 859
+ },
+ "0x452fc0": {
+  "name": "file_job_self_print",
+  "size": 274
+ },
+ "0x456930": {
+  "name": "hash_find_item",
+  "size": 102
+ },
+ "0x430420": {
+  "name": "output_char",
+  "size": 60
+ },
+ "0x4394c0": {
+  "name": "a2ps_ppd_list_short",
+  "size": 39
+ },
+ "0x436cf0": {
+  "name": "string_to_face",
+  "size": 169
+ },
+ "0x41e2b0": {
+  "name": "parse_long_options",
+  "size": 249
+ },
+ "0x4213d0": {
+  "name": "parse_style_sheet",
+  "size": 376
+ },
+ "0x467650": {
+  "name": "_fini",
+  "size": 0
+ },
+ "0x43a1f0": {
+  "name": "delpagedevice",
+  "size": 46
+ },
+ "0x456680": {
+  "name": "hash_load",
+  "size": 113
+ },
+ "0x45fec0": {
+  "name": "string_htable_free",
+  "size": 49
+ },
+ "0x461380": {
+  "name": "lister_after_set",
+  "size": 93
+ },
+ "0x44f960": {
+  "name": "afmget_in",
+  "size": 14
+ },
+ "0x45ee70": {
+  "name": "printflen",
+  "size": 356
+ },
+ "0x456d40": {
+  "name": "hash_free",
+  "size": 96
+ },
+ "0x42ee00": {
+  "name": "a2ps_get_medium",
+  "size": 176
+ },
+ "0x428140": {
+  "name": "pslex_destroy",
+  "size": 233
+ },
+ "0x451d30": {
+  "name": "print_page",
+  "size": 320
+ },
+ "0x40a890": {
+  "name": "sheets_map_add",
+  "size": 86
+ },
+ "0x406f80": {
+  "name": "style_sheet_set_version",
+  "size": 39
+ },
+ "0x45ff00": {
+  "name": "string_htable_add",
+  "size": 81
+ },
+ "0x4530e0": {
+  "name": "file_job_synchronize_sheets",
+  "size": 143
+ },
+ "0x439060": {
+  "name": "a2ps_printers_flag_output_set",
+  "size": 263
+ },
+ "0x43a070": {
+  "name": "dump_requirements",
+  "size": 202
+ },
+ "0x45df70": {
+  "name": "ds_strncat",
+  "size": 147
+ },
+ "0x431c10": {
+  "name": "xrfopen",
+  "size": 66
+ },
+ "0x45c1a0": {
+  "name": "da_includes",
+  "size": 47
+ },
+ "0x43adc0": {
+  "name": "macro_meta_sequence_get",
+  "size": 42
+ },
+ "0x45a2f0": {
+  "name": "getshdelim_numbered",
+  "size": 143
+ },
+ "0x44b550": {
+  "name": "a2ps_handle_options",
+  "size": 6139
+ },
+ "0x458d30": {
+  "name": "sig_number",
+  "size": 278
+ },
+ "0x434e30": {
+  "name": "prologues_list_texinfo",
+  "size": 102
+ },
+ "0x45e4f0": {
+  "name": "ds_unsafe_sprintf",
+  "size": 351
+ },
+ "0x40a740": {
+  "name": "pattern_rule_new",
+  "size": 105
+ },
+ "0x4326b0": {
+  "name": "require_fresh_page",
+  "size": 44
+ },
+ "0x452660": {
+  "name": "documentation_print_plain",
+  "size": 710
+ },
+ "0x460510": {
+  "name": "create_file_for_backup",
+  "size": 454
+ },
+ "0x4574c0": {
+  "name": "xpath_concat",
+  "size": 67
+ },
+ "0x42f390": {
+  "name": "a2ps_job_new",
+  "size": 1455
+ },
+ "0x4342e0": {
+  "name": "ps_end_file",
+  "size": 221
+ },
+ "0x45ddf0": {
+  "name": "ds_grow",
+  "size": 187
+ },
+ "0x427cc0": {
+  "name": "pspop_buffer_state",
+  "size": 309
+ },
+ "0x4592f0": {
+  "name": "xrealloc",
+  "size": 59
+ },
+ "0x43adf0": {
+  "name": "macro_meta_sequences_list_short",
+  "size": 102
+ },
+ "0x4255c0": {
+  "name": "sshrestart",
+  "size": 204
+ },
+ "0x408920": {
+  "name": "list_style_sheets_short",
+  "size": 99
+ },
+ "0x42b970": {
+  "name": "load_main_encodings_map",
+  "size": 156
+ },
+ "0x466df0": {
+  "name": "tterm_width_set",
+  "size": 93
+ },
+ "0x41cd70": {
+  "name": "buffer_release",
+  "size": 45
+ },
+ "0x41cb90": {
+  "name": "buffer_pipe_set",
+  "size": 55
+ },
+ "0x456430": {
+  "name": "dir_name",
+  "size": 300
+ },
+ "0x462d60": {
+  "name": "userdata_free",
+  "size": 163
+ },
+ "0x466530": {
+  "name": "ppdfree",
+  "size": 27
+ },
+ "0x4381c0": {
+  "name": "user_options_list_short",
+  "size": 89
+ },
+ "0x433fa0": {
+  "name": "ps_print_buffer",
+  "size": 104
+ },
+ "0x466a10": {
+  "name": "ppd_scan_bytes",
+  "size": 245
+ },
+ "0x45e270": {
+  "name": "ds_cat_vsprintf",
+  "size": 199
+ },
+ "0x431870": {
+  "name": "is_strlower",
+  "size": 144
+ },
+ "0x463570": {
+  "name": "xgethostname",
+  "size": 256
+ },
+ "0x44fe30": {
+  "name": "font_info_table_free",
+  "size": 52
+ },
+ "0x44d9e0": {
+  "name": "fonts_map_new",
+  "size": 11
+ },
+ "0x42b6b0": {
+  "name": "smaprealloc",
+  "size": 33
+ },
+ "0x4380f0": {
+  "name": "user_options_table_new",
+  "size": 11
+ },
+ "0x452330": {
+  "name": "stream_close",
+  "size": 80
+ },
+ "0x42ba40": {
+  "name": "encoding_resolve_font_substitute",
+  "size": 429
+ },
+ "0x44e480": {
+  "name": "afm_create_buffer",
+  "size": 166
+ },
+ "0x431750": {
+  "name": "undivert",
+  "size": 67
+ },
+ "0x428080": {
+  "name": "psget_out",
+  "size": 14
+ },
+ "0x453280": {
+  "name": "file_job_unlink_tmpfile",
+  "size": 80
+ },
+ "0x4282d0": {
+  "name": "pslex_dump",
+  "size": 59
+ },
+ "0x43aed0": {
+  "name": "expand_user_string",
+  "size": 971
+ },
+ "0x455f50": {
+  "name": "find_backup_file_name",
+  "size": 452
+ },
+ "0x455a30": {
+  "name": "freeargv_from",
+  "size": 185
+ },
+ "0x42b4a0": {
+  "name": "smapget_text",
+  "size": 14
+ },
+ "0x45deb0": {
+  "name": "ds_is_full",
+  "size": 60
+ },
+ "0x438f20": {
+  "name": "a2ps_printers_default_ppdkey_set",
+  "size": 133
+ },
+ "0x436fc0": {
+  "name": "check_face_eo_font",
+  "size": 260
+ },
+ "0x40d430": {
+  "name": "delegations_list_short",
+  "size": 175
+ },
+ "0x4279c0": {
+  "name": "ps_delete_buffer",
+  "size": 179
+ },
+ "0x42b510": {
+  "name": "smapget_debug",
+  "size": 13
+ },
+ "0x43acc0": {
+  "name": "macro_meta_sequence_table_new",
+  "size": 11
+ },
+ "0x456fa0": {
+  "name": "hash_dump",
+  "size": 290
+ },
+ "0x453170": {
+  "name": "file_job_synchronize_pages",
+  "size": 264
+ },
+ "0x41dba0": {
+  "name": "version_null_p",
+  "size": 97
+ },
+ "0x456da0": {
+  "name": "hash_map",
+  "size": 143
+ },
+ "0x451900": {
+  "name": "a2ps_page_range_set_string",
+  "size": 806
+ },
+ "0x426210": {
+  "name": "sshrealloc",
+  "size": 33
+ },
+ "0x4592b0": {
+  "name": "xmalloc",
+  "size": 51
+ },
+ "0x452110": {
+  "name": "stream_wopen_backup",
+  "size": 49
+ },
+ "0x40c3d0": {
+  "name": "delegation_table_new",
+  "size": 80
+ },
+ "0x439c80": {
+  "name": "ps_status_free",
+  "size": 118
+ },
+ "0x4280a0": {
+  "name": "psget_text",
+  "size": 14
+ },
+ "0x466550": {
+  "name": "ppd_flush_buffer",
+  "size": 193
+ },
+ "0x428060": {
+  "name": "psget_lineno",
+  "size": 13
+ },
+ "0x463670": {
+  "name": "xstrdup",
+  "size": 75
+ },
+ "0x430250": {
+  "name": "output_to_void",
+  "size": 23
+ },
+ "0x452930": {
+  "name": "documentation_print_html",
+  "size": 817
+ },
+ "0x463340": {
+  "name": "base_name",
+  "size": 170
+ },
+ "0x455340": {
+  "name": "argmatch",
+  "size": 57
+ },
+ "0x427aa0": {
+  "name": "ps_flush_buffer",
+  "size": 193
+ },
+ "0x455500": {
+  "name": "argcasematch",
+  "size": 54
+ },
+ "0x461250": {
+  "name": "lister_initialize",
+  "size": 98
+ },
+ "0x4262a0": {
+  "name": "pslex",
+  "size": 2119
+ },
+ "0x4625f0": {
+  "name": "lister_fprint_separated",
+  "size": 1768
+ },
+ "0x42b6e0": {
+  "name": "sheets_map_load",
+  "size": 469
+ },
+ "0x450320": {
+  "name": "font_exists",
+  "size": 73
+ },
+ "0x4320f0": {
+  "name": "ps_switch_encoding",
+  "size": 264
+ },
+ "0x439190": {
+  "name": "a2ps_printers_flag_output_is_printer_get",
+  "size": 22
+ },
+ "0x40b630": {
+  "name": "print",
+  "size": 1224
+ },
+ "0x42ef30": {
+  "name": "list_media_long",
+  "size": 477
+ },
+ "0x459400": {
+  "name": "close_stdout",
+  "size": 16
+ },
+ "0x42f300": {
+  "name": "a2ps_job_unlink_tmpfiles",
+  "size": 142
+ },
+ "0x4280b0": {
+  "name": "psset_lineno",
+  "size": 19
+ },
+ "0x465910": {
+  "name": "ppd_delete_buffer",
+  "size": 179
+ },
+ "0x41de70": {
+  "name": "string_to_version",
+  "size": 237
+ },
+ "0x431a40": {
+  "name": "strcnt",
+  "size": 101
+ },
+ "0x45f250": {
+  "name": "pair_table_free",
+  "size": 52
+ },
+ "0x45be40": {
+  "name": "da_clone",
+  "size": 136
+ },
+ "0x451440": {
+  "name": "page_range_new",
+  "size": 94
+ },
+ "0x427f30": {
+  "name": "ps_scan_string",
+  "size": 51
+ },
+ "0x4080c0": {
+  "name": "style_sheet_finalize",
+  "size": 687
+ },
+ "0x407990": {
+  "name": "sequence_new",
+  "size": 158
+ },
+ "0x4534d0": {
+  "name": "file_align_argmatch",
+  "size": 137
+ },
+ "0x438520": {
+  "name": "a2ps_close_input_session",
+  "size": 64
+ },
+ "0x407e50": {
+  "name": "sequence_self_print",
+  "size": 144
+ },
+ "0x466ba0": {
+  "name": "ppdset_out",
+  "size": 22
+ },
+ "0x45ae80": {
+  "name": "xpw_find_file",
+  "size": 300
+ },
+ "0x407250": {
+  "name": "rule_new",
+  "size": 118
+ },
+ "0x44f850": {
+  "name": "afm_scan_bytes",
+  "size": 243
+ },
+ "0x466b60": {
+  "name": "ppdset_lineno",
+  "size": 19
+ },
+ "0x45e4a0": {
+  "name": "ds_unsafe_vsprintf",
+  "size": 70
+ },
+ "0x455710": {
+  "name": "__xargmatch_internal",
+  "size": 141
+ },
+ "0x40aa80": {
+  "name": "get_command",
+  "size": 558
+ },
+ "0x45c740": {
+  "name": "da_qsort",
+  "size": 1690
+ },
+ "0x45b790": {
+  "name": "pw_glob_on_suffix",
+  "size": 162
+ },
+ "0x45a8a0": {
+  "name": "pw_fprintf_path",
+  "size": 103
+ },
+ "0x451cd0": {
+  "name": "report_pages_to_print",
+  "size": 42
+ },
+ "0x460120": {
+  "name": "title",
+  "size": 910
+ },
+ "0x451190": {
+  "name": "_a2ps_ppd_list_short",
+  "size": 95
+ },
+ "0x459b00": {
+  "name": "vstrrpl",
+  "size": 689
+ },
+ "0x426000": {
+  "name": "sshget_text",
+  "size": 14
+ },
+ "0x4575d0": {
+  "name": "set_quoting_style",
+  "size": 71
+ },
+ "0x405570": {
+  "name": "ssh_print_postscript",
+  "size": 2852
+ },
+ "0x460d30": {
+  "name": "get_length",
+  "size": 104
+ },
+ "0x42ada0": {
+  "name": "smapalloc",
+  "size": 25
+ },
+ "0x43a340": {
+  "name": "setstatusdict",
+  "size": 60
+ },
+ "0x44d1b0": {
+  "name": "exist_resource",
+  "size": 67
+ },
+ "0x457510": {
+  "name": "clone_quoting_options",
+  "size": 118
+ },
+ "0x44f390": {
+  "name": "afm_flush_buffer",
+  "size": 193
+ },
+ "0x4382d0": {
+  "name": "a2ps_print_string",
+  "size": 115
+ },
+ "0x44fba0": {
+  "name": "afmrealloc",
+  "size": 33
+ },
+ "0x40b190": {
+  "name": "msg_job_pages_printed",
+  "size": 714
+ },
+ "0x466ea0": {
+  "name": "tterm_tabsize_set",
+  "size": 91
+ },
+ "0x436ea0": {
+  "name": "face_eo_ps",
+  "size": 286
+ },
+ "0x407f40": {
+  "name": "new_style_sheet",
+  "size": 310
+ },
+ "0x406ed0": {
+  "name": "new_pattern",
+  "size": 68
+ },
+ "0x428310": {
+  "name": "smaplex",
+  "size": 5943
+ },
+ "0x459250": {
+  "name": "xalloc_die",
+  "size": 90
+ },
+ "0x438c00": {
+  "name": "a2ps_printers_add",
+  "size": 392
+ },
+ "0x4559d0": {
+  "name": "freeargv",
+  "size": 92
+ },
+ "0x4280f0": {
+  "name": "psset_out",
+  "size": 22
+ },
+ "0x42aa60": {
+  "name": "smapwrap",
+  "size": 11
+ },
+ "0x431db0": {
+  "name": "xrpopen",
+  "size": 66
+ },
+ "0x428070": {
+  "name": "psget_in",
+  "size": 14
+ },
+ "0x438f00": {
+  "name": "a2ps_printers_default_ppdkey_get",
+  "size": 18
+ },
+ "0x44f990": {
+  "name": "afmget_text",
+  "size": 14
+ },
+ "0x4070f0": {
+  "name": "rhs_new_single",
+  "size": 133
+ },
+ "0x44fa30": {
+  "name": "afmlex_destroy",
+  "size": 233
+ },
+ "0x459840": {
+  "name": "xvstrrpl",
+  "size": 693
+ },
+ "0x434d10": {
+  "name": "prologues_list_long",
+  "size": 105
+ },
+ "0x430600": {
+  "name": "output_delayed_string",
+  "size": 98
+ },
+ "0x456cb0": {
+  "name": "hash_delete_items",
+  "size": 133
+ },
+ "0x438920": {
+  "name": "a2ps_flag_destination_to_string",
+  "size": 82
+ },
+ "0x45c250": {
+  "name": "da_insert_at",
+  "size": 296
+ },
+ "0x44feb0": {
+  "name": "font_info_add",
+  "size": 88
+ },
+ "0x439300": {
+  "name": "a2ps_printers_list_long",
+  "size": 167
+ },
+ "0x41de10": {
+  "name": "version_add",
+  "size": 88
+ },
+ "0x40e0f0": {
+  "name": "re_search",
+  "size": 107
+ },
+ "0x427a80": {
+  "name": "psfree",
+  "size": 27
+ },
+ "0x44f9e0": {
+  "name": "afmset_out",
+  "size": 22
+ },
+ "0x45bd80": {
+  "name": "da_grow",
+  "size": 191
+ },
+ "0x431ab0": {
+  "name": "strsub",
+  "size": 67
+ },
+ "0x452580": {
+  "name": "authors_print_html",
+  "size": 73
+ },
+ "0x45e110": {
+  "name": "ds_sprintf",
+  "size": 351
+ },
+ "0x45db90": {
+  "name": "ds_erase",
+  "size": 40
+ },
+ "0x439d40": {
+  "name": "initialize_ps_status",
+  "size": 159
+ },
+ "0x4365e0": {
+  "name": "ps_end",
+  "size": 54
+ },
+ "0x45f310": {
+  "name": "pair_add",
+  "size": 195
+ },
+ "0x42d5b0": {
+  "name": "list_texinfo_encodings_long",
+  "size": 212
+ },
+ "0x4633f0": {
+  "name": "isdir",
+  "size": 106
+ },
+ "0x40c310": {
+  "name": "guess",
+  "size": 185
+ },
+ "0x453320": {
+  "name": "a2ps_common_new",
+  "size": 43
+ },
+ "0x4668a0": {
+  "name": "ppd_scan_buffer",
+  "size": 290
+ },
+ "0x45c380": {
+  "name": "da_remove_at",
+  "size": 296
+ },
+ "0x466510": {
+  "name": "ppdalloc",
+  "size": 25
+ },
+ "0x438fb0": {
+  "name": "a2ps_printers_request_ppdkey_get",
+  "size": 18
+ },
+ "0x44f290": {
+  "name": "afmalloc",
+  "size": 25
+ },
+ "0x459dc0": {
+  "name": "getshline_numbered",
+  "size": 119
+ },
+ "0x467590": {
+  "name": "__libc_csu_init",
+  "size": 101
+ },
+ "0x41dcb0": {
+  "name": "version_cpy",
+  "size": 34
+ },
+ "0x42d3d0": {
+  "name": "set_encoding",
+  "size": 29
+ },
+ "0x439170": {
+  "name": "a2ps_printers_flag_output_name_get",
+  "size": 18
+ },
+ "0x40a6b0": {
+  "name": "set_requested_style",
+  "size": 129
+ },
+ "0x45a910": {
+  "name": "pw_file_exists_p",
+  "size": 43
+ },
+ "0x43a900": {
+  "name": "escape_unprintable",
+  "size": 953
+ },
+ "0x42b520": {
+  "name": "smapset_debug",
+  "size": 19
+ },
+ "0x4085b0": {
+  "name": "style_sheet_self_print",
+  "size": 600
+ },
+ "0x4535e0": {
+  "name": "ppdparse",
+  "size": 4230
+ },
+ "0x45e9c0": {
+  "name": "vprintflen",
+  "size": 73
+ },
+ "0x406f20": {
+  "name": "faced_string_new",
+  "size": 81
+ },
+ "0x44f950": {
+  "name": "afmget_lineno",
+  "size": 13
+ },
+ "0x427b70": {
+  "name": "pspush_buffer_state",
+  "size": 327
+ },
+ "0x4597f0": {
+  "name": "strrpl",
+  "size": 65
+ },
+ "0x42b4f0": {
+  "name": "smapset_out",
+  "size": 22
+ },
+ "0x451590": {
+  "name": "page_range_to_buffer",
+  "size": 206
+ },
+ "0x407180": {
+  "name": "rhs_add",
+  "size": 35
+ },
+ "0x408df0": {
+  "name": "list_style_sheets_html",
+  "size": 1197
+ },
+ "0x4555d0": {
+  "name": "argmatch_valid",
+  "size": 319
+ },
+ "0x4301a0": {
+  "name": "output_free",
+  "size": 66
+ },
+ "0x4532d0": {
+  "name": "file_name_cmp",
+  "size": 41
+ },
+ "0x451130": {
+  "name": "_a2ps_ppd_get",
+  "size": 95
+ },
+ "0x45cde0": {
+  "name": "da_qsort_with_arg",
+  "size": 1724
+ },
+ "0x426010": {
+  "name": "sshset_lineno",
+  "size": 19
+ },
+ "0x42b1f0": {
+  "name": "smap_scan_buffer",
+  "size": 300
+ },
+ "0x42b4d0": {
+  "name": "smapset_in",
+  "size": 22
+ },
+ "0x45c1d0": {
+  "name": "da_append",
+  "size": 124
+ },
+ "0x461e60": {
+  "name": "lister_fprint_horizontal",
+  "size": 1013
+ },
+ "0x42b490": {
+  "name": "smapget_leng",
+  "size": 13
+ },
+ "0x44f6e0": {
+  "name": "afm_scan_buffer",
+  "size": 298
+ },
+ "0x452150": {
+  "name": "stream_perl_open_backup",
+  "size": 465
+ },
+ "0x42bbf0": {
+  "name": "encoding_self_print",
+  "size": 603
+ },
+ "0x425fe0": {
+  "name": "sshget_out",
+  "size": 14
+ },
+ "0x42c1e0": {
+  "name": "encoding_char_exists",
+  "size": 43
+ },
+ "0x45dd80": {
+  "name": "ds_resize",
+  "size": 106
+ },
+ "0x427880": {
+  "name": "ps_switch_to_buffer",
+  "size": 283
+ },
+ "0x402510": {
+  "name": "_start",
+  "size": 42
+ },
+ "0x4279a0": {
+  "name": "psalloc",
+  "size": 25
+ },
+ "0x43acd0": {
+  "name": "macro_meta_sequence_table_free",
+  "size": 27
+ },
+ "0x4071b0": {
+  "name": "rhs_self_print",
+  "size": 145
+ },
+ "0x407800": {
+  "name": "words_add_regex",
+  "size": 39
+ },
+ "0x4391e0": {
+  "name": "a2ps_printers_list_short",
+  "size": 96
+ },
+ "0x426240": {
+  "name": "sshlex_initialize",
+  "size": 83
+ },
+ "0x466b50": {
+  "name": "ppdget_text",
+  "size": 14
+ },
+ "0x45bf80": {
+  "name": "da_equal",
+  "size": 163
+ },
+ "0x42d3f0": {
+  "name": "list_encodings_short",
+  "size": 99
+ },
+ "0x454f20": {
+  "name": "a2ps_ppd_parse",
+  "size": 264
+ },
+ "0x4500b0": {
+  "name": "font_info_get_wx_for_vector",
+  "size": 358
+ },
+ "0x44f980": {
+  "name": "afmget_leng",
+  "size": 13
+ },
+ "0x427f70": {
+  "name": "ps_scan_bytes",
+  "size": 229
+ },
+ "0x467130": {
+  "name": "xstrtol",
+  "size": 897
+ },
+ "0x41db50": {
+  "name": "version_set_to_null",
+  "size": 68
+ },
+ "0x426c10": {
+  "name": "ps_create_buffer",
+  "size": 166
+ },
+ "0x44d620": {
+  "name": "dump_process_color",
+  "size": 236
+ },
+ "0x45c100": {
+  "name": "da_where",
+  "size": 152
+ },
+ "0x453300": {
+  "name": "a2ps_common_reset",
+  "size": 21
+ },
+ "0x45b510": {
+  "name": "pw_glob",
+  "size": 236
+ },
+ "0x458820": {
+  "name": "signame_init",
+  "size": 996
+ },
+ "0x429b70": {
+  "name": "smap_create_buffer",
+  "size": 168
+ },
+ "0x408990": {
+  "name": "list_style_sheets_long",
+  "size": 256
+ },
+ "0x466d90": {
+  "name": "ppdlex_initialize",
+  "size": 94
+ },
+ "0x45a650": {
+  "name": "pw_append_string_to_path",
+  "size": 75
+ },
+ "0x4258f0": {
+  "name": "sshalloc",
+  "size": 25
+ },
+ "0x42d460": {
+  "name": "list_encodings_long",
+  "size": 253
+ },
+ "0x451080": {
+  "name": "ppd_free",
+  "size": 161
+ },
+ "0x456c10": {
+  "name": "hash_free_items",
+  "size": 160
+ },
+ "0x40c630": {
+  "name": "delegation_table_free",
+  "size": 52
+ },
+ "0x433f50": {
+  "name": "ps_print_string",
+  "size": 73
+ },
+ "0x428090": {
+  "name": "psget_leng",
+  "size": 13
+ },
+ "0x45d560": {
+  "name": "da_merge",
+  "size": 719
+ },
+ "0x466770": {
+  "name": "ppdpop_buffer_state",
+  "size": 300
+ },
+ "0x45efe0": {
+  "name": "pair_table_new",
+  "size": 102
+ },
+ "0x439840": {
+  "name": "a2ps_close_output_stream",
+  "size": 34
+ },
+ "0x452e40": {
+  "name": "_a2ps_file_job_new",
+  "size": 269
+ },
+ "0x466b40": {
+  "name": "ppdget_leng",
+  "size": 13
+ },
+ "0x450fe0": {
+  "name": "ppd_font_known_p",
+  "size": 52
+ },
+ "0x4606e0": {
+  "name": "fopen_backup",
+  "size": 749
+ },
+ "0x428110": {
+  "name": "psget_debug",
+  "size": 13
+ },
+ "0x43a500": {
+  "name": "list_statusdict",
+  "size": 46
+ },
+ "0x451550": {
+  "name": "page_range_free",
+  "size": 52
+ },
+ "0x425fc0": {
+  "name": "sshget_lineno",
+  "size": 13
+ },
+ "0x45a820": {
+  "name": "pw_free_path",
+  "size": 128
+ },
+ "0x4586e0": {
+  "name": "quotearg",
+  "size": 31
+ },
+ "0x43acf0": {
+  "name": "macro_meta_sequence_add",
+  "size": 155
+ },
+ "0x461de0": {
+  "name": "lister_print_vertical",
+  "size": 114
+ },
+ "0x407ba0": {
+  "name": "new_C_string_sequence",
+  "size": 291
+ },
+ "0x414200": {
+  "name": "re_compile_pattern",
+  "size": 220
+ },
+ "0x456b90": {
+  "name": "hash_delete_at",
+  "size": 126
+ },
+ "0x40ca40": {
+  "name": "get_delegate_command",
+  "size": 95
+ },
+ "0x41df60": {
+  "name": "fflag_self_print",
+  "size": 317
+ },
+ "0x425910": {
+  "name": "ssh_delete_buffer",
+  "size": 179
+ },
+ "0x463750": {
+  "name": "ppdlex",
+  "size": 7753
+ },
+ "0x402610": {
+  "name": "main",
+  "size": 2438
+ },
+ "0x42ffa0": {
+  "name": "output_new",
+  "size": 165
+ },
+ "0x45b6f0": {
+  "name": "pw_glob_print",
+  "size": 74
+ },
+ "0x45f740": {
+  "name": "pair_table_list_long",
+  "size": 262
+ },
+ "0x431820": {
+  "name": "ustrccat",
+  "size": 65
+ },
+ "0x45e990": {
+  "name": "ds_getline",
+  "size": 42
+ },
+ "0x438350": {
+  "name": "a2ps_print_buffer",
+  "size": 153
+ },
+ "0x430460": {
+  "name": "output_delayed_routine",
+  "size": 114
+ },
+ "0x44f9c0": {
+  "name": "afmset_in",
+  "size": 22
+ },
+ "0x457590": {
+  "name": "get_quoting_style",
+  "size": 59
+ },
+ "0x45e010": {
+  "name": "ds_strccat",
+  "size": 141
+ },
+ "0x466b10": {
+  "name": "ppdget_lineno",
+  "size": 13
+ },
+ "0x452f50": {
+  "name": "file_job_free",
+  "size": 101
+ },
+ "0x454e40": {
+  "name": "ppderror",
+  "size": 53
+ },
+ "0x45e340": {
+  "name": "ds_cat_sprintf",
+  "size": 351
+ },
+ "0x458800": {
+  "name": "quotearg_colon",
+  "size": 32
+ },
+ "0x427660": {
+  "name": "pswrap",
+  "size": 11
+ },
+ "0x42aa70": {
+  "name": "smaprestart",
+  "size": 204
+ },
+ "0x462ce0": {
+  "name": "lister_print_separated",
+  "size": 114
+ },
+ "0x425ff0": {
+  "name": "sshget_leng",
+  "size": 13
+ },
+ "0x438220": {
+  "name": "user_options_list_long",
+  "size": 89
+ },
+ "0x466bd0": {
+  "name": "ppdset_debug",
+  "size": 19
+ },
+ "0x439de0": {
+  "name": "output_pagedevice",
+  "size": 327
+ },
+ "0x466300": {
+  "name": "ppdrestart",
+  "size": 204
+ },
+ "0x466b20": {
+  "name": "ppdget_in",
+  "size": 14
+ },
+ "0x458e50": {
+  "name": "strverscmp",
+  "size": 1011
+ },
+ "0x42cbc0": {
+  "name": "char_WX",
+  "size": 1944
+ },
+ "0x45b1a0": {
+  "name": "pw_paste_file",
+  "size": 870
+ },
+ "0x42af70": {
+  "name": "smappush_buffer_state",
+  "size": 324
+ },
+ "0x438150": {
+  "name": "user_option_get",
+  "size": 107
+ },
+ "0x44fa00": {
+  "name": "afmget_debug",
+  "size": 13
+ },
+ "0x436da0": {
+  "name": "face_to_string",
+  "size": 25
+ },
+ "0x41dc10": {
+  "name": "version_cmp",
+  "size": 155
+ },
+ "0x453560": {
+  "name": "file_align_to_string",
+  "size": 127
+ },
+ "0x456740": {
+  "name": "hash_find_slot",
+  "size": 495
+ },
+ "0x4212f0": {
+  "name": "ssherror",
+  "size": 53
+ },
+ "0x42ed90": {
+  "name": "free_medium_table",
+  "size": 52
+ },
+ "0x42c1a0": {
+  "name": "encoding_get_name",
+  "size": 18
+ },
+ "0x42ea50": {
+  "name": "add_medium",
+  "size": 173
+ },
+ "0x45da60": {
+  "name": "da_str_printnl",
+  "size": 55
+ },
+ "0x4259f0": {
+  "name": "ssh_flush_buffer",
+  "size": 193
+ },
+ "0x431510": {
+  "name": "output_self_print",
+  "size": 66
+ },
+ "0x41ba00": {
+  "name": "regfree",
+  "size": 193
+ },
+ "0x42b470": {
+  "name": "smapget_in",
+  "size": 14
+ },
+ "0x452380": {
+  "name": "authors_print_plain",
+  "size": 73
+ },
+ "0x453350": {
+  "name": "a2ps_common_free",
+  "size": 30
+ },
+ "0x452c70": {
+  "name": "documentation_print_texinfo",
+  "size": 449
+ },
+ "0x439f30": {
+  "name": "pagedevice_dump",
+  "size": 315
+ },
+ "0x453450": {
+  "name": "madir_to_string",
+  "size": 113
+ },
+ "0x42b940": {
+  "name": "encodings_map_new",
+  "size": 11
+ },
+ "0x425fd0": {
+  "name": "sshget_in",
+  "size": 14
+ },
+ "0x4326e0": {
+  "name": "ps_print_char",
+  "size": 2575
+ },
+ "0x431ff0": {
+  "name": "ps_set_encoding",
+  "size": 105
+ },
+ "0x451020": {
+  "name": "ppd_new",
+  "size": 82
+ },
+ "0x45e0a0": {
+  "name": "ds_vsprintf",
+  "size": 99
+ },
+ "0x4385a0": {
+  "name": "output_format_to_key",
+  "size": 52
+ },
+ "0x456b50": {
+  "name": "hash_delete",
+  "size": 55
+ },
+ "0x456e30": {
+  "name": "hash_print_stats",
+  "size": 364
+ },
+ "0x44d4e0": {
+  "name": "dump_needed_resources",
+  "size": 253
+ },
+ "0x4257d0": {
+  "name": "ssh_switch_to_buffer",
+  "size": 283
+ },
+ "0x44d8b0": {
+  "name": "dump_setup",
+  "size": 46
+ },
+ "0x41b910": {
+  "name": "regerror",
+  "size": 231
+ },
+ "0x44d760": {
+  "name": "add_required_font",
+  "size": 167
+ },
+ "0x44d850": {
+  "name": "required_fonts_get",
+  "size": 93
+ },
+ "0x4099e0": {
+  "name": "new_style_sheets",
+  "size": 80
+ },
+ "0x431ef0": {
+  "name": "stream_dump",
+  "size": 126
+ },
+ "0x41cda0": {
+  "name": "buffer_set_lower_case",
+  "size": 30
+ },
+ "0x4525d0": {
+  "name": "authors_print_texinfo",
+  "size": 132
+ },
+ "0x4636c0": {
+  "name": "xstrndup",
+  "size": 136
+ },
+ "0x40d1f0": {
+  "name": "delegations_list_long",
+  "size": 199
+ },
+ "0x45ac60": {
+  "name": "pw_find_file",
+  "size": 43
+ },
+ "0x466bc0": {
+  "name": "ppdget_debug",
+  "size": 13
+ },
+ "0x42eee0": {
+  "name": "a2ps_medium_libpaper_p",
+  "size": 78
+ },
+ "0x4562b0": {
+  "name": "xget_version",
+  "size": 109
+ },
+ "0x42b360": {
+  "name": "smap_scan_bytes",
+  "size": 245
+ },
+ "0x407520": {
+  "name": "words_new",
+  "size": 265
+ },
+ "0x45ff60": {
+  "name": "string_htable_get",
+  "size": 35
+ },
+ "0x40b460": {
+  "name": "msg_nothing_printed",
+  "size": 93
+ },
+ "0x431560": {
+  "name": "output_dump",
+  "size": 285
+ },
+ "0x431cb0": {
+  "name": "xpopen",
+  "size": 43
+ },
+ "0x45dbc0": {
+  "name": "ds_print_stats",
+  "size": 440
+ },
+ "0x43a810": {
+  "name": "unprintable_format_to_string",
+  "size": 237
+ },
+ "0x437200": {
+  "name": "face_set_font",
+  "size": 99
+ },
+ "0x40d530": {
+  "name": "re_set_syntax",
+  "size": 38
+ },
+ "0x450fb0": {
+  "name": "ppd_font_add",
+  "size": 39
+ },
+ "0x434010": {
+  "name": "ps_begin_file",
+  "size": 287
+ },
+ "0x462e10": {
+  "name": "userdata_get",
+  "size": 1069
+ },
+ "0x4584f0": {
+  "name": "quotearg_n",
+  "size": 43
+ },
+ "0x451840": {
+  "name": "page_range_applies_above",
+  "size": 192
+ },
+ "0x41b4a0": {
+  "name": "regexec",
+  "size": 1121
+ },
+ "0x44d310": {
+  "name": "dump_supplied_resources",
+  "size": 165
+ },
+ "0x4370d0": {
+  "name": "face_eo_font_is_set",
+  "size": 98
+ },
+ "0x425ec0": {
+  "name": "ssh_scan_bytes",
+  "size": 245
+ },
+ "0x45a400": {
+  "name": "pw_string_to_path",
+  "size": 36
+ },
+ "0x42b950": {
+  "name": "encodings_map_free",
+  "size": 27
+ },
+ "0x40b4c0": {
+  "name": "print_toc",
+  "size": 364
+ },
+ "0x45f440": {
+  "name": "pair_get",
+  "size": 90
+ },
+ "0x44f170": {
+  "name": "afm_switch_to_buffer",
+  "size": 283
+ },
+ "0x4319f0": {
+  "name": "strcpylc",
+  "size": 66
+ },
+ "0x426030": {
+  "name": "sshset_in",
+  "size": 22
+ },
+ "0x459370": {
+  "name": "close_stdout_status",
+  "size": 144
+ },
+ "0x434ca0": {
+  "name": "prologues_list_short",
+  "size": 99
+ },
+ "0x4383f0": {
+  "name": "a2ps_open_output_session",
+  "size": 64
+ },
+ "0x430270": {
+  "name": "output_is_to_void",
+  "size": 17
+ },
+ "0x40d560": {
+  "name": "re_compile_fastmap",
+  "size": 2755
+ },
+ "0x45d830": {
+  "name": "da_self_print",
+  "size": 236
+ },
+ "0x414190": {
+  "name": "re_match_2",
+  "size": 100
+ },
+ "0x42b460": {
+  "name": "smapget_lineno",
+  "size": 13
+ },
+ "0x461320": {
+  "name": "lister_before_set",
+  "size": 93
+ },
+ "0x451f50": {
+  "name": "stream_ropen",
+  "size": 43
+ },
+ "0x4569a0": {
+  "name": "hash_insert_at",
+  "size": 152
+ },
+ "0x41c9f0": {
+  "name": "option_string_to_eol",
+  "size": 91
+ },
+ "0x458c80": {
+  "name": "sig_abbrev",
+  "size": 166
+ },
+ "0x431e00": {
+  "name": "xwpopen",
+  "size": 66
+ },
+ "0x4301f0": {
+  "name": "output_report",
+  "size": 90
+ },
+ "0x41cdc0": {
+  "name": "buffer_get",
+  "size": 1060
+ },
+ "0x45d920": {
+  "name": "da_map",
+  "size": 103
+ },
+ "0x4373b0": {
+  "name": "a2_read_config",
+  "size": 3221
+ },
+ "0x41da90": {
+  "name": "buffer_save",
+  "size": 187
+ },
+ "0x45e650": {
+  "name": "ds_unsafe_cat_vsprintf",
+  "size": 176
+ },
+ "0x45f850": {
+  "name": "pair_table_self_print",
+  "size": 254
+ },
+ "0x4077d0": {
+  "name": "words_add_string",
+  "size": 38
+ },
+ "0x431900": {
+  "name": "strnlower",
+  "size": 39
+ },
+ "0x421890": {
+  "name": "sshlex",
+  "size": 12729
+ },
+ "0x44f5a0": {
+  "name": "afmpop_buffer_state",
+  "size": 312
+ },
+ "0x428120": {
+  "name": "psset_debug",
+  "size": 19
+ },
+ "0x40c6c0": {
+  "name": "add_delegation",
+  "size": 737
+ },
+ "0x457620": {
+  "name": "set_char_quoting",
+  "size": 252
+ },
+ "0x438430": {
+  "name": "a2ps_open_input_session",
+  "size": 231
+ },
+ "0x4657f0": {
+  "name": "ppd_switch_to_buffer",
+  "size": 283
+ },
+ "0x42eb00": {
+  "name": "new_medium_table",
+  "size": 80
+ },
+ "0x42adc0": {
+  "name": "smap_delete_buffer",
+  "size": 179
+ },
+ "0x438aa0": {
+  "name": "a2ps_destination_to_string",
+  "size": 58
+ },
+ "0x45bed0": {
+  "name": "da_is_sorted",
+  "size": 166
+ },
+ "0x456220": {
+  "name": "get_version",
+  "size": 139
+ },
+ "0x438280": {
+  "name": "a2ps_print_char",
+  "size": 76
+ },
+ "0x44cec0": {
+  "name": "multivalued_table_new",
+  "size": 114
+ },
+ "0x44f460": {
+  "name": "afmpush_buffer_state",
+  "size": 315
+ },
+ "0x42aea0": {
+  "name": "smap_flush_buffer",
+  "size": 193
+ },
+ "0x466d60": {
+  "name": "ppdrealloc",
+  "size": 33
+ },
+ "0x4503c0": {
+  "name": "font_info_table_dump_special_font_setup",
+  "size": 194
+ },
+ "0x40e030": {
+  "name": "re_set_registers",
+  "size": 184
+ },
+ "0x43a270": {
+  "name": "list_pagedevice",
+  "size": 46
+ },
+ "0x43a380": {
+  "name": "delstatusdict",
+  "size": 46
+ },
+ "0x44f810": {
+  "name": "afm_scan_string",
+  "size": 51
+ },
+ "0x42eeb0": {
+  "name": "a2ps_get_medium_name",
+  "size": 46
+ },
+ "0x45c030": {
+  "name": "da_cmp_equal",
+  "size": 193
+ },
+ "0x459580": {
+  "name": "xstrrpl",
+  "size": 619
+ },
+ "0x424b80": {
+  "name": "ssh_create_buffer",
+  "size": 166
+ },
+ "0x42c650": {
+  "name": "encoding_add_font_name_used",
+  "size": 61
+ },
+ "0x426070": {
+  "name": "sshget_debug",
+  "size": 13
+ },
+ "0x42fa80": {
+  "name": "a2ps_job_finalize",
+  "size": 288
+ },
+ "0x4533f0": {
+  "name": "madir_argmatch",
+  "size": 91
+ },
+ "0x41cc70": {
+  "name": "buffer_self_print",
+  "size": 246
+ },
+ "0x45e700": {
+  "name": "ds_unsafe_cat_sprintf",
+  "size": 351
+ },
+ "0x42b0c0": {
+  "name": "smappop_buffer_state",
+  "size": 300
+ },
+ "0x438fd0": {
+  "name": "a2ps_printers_request_ppdkey_set",
+  "size": 133
+ },
+ "0x425c10": {
+  "name": "sshpop_buffer_state",
+  "size": 309
+ },
+ "0x42d360": {
+  "name": "string_WX",
+  "size": 98
+ },
+ "0x40caa0": {
+  "name": "subcontract",
+  "size": 1867
+ },
+ "0x44f9a0": {
+  "name": "afmset_lineno",
+  "size": 19
+ },
+ "0x4612c0": {
+  "name": "lister_tterm_set",
+  "size": 91
+ },
+ "0x430590": {
+  "name": "output_delayed_int",
+  "size": 98
+ },
+ "0x466f00": {
+  "name": "tterm_tabsize",
+  "size": 68
+ },
+ "0x44ef50": {
+  "name": "afmwrap",
+  "size": 11
+ },
+ "0x42ac80": {
+  "name": "smap_switch_to_buffer",
+  "size": 283
+ },
+ "0x44fa10": {
+  "name": "afmset_debug",
+  "size": 19
+ },
+ "0x437140": {
+  "name": "init_face_eo_font",
+  "size": 71
+ },
+ "0x463240": {
+  "name": "addext",
+  "size": 253
+ },
+ "0x40a7b0": {
+  "name": "sheets_map_new",
+  "size": 55
+ },
+ "0x4282a0": {
+  "name": "psrealloc",
+  "size": 33
+ },
+ "0x401eb8": {
+  "name": "_init",
+  "size": 0
+ },
+ "0x459330": {
+  "name": "xcalloc",
+  "size": 59
+ },
+ "0x466b30": {
+  "name": "ppdget_out",
+  "size": 14
+ },
+ "0x404d60": {
+  "name": "plain_print_postscript",
+  "size": 74
+ },
+ "0x42b320": {
+  "name": "smap_scan_string",
+  "size": 51
+ },
+ "0x438100": {
+  "name": "user_options_table_free",
+  "size": 27
+ },
+ "0x4394f0": {
+  "name": "a2ps_ppd_list_long",
+  "size": 39
+ },
+ "0x439b60": {
+  "name": "new_ps_status",
+  "size": 178
+ },
+ "0x438ae0": {
+  "name": "a2ps_printers_finalize",
+  "size": 135
+ },
+ "0x427670": {
+  "name": "psrestart",
+  "size": 204
+ },
+ "0x45afb0": {
+  "name": "xpw_find_included_file",
+  "size": 486
+ },
+ "0x44da10": {
+  "name": "load_main_fonts_map",
+  "size": 79
+ },
+ "0x45def0": {
+  "name": "ds_strcat",
+  "size": 125
+ },
+ "0x4319b0": {
+  "name": "strlower",
+  "size": 62
+ },
+ "0x42f1f0": {
+  "name": "list_media_short",
+  "size": 179
+ },
+ "0x45daa0": {
+  "name": "ds_new",
+  "size": 229
+ },
+ "0x4317a0": {
+  "name": "string_to_array",
+  "size": 122
+ },
+ "0x42b540": {
+  "name": "smaplex_destroy",
+  "size": 233
+ },
+ "0x42c490": {
+  "name": "encodings_table_free",
+  "size": 52
+ },
+ "0x4600f0": {
+  "name": "string_htable_dump_sorted",
+  "size": 44
+ },
+ "0x44da90": {
+  "name": "afmlex",
+  "size": 2232
+ },
+ "0x438780": {
+  "name": "a2ps_printers_free",
+  "size": 224
+ },
+ "0x466f50": {
+  "name": "tterm_initialize",
+  "size": 467
+ },
+ "0x463460": {
+  "name": "xgetcwd",
+  "size": 261
+ },
+ "0x426050": {
+  "name": "sshset_out",
+  "size": 22
+ },
+ "0x45ba90": {
+  "name": "da_free_content",
+  "size": 35
+ },
+ "0x4557a0": {
+  "name": "argmatch_to_argument",
+  "size": 164
+ },
+ "0x45c5b0": {
+  "name": "da_prefix",
+  "size": 400
+ }
+}

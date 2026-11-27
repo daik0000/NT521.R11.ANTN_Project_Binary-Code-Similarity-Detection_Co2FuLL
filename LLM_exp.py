@@ -18,14 +18,19 @@ def prompt_exp(args):
 def setting_exp(args):
     default_prompt = "few_shot"
     prompt2params = {"few_shot": []}
-    for top_p in [0.5, 1.0]:
-        for temperature in [0.5, 1.0]:
-            init_data = initialize(args, top_p=top_p, temperature=temperature)
-            tmp_params = get_query_func_pair_list(df_top=init_data['df_topk'],
-                                                  models=init_data['models'],
-                                                  prompt_key=default_prompt,
-                                                  save_dir=args.save_dir)
-            prompt2params["few_shot"].extend(tmp_params)
+    for top_p, temperature in [
+        (1.0, 0.5),
+        (0.5, 0.5),
+        (0.5, 1.0),
+        (1.0, 1.0),
+        (1.0, 0.0),
+    ]:
+        init_data = initialize(args, top_p=top_p, temperature=temperature)
+        tmp_params = get_query_func_pair_list(df_top=init_data['df_topk'],
+                                              models=init_data['models'],
+                                              prompt_key=default_prompt,
+                                              save_dir=args.save_dir)
+        prompt2params['few_shot'].extend(tmp_params)
     execute(prompt2params, n_jobs=init_data['n_jobs'])
 
 

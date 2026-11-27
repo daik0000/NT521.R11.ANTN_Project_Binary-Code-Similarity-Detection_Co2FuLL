@@ -19,6 +19,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -50,13 +51,26 @@ def parse_floss_output(stdout: str) -> list:
     return out
 
 
-def recover_strings_floss(binary_path, timeout: int = 600) -> list:
+def _limit_floss_memory():
+    """preexec_fn: cap FLOSS's address space (config.FLOSS_MAX_MEM_GB).
+
+    FLOSS emulates every function; on large OLLVM binaries (BinKit binutils -O0) one
+    run grew to 54 GB and the kernel OOM killer took down the whole desktop session
+    with it. Past the cap FLOSS fails on its own and we fall back to no FLOSS strings.
+    """
+    import resource
+    cap = int(config.FLOSS_MAX_MEM_GB * 1024 ** 3)
+    resource.setrlimit(resource.RLIMIT_AS, (cap, cap))
+
+
+def recover_strings_floss(binary_path, timeout: int | None = None) -> list:
     """Run FLOSS and return its non-static strings (design API)."""
     if shutil.which(config.FLOSS_BIN) is None:
         return []
     try:
         r = subprocess.run([config.FLOSS_BIN, "--no", "static", "-j", "-q", "--", str(binary_path)],
-                           capture_output=True, text=True, timeout=timeout)
+                           capture_output=True, text=True, timeout=timeout or config.FLOSS_TIMEOUT,
+                           preexec_fn=_limit_floss_memory if os.name == "posix" else None)
     except subprocess.TimeoutExpired:
         return []
     return parse_floss_output(r.stdout) if r.returncode == 0 else []

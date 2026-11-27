@@ -17,7 +17,10 @@
 #      `y < 10 || x*(x-1) % 2 == 0` to true and drops the bogus branch.
 #   2. Recovered imports: label the pointer slots (`ptr_<api>`) so indirect
 #      calls read `(*ptr_puts)(...)` in the pseudocode.
-#   3. Decompile every non-external, non-thunk function and write
+#   3. Parameter storage: functions pinned to custom storage with an unknown
+#      calling convention (stale DWARF locations in OLLVM builds) are reset to
+#      the default convention, so call arguments decompile correctly.
+#   4. Decompile every non-external, non-thunk function and write
 #      <link-time address>.c (format "0x%08x.c", as in the design doc).
 
 import os
@@ -109,7 +112,39 @@ for addr_s, api in sorted(cfg.get("imports", {}).items()):
         log("label %s @ %s failed: %s" % (api, addr_s, exc))
 log("import slot labels: %d" % n_labels)
 
-# ----------------------------------------------------------------------------- 3. export
+# ----------------------------------------------------------------------------- 3. parameter storage
+# Obfuscator-LLVM keeps the original DWARF but rewrites the code, so the parameter
+# locations Ghidra imports from it can be wrong. Ghidra then pins those functions
+# to custom storage with an "unknown" calling convention (elfedit -bcf: usage()
+# gets stream=RAX, exit_status=ECX instead of RDI/ESI). Every caller is then
+# decompiled with bogus arguments, e.g. usage((FILE *)0x0,0) for the real
+# usage(stderr,1). Fall back to the compiler's default convention so storage is
+# derived from it; parameter names and types from DWARF are kept.
+def repair_param_storage():
+    default_cc = program.getCompilerSpec().getDefaultCallingConvention()
+    if default_cc is None:
+        return 0
+    n = 0
+    for f in program.getFunctionManager().getFunctions(True):
+        if f.isExternal() or f.isThunk() or not f.hasCustomVariableStorage():
+            continue
+        cc = f.getCallingConventionName()
+        if cc is not None and cc != "unknown":
+            continue                         # an explicit convention: leave it alone
+        try:
+            f.setCallingConvention(default_cc.getName())
+            f.setCustomVariableStorage(False)
+            n += 1
+        except Exception as exc:
+            log("could not reset parameter storage of %s: %s" % (f.getName(), exc))
+    return n
+
+
+n_storage = repair_param_storage()
+log("functions with parameter storage reset to %s: %d"
+    % (program.getCompilerSpec().getDefaultCallingConvention(), n_storage))
+
+# ----------------------------------------------------------------------------- 4. export
 opts = DecompileOptions()
 decomp = DecompInterface()
 decomp.setOptions(opts)
@@ -148,7 +183,8 @@ for func in program.getFunctionManager().getFunctions(True):
 with codecs.open(os.path.join(out_dir, "index.json"), "w", "utf-8") as fh:
     json.dump({"program": program.getName(), "image_base": "0x%x" % image_base,
                "link_base": "0x%x" % link_base, "opaque_ranges": n_opaque,
-               "import_labels": n_labels, "functions": index}, fh, indent=2)
+               "import_labels": n_labels, "param_storage_reset": n_storage,
+               "functions": index}, fh, indent=2)
 
 decomp.dispose()
 log("exported %d functions to %s" % (n_ok, out_dir))

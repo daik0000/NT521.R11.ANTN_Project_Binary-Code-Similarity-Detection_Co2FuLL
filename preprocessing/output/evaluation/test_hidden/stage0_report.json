@@ -58,7 +58,7 @@
     "dynamic_error": null
   },
   "imports": {
-    "count": 14,
+    "count": 15,
     "apis": [
       "free",
       "malloc",
@@ -92,5 +92,5 @@
     }
   },
   "status": "normalized",
-  "elapsed_s": 78.29
+  "elapsed_s": 14.19
 }

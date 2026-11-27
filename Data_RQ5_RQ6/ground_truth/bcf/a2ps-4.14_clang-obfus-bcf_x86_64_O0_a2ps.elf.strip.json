@@ -1,0 +1,3858 @@
+{
+ "0x402540": {
+  "name": "deregister_tm_clones",
+  "size": 0
+ },
+ "0x402580": {
+  "name": "register_tm_clones",
+  "size": 0
+ },
+ "0x4025c0": {
+  "name": "__do_global_dtors_aux",
+  "size": 0
+ },
+ "0x4025e0": {
+  "name": "frame_dummy",
+  "size": 0
+ },
+ "0x404680": {
+  "name": "exit_handler",
+  "size": 348
+ },
+ "0x407500": {
+  "name": "get_highlight_level",
+  "size": 91
+ },
+ "0x404830": {
+  "name": "handle_a2ps_option",
+  "size": 2936
+ },
+ "0x407560": {
+  "name": "highlight_level_to_string",
+  "size": 160
+ },
+ "0x4073e0": {
+  "name": "list_features",
+  "size": 275
+ },
+ "0x405940": {
+  "name": "list_options",
+  "size": 6810
+ },
+ "0x4047e0": {
+  "name": "signal_handler",
+  "size": 77
+ },
+ "0x4053b0": {
+  "name": "spy_user",
+  "size": 1416
+ },
+ "0x404210": {
+  "name": "usage",
+  "size": 1135
+ },
+ "0x407760": {
+  "name": "plain_getc",
+  "size": 4368
+ },
+ "0x40b4b0": {
+  "name": "match_keyword",
+  "size": 2023
+ },
+ "0x40a6f0": {
+  "name": "match_operator",
+  "size": 1783
+ },
+ "0x40adf0": {
+  "name": "match_sequence",
+  "size": 1713
+ },
+ "0x40bca0": {
+  "name": "match_word",
+  "size": 787
+ },
+ "0x40a080": {
+  "name": "rhs_plain_new",
+  "size": 25
+ },
+ "0x40a0a0": {
+  "name": "ssh_get_token",
+  "size": 1612
+ },
+ "0x409f10": {
+  "name": "token_new",
+  "size": 362
+ },
+ "0x40f960": {
+  "name": "alphabet_self_print",
+  "size": 726
+ },
+ "0x40eb90": {
+  "name": "ancestors_finalize",
+  "size": 1782
+ },
+ "0x40e210": {
+  "name": "ancestors_new",
+  "size": 51
+ },
+ "0x412f90": {
+  "name": "check_doubles",
+  "size": 128
+ },
+ "0x413140": {
+  "name": "check_rules_doubles",
+  "size": 576
+ },
+ "0x413580": {
+  "name": "check_rules_lower_case",
+  "size": 165
+ },
+ "0x413010": {
+  "name": "check_sensitivity",
+  "size": 208
+ },
+ "0x413630": {
+  "name": "check_sequence_lower_case",
+  "size": 399
+ },
+ "0x4134f0": {
+  "name": "check_sequences_lower_case",
+  "size": 134
+ },
+ "0x4130e0": {
+  "name": "check_words_doubles",
+  "size": 86
+ },
+ "0x413380": {
+  "name": "check_words_lower_case",
+  "size": 364
+ },
+ "0x412c80": {
+  "name": "faced_string_free",
+  "size": 197
+ },
+ "0x40c3a0": {
+  "name": "faced_string_self_print",
+  "size": 120
+ },
+ "0x40d260": {
+  "name": "free_rule",
+  "size": 605
+ },
+ "0x4137c0": {
+  "name": "load_style_sheet",
+  "size": 1450
+ },
+ "0x40dba0": {
+  "name": "new_C_exceptions",
+  "size": 939
+ },
+ "0x412980": {
+  "name": "require_style_sheet",
+  "size": 754
+ },
+ "0x412d50": {
+  "name": "rhs_set_no_face",
+  "size": 576
+ },
+ "0x40d100": {
+  "name": "rule_cmp",
+  "size": 241
+ },
+ "0x40c820": {
+  "name": "rule_new_internal_regexp",
+  "size": 448
+ },
+ "0x40c9e0": {
+  "name": "rule_new_internal_word",
+  "size": 80
+ },
+ "0x40d080": {
+  "name": "rule_self_print",
+  "size": 121
+ },
+ "0x40d810": {
+  "name": "rule_set_no_face",
+  "size": 39
+ },
+ "0x40d560": {
+  "name": "rules_set_no_faces",
+  "size": 349
+ },
+ "0x411e60": {
+  "name": "sheet_hash_1",
+  "size": 867
+ },
+ "0x4121d0": {
+  "name": "sheet_hash_2",
+  "size": 243
+ },
+ "0x4122d0": {
+  "name": "sheet_hash_cmp",
+  "size": 399
+ },
+ "0x410120": {
+  "name": "sheet_name_cmp",
+  "size": 304
+ },
+ "0x40f860": {
+  "name": "style_sheet_check",
+  "size": 246
+ },
+ "0x410fe0": {
+  "name": "style_sheet_html_print_signature",
+  "size": 1428
+ },
+ "0x412460": {
+  "name": "style_sheet_mixed_new",
+  "size": 1310
+ },
+ "0x4105d0": {
+  "name": "style_sheet_print_signature",
+  "size": 1025
+ },
+ "0x4117f0": {
+  "name": "style_sheet_texinfo_print_signature",
+  "size": 1327
+ },
+ "0x410f20": {
+  "name": "style_sheets_versions",
+  "size": 186
+ },
+ "0x40d730": {
+  "name": "words_erase",
+  "size": 52
+ },
+ "0x40d840": {
+  "name": "words_finalize",
+  "size": 479
+ },
+ "0x40dfe0": {
+  "name": "words_self_print",
+  "size": 236
+ },
+ "0x415220": {
+  "name": "file_verdict_on",
+  "size": 2976
+ },
+ "0x414130": {
+  "name": "pattern_rule_self_print",
+  "size": 472
+ },
+ "0x415000": {
+  "name": "sheets_map_load_main",
+  "size": 533
+ },
+ "0x418480": {
+  "name": "input_end",
+  "size": 242
+ },
+ "0x4174e0": {
+  "name": "input_new",
+  "size": 2023
+ },
+ "0x418020": {
+  "name": "msg_file_pages_printed",
+  "size": 1120
+ },
+ "0x417cd0": {
+  "name": "string_to_style_kind",
+  "size": 837
+ },
+ "0x418d50": {
+  "name": "delegate_free",
+  "size": 299
+ },
+ "0x418770": {
+  "name": "delegate_hash_1",
+  "size": 379
+ },
+ "0x4188f0": {
+  "name": "delegate_hash_2",
+  "size": 120
+ },
+ "0x418970": {
+  "name": "delegate_hash_cmp",
+  "size": 717
+ },
+ "0x41ab70": {
+  "name": "delegate_hash_qcmp",
+  "size": 722
+ },
+ "0x41afe0": {
+  "name": "delegate_name_fputs",
+  "size": 41
+ },
+ "0x41afc0": {
+  "name": "delegate_name_len",
+  "size": 30
+ },
+ "0x41ae50": {
+  "name": "dump_contract",
+  "size": 181
+ },
+ "0x440550": {
+  "name": "alt_match_null_string_p",
+  "size": 860
+ },
+ "0x440fa0": {
+  "name": "at_begline_loc_p",
+  "size": 629
+ },
+ "0x441220": {
+  "name": "at_endline_loc_p",
+  "size": 1747
+ },
+ "0x4403b0": {
+  "name": "bcmp_translate",
+  "size": 413
+ },
+ "0x4408b0": {
+  "name": "common_op_match_null_string_p",
+  "size": 1767
+ },
+ "0x441bf0": {
+  "name": "compile_range",
+  "size": 1132
+ },
+ "0x442360": {
+  "name": "group_in_compile_stack",
+  "size": 554
+ },
+ "0x43fac0": {
+  "name": "group_match_null_string_p",
+  "size": 2276
+ },
+ "0x441af0": {
+  "name": "insert_op1",
+  "size": 253
+ },
+ "0x442060": {
+  "name": "insert_op2",
+  "size": 258
+ },
+ "0x41dd70": {
+  "name": "re_match_2_internal",
+  "size": 53988
+ },
+ "0x42b360": {
+  "name": "regex_compile",
+  "size": 78640
+ },
+ "0x441900": {
+  "name": "store_op1",
+  "size": 495
+ },
+ "0x442170": {
+  "name": "store_op2",
+  "size": 491
+ },
+ "0x442830": {
+  "name": "buffer_internal_set",
+  "size": 247
+ },
+ "0x444280": {
+  "name": "buffer_stream_get_line",
+  "size": 2464
+ },
+ "0x4435b0": {
+  "name": "buffer_string_get_line",
+  "size": 3267
+ },
+ "0x44c600": {
+  "name": "yy_reduce_print",
+  "size": 382
+ },
+ "0x44c780": {
+  "name": "yy_stack_print",
+  "size": 534
+ },
+ "0x44c2e0": {
+  "name": "yy_symbol_print",
+  "size": 793
+ },
+ "0x44db30": {
+  "name": "yy_symbol_value_print",
+  "size": 1028
+ },
+ "0x44d530": {
+  "name": "yydestruct",
+  "size": 792
+ },
+ "0x44df40": {
+  "name": "yyprint",
+  "size": 564
+ },
+ "0x44e660": {
+  "name": "yystpcpy",
+  "size": 490
+ },
+ "0x44c9a0": {
+  "name": "yysyntax_error",
+  "size": 2887
+ },
+ "0x44e180": {
+  "name": "yytnamerr",
+  "size": 1246
+ },
+ "0x458770": {
+  "name": "ssh_init_buffer",
+  "size": 377
+ },
+ "0x456d30": {
+  "name": "ssh_load_buffer_state",
+  "size": 368
+ },
+ "0x456970": {
+  "name": "sshensure_buffer_stack",
+  "size": 468
+ },
+ "0x458730": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x4574e0": {
+  "name": "yy_get_next_buffer",
+  "size": 4194
+ },
+ "0x456ea0": {
+  "name": "yy_get_previous_state",
+  "size": 943
+ },
+ "0x45a190": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x457250": {
+  "name": "yy_try_NUL_trans",
+  "size": 645
+ },
+ "0x45dd30": {
+  "name": "ps_init_buffer",
+  "size": 591
+ },
+ "0x45bba0": {
+  "name": "ps_load_buffer_state",
+  "size": 368
+ },
+ "0x45b620": {
+  "name": "psensure_buffer_stack",
+  "size": 955
+ },
+ "0x45dcf0": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x45c4d0": {
+  "name": "yy_get_next_buffer",
+  "size": 5210
+ },
+ "0x45bd10": {
+  "name": "yy_get_previous_state",
+  "size": 985
+ },
+ "0x45fcf0": {
+  "name": "yy_init_globals",
+  "size": 102
+ },
+ "0x45c0f0": {
+  "name": "yy_try_NUL_trans",
+  "size": 988
+ },
+ "0x4642f0": {
+  "name": "obstack_hexa_grow",
+  "size": 902
+ },
+ "0x4641a0": {
+  "name": "obstack_octal_grow",
+  "size": 321
+ },
+ "0x4662f0": {
+  "name": "smap_init_buffer",
+  "size": 642
+ },
+ "0x463af0": {
+  "name": "smap_load_buffer_state",
+  "size": 126
+ },
+ "0x4636e0": {
+  "name": "smapensure_buffer_stack",
+  "size": 564
+ },
+ "0x4685e0": {
+  "name": "yy_close",
+  "size": 43
+ },
+ "0x4662b0": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x464cc0": {
+  "name": "yy_get_next_buffer",
+  "size": 5004
+ },
+ "0x464680": {
+  "name": "yy_get_previous_state",
+  "size": 716
+ },
+ "0x463f20": {
+  "name": "yy_include_pop",
+  "size": 634
+ },
+ "0x463b70": {
+  "name": "yy_include_push",
+  "size": 939
+ },
+ "0x467f10": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x468590": {
+  "name": "yy_open",
+  "size": 67
+ },
+ "0x464950": {
+  "name": "yy_try_NUL_trans",
+  "size": 874
+ },
+ "0x46bd00": {
+  "name": "da_encoding_name_cmp",
+  "size": 76
+ },
+ "0x46aed0": {
+  "name": "dump_encoding_setup",
+  "size": 938
+ },
+ "0x46c3b0": {
+  "name": "encoding_add",
+  "size": 283
+ },
+ "0x46ebb0": {
+  "name": "encoding_add_font_substitute",
+  "size": 47
+ },
+ "0x46a230": {
+  "name": "encoding_free",
+  "size": 1473
+ },
+ "0x46a990": {
+  "name": "encoding_get",
+  "size": 269
+ },
+ "0x469cd0": {
+  "name": "encoding_hash_1",
+  "size": 375
+ },
+ "0x469e50": {
+  "name": "encoding_hash_2",
+  "size": 428
+ },
+ "0x46a000": {
+  "name": "encoding_hash_cmp",
+  "size": 275
+ },
+ "0x46ad20": {
+  "name": "encoding_hash_qcmp",
+  "size": 429
+ },
+ "0x46c4d0": {
+  "name": "encoding_new",
+  "size": 437
+ },
+ "0x46e7a0": {
+  "name": "encoding_output_ps_vector",
+  "size": 1025
+ },
+ "0x469480": {
+  "name": "encoding_print_signature",
+  "size": 336
+ },
+ "0x46c690": {
+  "name": "encoding_setup",
+  "size": 290
+ },
+ "0x46bea0": {
+  "name": "encoding_texinfo_print_signature",
+  "size": 113
+ },
+ "0x46a960": {
+  "name": "encodings_map_resolve_alias",
+  "size": 35
+ },
+ "0x46c380": {
+  "name": "font_entry_free",
+  "size": 39
+ },
+ "0x46ca00": {
+  "name": "font_entry_hash_1",
+  "size": 494
+ },
+ "0x46cbf0": {
+  "name": "font_entry_hash_2",
+  "size": 375
+ },
+ "0x46cd70": {
+  "name": "font_entry_hash_cmp",
+  "size": 613
+ },
+ "0x46bf20": {
+  "name": "font_entry_hash_qcmp",
+  "size": 529
+ },
+ "0x46c140": {
+  "name": "font_entry_self_print",
+  "size": 507
+ },
+ "0x46c340": {
+  "name": "font_table_free",
+  "size": 52
+ },
+ "0x46c7c0": {
+  "name": "font_table_new",
+  "size": 349
+ },
+ "0x4695d0": {
+  "name": "font_table_self_print",
+  "size": 142
+ },
+ "0x46cfe0": {
+  "name": "load_encoding_description_file",
+  "size": 6076
+ },
+ "0x468790": {
+  "name": "load_encodings_map",
+  "size": 42
+ },
+ "0x46c920": {
+  "name": "wx_new",
+  "size": 211
+ },
+ "0x469660": {
+  "name": "wx_self_print",
+  "size": 1019
+ },
+ "0x46f590": {
+  "name": "hash_free_medium",
+  "size": 39
+ },
+ "0x46edd0": {
+  "name": "medium_hash_1",
+  "size": 532
+ },
+ "0x46eff0": {
+  "name": "medium_hash_2",
+  "size": 507
+ },
+ "0x46f1f0": {
+  "name": "medium_hash_cmp",
+  "size": 642
+ },
+ "0x46fcb0": {
+  "name": "medium_hash_qcmp",
+  "size": 335
+ },
+ "0x46fee0": {
+  "name": "medium_name_fputs",
+  "size": 41
+ },
+ "0x46fec0": {
+  "name": "medium_name_len",
+  "size": 30
+ },
+ "0x470ef0": {
+  "name": "a2ps_job_register_user",
+  "size": 521
+ },
+ "0x471b90": {
+  "name": "tmpfiles_free",
+  "size": 697
+ },
+ "0x471100": {
+  "name": "tmpfiles_reset",
+  "size": 210
+ },
+ "0x472080": {
+  "name": "derivation_self_print",
+  "size": 630
+ },
+ "0x4727e0": {
+  "name": "new_derivation",
+  "size": 49
+ },
+ "0x474dd0": {
+  "name": "underivation",
+  "size": 587
+ },
+ "0x476200": {
+  "name": "_streams_copy",
+  "size": 419
+ },
+ "0x4756b0": {
+  "name": "_strncpylc",
+  "size": 568
+ },
+ "0x475ad0": {
+  "name": "_xfopen",
+  "size": 668
+ },
+ "0x476010": {
+  "name": "_xpopen",
+  "size": 286
+ },
+ "0x47bcc0": {
+  "name": "check_binary_file",
+  "size": 498
+ },
+ "0x479160": {
+  "name": "end_of_line",
+  "size": 568
+ },
+ "0x479970": {
+  "name": "fold_line",
+  "size": 397
+ },
+ "0x47bf00": {
+  "name": "output_marker",
+  "size": 1758
+ },
+ "0x47c5e0": {
+  "name": "page_begin",
+  "size": 2391
+ },
+ "0x47bac0": {
+  "name": "page_empty_output",
+  "size": 131
+ },
+ "0x476d90": {
+  "name": "page_end",
+  "size": 2143
+ },
+ "0x479b00": {
+  "name": "ps_escape_char",
+  "size": 4921
+ },
+ "0x476a20": {
+  "name": "ps_internal_switch_encoding",
+  "size": 668
+ },
+ "0x47cf40": {
+  "name": "ps_pop_encoding",
+  "size": 211
+ },
+ "0x47bec0": {
+  "name": "ps_push_encoding",
+  "size": 57
+ },
+ "0x47b8c0": {
+  "name": "sheet_flush",
+  "size": 498
+ },
+ "0x478c70": {
+  "name": "virtual_begin",
+  "size": 1264
+ },
+ "0x47b610": {
+  "name": "virtual_empty_output",
+  "size": 676
+ },
+ "0x4793a0": {
+  "name": "virtual_end",
+  "size": 1474
+ },
+ "0x481520": {
+  "name": "dump_encodings",
+  "size": 42
+ },
+ "0x480b90": {
+  "name": "dump_prolog_comments",
+  "size": 2444
+ },
+ "0x480310": {
+  "name": "end_document",
+  "size": 573
+ },
+ "0x47e7e0": {
+  "name": "output_document_setup",
+  "size": 6882
+ },
+ "0x47e530": {
+  "name": "output_prolog",
+  "size": 679
+ },
+ "0x480550": {
+  "name": "prologue_print_signature",
+  "size": 1585
+ },
+ "0x47d100": {
+  "name": "prologues_list_long_internal",
+  "size": 740
+ },
+ "0x4817b0": {
+  "name": "_face_to_string",
+  "size": 269
+ },
+ "0x482740": {
+  "name": "hash",
+  "size": 38
+ },
+ "0x488eb0": {
+  "name": "a2ps_printers_command_get",
+  "size": 858
+ },
+ "0x4871b0": {
+  "name": "a2ps_printers_ppdkey_get",
+  "size": 422
+ },
+ "0x486a10": {
+  "name": "destination_to_string",
+  "size": 1021
+ },
+ "0x486350": {
+  "name": "printer_create",
+  "size": 62
+ },
+ "0x4867b0": {
+  "name": "printer_free",
+  "size": 500
+ },
+ "0x489240": {
+  "name": "printer_hash_1",
+  "size": 501
+ },
+ "0x489440": {
+  "name": "printer_hash_2",
+  "size": 567
+ },
+ "0x489680": {
+  "name": "printer_hash_cmp",
+  "size": 427
+ },
+ "0x489990": {
+  "name": "printer_hash_qcmp",
+  "size": 47
+ },
+ "0x4899e0": {
+  "name": "printer_key_fputs",
+  "size": 41
+ },
+ "0x4899c0": {
+  "name": "printer_key_len",
+  "size": 30
+ },
+ "0x489950": {
+  "name": "printer_new",
+  "size": 54
+ },
+ "0x488880": {
+  "name": "printer_self_print",
+  "size": 338
+ },
+ "0x487610": {
+  "name": "printer_set",
+  "size": 1295
+ },
+ "0x487b20": {
+  "name": "printer_table_add",
+  "size": 245
+ },
+ "0x489830": {
+  "name": "printer_table_find",
+  "size": 284
+ },
+ "0x486770": {
+  "name": "printer_table_free",
+  "size": 52
+ },
+ "0x4862e0": {
+  "name": "printer_table_new",
+  "size": 102
+ },
+ "0x4889e0": {
+  "name": "printer_table_self_print",
+  "size": 66
+ },
+ "0x488620": {
+  "name": "printer_table_short_self_print",
+  "size": 426
+ },
+ "0x48a420": {
+  "name": "dict_entry_add",
+  "size": 112
+ },
+ "0x48b0c0": {
+  "name": "dict_entry_get",
+  "size": 46
+ },
+ "0x48b0f0": {
+  "name": "dict_entry_print",
+  "size": 127
+ },
+ "0x48a5a0": {
+  "name": "dict_entry_remove",
+  "size": 235
+ },
+ "0x48a7a0": {
+  "name": "dict_entry_table_dump",
+  "size": 419
+ },
+ "0x48b080": {
+  "name": "free_dict_entry",
+  "size": 52
+ },
+ "0x489bb0": {
+  "name": "free_dict_entry_table",
+  "size": 52
+ },
+ "0x48acd0": {
+  "name": "key_hash_1",
+  "size": 401
+ },
+ "0x48ae70": {
+  "name": "key_hash_2",
+  "size": 238
+ },
+ "0x48af60": {
+  "name": "key_hash_cmp",
+  "size": 280
+ },
+ "0x489ad0": {
+  "name": "new_dict_entry_table",
+  "size": 84
+ },
+ "0x48cc90": {
+  "name": "grow_user_string_obstack",
+  "size": 171141
+ },
+ "0x4bd250": {
+  "name": "multivalued_entry_add",
+  "size": 215
+ },
+ "0x4bc300": {
+  "name": "multivalued_entry_add_couple",
+  "size": 97
+ },
+ "0x4bc4a0": {
+  "name": "multivalued_entry_dump",
+  "size": 585
+ },
+ "0x4bc0c0": {
+  "name": "multivalued_entry_free",
+  "size": 52
+ },
+ "0x4bd1b0": {
+  "name": "multivalued_entry_get",
+  "size": 72
+ },
+ "0x4bc150": {
+  "name": "multivalued_entry_get_sub_item",
+  "size": 359
+ },
+ "0x4bcc70": {
+  "name": "multivalued_entry_get_sub_table",
+  "size": 206
+ },
+ "0x4bd200": {
+  "name": "multivalued_entry_new",
+  "size": 70
+ },
+ "0x4bbb50": {
+  "name": "mv_key_hash_1",
+  "size": 251
+ },
+ "0x4bbc50": {
+  "name": "mv_key_hash_2",
+  "size": 238
+ },
+ "0x4bbd40": {
+  "name": "mv_key_hash_cmp",
+  "size": 827
+ },
+ "0x4bd0e0": {
+  "name": "needed_resource_get",
+  "size": 54
+ },
+ "0x4c0880": {
+  "name": "afm_init_buffer",
+  "size": 748
+ },
+ "0x4bef20": {
+  "name": "afm_load_buffer_state",
+  "size": 126
+ },
+ "0x4beb00": {
+  "name": "afmensure_buffer_stack",
+  "size": 587
+ },
+ "0x4c58d0": {
+  "name": "binary_font_dump",
+  "size": 477
+ },
+ "0x4c5ab0": {
+  "name": "binary_font_dump_segment",
+  "size": 2827
+ },
+ "0x4c3750": {
+  "name": "font_info_finalize",
+  "size": 347
+ },
+ "0x4c4040": {
+  "name": "font_info_get",
+  "size": 441
+ },
+ "0x4c2e70": {
+  "name": "font_info_hash_1",
+  "size": 377
+ },
+ "0x4c2ff0": {
+  "name": "font_info_hash_2",
+  "size": 388
+ },
+ "0x4c3180": {
+  "name": "font_info_hash_cmp",
+  "size": 572
+ },
+ "0x4c35f0": {
+  "name": "font_info_new",
+  "size": 341
+ },
+ "0x4c44b0": {
+  "name": "fonts_map_resolve_alias",
+  "size": 75
+ },
+ "0x4c3400": {
+  "name": "hash_free_font_info",
+  "size": 52
+ },
+ "0x4c5060": {
+  "name": "hash_free_wx_entry",
+  "size": 39
+ },
+ "0x4c4f20": {
+  "name": "internal_font_file_dump",
+  "size": 250
+ },
+ "0x4bd4e0": {
+  "name": "load_fonts_map",
+  "size": 42
+ },
+ "0x4befa0": {
+  "name": "wx_entry_add",
+  "size": 144
+ },
+ "0x4c4430": {
+  "name": "wx_entry_get_in_index_order",
+  "size": 44
+ },
+ "0x4c4200": {
+  "name": "wx_entry_get_wx",
+  "size": 556
+ },
+ "0x4c5100": {
+  "name": "wx_entry_hash_1",
+  "size": 481
+ },
+ "0x4c52f0": {
+  "name": "wx_entry_hash_2",
+  "size": 525
+ },
+ "0x4c5500": {
+  "name": "wx_entry_hash_cmp",
+  "size": 705
+ },
+ "0x4c57d0": {
+  "name": "wx_entry_hash_index_qcmp",
+  "size": 242
+ },
+ "0x4c5020": {
+  "name": "wx_entry_table_free",
+  "size": 52
+ },
+ "0x4c5090": {
+  "name": "wx_entry_table_new",
+  "size": 102
+ },
+ "0x4c0840": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x4bf7d0": {
+  "name": "yy_get_next_buffer",
+  "size": 3719
+ },
+ "0x4bf030": {
+  "name": "yy_get_previous_state",
+  "size": 1093
+ },
+ "0x4c2c80": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x4bf480": {
+  "name": "yy_try_NUL_trans",
+  "size": 846
+ },
+ "0x4c6fa0": {
+  "name": "ppd_self_print",
+  "size": 841
+ },
+ "0x4c9040": {
+  "name": "add_pages_interval",
+  "size": 237
+ },
+ "0x4c78f0": {
+  "name": "interval_applies_above",
+  "size": 195
+ },
+ "0x4c94b0": {
+  "name": "interval_is_in",
+  "size": 1028
+ },
+ "0x4c98c0": {
+  "name": "interval_new",
+  "size": 62
+ },
+ "0x4c7470": {
+  "name": "interval_self_print",
+  "size": 453
+ },
+ "0x4c79c0": {
+  "name": "interval_to_buffer",
+  "size": 1920
+ },
+ "0x4c8f40": {
+  "name": "page_range_reset",
+  "size": 252
+ },
+ "0x4c9160": {
+  "name": "page_range_self_print",
+  "size": 38
+ },
+ "0x4c9930": {
+  "name": "_stream_ropen",
+  "size": 436
+ },
+ "0x4c9c10": {
+  "name": "_stream_wopen",
+  "size": 695
+ },
+ "0x4ca650": {
+  "name": "authors_print",
+  "size": 1146
+ },
+ "0x4cf7b0": {
+  "name": "yy_reduce_print",
+  "size": 263
+ },
+ "0x4cf8c0": {
+  "name": "yy_stack_print",
+  "size": 309
+ },
+ "0x4cf4a0": {
+  "name": "yy_symbol_print",
+  "size": 783
+ },
+ "0x4d07c0": {
+  "name": "yy_symbol_value_print",
+  "size": 612
+ },
+ "0x4d0400": {
+  "name": "yydestruct",
+  "size": 284
+ },
+ "0x4d0a30": {
+  "name": "yyprint",
+  "size": 190
+ },
+ "0x4d1070": {
+  "name": "yystpcpy",
+  "size": 208
+ },
+ "0x4cfa00": {
+  "name": "yysyntax_error",
+  "size": 2482
+ },
+ "0x4d0af0": {
+  "name": "yytnamerr",
+  "size": 1398
+ },
+ "0x4d1140": {
+  "name": "__argmatch_die",
+  "size": 141
+ },
+ "0x4d1210": {
+  "name": "__argmatch_internal",
+  "size": 637
+ },
+ "0x4d3400": {
+  "name": "max_backup_version",
+  "size": 1374
+ },
+ "0x4d3d40": {
+  "name": "version_number",
+  "size": 987
+ },
+ "0x4d5050": {
+  "name": "hash_rehash",
+  "size": 821
+ },
+ "0x4d44a0": {
+  "name": "round_up_2",
+  "size": 193
+ },
+ "0x4d76d0": {
+  "name": "quotearg_buffer_restyled",
+  "size": 9644
+ },
+ "0x4d9cb0": {
+  "name": "quotearg_n_options",
+  "size": 1222
+ },
+ "0x4da8b0": {
+  "name": "init_sig",
+  "size": 410
+ },
+ "0x4dd030": {
+  "name": "getshstr",
+  "size": 2099
+ },
+ "0x4def80": {
+  "name": "_pw_find_file",
+  "size": 1004
+ },
+ "0x4e0880": {
+  "name": "da_str_cut_suffix",
+  "size": 205
+ },
+ "0x4e04f0": {
+  "name": "pw_filter_da_append",
+  "size": 319
+ },
+ "0x4e03b0": {
+  "name": "pw_filter_fnmatch",
+  "size": 306
+ },
+ "0x4e0680": {
+  "name": "pw_filter_print",
+  "size": 336
+ },
+ "0x4e02d0": {
+  "name": "pw_filterdir",
+  "size": 212
+ },
+ "0x4de630": {
+  "name": "pw_find_file_index",
+  "size": 2333
+ },
+ "0x4dda40": {
+  "name": "pw_internal_string_to_path",
+  "size": 1325
+ },
+ "0x4de230": {
+  "name": "pw_path_concat",
+  "size": 152
+ },
+ "0x4de150": {
+  "name": "pw_path_length",
+  "size": 218
+ },
+ "0x4e0d50": {
+  "name": "_da_erase",
+  "size": 218
+ },
+ "0x4e0f20": {
+  "name": "_da_free_content",
+  "size": 115
+ },
+ "0x4e8d70": {
+  "name": "int_printflen",
+  "size": 2637
+ },
+ "0x4ea230": {
+  "name": "pair_free",
+  "size": 814
+ },
+ "0x4e9be0": {
+  "name": "pair_hash_1",
+  "size": 612
+ },
+ "0x4e9e50": {
+  "name": "pair_hash_2",
+  "size": 489
+ },
+ "0x4ea040": {
+  "name": "pair_hash_cmp",
+  "size": 432
+ },
+ "0x4ead90": {
+  "name": "pair_hash_qcmp",
+  "size": 858
+ },
+ "0x4eb310": {
+  "name": "pair_key_fputs",
+  "size": 41
+ },
+ "0x4eb2f0": {
+  "name": "pair_key_len",
+  "size": 30
+ },
+ "0x4ec820": {
+  "name": "string_hash_1",
+  "size": 730
+ },
+ "0x4ecb00": {
+  "name": "string_hash_2",
+  "size": 407
+ },
+ "0x4ecca0": {
+  "name": "string_hash_cmp",
+  "size": 695
+ },
+ "0x4ed4d0": {
+  "name": "string_hash_qcmp",
+  "size": 432
+ },
+ "0x4ef7e0": {
+  "name": "get_float_in_range",
+  "size": 4397
+ },
+ "0x4f1cc0": {
+  "name": "init_worlds",
+  "size": 1248
+ },
+ "0x4f2cf0": {
+  "name": "lister_horizontal_format",
+  "size": 2017
+ },
+ "0x4f21a0": {
+  "name": "lister_vertical_format",
+  "size": 1445
+ },
+ "0x4fd750": {
+  "name": "ppd_init_buffer",
+  "size": 396
+ },
+ "0x4fb980": {
+  "name": "ppd_load_buffer_state",
+  "size": 126
+ },
+ "0x4fb4b0": {
+  "name": "ppdensure_buffer_stack",
+  "size": 650
+ },
+ "0x4fd710": {
+  "name": "yy_fatal_error",
+  "size": 54
+ },
+ "0x4fc580": {
+  "name": "yy_get_next_buffer",
+  "size": 3990
+ },
+ "0x4fbe20": {
+  "name": "yy_get_previous_state",
+  "size": 813
+ },
+ "0x4ff070": {
+  "name": "yy_init_globals",
+  "size": 113
+ },
+ "0x4fc150": {
+  "name": "yy_try_NUL_trans",
+  "size": 1061
+ },
+ "0x500740": {
+  "name": "bkm_scale",
+  "size": 356
+ },
+ "0x5008b0": {
+  "name": "bkm_scale_by_power",
+  "size": 217
+ },
+ "0x459f20": {
+  "name": "sshlex_destroy",
+  "size": 614
+ },
+ "0x4bb510": {
+  "name": "a2ps_handle_string_options",
+  "size": 1245
+ },
+ "0x500a00": {
+  "name": "__libc_csu_fini",
+  "size": 2
+ },
+ "0x4e0fa0": {
+  "name": "da_free",
+  "size": 272
+ },
+ "0x4b6920": {
+  "name": "a2ps_get_bool",
+  "size": 97
+ },
+ "0x4da370": {
+  "name": "quotearg_char",
+  "size": 106
+ },
+ "0x475dc0": {
+  "name": "xwfopen",
+  "size": 280
+ },
+ "0x459a00": {
+  "name": "ssh_scan_string",
+  "size": 51
+ },
+ "0x4e5670": {
+  "name": "da_unique",
+  "size": 835
+ },
+ "0x4c6eb0": {
+  "name": "_a2ps_ppd_list_long",
+  "size": 228
+ },
+ "0x4f34e0": {
+  "name": "lister_print_horizontal",
+  "size": 114
+ },
+ "0x43e690": {
+  "name": "regcomp",
+  "size": 1399
+ },
+ "0x410250": {
+  "name": "get_style_sheet",
+  "size": 888
+ },
+ "0x4e1600": {
+  "name": "da_resize",
+  "size": 627
+ },
+ "0x488a90": {
+  "name": "a2ps_open_output_stream",
+  "size": 1044
+ },
+ "0x4c1430": {
+  "name": "afmfree",
+  "size": 189
+ },
+ "0x445760": {
+  "name": "version_length",
+  "size": 242
+ },
+ "0x4c0670": {
+  "name": "afmrestart",
+  "size": 456
+ },
+ "0x4884b0": {
+  "name": "a2ps_printers_font_known_p",
+  "size": 257
+ },
+ "0x500a40": {
+  "name": "stat",
+  "size": 16
+ },
+ "0x4e6b10": {
+  "name": "da_maparg",
+  "size": 680
+ },
+ "0x4ec7d0": {
+  "name": "string_htable_new",
+  "size": 80
+ },
+ "0x4e2c90": {
+  "name": "da_concat",
+  "size": 385
+ },
+ "0x4eab60": {
+  "name": "pair_table_map",
+  "size": 558
+ },
+ "0x4fed80": {
+  "name": "ppdlex_destroy",
+  "size": 751
+ },
+ "0x4bc080": {
+  "name": "multivalued_table_free",
+  "size": 52
+ },
+ "0x446210": {
+  "name": "version_etc",
+  "size": 254
+ },
+ "0x46a840": {
+  "name": "encoding_build_faces_wx",
+  "size": 173
+ },
+ "0x445630": {
+  "name": "version_self_print",
+  "size": 290
+ },
+ "0x411580": {
+  "name": "list_style_sheets_texinfo",
+  "size": 609
+ },
+ "0x46aaa0": {
+  "name": "dump_encodings_setup",
+  "size": 627
+ },
+ "0x40ca30": {
+  "name": "keyword_rule_new",
+  "size": 543
+ },
+ "0x46a8f0": {
+  "name": "get_encoding_by_alias",
+  "size": 110
+ },
+ "0x47d590": {
+  "name": "ps_begin",
+  "size": 3997
+ },
+ "0x40d200": {
+  "name": "words_free",
+  "size": 81
+ },
+ "0x4d3150": {
+  "name": "buildargv",
+  "size": 38
+ },
+ "0x4fdbb0": {
+  "name": "ppdpush_buffer_state",
+  "size": 819
+ },
+ "0x4d69f0": {
+  "name": "hash_maparg",
+  "size": 258
+ },
+ "0x4c38b0": {
+  "name": "font_is_to_reencode",
+  "size": 53
+ },
+ "0x4dd990": {
+  "name": "getshdelim",
+  "size": 124
+ },
+ "0x40c170": {
+  "name": "style_sheet_set_requirement",
+  "size": 231
+ },
+ "0x42b060": {
+  "name": "re_match",
+  "size": 508
+ },
+ "0x485db0": {
+  "name": "a2ps_close_output_session",
+  "size": 476
+ },
+ "0x458f30": {
+  "name": "sshfree",
+  "size": 189
+ },
+ "0x4ea8d0": {
+  "name": "pair_delete",
+  "size": 90
+ },
+ "0x4fb740": {
+  "name": "ppd_create_buffer",
+  "size": 574
+ },
+ "0x4e6dc0": {
+  "name": "da_str_cmp",
+  "size": 35
+ },
+ "0x4bc6f0": {
+  "name": "add_needed_resource",
+  "size": 54
+ },
+ "0x4fd520": {
+  "name": "ppdwrap",
+  "size": 11
+ },
+ "0x476cc0": {
+  "name": "page_flush",
+  "size": 195
+ },
+ "0x4ec240": {
+  "name": "filterdir",
+  "size": 1420
+ },
+ "0x466a80": {
+  "name": "smapfree",
+  "size": 189
+ },
+ "0x481fb0": {
+  "name": "face_eo_font_free",
+  "size": 620
+ },
+ "0x484d10": {
+  "name": "a2_read_sys_config",
+  "size": 539
+ },
+ "0x4144b0": {
+  "name": "shell_escape",
+  "size": 1269
+ },
+ "0x4bd3d0": {
+  "name": "fonts_map_free",
+  "size": 189
+ },
+ "0x4febf0": {
+  "name": "ppdset_in",
+  "size": 22
+ },
+ "0x482320": {
+  "name": "in_word_set",
+  "size": 1056
+ },
+ "0x4c46e0": {
+  "name": "dump_fonts",
+  "size": 2107
+ },
+ "0x4590c0": {
+  "name": "sshpush_buffer_state",
+  "size": 690
+ },
+ "0x40c260": {
+  "name": "rhs_new",
+  "size": 310
+ },
+ "0x4c2e00": {
+  "name": "font_info_table_new",
+  "size": 102
+ },
+ "0x4da1a0": {
+  "name": "quotearg_n_style",
+  "size": 408
+ },
+ "0x4d43c0": {
+  "name": "hash_init",
+  "size": 216
+ },
+ "0x467b00": {
+  "name": "smapset_lineno",
+  "size": 19
+ },
+ "0x4d1ed0": {
+  "name": "dupargv",
+  "size": 910
+ },
+ "0x4818c0": {
+  "name": "face_self_print",
+  "size": 44
+ },
+ "0x4761d0": {
+  "name": "streams_copy",
+  "size": 35
+ },
+ "0x4d63b0": {
+  "name": "hash_dump_select",
+  "size": 1594
+ },
+ "0x446490": {
+  "name": "sshparse",
+  "size": 24129
+ },
+ "0x458550": {
+  "name": "sshwrap",
+  "size": 130
+ },
+ "0x4d7440": {
+  "name": "quotearg_buffer",
+  "size": 641
+ },
+ "0x4eb0f0": {
+  "name": "pair_table_list_short",
+  "size": 505
+ },
+ "0x4e6df0": {
+  "name": "da_str_print",
+  "size": 246
+ },
+ "0x48c430": {
+  "name": "macro_meta_sequences_list_long",
+  "size": 109
+ },
+ "0x472b50": {
+  "name": "output_file",
+  "size": 8134
+ },
+ "0x442a70": {
+  "name": "buffer_string_set",
+  "size": 96
+ },
+ "0x4de2d0": {
+  "name": "pw_prepend_string_to_path",
+  "size": 75
+ },
+ "0x41c930": {
+  "name": "re_search_2",
+  "size": 5181
+ },
+ "0x4d1600": {
+  "name": "argmatch_invalid",
+  "size": 620
+ },
+ "0x484f60": {
+  "name": "user_option_add",
+  "size": 47
+ },
+ "0x469b20": {
+  "name": "encoding_get_key",
+  "size": 17
+ },
+ "0x476730": {
+  "name": "ps_end_encoding",
+  "size": 322
+ },
+ "0x442ad0": {
+  "name": "buffer_buffer_set",
+  "size": 63
+ },
+ "0x4d47a0": {
+  "name": "hash_insert",
+  "size": 363
+ },
+ "0x4d2720": {
+  "name": "buildargv_argc",
+  "size": 2606
+ },
+ "0x459640": {
+  "name": "ssh_scan_buffer",
+  "size": 950
+ },
+ "0x500a10": {
+  "name": "atexit",
+  "size": 41
+ },
+ "0x4fe800": {
+  "name": "ppd_scan_string",
+  "size": 51
+ },
+ "0x4e0d30": {
+  "name": "da_erase",
+  "size": 27
+ },
+ "0x48c360": {
+  "name": "macro_meta_sequence_delete",
+  "size": 42
+ },
+ "0x4ede80": {
+  "name": "xfind_backup_file_name",
+  "size": 84
+ },
+ "0x4dbdd0": {
+  "name": "msg_verbosity_argmatch",
+  "size": 955
+ },
+ "0x48a3e0": {
+  "name": "setpagedevice",
+  "size": 56
+ },
+ "0x4ed240": {
+  "name": "string_htable_self_print",
+  "size": 649
+ },
+ "0x469b70": {
+  "name": "encodings_table_new",
+  "size": 349
+ },
+ "0x4e0950": {
+  "name": "pw_lister_on_suffix",
+  "size": 122
+ },
+ "0x4ebad0": {
+  "name": "pair_table_load",
+  "size": 1893
+ },
+ "0x4765d0": {
+  "name": "unlink2",
+  "size": 227
+ },
+ "0x4bc930": {
+  "name": "add_process_color",
+  "size": 59
+ },
+ "0x4da340": {
+  "name": "quotearg_style",
+  "size": 37
+ },
+ "0x40da20": {
+  "name": "free_sequence",
+  "size": 65
+ },
+ "0x467ad0": {
+  "name": "smapget_out",
+  "size": 14
+ },
+ "0x40d520": {
+  "name": "words_set_no_face",
+  "size": 55
+ },
+ "0x442590": {
+  "name": "eol_to_string",
+  "size": 504
+ },
+ "0x4cbf90": {
+  "name": "a2ps_common_finalize",
+  "size": 378
+ },
+ "0x4dd870": {
+  "name": "getshline",
+  "size": 138
+ },
+ "0x4194c0": {
+  "name": "get_subcontract",
+  "size": 129
+ },
+ "0x4723f0": {
+  "name": "output",
+  "size": 670
+ },
+ "0x4e89a0": {
+  "name": "ds_getdelim",
+  "size": 840
+ },
+ "0x475aa0": {
+  "name": "xfopen",
+  "size": 43
+ },
+ "0x4f0e50": {
+  "name": "lister_fprint_vertical",
+  "size": 3694
+ },
+ "0x459f00": {
+  "name": "sshset_debug",
+  "size": 19
+ },
+ "0x486040": {
+  "name": "a2ps_printers_new",
+  "size": 659
+ },
+ "0x45eeb0": {
+  "name": "ps_scan_buffer",
+  "size": 1244
+ },
+ "0x444c20": {
+  "name": "buffer_sample_get",
+  "size": 204
+ },
+ "0x4e10b0": {
+  "name": "da_print_stats",
+  "size": 1352
+ },
+ "0x4c27a0": {
+  "name": "afmget_out",
+  "size": 14
+ },
+ "0x4e09d0": {
+  "name": "da_new",
+  "size": 864
+ },
+ "0x4c0fe0": {
+  "name": "afm_delete_buffer",
+  "size": 1101
+ },
+ "0x40d6c0": {
+  "name": "words_merge_rules_unique",
+  "size": 109
+ },
+ "0x4ff370": {
+  "name": "tterm_width",
+  "size": 212
+ },
+ "0x48a9c0": {
+  "name": "output_statusdict",
+  "size": 512
+ },
+ "0x445d80": {
+  "name": "fface_self_print",
+  "size": 1159
+ },
+ "0x4bc2c0": {
+  "name": "add_supplied_resource",
+  "size": 54
+ },
+ "0x45f7b0": {
+  "name": "psset_in",
+  "size": 192
+ },
+ "0x4d6b00": {
+  "name": "path_concat",
+  "size": 1470
+ },
+ "0x471400": {
+  "name": "a2ps_job_free",
+  "size": 1932
+ },
+ "0x4c9af0": {
+  "name": "stream_wopen",
+  "size": 275
+ },
+ "0x472820": {
+  "name": "output_delayed_chunk",
+  "size": 475
+ },
+ "0x4427f0": {
+  "name": "buffer_stream_set",
+  "size": 52
+ },
+ "0x4eef30": {
+  "name": "get_integer_in_range",
+  "size": 2097
+ },
+ "0x4cb6b0": {
+  "name": "file_job_self_print",
+  "size": 718
+ },
+ "0x4d4dc0": {
+  "name": "hash_find_item",
+  "size": 237
+ },
+ "0x472690": {
+  "name": "output_char",
+  "size": 201
+ },
+ "0x488a30": {
+  "name": "a2ps_ppd_list_short",
+  "size": 39
+ },
+ "0x481550": {
+  "name": "string_to_face",
+  "size": 401
+ },
+ "0x446310": {
+  "name": "parse_long_options",
+  "size": 377
+ },
+ "0x44d850": {
+  "name": "parse_style_sheet",
+  "size": 724
+ },
+ "0x500a50": {
+  "name": "_fini",
+  "size": 0
+ },
+ "0x48a490": {
+  "name": "delpagedevice",
+  "size": 262
+ },
+ "0x4d4570": {
+  "name": "hash_load",
+  "size": 557
+ },
+ "0x4ecf60": {
+  "name": "string_htable_free",
+  "size": 49
+ },
+ "0x4f0ce0": {
+  "name": "lister_after_set",
+  "size": 367
+ },
+ "0x4c2710": {
+  "name": "afmget_in",
+  "size": 141
+ },
+ "0x4e97c0": {
+  "name": "printflen",
+  "size": 695
+ },
+ "0x4d5c00": {
+  "name": "hash_free",
+  "size": 503
+ },
+ "0x46f5c0": {
+  "name": "a2ps_get_medium",
+  "size": 567
+ },
+ "0x45f9e0": {
+  "name": "pslex_destroy",
+  "size": 776
+ },
+ "0x4c9190": {
+  "name": "print_page",
+  "size": 799
+ },
+ "0x414310": {
+  "name": "sheets_map_add",
+  "size": 414
+ },
+ "0x40c070": {
+  "name": "style_sheet_set_version",
+  "size": 254
+ },
+ "0x4ecfa0": {
+  "name": "string_htable_add",
+  "size": 617
+ },
+ "0x4cb980": {
+  "name": "file_job_synchronize_sheets",
+  "size": 118
+ },
+ "0x4880c0": {
+  "name": "a2ps_printers_flag_output_set",
+  "size": 931
+ },
+ "0x48a310": {
+  "name": "dump_requirements",
+  "size": 202
+ },
+ "0x4e7770": {
+  "name": "ds_strncat",
+  "size": 470
+ },
+ "0x475d70": {
+  "name": "xrfopen",
+  "size": 66
+ },
+ "0x4e2440": {
+  "name": "da_includes",
+  "size": 264
+ },
+ "0x48c390": {
+  "name": "macro_meta_sequence_get",
+  "size": 42
+ },
+ "0x4dd900": {
+  "name": "getshdelim_numbered",
+  "size": 143
+ },
+ "0x4b6990": {
+  "name": "a2ps_handle_options",
+  "size": 19326
+ },
+ "0x4dae70": {
+  "name": "sig_number",
+  "size": 793
+ },
+ "0x47d3f0": {
+  "name": "prologues_list_texinfo",
+  "size": 407
+ },
+ "0x4e8290": {
+  "name": "ds_unsafe_sprintf",
+  "size": 681
+ },
+ "0x413fc0": {
+  "name": "pattern_rule_new",
+  "size": 105
+ },
+ "0x4775f0": {
+  "name": "require_fresh_page",
+  "size": 177
+ },
+ "0x4cabb0": {
+  "name": "documentation_print_plain",
+  "size": 710
+ },
+ "0x4edee0": {
+  "name": "create_file_for_backup",
+  "size": 2017
+ },
+ "0x4d70c0": {
+  "name": "xpath_concat",
+  "size": 191
+ },
+ "0x4701d0": {
+  "name": "a2ps_job_new",
+  "size": 3345
+ },
+ "0x47bb50": {
+  "name": "ps_end_file",
+  "size": 367
+ },
+ "0x4e74f0": {
+  "name": "ds_grow",
+  "size": 473
+ },
+ "0x45ec80": {
+  "name": "pspop_buffer_state",
+  "size": 555
+ },
+ "0x4dbb80": {
+  "name": "xrealloc",
+  "size": 183
+ },
+ "0x48c3c0": {
+  "name": "macro_meta_sequences_list_short",
+  "size": 102
+ },
+ "0x4585e0": {
+  "name": "sshrestart",
+  "size": 323
+ },
+ "0x40fc40": {
+  "name": "list_style_sheets_short",
+  "size": 99
+ },
+ "0x468640": {
+  "name": "load_main_encodings_map",
+  "size": 326
+ },
+ "0x4ff210": {
+  "name": "tterm_width_set",
+  "size": 339
+ },
+ "0x442f00": {
+  "name": "buffer_release",
+  "size": 45
+ },
+ "0x442930": {
+  "name": "buffer_pipe_set",
+  "size": 311
+ },
+ "0x4d4120": {
+  "name": "dir_name",
+  "size": 663
+ },
+ "0x4f4580": {
+  "name": "userdata_free",
+  "size": 1381
+ },
+ "0x4fd900": {
+  "name": "ppdfree",
+  "size": 189
+ },
+ "0x4850b0": {
+  "name": "user_options_list_short",
+  "size": 89
+ },
+ "0x47af00": {
+  "name": "ps_print_buffer",
+  "size": 745
+ },
+ "0x4fe840": {
+  "name": "ppd_scan_bytes",
+  "size": 661
+ },
+ "0x4e7e60": {
+  "name": "ds_cat_vsprintf",
+  "size": 629
+ },
+ "0x475580": {
+  "name": "is_strlower",
+  "size": 246
+ },
+ "0x4f6390": {
+  "name": "xgethostname",
+  "size": 951
+ },
+ "0x4c33c0": {
+  "name": "font_info_table_free",
+  "size": 52
+ },
+ "0x4bd330": {
+  "name": "fonts_map_new",
+  "size": 155
+ },
+ "0x467f90": {
+  "name": "smaprealloc",
+  "size": 33
+ },
+ "0x484f30": {
+  "name": "user_options_table_new",
+  "size": 11
+ },
+ "0x4ca340": {
+  "name": "stream_close",
+  "size": 409
+ },
+ "0x4687c0": {
+  "name": "encoding_resolve_font_substitute",
+  "size": 1520
+ },
+ "0x4bed50": {
+  "name": "afm_create_buffer",
+  "size": 449
+ },
+ "0x475020": {
+  "name": "undivert",
+  "size": 67
+ },
+ "0x45f760": {
+  "name": "psget_out",
+  "size": 14
+ },
+ "0x4cbb60": {
+  "name": "file_job_unlink_tmpfile",
+  "size": 339
+ },
+ "0x45fd90": {
+  "name": "pslex_dump",
+  "size": 304
+ },
+ "0x48c4a0": {
+  "name": "expand_user_string",
+  "size": 2029
+ },
+ "0x4d3180": {
+  "name": "find_backup_file_name",
+  "size": 628
+ },
+ "0x4d2450": {
+  "name": "freeargv_from",
+  "size": 708
+ },
+ "0x467af0": {
+  "name": "smapget_text",
+  "size": 14
+ },
+ "0x4e76d0": {
+  "name": "ds_is_full",
+  "size": 38
+ },
+ "0x487c40": {
+  "name": "a2ps_printers_default_ppdkey_set",
+  "size": 537
+ },
+ "0x481aa0": {
+  "name": "check_face_eo_font",
+  "size": 996
+ },
+ "0x41af10": {
+  "name": "delegations_list_short",
+  "size": 175
+ },
+ "0x45e480": {
+  "name": "ps_delete_buffer",
+  "size": 711
+ },
+ "0x467b60": {
+  "name": "smapget_debug",
+  "size": 138
+ },
+ "0x48c0c0": {
+  "name": "macro_meta_sequence_table_new",
+  "size": 11
+ },
+ "0x4d6100": {
+  "name": "hash_dump",
+  "size": 676
+ },
+ "0x4cba00": {
+  "name": "file_job_synchronize_pages",
+  "size": 341
+ },
+ "0x445130": {
+  "name": "version_null_p",
+  "size": 225
+ },
+ "0x4d5e00": {
+  "name": "hash_map",
+  "size": 262
+ },
+ "0x4c8380": {
+  "name": "a2ps_page_range_set_string",
+  "size": 2996
+ },
+ "0x45a210": {
+  "name": "sshrealloc",
+  "size": 33
+ },
+ "0x4db9e0": {
+  "name": "xmalloc",
+  "size": 402
+ },
+ "0x4c9ed0": {
+  "name": "stream_wopen_backup",
+  "size": 49
+ },
+ "0x418630": {
+  "name": "delegation_table_new",
+  "size": 316
+ },
+ "0x489b30": {
+  "name": "ps_status_free",
+  "size": 118
+ },
+ "0x45f780": {
+  "name": "psget_text",
+  "size": 14
+ },
+ "0x4fd9c0": {
+  "name": "ppd_flush_buffer",
+  "size": 482
+ },
+ "0x45f740": {
+  "name": "psget_lineno",
+  "size": 13
+ },
+ "0x4f6750": {
+  "name": "xstrdup",
+  "size": 51
+ },
+ "0x4723b0": {
+  "name": "output_to_void",
+  "size": 23
+ },
+ "0x4cae80": {
+  "name": "documentation_print_html",
+  "size": 817
+ },
+ "0x4f5ca0": {
+  "name": "base_name",
+  "size": 568
+ },
+ "0x4d11d0": {
+  "name": "argmatch",
+  "size": 57
+ },
+ "0x45e770": {
+  "name": "ps_flush_buffer",
+  "size": 439
+ },
+ "0x4d1490": {
+  "name": "argcasematch",
+  "size": 365
+ },
+ "0x4f0910": {
+  "name": "lister_initialize",
+  "size": 98
+ },
+ "0x45a310": {
+  "name": "pslex",
+  "size": 4866
+ },
+ "0x4f3560": {
+  "name": "lister_fprint_separated",
+  "size": 3809
+ },
+ "0x467fc0": {
+  "name": "sheets_map_load",
+  "size": 1476
+ },
+ "0x4c4460": {
+  "name": "font_exists",
+  "size": 73
+ },
+ "0x476880": {
+  "name": "ps_switch_encoding",
+  "size": 416
+ },
+ "0x488490": {
+  "name": "a2ps_printers_flag_output_is_printer_get",
+  "size": 22
+ },
+ "0x416ad0": {
+  "name": "print",
+  "size": 2566
+ },
+ "0x46fa50": {
+  "name": "list_media_long",
+  "size": 593
+ },
+ "0x4dbdc0": {
+  "name": "close_stdout",
+  "size": 16
+ },
+ "0x46ff10": {
+  "name": "a2ps_job_unlink_tmpfiles",
+  "size": 696
+ },
+ "0x45f790": {
+  "name": "psset_lineno",
+  "size": 19
+ },
+ "0x4fbba0": {
+  "name": "ppd_delete_buffer",
+  "size": 635
+ },
+ "0x4458b0": {
+  "name": "string_to_version",
+  "size": 349
+ },
+ "0x475980": {
+  "name": "strcnt",
+  "size": 208
+ },
+ "0x4ea1f0": {
+  "name": "pair_table_free",
+  "size": 52
+ },
+ "0x4e19b0": {
+  "name": "da_clone",
+  "size": 495
+ },
+ "0x4c72f0": {
+  "name": "page_range_new",
+  "size": 377
+ },
+ "0x45f390": {
+  "name": "ps_scan_string",
+  "size": 247
+ },
+ "0x40e250": {
+  "name": "style_sheet_finalize",
+  "size": 2368
+ },
+ "0x40d770": {
+  "name": "sequence_new",
+  "size": 158
+ },
+ "0x4cc3b0": {
+  "name": "file_align_argmatch",
+  "size": 420
+ },
+ "0x485d70": {
+  "name": "a2ps_close_input_session",
+  "size": 64
+ },
+ "0x40df50": {
+  "name": "sequence_self_print",
+  "size": 144
+ },
+ "0x4fec10": {
+  "name": "ppdset_out",
+  "size": 22
+ },
+ "0x4df370": {
+  "name": "xpw_find_file",
+  "size": 630
+ },
+ "0x40c570": {
+  "name": "rule_new",
+  "size": 679
+ },
+ "0x4c22e0": {
+  "name": "afm_scan_bytes",
+  "size": 1052
+ },
+ "0x4feb30": {
+  "name": "ppdset_lineno",
+  "size": 183
+ },
+ "0x4e8240": {
+  "name": "ds_unsafe_vsprintf",
+  "size": 70
+ },
+ "0x4d1b10": {
+  "name": "__xargmatch_internal",
+  "size": 141
+ },
+ "0x4149b0": {
+  "name": "get_command",
+  "size": 1616
+ },
+ "0x4e3120": {
+  "name": "da_qsort",
+  "size": 4657
+ },
+ "0x4e07d0": {
+  "name": "pw_glob_on_suffix",
+  "size": 162
+ },
+ "0x4de520": {
+  "name": "pw_fprintf_path",
+  "size": 222
+ },
+ "0x4c9130": {
+  "name": "report_pages_to_print",
+  "size": 42
+ },
+ "0x4ed6b0": {
+  "name": "title",
+  "size": 1996
+ },
+ "0x4c6e50": {
+  "name": "_a2ps_ppd_list_short",
+  "size": 95
+ },
+ "0x4dcb30": {
+  "name": "vstrrpl",
+  "size": 1137
+ },
+ "0x459e80": {
+  "name": "sshget_text",
+  "size": 14
+ },
+ "0x4d72c0": {
+  "name": "set_quoting_style",
+  "size": 71
+ },
+ "0x408870": {
+  "name": "ssh_print_postscript",
+  "size": 5785
+ },
+ "0x4ef770": {
+  "name": "get_length",
+  "size": 104
+ },
+ "0x466810": {
+  "name": "smapalloc",
+  "size": 25
+ },
+ "0x48a950": {
+  "name": "setstatusdict",
+  "size": 60
+ },
+ "0x4bc100": {
+  "name": "exist_resource",
+  "size": 67
+ },
+ "0x4d7180": {
+  "name": "clone_quoting_options",
+  "size": 118
+ },
+ "0x4c14f0": {
+  "name": "afm_flush_buffer",
+  "size": 449
+ },
+ "0x485360": {
+  "name": "a2ps_print_string",
+  "size": 612
+ },
+ "0x4c2d00": {
+  "name": "afmrealloc",
+  "size": 253
+ },
+ "0x415dc0": {
+  "name": "msg_job_pages_printed",
+  "size": 2121
+ },
+ "0x4ff450": {
+  "name": "tterm_tabsize_set",
+  "size": 210
+ },
+ "0x4818f0": {
+  "name": "face_eo_ps",
+  "size": 419
+ },
+ "0x40e0d0": {
+  "name": "new_style_sheet",
+  "size": 310
+ },
+ "0x40bfc0": {
+  "name": "new_pattern",
+  "size": 68
+ },
+ "0x45fec0": {
+  "name": "smaplex",
+  "size": 14368
+ },
+ "0x4db980": {
+  "name": "xalloc_die",
+  "size": 90
+ },
+ "0x487360": {
+  "name": "a2ps_printers_add",
+  "size": 675
+ },
+ "0x4d2260": {
+  "name": "freeargv",
+  "size": 483
+ },
+ "0x45f870": {
+  "name": "psset_out",
+  "size": 22
+ },
+ "0x466050": {
+  "name": "smapwrap",
+  "size": 130
+ },
+ "0x476130": {
+  "name": "xrpopen",
+  "size": 66
+ },
+ "0x45f750": {
+  "name": "psget_in",
+  "size": 14
+ },
+ "0x487c20": {
+  "name": "a2ps_printers_default_ppdkey_get",
+  "size": 18
+ },
+ "0x4c2840": {
+  "name": "afmget_text",
+  "size": 14
+ },
+ "0x40c420": {
+  "name": "rhs_new_single",
+  "size": 133
+ },
+ "0x4c2980": {
+  "name": "afmlex_destroy",
+  "size": 768
+ },
+ "0x4dc7a0": {
+  "name": "xvstrrpl",
+  "size": 900
+ },
+ "0x47d090": {
+  "name": "prologues_list_long",
+  "size": 105
+ },
+ "0x472ae0": {
+  "name": "output_delayed_string",
+  "size": 98
+ },
+ "0x4d5930": {
+  "name": "hash_delete_items",
+  "size": 706
+ },
+ "0x4869b0": {
+  "name": "a2ps_flag_destination_to_string",
+  "size": 82
+ },
+ "0x4e26e0": {
+  "name": "da_insert_at",
+  "size": 928
+ },
+ "0x4c3440": {
+  "name": "font_info_add",
+  "size": 426
+ },
+ "0x4887d0": {
+  "name": "a2ps_printers_list_long",
+  "size": 167
+ },
+ "0x445860": {
+  "name": "version_add",
+  "size": 70
+ },
+ "0x41c8c0": {
+  "name": "re_search",
+  "size": 107
+ },
+ "0x45e750": {
+  "name": "psfree",
+  "size": 27
+ },
+ "0x4c2890": {
+  "name": "afmset_out",
+  "size": 22
+ },
+ "0x4e1880": {
+  "name": "da_grow",
+  "size": 300
+ },
+ "0x475a50": {
+  "name": "strsub",
+  "size": 67
+ },
+ "0x4caad0": {
+  "name": "authors_print_html",
+  "size": 73
+ },
+ "0x4e7d00": {
+  "name": "ds_sprintf",
+  "size": 351
+ },
+ "0x4e7190": {
+  "name": "ds_erase",
+  "size": 40
+ },
+ "0x489bf0": {
+  "name": "initialize_ps_status",
+  "size": 449
+ },
+ "0x4802d0": {
+  "name": "ps_end",
+  "size": 54
+ },
+ "0x4ea560": {
+  "name": "pair_add",
+  "size": 874
+ },
+ "0x46bd50": {
+  "name": "list_texinfo_encodings_long",
+  "size": 330
+ },
+ "0x4f5ee0": {
+  "name": "isdir",
+  "size": 300
+ },
+ "0x418580": {
+  "name": "guess",
+  "size": 169
+ },
+ "0x4cbe80": {
+  "name": "a2ps_common_new",
+  "size": 232
+ },
+ "0x4fe4d0": {
+  "name": "ppd_scan_buffer",
+  "size": 814
+ },
+ "0x4e2a80": {
+  "name": "da_remove_at",
+  "size": 526
+ },
+ "0x4fd8e0": {
+  "name": "ppdalloc",
+  "size": 25
+ },
+ "0x487e60": {
+  "name": "a2ps_printers_request_ppdkey_get",
+  "size": 185
+ },
+ "0x4c0f10": {
+  "name": "afmalloc",
+  "size": 195
+ },
+ "0x4dcfb0": {
+  "name": "getshline_numbered",
+  "size": 119
+ },
+ "0x500990": {
+  "name": "__libc_csu_init",
+  "size": 101
+ },
+ "0x445600": {
+  "name": "version_cpy",
+  "size": 34
+ },
+ "0x46ba30": {
+  "name": "set_encoding",
+  "size": 29
+ },
+ "0x488470": {
+  "name": "a2ps_printers_flag_output_name_get",
+  "size": 18
+ },
+ "0x413d70": {
+  "name": "set_requested_style",
+  "size": 582
+ },
+ "0x4de600": {
+  "name": "pw_file_exists_p",
+  "size": 43
+ },
+ "0x48b3c0": {
+  "name": "escape_unprintable",
+  "size": 3320
+ },
+ "0x467bf0": {
+  "name": "smapset_debug",
+  "size": 19
+ },
+ "0x40f290": {
+  "name": "style_sheet_self_print",
+  "size": 1477
+ },
+ "0x4cc770": {
+  "name": "ppdparse",
+  "size": 11557
+ },
+ "0x4e8d20": {
+  "name": "vprintflen",
+  "size": 73
+ },
+ "0x40c010": {
+  "name": "faced_string_new",
+  "size": 81
+ },
+ "0x4c2700": {
+  "name": "afmget_lineno",
+  "size": 13
+ },
+ "0x45e930": {
+  "name": "pspush_buffer_state",
+  "size": 846
+ },
+ "0x4dc750": {
+  "name": "strrpl",
+  "size": 65
+ },
+ "0x467b40": {
+  "name": "smapset_out",
+  "size": 22
+ },
+ "0x4c7680": {
+  "name": "page_range_to_buffer",
+  "size": 620
+ },
+ "0x40c4b0": {
+  "name": "rhs_add",
+  "size": 35
+ },
+ "0x4109e0": {
+  "name": "list_style_sheets_html",
+  "size": 1334
+ },
+ "0x4d1870": {
+  "name": "argmatch_valid",
+  "size": 671
+ },
+ "0x472300": {
+  "name": "output_free",
+  "size": 66
+ },
+ "0x4cbcc0": {
+  "name": "file_name_cmp",
+  "size": 241
+ },
+ "0x4c6c50": {
+  "name": "_a2ps_ppd_get",
+  "size": 499
+ },
+ "0x4e4360": {
+  "name": "da_qsort_with_arg",
+  "size": 4874
+ },
+ "0x459e90": {
+  "name": "sshset_lineno",
+  "size": 19
+ },
+ "0x467390": {
+  "name": "smap_scan_buffer",
+  "size": 996
+ },
+ "0x467b20": {
+  "name": "smapset_in",
+  "size": 22
+ },
+ "0x4e2550": {
+  "name": "da_append",
+  "size": 388
+ },
+ "0x4f2840": {
+  "name": "lister_fprint_horizontal",
+  "size": 1195
+ },
+ "0x467ae0": {
+  "name": "smapget_leng",
+  "size": 13
+ },
+ "0x4c1f20": {
+  "name": "afm_scan_buffer",
+  "size": 701
+ },
+ "0x4c9f10": {
+  "name": "stream_perl_open_backup",
+  "size": 1064
+ },
+ "0x468db0": {
+  "name": "encoding_self_print",
+  "size": 1737
+ },
+ "0x459e60": {
+  "name": "sshget_out",
+  "size": 14
+ },
+ "0x469b40": {
+  "name": "encoding_char_exists",
+  "size": 43
+ },
+ "0x4e7490": {
+  "name": "ds_resize",
+  "size": 87
+ },
+ "0x45df80": {
+  "name": "ps_switch_to_buffer",
+  "size": 1069
+ },
+ "0x402510": {
+  "name": "_start",
+  "size": 42
+ },
+ "0x45e3b0": {
+  "name": "psalloc",
+  "size": 195
+ },
+ "0x48c0d0": {
+  "name": "macro_meta_sequence_table_free",
+  "size": 27
+ },
+ "0x40c4e0": {
+  "name": "rhs_self_print",
+  "size": 129
+ },
+ "0x40d4f0": {
+  "name": "words_add_regex",
+  "size": 39
+ },
+ "0x4885c0": {
+  "name": "a2ps_printers_list_short",
+  "size": 96
+ },
+ "0x45a240": {
+  "name": "sshlex_initialize",
+  "size": 202
+ },
+ "0x4feb20": {
+  "name": "ppdget_text",
+  "size": 14
+ },
+ "0x4e1db0": {
+  "name": "da_equal",
+  "size": 544
+ },
+ "0x46ba50": {
+  "name": "list_encodings_short",
+  "size": 99
+ },
+ "0x4d0520": {
+  "name": "a2ps_ppd_parse",
+  "size": 658
+ },
+ "0x4c38f0": {
+  "name": "font_info_get_wx_for_vector",
+  "size": 1861
+ },
+ "0x4c27b0": {
+  "name": "afmget_leng",
+  "size": 138
+ },
+ "0x45f490": {
+  "name": "ps_scan_bytes",
+  "size": 679
+ },
+ "0x4ffb40": {
+  "name": "xstrtol",
+  "size": 3067
+ },
+ "0x4450f0": {
+  "name": "version_set_to_null",
+  "size": 61
+ },
+ "0x45b9e0": {
+  "name": "ps_create_buffer",
+  "size": 435
+ },
+ "0x4bc970": {
+  "name": "dump_process_color",
+  "size": 763
+ },
+ "0x4e2340": {
+  "name": "da_where",
+  "size": 252
+ },
+ "0x4cbdc0": {
+  "name": "a2ps_common_reset",
+  "size": 190
+ },
+ "0x4e00d0": {
+  "name": "pw_glob",
+  "size": 500
+ },
+ "0x4da4c0": {
+  "name": "signame_init",
+  "size": 996
+ },
+ "0x463920": {
+  "name": "smap_create_buffer",
+  "size": 449
+ },
+ "0x40fcb0": {
+  "name": "list_style_sheets_long",
+  "size": 1122
+ },
+ "0x4ff120": {
+  "name": "ppdlex_initialize",
+  "size": 229
+ },
+ "0x4ddf70": {
+  "name": "pw_append_string_to_path",
+  "size": 474
+ },
+ "0x458d10": {
+  "name": "sshalloc",
+  "size": 25
+ },
+ "0x46bac0": {
+  "name": "list_encodings_long",
+  "size": 563
+ },
+ "0x4c6920": {
+  "name": "ppd_free",
+  "size": 806
+ },
+ "0x4d5580": {
+  "name": "hash_free_items",
+  "size": 943
+ },
+ "0x418c40": {
+  "name": "delegation_table_free",
+  "size": 260
+ },
+ "0x47ae40": {
+  "name": "ps_print_string",
+  "size": 192
+ },
+ "0x45f770": {
+  "name": "psget_leng",
+  "size": 13
+ },
+ "0x4e59c0": {
+  "name": "da_merge",
+  "size": 3121
+ },
+ "0x4fdef0": {
+  "name": "ppdpop_buffer_state",
+  "size": 1495
+ },
+ "0x4e9a80": {
+  "name": "pair_table_new",
+  "size": 349
+ },
+ "0x489210": {
+  "name": "a2ps_close_output_stream",
+  "size": 34
+ },
+ "0x4cb400": {
+  "name": "_a2ps_file_job_new",
+  "size": 269
+ },
+ "0x4feb10": {
+  "name": "ppdget_leng",
+  "size": 13
+ },
+ "0x4c66c0": {
+  "name": "ppd_font_known_p",
+  "size": 274
+ },
+ "0x4ee6d0": {
+  "name": "fopen_backup",
+  "size": 2138
+ },
+ "0x45f890": {
+  "name": "psget_debug",
+  "size": 138
+ },
+ "0x48abc0": {
+  "name": "list_statusdict",
+  "size": 262
+ },
+ "0x4c7640": {
+  "name": "page_range_free",
+  "size": 52
+ },
+ "0x459d40": {
+  "name": "sshget_lineno",
+  "size": 138
+ },
+ "0x4de320": {
+  "name": "pw_free_path",
+  "size": 512
+ },
+ "0x4da180": {
+  "name": "quotearg",
+  "size": 31
+ },
+ "0x48c0f0": {
+  "name": "macro_meta_sequence_add",
+  "size": 616
+ },
+ "0x4f2750": {
+  "name": "lister_print_vertical",
+  "size": 233
+ },
+ "0x40da70": {
+  "name": "new_C_string_sequence",
+  "size": 291
+ },
+ "0x42b2d0": {
+  "name": "re_compile_pattern",
+  "size": 135
+ },
+ "0x4d53d0": {
+  "name": "hash_delete_at",
+  "size": 426
+ },
+ "0x419550": {
+  "name": "get_delegate_command",
+  "size": 358
+ },
+ "0x445a10": {
+  "name": "fflag_self_print",
+  "size": 875
+ },
+ "0x458d30": {
+  "name": "ssh_delete_buffer",
+  "size": 503
+ },
+ "0x4f68c0": {
+  "name": "ppdlex",
+  "size": 19440
+ },
+ "0x402610": {
+  "name": "main",
+  "size": 7167
+ },
+ "0x471e50": {
+  "name": "output_new",
+  "size": 551
+ },
+ "0x4e0630": {
+  "name": "pw_glob_print",
+  "size": 74
+ },
+ "0x4eb340": {
+  "name": "pair_table_list_long",
+  "size": 1067
+ },
+ "0x475530": {
+  "name": "ustrccat",
+  "size": 65
+ },
+ "0x4e8cf0": {
+  "name": "ds_getline",
+  "size": 42
+ },
+ "0x4855d0": {
+  "name": "a2ps_print_buffer",
+  "size": 975
+ },
+ "0x472760": {
+  "name": "output_delayed_routine",
+  "size": 114
+ },
+ "0x4c2870": {
+  "name": "afmset_in",
+  "size": 22
+ },
+ "0x4d7200": {
+  "name": "get_quoting_style",
+  "size": 192
+ },
+ "0x4e7950": {
+  "name": "ds_strccat",
+  "size": 415
+ },
+ "0x4feae0": {
+  "name": "ppdget_lineno",
+  "size": 13
+ },
+ "0x4cb510": {
+  "name": "file_job_free",
+  "size": 415
+ },
+ "0x4d03c0": {
+  "name": "ppderror",
+  "size": 53
+ },
+ "0x4e80e0": {
+  "name": "ds_cat_sprintf",
+  "size": 351
+ },
+ "0x4da3e0": {
+  "name": "quotearg_colon",
+  "size": 211
+ },
+ "0x45d930": {
+  "name": "pswrap",
+  "size": 11
+ },
+ "0x4660e0": {
+  "name": "smaprestart",
+  "size": 456
+ },
+ "0x4f4450": {
+  "name": "lister_print_separated",
+  "size": 295
+ },
+ "0x459e70": {
+  "name": "sshget_leng",
+  "size": 13
+ },
+ "0x485110": {
+  "name": "user_options_list_long",
+  "size": 381
+ },
+ "0x4fecc0": {
+  "name": "ppdset_debug",
+  "size": 183
+ },
+ "0x489dc0": {
+  "name": "output_pagedevice",
+  "size": 752
+ },
+ "0x4fd530": {
+  "name": "ppdrestart",
+  "size": 472
+ },
+ "0x4feaf0": {
+  "name": "ppdget_in",
+  "size": 14
+ },
+ "0x4db190": {
+  "name": "strverscmp",
+  "size": 2027
+ },
+ "0x46b280": {
+  "name": "char_WX",
+  "size": 1731
+ },
+ "0x4dfa80": {
+  "name": "pw_paste_file",
+  "size": 1602
+ },
+ "0x466c80": {
+  "name": "smappush_buffer_state",
+  "size": 958
+ },
+ "0x484f90": {
+  "name": "user_option_get",
+  "size": 280
+ },
+ "0x4c28b0": {
+  "name": "afmget_debug",
+  "size": 13
+ },
+ "0x4816f0": {
+  "name": "face_to_string",
+  "size": 191
+ },
+ "0x445220": {
+  "name": "version_cmp",
+  "size": 992
+ },
+ "0x4cc560": {
+  "name": "file_align_to_string",
+  "size": 513
+ },
+ "0x4d4910": {
+  "name": "hash_find_slot",
+  "size": 1190
+ },
+ "0x44d4f0": {
+  "name": "ssherror",
+  "size": 53
+ },
+ "0x46f480": {
+  "name": "free_medium_table",
+  "size": 260
+ },
+ "0x469a60": {
+  "name": "encoding_get_name",
+  "size": 185
+ },
+ "0x46ebe0": {
+  "name": "add_medium",
+  "size": 173
+ },
+ "0x4e6ef0": {
+  "name": "da_str_printnl",
+  "size": 55
+ },
+ "0x458ff0": {
+  "name": "ssh_flush_buffer",
+  "size": 193
+ },
+ "0x474b20": {
+  "name": "output_self_print",
+  "size": 66
+ },
+ "0x43f800": {
+  "name": "regfree",
+  "size": 702
+ },
+ "0x467a40": {
+  "name": "smapget_in",
+  "size": 141
+ },
+ "0x4ca4e0": {
+  "name": "authors_print_plain",
+  "size": 367
+ },
+ "0x4cbf70": {
+  "name": "a2ps_common_free",
+  "size": 30
+ },
+ "0x4cb1c0": {
+  "name": "documentation_print_texinfo",
+  "size": 568
+ },
+ "0x48a0b0": {
+  "name": "pagedevice_dump",
+  "size": 607
+ },
+ "0x4cc170": {
+  "name": "madir_to_string",
+  "size": 569
+ },
+ "0x468610": {
+  "name": "encodings_map_new",
+  "size": 11
+ },
+ "0x459dd0": {
+  "name": "sshget_in",
+  "size": 141
+ },
+ "0x4776b0": {
+  "name": "ps_print_char",
+  "size": 5553
+ },
+ "0x4766c0": {
+  "name": "ps_set_encoding",
+  "size": 105
+ },
+ "0x4c67e0": {
+  "name": "ppd_new",
+  "size": 308
+ },
+ "0x4e7af0": {
+  "name": "ds_vsprintf",
+  "size": 513
+ },
+ "0x485f90": {
+  "name": "output_format_to_key",
+  "size": 171
+ },
+ "0x4d5390": {
+  "name": "hash_delete",
+  "size": 55
+ },
+ "0x4d5f10": {
+  "name": "hash_print_stats",
+  "size": 483
+ },
+ "0x4bc730": {
+  "name": "dump_needed_resources",
+  "size": 509
+ },
+ "0x4588f0": {
+  "name": "ssh_switch_to_buffer",
+  "size": 1044
+ },
+ "0x4bd180": {
+  "name": "dump_setup",
+  "size": 46
+ },
+ "0x43f5a0": {
+  "name": "regerror",
+  "size": 608
+ },
+ "0x4bcd40": {
+  "name": "add_required_font",
+  "size": 924
+ },
+ "0x4bd120": {
+  "name": "required_fonts_get",
+  "size": 93
+ },
+ "0x411d20": {
+  "name": "new_style_sheets",
+  "size": 316
+ },
+ "0x4763b0": {
+  "name": "stream_dump",
+  "size": 533
+ },
+ "0x442f30": {
+  "name": "buffer_set_lower_case",
+  "size": 30
+ },
+ "0x4cab20": {
+  "name": "authors_print_texinfo",
+  "size": 132
+ },
+ "0x4f6790": {
+  "name": "xstrndup",
+  "size": 299
+ },
+ "0x41aa30": {
+  "name": "delegations_list_long",
+  "size": 317
+ },
+ "0x4def50": {
+  "name": "pw_find_file",
+  "size": 43
+ },
+ "0x4fec30": {
+  "name": "ppdget_debug",
+  "size": 138
+ },
+ "0x46f930": {
+  "name": "a2ps_medium_libpaper_p",
+  "size": 276
+ },
+ "0x4d3ac0": {
+  "name": "xget_version",
+  "size": 640
+ },
+ "0x4677c0": {
+  "name": "smap_scan_bytes",
+  "size": 484
+ },
+ "0x40cc50": {
+  "name": "words_new",
+  "size": 1057
+ },
+ "0x4ed210": {
+  "name": "string_htable_get",
+  "size": 35
+ },
+ "0x416610": {
+  "name": "msg_nothing_printed",
+  "size": 615
+ },
+ "0x474b70": {
+  "name": "output_dump",
+  "size": 601
+ },
+ "0x475ee0": {
+  "name": "xpopen",
+  "size": 302
+ },
+ "0x4e71c0": {
+  "name": "ds_print_stats",
+  "size": 706
+ },
+ "0x48b170": {
+  "name": "unprintable_format_to_string",
+  "size": 581
+ },
+ "0x482220": {
+  "name": "face_set_font",
+  "size": 247
+ },
+ "0x41b010": {
+  "name": "re_set_syntax",
+  "size": 250
+ },
+ "0x4c65c0": {
+  "name": "ppd_font_add",
+  "size": 248
+ },
+ "0x47b1f0": {
+  "name": "ps_begin_file",
+  "size": 1042
+ },
+ "0x4f4af0": {
+  "name": "userdata_get",
+  "size": 3906
+ },
+ "0x4d9c80": {
+  "name": "quotearg_n",
+  "size": 43
+ },
+ "0x4c8140": {
+  "name": "page_range_applies_above",
+  "size": 571
+ },
+ "0x43ec10": {
+  "name": "regexec",
+  "size": 2444
+ },
+ "0x4bc370": {
+  "name": "dump_supplied_resources",
+  "size": 292
+ },
+ "0x481e90": {
+  "name": "face_eo_font_is_set",
+  "size": 86
+ },
+ "0x459a40": {
+  "name": "ssh_scan_bytes",
+  "size": 753
+ },
+ "0x4dda10": {
+  "name": "pw_string_to_path",
+  "size": 36
+ },
+ "0x468620": {
+  "name": "encodings_map_free",
+  "size": 27
+ },
+ "0x416880": {
+  "name": "print_toc",
+  "size": 580
+ },
+ "0x4ea930": {
+  "name": "pair_get",
+  "size": 553
+ },
+ "0x4c0b70": {
+  "name": "afm_switch_to_buffer",
+  "size": 920
+ },
+ "0x475930": {
+  "name": "strcpylc",
+  "size": 66
+ },
+ "0x459eb0": {
+  "name": "sshset_in",
+  "size": 22
+ },
+ "0x4dbc80": {
+  "name": "close_stdout_status",
+  "size": 312
+ },
+ "0x47d020": {
+  "name": "prologues_list_short",
+  "size": 99
+ },
+ "0x4859a0": {
+  "name": "a2ps_open_output_session",
+  "size": 364
+ },
+ "0x4723d0": {
+  "name": "output_is_to_void",
+  "size": 17
+ },
+ "0x41b110": {
+  "name": "re_compile_fastmap",
+  "size": 5733
+ },
+ "0x4e6600": {
+  "name": "da_self_print",
+  "size": 683
+ },
+ "0x42b260": {
+  "name": "re_match_2",
+  "size": 100
+ },
+ "0x4679b0": {
+  "name": "smapget_lineno",
+  "size": 138
+ },
+ "0x4f0af0": {
+  "name": "lister_before_set",
+  "size": 494
+ },
+ "0x4c9900": {
+  "name": "stream_ropen",
+  "size": 43
+ },
+ "0x4d4eb0": {
+  "name": "hash_insert_at",
+  "size": 411
+ },
+ "0x442790": {
+  "name": "option_string_to_eol",
+  "size": 91
+ },
+ "0x4daa50": {
+  "name": "sig_abbrev",
+  "size": 1047
+ },
+ "0x476180": {
+  "name": "xwpopen",
+  "size": 66
+ },
+ "0x472350": {
+  "name": "output_report",
+  "size": 90
+ },
+ "0x442f50": {
+  "name": "buffer_get",
+  "size": 1619
+ },
+ "0x4e68b0": {
+  "name": "da_map",
+  "size": 606
+ },
+ "0x482770": {
+  "name": "a2_read_config",
+  "size": 9632
+ },
+ "0x444cf0": {
+  "name": "buffer_save",
+  "size": 1019
+ },
+ "0x4e8540": {
+  "name": "ds_unsafe_cat_vsprintf",
+  "size": 424
+ },
+ "0x4eb770": {
+  "name": "pair_table_self_print",
+  "size": 859
+ },
+ "0x40d4c0": {
+  "name": "words_add_string",
+  "size": 38
+ },
+ "0x475680": {
+  "name": "strnlower",
+  "size": 39
+ },
+ "0x44e850": {
+  "name": "sshlex",
+  "size": 33042
+ },
+ "0x4c1bf0": {
+  "name": "afmpop_buffer_state",
+  "size": 808
+ },
+ "0x45f920": {
+  "name": "psset_debug",
+  "size": 183
+ },
+ "0x418e80": {
+  "name": "add_delegation",
+  "size": 1588
+ },
+ "0x4d7310": {
+  "name": "set_char_quoting",
+  "size": 289
+ },
+ "0x485b10": {
+  "name": "a2ps_open_input_session",
+  "size": 595
+ },
+ "0x4fba00": {
+  "name": "ppd_switch_to_buffer",
+  "size": 402
+ },
+ "0x46ec90": {
+  "name": "new_medium_table",
+  "size": 316
+ },
+ "0x466830": {
+  "name": "smap_delete_buffer",
+  "size": 581
+ },
+ "0x486e10": {
+  "name": "a2ps_destination_to_string",
+  "size": 269
+ },
+ "0x4e1ba0": {
+  "name": "da_is_sorted",
+  "size": 517
+ },
+ "0x4d3960": {
+  "name": "get_version",
+  "size": 347
+ },
+ "0x485290": {
+  "name": "a2ps_print_char",
+  "size": 195
+ },
+ "0x4bb9f0": {
+  "name": "multivalued_table_new",
+  "size": 345
+ },
+ "0x4c16c0": {
+  "name": "afmpush_buffer_state",
+  "size": 1326
+ },
+ "0x466b40": {
+  "name": "smap_flush_buffer",
+  "size": 312
+ },
+ "0x4ff0f0": {
+  "name": "ppdrealloc",
+  "size": 33
+ },
+ "0x4c4500": {
+  "name": "font_info_table_dump_special_font_setup",
+  "size": 479
+ },
+ "0x41c780": {
+  "name": "re_set_registers",
+  "size": 305
+ },
+ "0x48a690": {
+  "name": "list_pagedevice",
+  "size": 262
+ },
+ "0x48a990": {
+  "name": "delstatusdict",
+  "size": 46
+ },
+ "0x4c21e0": {
+  "name": "afm_scan_string",
+  "size": 247
+ },
+ "0x46f800": {
+  "name": "a2ps_get_medium_name",
+  "size": 296
+ },
+ "0x4e1fd0": {
+  "name": "da_cmp_equal",
+  "size": 879
+ },
+ "0x4dc190": {
+  "name": "xstrrpl",
+  "size": 1464
+ },
+ "0x456b50": {
+  "name": "ssh_create_buffer",
+  "size": 468
+ },
+ "0x46a800": {
+  "name": "encoding_add_font_name_used",
+  "size": 61
+ },
+ "0x459ef0": {
+  "name": "sshget_debug",
+  "size": 13
+ },
+ "0x4711e0": {
+  "name": "a2ps_job_finalize",
+  "size": 539
+ },
+ "0x4cc110": {
+  "name": "madir_argmatch",
+  "size": 91
+ },
+ "0x442b10": {
+  "name": "buffer_self_print",
+  "size": 996
+ },
+ "0x4e86f0": {
+  "name": "ds_unsafe_cat_sprintf",
+  "size": 681
+ },
+ "0x467040": {
+  "name": "smappop_buffer_state",
+  "size": 834
+ },
+ "0x487f20": {
+  "name": "a2ps_printers_request_ppdkey_set",
+  "size": 402
+ },
+ "0x459380": {
+  "name": "sshpop_buffer_state",
+  "size": 695
+ },
+ "0x46b950": {
+  "name": "string_WX",
+  "size": 215
+ },
+ "0x4196c0": {
+  "name": "subcontract",
+  "size": 4963
+ },
+ "0x4c2850": {
+  "name": "afmset_lineno",
+  "size": 19
+ },
+ "0x4f0980": {
+  "name": "lister_tterm_set",
+  "size": 365
+ },
+ "0x472a00": {
+  "name": "output_delayed_int",
+  "size": 217
+ },
+ "0x4ff530": {
+  "name": "tterm_tabsize",
+  "size": 541
+ },
+ "0x4c0660": {
+  "name": "afmwrap",
+  "size": 11
+ },
+ "0x466580": {
+  "name": "smap_switch_to_buffer",
+  "size": 656
+ },
+ "0x4c28c0": {
+  "name": "afmset_debug",
+  "size": 183
+ },
+ "0x481ef0": {
+  "name": "init_face_eo_font",
+  "size": 180
+ },
+ "0x4f5a40": {
+  "name": "addext",
+  "size": 596
+ },
+ "0x414030": {
+  "name": "sheets_map_new",
+  "size": 252
+ },
+ "0x45fd60": {
+  "name": "psrealloc",
+  "size": 33
+ },
+ "0x401eb8": {
+  "name": "_init",
+  "size": 0
+ },
+ "0x4dbc40": {
+  "name": "xcalloc",
+  "size": 59
+ },
+ "0x4feb00": {
+  "name": "ppdget_out",
+  "size": 14
+ },
+ "0x407600": {
+  "name": "plain_print_postscript",
+  "size": 344
+ },
+ "0x467780": {
+  "name": "smap_scan_string",
+  "size": 51
+ },
+ "0x484f40": {
+  "name": "user_options_table_free",
+  "size": 27
+ },
+ "0x488a60": {
+  "name": "a2ps_ppd_list_long",
+  "size": 39
+ },
+ "0x489a10": {
+  "name": "new_ps_status",
+  "size": 178
+ },
+ "0x486f20": {
+  "name": "a2ps_printers_finalize",
+  "size": 641
+ },
+ "0x45d940": {
+  "name": "psrestart",
+  "size": 933
+ },
+ "0x4df5f0": {
+  "name": "xpw_find_included_file",
+  "size": 1158
+ },
+ "0x4bd490": {
+  "name": "load_main_fonts_map",
+  "size": 79
+ },
+ "0x4e7700": {
+  "name": "ds_strcat",
+  "size": 107
+ },
+ "0x4758f0": {
+  "name": "strlower",
+  "size": 62
+ },
+ "0x46fe00": {
+  "name": "list_media_short",
+  "size": 179
+ },
+ "0x4e6f30": {
+  "name": "ds_new",
+  "size": 599
+ },
+ "0x475070": {
+  "name": "string_to_array",
+  "size": 1204
+ },
+ "0x467c10": {
+  "name": "smaplex_destroy",
+  "size": 760
+ },
+ "0x46a120": {
+  "name": "encodings_table_free",
+  "size": 260
+ },
+ "0x4ed680": {
+  "name": "string_htable_dump_sorted",
+  "size": 44
+ },
+ "0x4bd510": {
+  "name": "afmlex",
+  "size": 5614
+ },
+ "0x486390": {
+  "name": "a2ps_printers_free",
+  "size": 988
+ },
+ "0x4ff750": {
+  "name": "tterm_initialize",
+  "size": 1007
+ },
+ "0x4f6010": {
+  "name": "xgetcwd",
+  "size": 893
+ },
+ "0x459ed0": {
+  "name": "sshset_out",
+  "size": 22
+ },
+ "0x4e0e30": {
+  "name": "da_free_content",
+  "size": 240
+ },
+ "0x4d1ba0": {
+  "name": "argmatch_to_argument",
+  "size": 812
+ },
+ "0x4e2e20": {
+  "name": "da_prefix",
+  "size": 767
+ }
+}

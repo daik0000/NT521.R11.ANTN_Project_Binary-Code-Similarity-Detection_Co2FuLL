@@ -1,0 +1,121 @@
+{
+ "input": "B/a2ps-4.14_clang-4.0_x86_64_O0_fixnt.elf.strip",
+ "arch": "x86_64",
+ "os_type": "linux",
+ "rootfs": "/home/rl/NT521.R11.ANTN_Project_Binary-Code-Similarity-Detection_Co2FuLL/preprocessing/qiling_rootfs/x8664_linux_glibc236",
+ "forced": true,
+ "detection": {
+  "path": "/home/rl/NT521.R11.ANTN_Project_Binary-Code-Similarity-Detection_Co2FuLL/Data_RQ5_RQ6/B/a2ps-4.14_clang-4.0_x86_64_O0_fixnt.elf.strip",
+  "format": "elf",
+  "arch": "x86_64",
+  "os_type": "linux",
+  "is_obfuscated": false,
+  "signals": {
+   "high_entropy": false,
+   "few_imports": false,
+   "low_strings": false,
+   "cff_pattern": false,
+   "bcf_pattern": false,
+   "packer_signature": false
+  },
+  "metrics": {
+   "entropy": 4.7293,
+   "import_count": 23,
+   "imports": [
+    "_IO_getc",
+    "_IO_putc",
+    "__errno_location",
+    "clearerr",
+    "exit",
+    "fclose",
+    "ferror",
+    "fileno",
+    "fopen",
+    "fprintf",
+    "fread",
+    "free",
+    "fwrite",
+    "getenv",
+    "getpid",
+    "isatty",
+    "malloc",
+    "memset",
+    "realloc",
+    "remove",
+    "rewind",
+    "sprintf",
+    "strlen"
+   ],
+   "string_density": 0.0819,
+   "cff_constants_max": 0,
+   "cff_functions": {},
+   "bcf_predicates": 0,
+   "packer_signatures": [],
+   "code_scan_supported": true
+  }
+ },
+ "unpack": {
+  "method": "none",
+  "details": {}
+ },
+ "detection_after_unpack": {
+  "entropy": 4.7293,
+  "import_count": 23,
+  "imports": [
+   "_IO_getc",
+   "_IO_putc",
+   "__errno_location",
+   "clearerr",
+   "exit",
+   "fclose",
+   "ferror",
+   "fileno",
+   "fopen",
+   "fprintf",
+   "fread",
+   "free",
+   "fwrite",
+   "getenv",
+   "getpid",
+   "isatty",
+   "malloc",
+   "memset",
+   "realloc",
+   "remove",
+   "rewind",
+   "sprintf",
+   "strlen"
+  ],
+  "string_density": 0.0819,
+  "cff_constants_max": 0,
+  "cff_functions": {},
+  "bcf_predicates": 0,
+  "packer_signatures": [],
+  "code_scan_supported": true
+ },
+ "strings": {
+  "count": 0,
+  "floss": 0,
+  "dynamic": 0,
+  "dynamic_error": null
+ },
+ "imports": {
+  "count": 0,
+  "apis": [],
+  "libraries": [],
+  "error": null
+ },
+ "deobfuscation": {
+  "unflatten": {
+   "input": "normalized.bin",
+   "output": "D/a2ps-4.14_clang-4.0_x86_64_O0_fixnt.elf.strip",
+   "supported": true,
+   "functions": [],
+   "opaque_globals": [],
+   "patches": 0
+  },
+  "decompiler": "none (pseudocode: IDA, done by the team)"
+ },
+ "status": "normalized",
+ "elapsed_s": 7.9
+}

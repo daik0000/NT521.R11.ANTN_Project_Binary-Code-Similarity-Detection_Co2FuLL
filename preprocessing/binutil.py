@@ -151,8 +151,39 @@ def _load_elf(info: BinaryInfo) -> None:
             if stype == "STT_FUNC" and sym["st_shndx"] != "SHN_UNDEF" and sym["st_value"] \
                     and sym.name:
                 funcs[sym.name] = (sym["st_value"], sym["st_size"])
+    # Stripped binaries keep .eh_frame, whose FDEs give the exact (start, size) of
+    # every function compiled with unwind info. Without this, a stripped binary that
+    # still exports a few dynamic symbols (BinKit elfedit: `error`, `warn`) exposed
+    # only those functions to detect.py / cff_unflatten.py, so stage 0 found no
+    # CFF/BCF signal and patched nothing.
+    known = {a for a, _sz in funcs.values()}
+    for start, size in _eh_frame_functions(elf, info):
+        if start not in known:
+            funcs[f"sub_{start:x}"] = (start, size)
     info.imports = sorted(set(imports))
     info.functions = funcs
+
+
+def _eh_frame_functions(elf, info: BinaryInfo) -> list:
+    """[(start, size)] of FDEs in .eh_frame that cover code outside the PLT."""
+    from elftools.dwarf.callframe import FDE
+    if elf.get_section_by_name(".eh_frame") is None:
+        return []
+    code = [s for s in info.sections if s.executable and not s.nobits and not s.name.startswith(".plt")]
+    out = []
+    try:
+        dwarf = elf.get_dwarf_info(follow_links=False)
+        if not dwarf.has_EH_CFI():
+            return []
+        for entry in dwarf.EH_CFI_entries():
+            if not isinstance(entry, FDE):
+                continue
+            start, size = entry.header["initial_location"], entry.header["address_range"]
+            if size > 0 and any(s.vaddr <= start < s.vaddr + s.size for s in code):
+                out.append((start, size))
+    except Exception:          # malformed / unusual CFI: fall back to symbols only
+        return []
+    return sorted(set(out))
 
 
 def _load_pe(info: BinaryInfo) -> None:

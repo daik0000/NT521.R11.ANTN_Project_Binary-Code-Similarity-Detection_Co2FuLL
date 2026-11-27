@@ -12,5 +12,5 @@ DB_PATH = ROOT_PATH.joinpath("DBs").relative_to(ROOT_PATH)
 SKIP_SUFFIX = {'.idb', '.idb64', '.id1', '.id0', '.id2', '.nam', '.til', '.i64', '.json', '.pkl', '.txt', '.py', '.csv',
                '.dict', '.BinExport', '.cfg', '.cg', '.png', '.dot'}
 
-N_JOBS = 32
+N_JOBS = 16
 RANK_STRATEGY = "average"

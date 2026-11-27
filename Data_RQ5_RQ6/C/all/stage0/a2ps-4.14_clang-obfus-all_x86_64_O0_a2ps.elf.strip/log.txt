@@ -1,0 +1,9 @@
+[OBFUSCATED] /home/rl/NT521.R11.ANTN_Project_Binary-Code-Similarity-Detection_Co2FuLL/Data_RQ5_RQ6/A/all/a2ps-4.14_clang-obfus-all_x86_64_O0_a2ps.elf.strip — running normalization (signals: low_strings, cff_pattern, bcf_pattern)
+  [0.2a] unpack method: none
+  [0.2b] recovered 0 APIs, 529 strings
+[DONE] Output saved to: /tmp/rq56_oiybvj4p/a2ps-4.14_clang-obfus-all_x86_64_O0_a2ps.elf
+  normalized binary : /tmp/rq56_oiybvj4p/a2ps-4.14_clang-obfus-all_x86_64_O0_a2ps.elf/normalized.bin
+  recovered imports : 0 APIs
+  recovered strings : 529 strings
+  clean pseudocode  : (skipped)
+  [0.2c] unflattened 712 functions (19903 patches), opaque globals 350, opaque loads patched 17436

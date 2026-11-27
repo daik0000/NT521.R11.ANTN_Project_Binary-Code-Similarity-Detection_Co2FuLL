@@ -5,6 +5,7 @@
   "0x4011e0": "puts",
   "0x4040b8": "malloc",
   "0x4040b0": "free",
+  "0x4011ee": "free",
   "0x4040c0": "strlen",
   "0x401381": "strlen",
   "0x4040c8": "memset",
